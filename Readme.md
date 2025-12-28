@@ -44,6 +44,7 @@ Download Ollama from [ollama.com](https://ollama.com). Then, pull the required m
 ```bash
 ollama pull llama3.2
 ollama pull bge-m3
+```
 
 
 ## 📂 Project Structure
