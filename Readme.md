@@ -7,7 +7,7 @@
 
 **AIKARA** is a Retrieval-Augmented Generation (RAG) system designed to act as an intelligent Teaching Assistant for technical video lectures. Unlike generic AI, AIKARA is grounded in specific course material (Fuzzy Logic, Machine Learning) and provides **verifiable, time-stamped citations** for every answer.
 
-![AIKARA Demo](demo.png)
+![AIKARA Demo](Demo.png)
 *(AIKARA answering a query about Fuzzy Sets with exact lecture timestamps)*
 
 ---
