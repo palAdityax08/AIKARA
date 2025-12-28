@@ -44,3 +44,20 @@ Download Ollama from [ollama.com](https://ollama.com). Then, pull the required m
 ```bash
 ollama pull llama3.2
 ollama pull bge-m3
+
+
+## 📂 Project Structure
+AIKARA/
+├── process_incoming.py    # Main Streamlit application & RAG logic
+├── requirements.txt       # List of Python dependencies
+├── embeddings.joblib      # Pre-computed vector store (The Knowledge Base)
+├── Demo.png               # Screenshot of the application
+├── README.md              # Project documentation
+└── .gitignore             # Git ignore file
+
+---
+
+## 👨‍💻 Author
+
+**Aditya Pal**
+* [LinkedIn](https://www.linkedin.com/in/aditya-pal-08pd2075/)
