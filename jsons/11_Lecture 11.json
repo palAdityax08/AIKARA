@@ -1,0 +1,2462 @@
+{
+    "chunks": [
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 0.0,
+            "end": 17.82,
+            "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 17.82,
+            "end": 23.28,
+            "text": " machine learning technique, I am doctor Aftab Ahmad Ansari your instructor for this course"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 23.28,
+            "end": 28.28,
+            "text": " basically so this is our lecture number 11 if we will see what we have covered in the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 29.28,
+            "end": 34.04,
+            "text": " in our previous classes so you can see that in our previous classes or basically if I"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 34.04,
+            "end": 38.68,
+            "text": " will talk about the last class which we have studied in this we have studied about the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 38.68,
+            "end": 44.480000000000004,
+            "text": " Sugino inference system and we have seen one numerical on the which is based on that Sugino"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 44.480000000000004,
+            "end": 49.36,
+            "text": " inference system so what we have learned about the Sugino inference system how their rules"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 49.36,
+            "end": 55.480000000000004,
+            "text": " looks alike like if we see the structure of the rules for the Sugino inference system"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 55.48,
+            "end": 61.559999999999995,
+            "text": " that is if x is a and y is b then z should be a linear function of something means it"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 61.559999999999995,
+            "end": 66.32,
+            "text": " is a mathematical equation instead of if we compared it with the Mamdani inference system"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 66.32,
+            "end": 71.6,
+            "text": " then in their output is also a membership function but in the case of Sugino inference"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 71.6,
+            "end": 78.4,
+            "text": " system the output is a mathematical function or their output is their output directly give"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 78.4,
+            "end": 84.64,
+            "text": " us a crisp value we don't have to convert that answer to some other form or basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 84.64,
+            "end": 91.0,
+            "text": " like in the case of Mamdani inference system when which we are again in which we are again"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 91.0,
+            "end": 96.32,
+            "text": " converting the output to the crisp output with the help of a process named defuzzification"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 96.32,
+            "end": 100.72,
+            "text": " but in the case of Sugino fuzzy inference system it doesn't need it it directly gives"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 100.72,
+            "end": 106.4,
+            "text": " you a crisp output so there is no need for defuzzification we can we will use instead"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 106.4,
+            "end": 110.4,
+            "text": " of that a weighted average weighted average method basically now what's the advantage"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 110.4,
+            "end": 114.80000000000001,
+            "text": " of Sugino inference system basically which we have seen that it is a fast and efficient"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 114.80000000000001,
+            "end": 119.52000000000001,
+            "text": " for the real time controlling if we want to apply in application in which real time controlling"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 119.52000000000001,
+            "end": 125.28,
+            "text": " is needed then we can apply the Sugino inference system for that because it is fast and efficient"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 125.28,
+            "end": 130.16,
+            "text": " for that types of system and it is also suitable for the adaptive and optimization based system"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 130.16,
+            "end": 134.56,
+            "text": " in which optimized approach is needed you can apply Sugino inference system for that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 134.56,
+            "end": 135.96,
+            "text": " application."
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 135.96,
+            "end": 139.8,
+            "text": " Now if we will see about the today's class what we will cover so first we will try to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 140.20000000000002,
+            "end": 144.48000000000002,
+            "text": " cover a numerical example which is based on the Mamdani fuzzy inference system in the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 144.48000000000002,
+            "end": 149.8,
+            "text": " previous class we have seen the numerical which is based on Sugino inference system"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 149.8,
+            "end": 155.48000000000002,
+            "text": " in this lecture we will try to cover the numerical on Mamdani inference system basically okay"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 155.48000000000002,
+            "end": 160.32000000000002,
+            "text": " now we directly will come to the numerical so basically this is a numerical I am I have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 160.32000000000002,
+            "end": 167.12,
+            "text": " taken for today's class basically its objective is to control the water flow or water flow"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 167.24,
+            "end": 172.48000000000002,
+            "text": " rate for a certain crops basically so what I have taken I have taken for that controlling"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 172.48000000000002,
+            "end": 178.08,
+            "text": " we have to take some input so for the crop basically in that numerical I want to control"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 178.08,
+            "end": 183.68,
+            "text": " the water flow rate basically how much water a crop is needed we have to control on the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 183.68,
+            "end": 188.68,
+            "text": " basis of certain input parameters that is first one is the soil moisture basically which"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 188.68,
+            "end": 195.44,
+            "text": " tells about the soil how dry or wet the soil is and second input which I have taken for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 195.44,
+            "end": 201.16,
+            "text": " that numerical is temperature basically which tells about that the force for that temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 201.16,
+            "end": 206.8,
+            "text": " and for that soil moisture how much water is needed for certain crops or for certain"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 206.8,
+            "end": 212.36,
+            "text": " fields so we will see this in this numerical."
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 212.36,
+            "end": 217.88,
+            "text": " Now come first come to the problem statement which we have seen in the last slide our problem"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 217.88,
+            "end": 225.4,
+            "text": " statement is we have to based on the input we have to determine the water flow rate using"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 225.4,
+            "end": 229.88,
+            "text": " Mamdani inference system basically so first we have defined the input so our input is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 229.88,
+            "end": 235.08,
+            "text": " soil moisture first and temperature that is two inputs we have taken and one output is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 235.08,
+            "end": 240.72,
+            "text": " one output which we have taken is the flow rate now the now next thing is we have to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 240.72,
+            "end": 246.20000000000002,
+            "text": " define the linguistic term for the input and output both in the case of Mamdani-Fanzi inference"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 246.20000000000002,
+            "end": 252.4,
+            "text": " systems so for soil moisture the n linguistic variable which I have defined is dry moderate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 252.4,
+            "end": 256.8,
+            "text": " and wet only three linguistic variables I have defined for them and for temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 256.8,
+            "end": 262.24,
+            "text": " also I have defined the linguistic variable name low medium and high and for the flow"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 262.24,
+            "end": 268.28000000000003,
+            "text": " rate also I have defined the three linguistic variables that is low medium and high."
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 268.28000000000003,
+            "end": 273.96,
+            "text": " Now the next step is to define the membership function for the inputs and for the output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 273.96,
+            "end": 281.72,
+            "text": " also in the fuzzy inference system so in this numerical I have taken again the triangular"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 282.04,
+            "end": 288.40000000000003,
+            "text": " membership function for the input for the soil moisture we can see that how our triangular"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 288.40000000000003,
+            "end": 295.40000000000003,
+            "text": " membership functions looks alike basically it is in the form of A is our first point"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 296.56,
+            "end": 303.56,
+            "text": " and B is our midpoint which shows the peak for the triangular function now this is the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 304.32000000000005,
+            "end": 311.32000000000005,
+            "text": " this is our triangular membership triangular membership function."
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 312.72,
+            "end": 319.72,
+            "text": " These membership function I have taken for this numerical now if we will see the range"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 320.92,
+            "end": 325.04,
+            "text": " for the linguistic variable which we have taken for the soil moisture first for the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 325.04,
+            "end": 332.04,
+            "text": " dry the point which I have taken is 0040 so now if I will draw if I will draw how that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 333.04,
+            "end": 340.04,
+            "text": " 0040 looks basically A and B both are same both are at 00 and now the point C is at 40"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 343.64000000000004,
+            "end": 350.64000000000004,
+            "text": " here our 40s so that membership function is for the dry now second we have to draw for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 352.08000000000004,
+            "end": 359.08000000000004,
+            "text": " the moderate I will try to change the ink color ok I will take that now we have to draw"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 359.08,
+            "end": 366.08,
+            "text": " for the moderate now the moderate range is 30 to 70 so it will start from there 30 to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 368.84,
+            "end": 375.84,
+            "text": " 70 that point is 70 and that point and that is for the that is for the medium now third"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 378.79999999999995,
+            "end": 384.44,
+            "text": " linguistic variable I have to draw that is wet I will take the green color now its points"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 384.44,
+            "end": 391.44,
+            "text": " are 60 100 and 100 means 60 is somewhat here 60 and that is that is 100 and that is 60"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 397.8,
+            "end": 404.4,
+            "text": " and here we are having membership function here we are having variables so you can see"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 404.4,
+            "end": 410.44,
+            "text": " that how our soil moisture membership functions looks alike and therefore, for that soil moisture"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 410.44,
+            "end": 415.56,
+            "text": " input now again same for the temperature we have to do that is our second input for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 415.56,
+            "end": 422.56,
+            "text": " that case here these x is y axis represent our membership function x axis represent the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 424.64,
+            "end": 431.64,
+            "text": " variables now first one is first linguistic variable is our low and here range is 0015"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 432.64,
+            "end": 439.64,
+            "text": " so 0015 and that is for the low now second linguistic variable I have to draw that is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 443.2,
+            "end": 450.2,
+            "text": " for the medium that is from 10 20 30 means from 10 it will start and it will end at 30"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 453.12,
+            "end": 460.12,
+            "text": " and 20 is a midpoint or the peak point for that and that is for that is for the low and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 461.64,
+            "end": 468.64,
+            "text": " medium now the next linguistic variable is high again I will take the different color"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 468.64,
+            "end": 475.64,
+            "text": " to show that now it will start from the 25 so it will start from 25 and it will go to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 477.36,
+            "end": 484.36,
+            "text": " 40 this is for the high so that figure is for basically the membership functions for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 485.24,
+            "end": 492.08000000000004,
+            "text": " the temperature second input that is temperature now we have also defined the membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 492.08000000000004,
+            "end": 498.48,
+            "text": " for the output also for the flow rate basically for this numerical which we have taken so"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 498.48,
+            "end": 504.2,
+            "text": " again in the same the similar way as we have drawn for the two inputs in the similar way"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 504.2,
+            "end": 507.8,
+            "text": " we have to define the membership function for the output also this is the difference"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 507.8,
+            "end": 512.72,
+            "text": " between the sugino and the mamdani in the sugino you do not have to define the membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 512.72,
+            "end": 516.1600000000001,
+            "text": " function for the output cases but in the case of mamdani you have to define the membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 516.1600000000001,
+            "end": 522.6800000000001,
+            "text": " function for the output also that is flow rate basically in their current numerical"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 522.6800000000001,
+            "end": 528.52,
+            "text": " now first one is the low that is 008 to 8 might be somewhat there now second one is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 528.52,
+            "end": 535.52,
+            "text": " the that is for the low now second one is for the medium now medium medium starts from"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 536.4399999999999,
+            "end": 543.4399999999999,
+            "text": " 6 and will go up to 14 and 10 is the medium rate that is the medium and third one is the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 548.1999999999999,
+            "end": 555.1999999999999,
+            "text": " high again I will take the point different color to show you it will start from the 12"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 557.48,
+            "end": 564.48,
+            "text": " on I have to erase this I have to again take the pointer for that pen so this is the high"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 566.4399999999999,
+            "end": 573.4399999999999,
+            "text": " it will start from 12 and go up to 20 so that is for the high that is that membership functions"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 575.6,
+            "end": 582.24,
+            "text": " are for our output that is flow rate now our next step is we have to define the rule base"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 582.24,
+            "end": 586.8,
+            "text": " like so I have defined the seven rules for that numerical first one is the if soil moisture"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 586.8,
+            "end": 591.84,
+            "text": " is dry and the temperature is high then our flow rate should be high rule number two if"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 592.0,
+            "end": 595.94,
+            "text": " soil moisture is dry and temperature is medium then our output should be high third rule"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 595.94,
+            "end": 602.94,
+            "text": " is if soil moisture is dry and temperature is low then our flow rate should be we have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 603.2,
+            "end": 607.72,
+            "text": " made this rule for our numerical rule number four is if soil moisture is moderate then"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 607.72,
+            "end": 611.0,
+            "text": " our flow rate should be medium if soil moisture is moderate and temperature is medium then"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 611.0,
+            "end": 616.7,
+            "text": " our flow rate should be medium it should be like a medium if the soil moisture is moderate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 616.7,
+            "end": 622.38,
+            "text": " temperature is also low then flow rate should be low if that soil moisture is wet and temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 622.38,
+            "end": 627.94,
+            "text": " should be is when it means it is of it should be any like low medium high then the output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 627.94,
+            "end": 633.38,
+            "text": " should be low we have to go for that now that is the input now this is the input which you"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 633.38,
+            "end": 637.82,
+            "text": " are applying for the fuzzy logic controller that is the main input which we are applying"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 637.82,
+            "end": 642.1800000000001,
+            "text": " first first steps are we have to define the membership function for the input and for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 642.1800000000001,
+            "end": 646.22,
+            "text": " the output also which we have defined now what's the input we are giving to our fuzzy"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 646.22,
+            "end": 651.1800000000001,
+            "text": " logic controller so that's the input which we are giving to the fuzzy logic controller"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 651.1800000000001,
+            "end": 656.1800000000001,
+            "text": " the inputs are soil moisture is 35 percent and temperature is 28 degree Celsius now"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 656.1800000000001,
+            "end": 661.46,
+            "text": " the next step is we have to convert that because that inputs are crisp input now we have to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 661.46,
+            "end": 666.86,
+            "text": " convert that crisp input to fuzzy input basically we are we have to convert that crisp said"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 666.86,
+            "end": 674.4200000000001,
+            "text": " crisp to fuzzy with the help of defuzzification we will convert now we will see in the next"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 674.42,
+            "end": 678.2199999999999,
+            "text": " step how we have to convert that input to the fuzzy or basically we have to map that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 678.2199999999999,
+            "end": 684.9399999999999,
+            "text": " input to the fuzzy so that is the first step in which we in which we have to do the fuzzification"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 684.9399999999999,
+            "end": 691.3399999999999,
+            "text": " process now how we how we will map you can see in the right in the in the top right corner"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 691.3399999999999,
+            "end": 697.26,
+            "text": " I have pasted one photo in which which shows that how you how you have to map the input"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 697.26,
+            "end": 702.8199999999999,
+            "text": " to the fuzzy side in the in the membership function of triangular in triangular membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 702.82,
+            "end": 707.1400000000001,
+            "text": " function basically how we will map that input given input crisp input to the fuzzy how we"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 707.1400000000001,
+            "end": 711.7800000000001,
+            "text": " will how we will convert that crisp to fuzzy with the help of that figure you can see that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 711.7800000000001,
+            "end": 719.0600000000001,
+            "text": " the triangular is showing a b c and that if your input lies in between x is the f x that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 719.0600000000001,
+            "end": 726.58,
+            "text": " x is your input that x is your input if your input is less than the lower limit of the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 726.58,
+            "end": 731.22,
+            "text": " triangular membership function then it is output is 0 its membership function is basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 731.22,
+            "end": 738.3000000000001,
+            "text": " 0 if it lies in between a to b if it lied here in between a to b then you then the formula"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 738.3000000000001,
+            "end": 743.9,
+            "text": " for the then formula for calculating the membership function is x minus a divided by b minus a"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 743.9,
+            "end": 748.3000000000001,
+            "text": " x is your input and a is your lower limit for the triangular membership function and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 748.3000000000001,
+            "end": 753.4200000000001,
+            "text": " similarly if it finds in between the b to c then the formula changes to c minus x divided"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 753.4200000000001,
+            "end": 758.7,
+            "text": " by c minus b and if x is greater than c when it is out of the limit for the triangular"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 758.7,
+            "end": 764.1,
+            "text": " membership function then again our output is 0 for that case now the we know that our"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 764.1,
+            "end": 773.4200000000001,
+            "text": " input our x is 35 percent basically your I can say our x is 35 for the for that questions"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 773.4200000000001,
+            "end": 776.3000000000001,
+            "text": " now we have to see in which category it will come."
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 776.3000000000001,
+            "end": 781.58,
+            "text": " So, first we will calculate for the dry first we will try to calculate the membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 781.58,
+            "end": 790.26,
+            "text": " for the dry. So, our input is 35 now we can see that it will come in the range of dry"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 790.26,
+            "end": 797.62,
+            "text": " 35 now in which range it will coming in between 0 to 40 it is coming means it is coming in"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 797.62,
+            "end": 806.1,
+            "text": " between the I will draw for that then a and b are at the same place for the dry I am drawing"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 806.1,
+            "end": 810.62,
+            "text": " that figure for a and b are at the same place and c is the 40 now our input is coming in"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 810.66,
+            "end": 815.54,
+            "text": " between b to c in between b to c it is coming now which formula we have to use we have to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 815.54,
+            "end": 824.18,
+            "text": " use that formula c minus x divided by c minus b c is the upper limit that is 40 for that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 824.18,
+            "end": 833.38,
+            "text": " case x is input 40 minus 35 divided by 40 minus 0 basically this is the this is the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 833.38,
+            "end": 838.3,
+            "text": " way which in which we will define the membership function for the dry case that comes for 40"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 838.3,
+            "end": 845.62,
+            "text": " minus 35 5 by 40 that comes 0.125 similarly we have to define the membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 845.62,
+            "end": 853.6999999999999,
+            "text": " for the moderate now in moderate this is the now for the our input is 35 it will come in"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 853.6999999999999,
+            "end": 858.4599999999999,
+            "text": " between 35 to 50 it means it will come in the range of moderate also now again what"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 858.4599999999999,
+            "end": 863.74,
+            "text": " you have to do you have to calculate the membership function for that also if I will define the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 863.74,
+            "end": 872.3,
+            "text": " how it will looks like it will be 30 50 70 30 70 50 mean it is our a it is b it is c"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 872.3,
+            "end": 878.74,
+            "text": " now input is 35 it means it will come in between the a to b so you have to use that formula"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 878.74,
+            "end": 887.86,
+            "text": " that x minus a upon b minus a our input x is 35 minus a is a lower limit that is 30"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 887.86,
+            "end": 895.58,
+            "text": " 35 minus 30 divided by b b is 50 minus a a is what it is 30 now you have to calculate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 895.58,
+            "end": 903.08,
+            "text": " for that 35 minus again 5 5 by 20 that is 0.25 it is coming now in the similar way you"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 903.08,
+            "end": 910.14,
+            "text": " have to calculate for the wet also now the range for the wet is 60 100 100 but our input"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 910.14,
+            "end": 915.86,
+            "text": " is 35 it mean it is not coming in the range of wet so for that directly we can say that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 915.86,
+            "end": 920.94,
+            "text": " the output the membership function for the wet is 0 in that way you have to map your"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 920.94,
+            "end": 926.58,
+            "text": " input to the fuzzy membership function basically so basically that table shows the final output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 926.58,
+            "end": 933.1,
+            "text": " for the linguistic terms dry our outputs come our membership function basically comes 0.125"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 933.1,
+            "end": 938.38,
+            "text": " here it is and for the soil moisture for the linguistic term moderate it will come it will"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 938.38,
+            "end": 944.54,
+            "text": " come to 0.5 so this is the way which we will calculate the membership function or which"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 944.54,
+            "end": 950.86,
+            "text": " will map your input to the membership functions for that now in the same way we have to calculate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 950.86,
+            "end": 956.5799999999999,
+            "text": " for the temperature also now the input for the temperature is that 20 degree 28 degree"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 956.5799999999999,
+            "end": 961.26,
+            "text": " Celsius now we have to again see now for the low if you will see the input is 20 degree"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 961.26,
+            "end": 967.5799999999999,
+            "text": " Celsius and the range for the low low temperature range is 0 0 to 15 means it is in between"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 967.5799999999999,
+            "end": 974.5,
+            "text": " 0 to 15 but our input is it is out of their range so for directly we can say that the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 975.46,
+            "end": 979.62,
+            "text": " membership function for the low is 0 because it is out of the range for that now similarly"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 979.62,
+            "end": 987.3,
+            "text": " we have to calculate for the medium now our input is 28 now if I will draw the function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 987.3,
+            "end": 997.62,
+            "text": " for that 10 20 30 10 30 20 is a medium that is a our that is B and that is C now our input"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 997.62,
+            "end": 1004.58,
+            "text": " is 28 it comes in between B to C now we have to use that formula that is C minus X divided"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1004.58,
+            "end": 1011.66,
+            "text": " by C minus B C is the outer limit at 30 my X is our input 30 minus 28 divided by 30 minus"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1011.66,
+            "end": 1019.74,
+            "text": " 20 it is come 30 minus 22 by 10 that is comes to 0.2 so the membership function for the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1019.74,
+            "end": 1025.82,
+            "text": " mediums comes out comes out to be 0.2 similarly for the high we have to calculate if I will"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1025.82,
+            "end": 1034.34,
+            "text": " draw for the high also then its range is 25 40 40 that is 25 40 comma 40 means it is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1034.34,
+            "end": 1041.98,
+            "text": " A B C that is for the high for the high high linguistic variable for the temperature now"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1041.98,
+            "end": 1047.54,
+            "text": " our input is 28 it so it comes in between the 25 to 40 it comes in between to the A"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1047.54,
+            "end": 1056.18,
+            "text": " to B our formula uses X minus A divided by B minus A X is our input that is 28 minus"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1056.18,
+            "end": 1066.18,
+            "text": " A that is 25 for that case and B minus A that is 25 that is 3 20 minus 25 by 3 or 40 minus"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1066.18,
+            "end": 1071.74,
+            "text": " 25 that is 15 it comes again to the 0.2 so the membership function for the medium is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1071.74,
+            "end": 1078.1,
+            "text": " 0.2 and the membership function for the high is 0.2 that is same for both the cases now"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1078.1,
+            "end": 1083.3,
+            "text": " that tables basically combines the the variables and the linguistic variables and the membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1083.3,
+            "end": 1088.14,
+            "text": " function which we have calculated for both the inputs for the soil moisture we will see"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1088.14,
+            "end": 1093.9,
+            "text": " the membership functions come for the dry is 0.125 and for the moderate is 0.25 and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1093.9,
+            "end": 1098.22,
+            "text": " the remaining low is 0 for the for the case of soil moisture now same similarly for the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1098.22,
+            "end": 1102.1000000000001,
+            "text": " temperature I have combined here the membership function for the low comes to 0 so I have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1102.1000000000001,
+            "end": 1107.82,
+            "text": " not included this in the table and the membership function for the medium is 0.2 and that membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1107.82,
+            "end": 1114.1000000000001,
+            "text": " function for the temperature is 0.2 that which I have compiled is basically in this table"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1114.1000000000001,
+            "end": 1119.94,
+            "text": " now the next step is we have to check which rules is activating how many rules are activating"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1119.94,
+            "end": 1125.34,
+            "text": " at the same time for that input that is soil for soil moisture 40 degree and temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1125.34,
+            "end": 1130.4599999999998,
+            "text": " 20 degree now for that input how many rules are activating so that that tables again I"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1130.4599999999998,
+            "end": 1136.58,
+            "text": " have that tables I have again pasted that we have drawn for the last line that is for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1136.58,
+            "end": 1142.06,
+            "text": " the that so that you can see side by side and that all that are the all the rules we"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1142.06,
+            "end": 1147.1399999999999,
+            "text": " have now we have to see which how many rules are activating so you can see that soil moisture"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1147.1399999999999,
+            "end": 1154.3,
+            "text": " is dry and temperature is low so you can see that in which rule it is there so you can"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1154.3,
+            "end": 1160.06,
+            "text": " map with that table so now the final rule which I have compiled that which that rules"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1160.06,
+            "end": 1165.86,
+            "text": " are activating on the basis of that this basically that are the these are the three rules that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1165.86,
+            "end": 1173.54,
+            "text": " is rule number 2 rule number 4 and rule number 5 on the basis of that table which we have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1173.54,
+            "end": 1178.34,
+            "text": " drawn here with the help of that previous slides we can say that so now if the soil"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1178.34,
+            "end": 1185.4599999999998,
+            "text": " moisture is dry that is value 0.25 and the and the temperature is medium that is value"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1185.4599999999998,
+            "end": 1190.8999999999999,
+            "text": " comes at to 0.2 now we are using here AND operator for the rules we are using the AND"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1190.8999999999999,
+            "end": 1195.78,
+            "text": " operator AND operator basically choose the minimum value for the both the cases so for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1195.78,
+            "end": 1202.82,
+            "text": " 0.125 and 0.2 the minimum value that it is taken is 0.5 and at that time the output should"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1202.82,
+            "end": 1207.5,
+            "text": " be high output membership function should be high for that the cases now for the rule"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1207.5,
+            "end": 1212.7,
+            "text": " number 4 if the soil moisture is moderate and temperature if the soil moisture is moderate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1212.7,
+            "end": 1217.18,
+            "text": " and the temperature is high then a flow rate should be medium now the moderate membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1217.18,
+            "end": 1223.66,
+            "text": " function is 0.25 that is 0.25 which I have written there and the for the temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1223.66,
+            "end": 1229.46,
+            "text": " high 0.2 that is 0.2 now minimum we have to take because we are using the AND operator"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1229.46,
+            "end": 1235.94,
+            "text": " so 0.2 is the minimum for in between the 0.2 0.25 and if the output membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1235.94,
+            "end": 1241.54,
+            "text": " for that rule is high oh sorry medium now the rule number 5 is activated for that inputs"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1241.54,
+            "end": 1247.22,
+            "text": " that is if soil moisture is moderate if soil moisture is moderate then its value is 0.25"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1247.22,
+            "end": 1253.94,
+            "text": " so I have written here the 0.25 and the temperature is medium temperature is medium the medium"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1253.94,
+            "end": 1258.5800000000002,
+            "text": " temperature membership function value is 0.2 I we have taken the 0.2 now we have to choose"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1258.5800000000002,
+            "end": 1265.3400000000001,
+            "text": " the minimum in between the moderate and medium medium that comes to 0.2 in between 0.25 and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1265.34,
+            "end": 1270.6999999999998,
+            "text": " 0.25 if you can compare the minimum value is 0.2 and the for that the output output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1270.6999999999998,
+            "end": 1276.58,
+            "text": " should be medium output should be output membership function basically for that is medium so basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1276.58,
+            "end": 1281.02,
+            "text": " this is the figure which I have drawn with the this figure which I have drawn with the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1281.02,
+            "end": 1286.6999999999998,
+            "text": " help of the last table in which we have calculated the membership function for that like for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1286.6999999999998,
+            "end": 1293.58,
+            "text": " the for the medium which which the for the rule number rule 2 rule 4 and rule 5 on the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1293.58,
+            "end": 1298.06,
+            "text": " basis of that rule which are activating for that inputs I have drawn the table for because"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1298.06,
+            "end": 1303.3,
+            "text": " the next step is we have to aggregate the output we have to clip the output and aggregating"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1303.3,
+            "end": 1309.22,
+            "text": " and aggregate that and then we for that aggregated output we have to do we have to apply a diversification"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1309.22,
+            "end": 1315.54,
+            "text": " method to calculate the crisp output for that okay now I am using a simple formula basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1315.54,
+            "end": 1322.6599999999999,
+            "text": " a simple centroid weighted centroid formula I am using to for calculating the output so"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1322.74,
+            "end": 1329.1000000000001,
+            "text": " that that is our output we have seen in the last slide that for the for high we have for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1329.1000000000001,
+            "end": 1336.3400000000001,
+            "text": " a high we have to we have to cut them a high membership function of the output at 0.125"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1336.3400000000001,
+            "end": 1341.66,
+            "text": " you can see that for the high basically this is for the high I have again take the pointer"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1341.66,
+            "end": 1350.8600000000001,
+            "text": " if I will draw this is for the high membership function this is medium membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1351.2199999999998,
+            "end": 1358.9799999999998,
+            "text": " and that is low basically this is for the output mu output that are the point tables"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1358.9799999999998,
+            "end": 1365.06,
+            "text": " for that means these are the these are the figure for the flow rate output I have drawn"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1365.06,
+            "end": 1371.06,
+            "text": " here and these are the these are the ranges for the low medium and that tabular form I"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1371.06,
+            "end": 1376.74,
+            "text": " have converted the graphical form for better understanding 6 you can also match with that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1376.74,
+            "end": 1383.42,
+            "text": " for the low the range is 008, 0, 0 and 8 so that is the for the range for the medium"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1383.42,
+            "end": 1393.78,
+            "text": " 6, 10, 14, 6, 10 and 14 and for the high 12, 20, 20, 12, 20, 20 that I have converted basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1393.78,
+            "end": 1398.22,
+            "text": " that table into the membership function graphical form which we have also drawn at the at the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1398.22,
+            "end": 1402.54,
+            "text": " time when I am showing you the membership function for all the three for for the three"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1402.54,
+            "end": 1407.22,
+            "text": " cases for the two inputs and for the one output now we have to cut according to the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1407.22,
+            "end": 1412.7,
+            "text": " last table according to the rules which is activating so we have seen for the for the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1412.7,
+            "end": 1420.3,
+            "text": " rule number 2 we have to cut the output membership function at 0.125 ok for the high we have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1420.3,
+            "end": 1428.54,
+            "text": " to cut at the 0.125 0.125 which I have drawn with the help of that yellow color mark you"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1428.54,
+            "end": 1436.5,
+            "text": " can see that that that area basically and for then for the for the remaining two rules"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1436.5,
+            "end": 1440.74,
+            "text": " that is according to rule number 4 and rule number 5 you have to cut the output membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1440.74,
+            "end": 1451.78,
+            "text": " function of medium at 0.2 so you can see that for I have to take the pointer first for 0.2"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1451.78,
+            "end": 1456.86,
+            "text": " for the medium I have cut so that area now what we have to we have to calculate the output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1456.86,
+            "end": 1460.8999999999999,
+            "text": " we have to aggregate that on the basis of that if you will aggregate it will comes like"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1460.8999999999999,
+            "end": 1469.86,
+            "text": " this roughly I am drawing and now we have to calculate the output for that for that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1469.86,
+            "end": 1475.3799999999999,
+            "text": " aggregation with the help of a some differentiation method so for that numerical I am using weighted"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1475.3799999999999,
+            "end": 1480.6599999999999,
+            "text": " centroid formula for calculating the for converting that for converting that aggregated output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1480.6599999999999,
+            "end": 1485.86,
+            "text": " into crisp output what midpoint what basically centroid formula will tell its formula is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1485.86,
+            "end": 1490.26,
+            "text": " summation of membership function multiplied by their peak value divided by summation of"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1490.26,
+            "end": 1494.62,
+            "text": " the membership functions. So, how you can see for first we will draw"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1494.62,
+            "end": 1502.1,
+            "text": " 0.125 0.125 for that high cases for the high now if we have to calculate the centroid for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1502.1,
+            "end": 1507.34,
+            "text": " that now randomly I am taking 16 I am not calculated the exact centroid for that I have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1507.34,
+            "end": 1513.62,
+            "text": " taken the random that will be 16 for that now for the similar for the second that is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1513.62,
+            "end": 1520.3799999999999,
+            "text": " for the medium it is membership function is 0.2 and 8 to 12 its area so I have taken"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1520.3799999999999,
+            "end": 1527.5,
+            "text": " the centroid 10 so 0.125 plus 0 into 16 plus 0.2 into 10 divided by the summation of the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1527.5,
+            "end": 1535.9399999999998,
+            "text": " membership function that is 0.125 plus 0.2 so in that way you will get the crisp output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1535.9399999999998,
+            "end": 1541.6999999999998,
+            "text": " that that is 12.31 approximately so that is how Mamdani inference system will work if"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1541.78,
+            "end": 1546.8600000000001,
+            "text": " you will give some input and with the and we have to define some certain membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1546.8600000000001,
+            "end": 1551.66,
+            "text": " function for that first for the input also and for the output also and on the basis of"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1551.66,
+            "end": 1556.74,
+            "text": " all this step you have to calculate the output you will get the output basically for that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1556.74,
+            "end": 1563.1000000000001,
+            "text": " or for any controller for the for any application if you are using that Mamdani inference systems"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1563.1000000000001,
+            "end": 1569.3,
+            "text": " in any application for the controlling purpose you can get the output with by all this step"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1569.3,
+            "end": 1574.86,
+            "text": " which we have done in the for that numericals now if you will try to solve the same numerical"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1574.86,
+            "end": 1579.18,
+            "text": " with the help of the Sugino-Fuzzy inference system now what is the difference first step"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1579.18,
+            "end": 1584.5,
+            "text": " one is same first you have to define the membership function and for all the inputs for the like"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1584.5,
+            "end": 1588.5,
+            "text": " for the soil moisture also you have to define the membership function for the temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1588.5,
+            "end": 1592.6599999999999,
+            "text": " also you have to define the membership function but not for the output that is you do not"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1592.6599999999999,
+            "end": 1597.62,
+            "text": " have to draw the membership function or define the membership function for the flow rate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1597.7399999999998,
+            "end": 1600.9799999999998,
+            "text": " in the case of Sugino-Fuzzy inference system only you have to define the membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1600.9799999999998,
+            "end": 1607.4199999999998,
+            "text": " for the input now you know in the in the difference in the case of Sugino-Fuzzy inference system"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1607.4199999999998,
+            "end": 1611.3,
+            "text": " is now for the step three you have to define the Sugino-Fuzzy rules with the help of the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1611.3,
+            "end": 1616.62,
+            "text": " some output equation means on the basis on the basis of certain rules which you are delivering"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1616.62,
+            "end": 1621.26,
+            "text": " on the basis of that rules now your output should be a your output should be a mathematical"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1621.26,
+            "end": 1627.06,
+            "text": " function of the input like you can see that in you can see that in this table I have defined"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1627.06,
+            "end": 1631.98,
+            "text": " the six rules with the help of that inputs if soil moisture is dry and temperature is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1631.98,
+            "end": 1637.02,
+            "text": " high but in the case of Sugino-Fuzzy system the output should be a mathematical function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1637.02,
+            "end": 1642.94,
+            "text": " of the input now what is the output for that 0.1 into soil moisture plus 0.5 into temperature"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1642.94,
+            "end": 1647.46,
+            "text": " plus so that the randomly I have taken random equation I have taken for that if rule number"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1647.46,
+            "end": 1652.3,
+            "text": " two if soil moisture is dry and temperature is medium then your output should be a 0.2"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1652.3,
+            "end": 1658.3,
+            "text": " into soil moisture plus 0.4 into temperature plus 1 similarly for all the remaining rules"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1658.3,
+            "end": 1663.6599999999999,
+            "text": " in that way you have to define the rules with output equation for the Sugino-Fuzzy system"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1663.6599999999999,
+            "end": 1669.26,
+            "text": " now the next step is again same steps is there now you have to map your input what input"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1669.26,
+            "end": 1673.98,
+            "text": " we have given for the soil moisture if I am giving the input as a 35% now you have to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1673.98,
+            "end": 1679.74,
+            "text": " map that 35 to the fuzzy membership functions in this in a similar way in a similar way"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1679.74,
+            "end": 1685.86,
+            "text": " which we have done for the Mamdan-Farhan system in the similar for the wet you can"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1685.86,
+            "end": 1691.14,
+            "text": " see that input is 35 and the range for the wet is 60 100 100 it is out of the range for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1691.14,
+            "end": 1695.86,
+            "text": " the wet so we have directly we have taken the membership function is equal to 0 for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1695.86,
+            "end": 1700.6200000000001,
+            "text": " that case and now for the dry it it is coming in in between the 0 to 40 so again you have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1700.6200000000001,
+            "end": 1705.6200000000001,
+            "text": " to use that formula for calculating the membership function for the dry case and similarly for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1705.62,
+            "end": 1709.82,
+            "text": " the moderate it is also coming in with the moderate input is also coming in the moderate"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1709.82,
+            "end": 1714.3799999999999,
+            "text": " range in between 30 to 50 you have to use that formula and you have to calculate the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1714.3799999999999,
+            "end": 1718.4199999999998,
+            "text": " membership function moderate all moderate also in the in the similar way as we have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1718.4199999999998,
+            "end": 1724.06,
+            "text": " calculated for the Mamdan so I am not again calculating for the in that way you can understand"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1724.06,
+            "end": 1729.1799999999998,
+            "text": " how we have to calculate that shows how we have calculated the membership function for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1729.1799999999998,
+            "end": 1733.58,
+            "text": " the soil moisture now the same for same you have to again map for the temperature also"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1733.58,
+            "end": 1739.5,
+            "text": " that steps are same for the Mamdan and Farhan system also now again same you can see that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1739.5,
+            "end": 1744.3,
+            "text": " the temperature input temperature is 20 degree Celsius but in the case of low our highest"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1744.3,
+            "end": 1751.1,
+            "text": " range is 15 it is so it is out of the range for the low so directly we can say that the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1751.1,
+            "end": 1757.46,
+            "text": " membership function for the low is 0 for the for the low linguistic variable basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1757.46,
+            "end": 1763.66,
+            "text": " now for the medium the input is our input is 28 it is come in between the 20 to 30 so"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1763.66,
+            "end": 1767.3400000000001,
+            "text": " you have to use that formula and you have to calculate the membership function for the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1767.3400000000001,
+            "end": 1773.46,
+            "text": " medium that is comes to 0.2 and same for the high you can see that our input is 28 so it"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1773.46,
+            "end": 1778.66,
+            "text": " can comes in the in the range in between A and B so you have to use that formula X minus"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1778.66,
+            "end": 1782.3400000000001,
+            "text": " A upon B minus A and with the help of that you can calculate the membership function"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1782.34,
+            "end": 1787.78,
+            "text": " for the high which I have calculated here you can see that now next step is we have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1787.78,
+            "end": 1792.5,
+            "text": " to calculate the firing strength means which rule is activated and how strongly that rule"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1792.5,
+            "end": 1799.3,
+            "text": " is activating basically you can see that what we have done that that basically that blue"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1799.3,
+            "end": 1806.26,
+            "text": " color table basically that blue that blue color table shows the all the rule combinations"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1806.26,
+            "end": 1811.8999999999999,
+            "text": " now we have to check which rule is activating on the basis of our input so we have calculated"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1812.46,
+            "end": 1816.6200000000001,
+            "text": " the if the soil moisture is that then its membership function is 0.25 which we have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1816.6200000000001,
+            "end": 1821.26,
+            "text": " calculated in the last slide and the temperature is high high is high membership function is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1821.26,
+            "end": 1828.1000000000001,
+            "text": " calculated again in the previous slide 0.2 so I fill all the values for that soil and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1828.1000000000001,
+            "end": 1832.8600000000001,
+            "text": " for the temperature also now we have to see which rule is activated now the first one"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1832.8600000000001,
+            "end": 1838.26,
+            "text": " is we have to I am using the and operator so we have to take the minimum for that so"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1838.26,
+            "end": 1845.34,
+            "text": " 0.125 comma 0.2 minimum value comes is 0.125 for the rule number 2 0.125 0.2 the minimum"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1845.34,
+            "end": 1851.62,
+            "text": " value is 0.125 similarly for the rule number 3 0.25 and 0.2 is there so 0.2 is the minimum"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1851.62,
+            "end": 1856.02,
+            "text": " value for that similarly for the rule number 4 and similarly we will see the rule number"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1856.02,
+            "end": 1863.9,
+            "text": " 5 that its minimum value that is 0.25 soil is 0. soil moisture is 0.5 its membership"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1863.9,
+            "end": 1869.38,
+            "text": " function is 0.25 and that membership function of the temperature is 0 now what is the minimum"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1869.38,
+            "end": 1873.98,
+            "text": " so basically its minimum is 0 so it means that rule is inactive it is not contributing"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1873.98,
+            "end": 1880.66,
+            "text": " to the output similarly for the rule number 6 it is the soil moisture for that is 0 and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1880.66,
+            "end": 1885.7,
+            "text": " for the temperature we have taken there any type of temperature is there for that so then"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1885.7,
+            "end": 1890.14,
+            "text": " its basically we will calculate the minimum value for that and it is 0 it means that rule"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1890.14,
+            "end": 1895.5400000000002,
+            "text": " is also inactive it that rule is also not contributing to the not contributing for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1895.5400000000002,
+            "end": 1903.22,
+            "text": " the output now the next step is we have to calculate the which that that much rules is"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1903.22,
+            "end": 1910.94,
+            "text": " activating basically rule number 1 2 3 4 that 4 rule that 4 starting 4 rules are activating"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1910.94,
+            "end": 1916.74,
+            "text": " or basically contributing for the output now we have to calculate the output for that all"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1916.74,
+            "end": 1921.58,
+            "text": " the 4 rules with the help of that formula which we have drawn which you can see here"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1921.58,
+            "end": 1927.74,
+            "text": " in the in the previous slides basically in the in the that slide also you can see that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1927.74,
+            "end": 1932.78,
+            "text": " with the help of that that for the rule number 1 the or the output calculator output calculation"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1932.78,
+            "end": 1938.1,
+            "text": " formula is 0.1 into soil moisture plus 0.5 into temperature plus 2 similarly for the"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1938.1,
+            "end": 1942.1,
+            "text": " rule number 2 with the help of that formula you have to calculate the output you have"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1942.1,
+            "end": 1947.02,
+            "text": " to calculate the Z so of starting 4 rules are activated now on the basis of that rules"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1947.02,
+            "end": 1952.78,
+            "text": " I have calculated the Z value now the next step is we have to take the weighted average"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1952.78,
+            "end": 1958.1799999999998,
+            "text": " of that the weighted average of that now that is the formula for the weighted average that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1958.1799999999998,
+            "end": 1963.98,
+            "text": " is the what is the output basically the direct formula for getting the final output is summation"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1963.98,
+            "end": 1972.1,
+            "text": " of W 1 into Z 1 W by summation of W 1 that W 1 is basically the firing strength for that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1972.1,
+            "end": 1976.34,
+            "text": " how for how strongly that rule is activated we have already calculated in the form of"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1976.34,
+            "end": 1981.74,
+            "text": " table which I have pasted here again for the clarity and Z 1 is the how much the output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1981.74,
+            "end": 1986.14,
+            "text": " value for that rule is which we have calculated in the last slide with the help of that formula"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1986.14,
+            "end": 1992.26,
+            "text": " of that table is that table is also I have pasted here for the clarity now same now we"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1992.26,
+            "end": 1997.3,
+            "text": " have to calculate with the output with the help of that formula and that output directly"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 1997.3,
+            "end": 2001.78,
+            "text": " gives you the crisp value you do not have to convert now that value to some other value"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2001.78,
+            "end": 2008.42,
+            "text": " ok now first one is W 1 so you it is for basically for the rule number 1 and it is for the 0.125"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2008.42,
+            "end": 2017.18,
+            "text": " so 0.125 into its output is 19.5 it is 19.5 now for the another rule rule number 2 that"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2017.18,
+            "end": 2025.94,
+            "text": " is 0.125 into 19.2 now for the third the second rule we have covered now the third"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2025.94,
+            "end": 2037.54,
+            "text": " rule is 0.2 into its output is 12.9 plus now the fourth rule is again 0.2 into its output"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2037.54,
+            "end": 2044.46,
+            "text": " is 12.75 all 4 rules we have covered now we have to divide with the now we have to divide"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2044.46,
+            "end": 2052.7,
+            "text": " with the help of summation of the that firing is sent now the summation is 0.125 plus again"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2052.7,
+            "end": 2061.98,
+            "text": " 0.125 plus 0.2 plus 0.2 now you can calculate all this first you have to calculate the numerator"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2061.98,
+            "end": 2066.2200000000003,
+            "text": " numerator and then you have to calculate the numerator and after calculating the numerator"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2066.2200000000003,
+            "end": 2073.46,
+            "text": " and denominator you have to divide this now the if I will you can calculate so might be"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2073.46,
+            "end": 2082.34,
+            "text": " the summation for the numerator is 9.96 and the summation for the denominator is 0.65"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2082.34,
+            "end": 2088.26,
+            "text": " so you have to divide that 9.96 to the 0.65 then you will you will get the answer for"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2088.26,
+            "end": 2094.02,
+            "text": " that that is 15.34 liter per minute means that much of water you have to give it to"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2094.02,
+            "end": 2101.06,
+            "text": " your crop that much 15.3 liter water you have to give to your crop in 1 minute that is basically"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2101.06,
+            "end": 2105.5,
+            "text": " that is how fuzzy logic controller work for both the both for both the inferences and"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2105.5,
+            "end": 2110.86,
+            "text": " if we will use Mamdani inference system then the last then the same numerical we have solved"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2110.86,
+            "end": 2116.06,
+            "text": " with the help of Mamdani also and same numerical we have solved with the help of Suneo inference"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2116.06,
+            "end": 2121.2599999999998,
+            "text": " systems also so that is all for the today's lecture now in the next in the next lecture"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2121.2599999999998,
+            "end": 2126.42,
+            "text": " we will try to cover the module number 3 for this course that is basically the machine"
+        },
+        {
+            "number": "11",
+            "title": "Lecture 11",
+            "start": 2126.42,
+            "end": 2127.94,
+            "text": " learning thank you."
+        }
+    ],
+    "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning technique, I am doctor Aftab Ahmad Ansari your instructor for this course basically so this is our lecture number 11 if we will see what we have covered in the in our previous classes so you can see that in our previous classes or basically if I will talk about the last class which we have studied in this we have studied about the Sugino inference system and we have seen one numerical on the which is based on that Sugino inference system so what we have learned about the Sugino inference system how their rules looks alike like if we see the structure of the rules for the Sugino inference system that is if x is a and y is b then z should be a linear function of something means it is a mathematical equation instead of if we compared it with the Mamdani inference system then in their output is also a membership function but in the case of Sugino inference system the output is a mathematical function or their output is their output directly give us a crisp value we don't have to convert that answer to some other form or basically like in the case of Mamdani inference system when which we are again in which we are again converting the output to the crisp output with the help of a process named defuzzification but in the case of Sugino fuzzy inference system it doesn't need it it directly gives you a crisp output so there is no need for defuzzification we can we will use instead of that a weighted average weighted average method basically now what's the advantage of Sugino inference system basically which we have seen that it is a fast and efficient for the real time controlling if we want to apply in application in which real time controlling is needed then we can apply the Sugino inference system for that because it is fast and efficient for that types of system and it is also suitable for the adaptive and optimization based system in which optimized approach is needed you can apply Sugino inference system for that application. Now if we will see about the today's class what we will cover so first we will try to cover a numerical example which is based on the Mamdani fuzzy inference system in the previous class we have seen the numerical which is based on Sugino inference system in this lecture we will try to cover the numerical on Mamdani inference system basically okay now we directly will come to the numerical so basically this is a numerical I am I have taken for today's class basically its objective is to control the water flow or water flow rate for a certain crops basically so what I have taken I have taken for that controlling we have to take some input so for the crop basically in that numerical I want to control the water flow rate basically how much water a crop is needed we have to control on the basis of certain input parameters that is first one is the soil moisture basically which tells about the soil how dry or wet the soil is and second input which I have taken for that numerical is temperature basically which tells about that the force for that temperature and for that soil moisture how much water is needed for certain crops or for certain fields so we will see this in this numerical. Now come first come to the problem statement which we have seen in the last slide our problem statement is we have to based on the input we have to determine the water flow rate using Mamdani inference system basically so first we have defined the input so our input is soil moisture first and temperature that is two inputs we have taken and one output is one output which we have taken is the flow rate now the now next thing is we have to define the linguistic term for the input and output both in the case of Mamdani-Fanzi inference systems so for soil moisture the n linguistic variable which I have defined is dry moderate and wet only three linguistic variables I have defined for them and for temperature also I have defined the linguistic variable name low medium and high and for the flow rate also I have defined the three linguistic variables that is low medium and high. Now the next step is to define the membership function for the inputs and for the output also in the fuzzy inference system so in this numerical I have taken again the triangular membership function for the input for the soil moisture we can see that how our triangular membership functions looks alike basically it is in the form of A is our first point and B is our midpoint which shows the peak for the triangular function now this is the this is our triangular membership triangular membership function. These membership function I have taken for this numerical now if we will see the range for the linguistic variable which we have taken for the soil moisture first for the dry the point which I have taken is 0040 so now if I will draw if I will draw how that 0040 looks basically A and B both are same both are at 00 and now the point C is at 40 here our 40s so that membership function is for the dry now second we have to draw for the moderate I will try to change the ink color ok I will take that now we have to draw for the moderate now the moderate range is 30 to 70 so it will start from there 30 to 70 that point is 70 and that point and that is for the that is for the medium now third linguistic variable I have to draw that is wet I will take the green color now its points are 60 100 and 100 means 60 is somewhat here 60 and that is that is 100 and that is 60 and here we are having membership function here we are having variables so you can see that how our soil moisture membership functions looks alike and therefore, for that soil moisture input now again same for the temperature we have to do that is our second input for that case here these x is y axis represent our membership function x axis represent the variables now first one is first linguistic variable is our low and here range is 0015 so 0015 and that is for the low now second linguistic variable I have to draw that is for the medium that is from 10 20 30 means from 10 it will start and it will end at 30 and 20 is a midpoint or the peak point for that and that is for that is for the low and medium now the next linguistic variable is high again I will take the different color to show that now it will start from the 25 so it will start from 25 and it will go to 40 this is for the high so that figure is for basically the membership functions for the temperature second input that is temperature now we have also defined the membership function for the output also for the flow rate basically for this numerical which we have taken so again in the same the similar way as we have drawn for the two inputs in the similar way we have to define the membership function for the output also this is the difference between the sugino and the mamdani in the sugino you do not have to define the membership function for the output cases but in the case of mamdani you have to define the membership function for the output also that is flow rate basically in their current numerical now first one is the low that is 008 to 8 might be somewhat there now second one is the that is for the low now second one is for the medium now medium medium starts from 6 and will go up to 14 and 10 is the medium rate that is the medium and third one is the high again I will take the point different color to show you it will start from the 12 on I have to erase this I have to again take the pointer for that pen so this is the high it will start from 12 and go up to 20 so that is for the high that is that membership functions are for our output that is flow rate now our next step is we have to define the rule base like so I have defined the seven rules for that numerical first one is the if soil moisture is dry and the temperature is high then our flow rate should be high rule number two if soil moisture is dry and temperature is medium then our output should be high third rule is if soil moisture is dry and temperature is low then our flow rate should be we have made this rule for our numerical rule number four is if soil moisture is moderate then our flow rate should be medium if soil moisture is moderate and temperature is medium then our flow rate should be medium it should be like a medium if the soil moisture is moderate temperature is also low then flow rate should be low if that soil moisture is wet and temperature should be is when it means it is of it should be any like low medium high then the output should be low we have to go for that now that is the input now this is the input which you are applying for the fuzzy logic controller that is the main input which we are applying first first steps are we have to define the membership function for the input and for the output also which we have defined now what's the input we are giving to our fuzzy logic controller so that's the input which we are giving to the fuzzy logic controller the inputs are soil moisture is 35 percent and temperature is 28 degree Celsius now the next step is we have to convert that because that inputs are crisp input now we have to convert that crisp input to fuzzy input basically we are we have to convert that crisp said crisp to fuzzy with the help of defuzzification we will convert now we will see in the next step how we have to convert that input to the fuzzy or basically we have to map that input to the fuzzy so that is the first step in which we in which we have to do the fuzzification process now how we how we will map you can see in the right in the in the top right corner I have pasted one photo in which which shows that how you how you have to map the input to the fuzzy side in the in the membership function of triangular in triangular membership function basically how we will map that input given input crisp input to the fuzzy how we will how we will convert that crisp to fuzzy with the help of that figure you can see that the triangular is showing a b c and that if your input lies in between x is the f x that x is your input that x is your input if your input is less than the lower limit of the triangular membership function then it is output is 0 its membership function is basically 0 if it lies in between a to b if it lied here in between a to b then you then the formula for the then formula for calculating the membership function is x minus a divided by b minus a x is your input and a is your lower limit for the triangular membership function and similarly if it finds in between the b to c then the formula changes to c minus x divided by c minus b and if x is greater than c when it is out of the limit for the triangular membership function then again our output is 0 for that case now the we know that our input our x is 35 percent basically your I can say our x is 35 for the for that questions now we have to see in which category it will come. So, first we will calculate for the dry first we will try to calculate the membership function for the dry. So, our input is 35 now we can see that it will come in the range of dry 35 now in which range it will coming in between 0 to 40 it is coming means it is coming in between the I will draw for that then a and b are at the same place for the dry I am drawing that figure for a and b are at the same place and c is the 40 now our input is coming in between b to c in between b to c it is coming now which formula we have to use we have to use that formula c minus x divided by c minus b c is the upper limit that is 40 for that case x is input 40 minus 35 divided by 40 minus 0 basically this is the this is the way which in which we will define the membership function for the dry case that comes for 40 minus 35 5 by 40 that comes 0.125 similarly we have to define the membership function for the moderate now in moderate this is the now for the our input is 35 it will come in between 35 to 50 it means it will come in the range of moderate also now again what you have to do you have to calculate the membership function for that also if I will define the how it will looks like it will be 30 50 70 30 70 50 mean it is our a it is b it is c now input is 35 it means it will come in between the a to b so you have to use that formula that x minus a upon b minus a our input x is 35 minus a is a lower limit that is 30 35 minus 30 divided by b b is 50 minus a a is what it is 30 now you have to calculate for that 35 minus again 5 5 by 20 that is 0.25 it is coming now in the similar way you have to calculate for the wet also now the range for the wet is 60 100 100 but our input is 35 it mean it is not coming in the range of wet so for that directly we can say that the output the membership function for the wet is 0 in that way you have to map your input to the fuzzy membership function basically so basically that table shows the final output for the linguistic terms dry our outputs come our membership function basically comes 0.125 here it is and for the soil moisture for the linguistic term moderate it will come it will come to 0.5 so this is the way which we will calculate the membership function or which will map your input to the membership functions for that now in the same way we have to calculate for the temperature also now the input for the temperature is that 20 degree 28 degree Celsius now we have to again see now for the low if you will see the input is 20 degree Celsius and the range for the low low temperature range is 0 0 to 15 means it is in between 0 to 15 but our input is it is out of their range so for directly we can say that the membership function for the low is 0 because it is out of the range for that now similarly we have to calculate for the medium now our input is 28 now if I will draw the function for that 10 20 30 10 30 20 is a medium that is a our that is B and that is C now our input is 28 it comes in between B to C now we have to use that formula that is C minus X divided by C minus B C is the outer limit at 30 my X is our input 30 minus 28 divided by 30 minus 20 it is come 30 minus 22 by 10 that is comes to 0.2 so the membership function for the mediums comes out comes out to be 0.2 similarly for the high we have to calculate if I will draw for the high also then its range is 25 40 40 that is 25 40 comma 40 means it is A B C that is for the high for the high high linguistic variable for the temperature now our input is 28 it so it comes in between the 25 to 40 it comes in between to the A to B our formula uses X minus A divided by B minus A X is our input that is 28 minus A that is 25 for that case and B minus A that is 25 that is 3 20 minus 25 by 3 or 40 minus 25 that is 15 it comes again to the 0.2 so the membership function for the medium is 0.2 and the membership function for the high is 0.2 that is same for both the cases now that tables basically combines the the variables and the linguistic variables and the membership function which we have calculated for both the inputs for the soil moisture we will see the membership functions come for the dry is 0.125 and for the moderate is 0.25 and the remaining low is 0 for the for the case of soil moisture now same similarly for the temperature I have combined here the membership function for the low comes to 0 so I have not included this in the table and the membership function for the medium is 0.2 and that membership function for the temperature is 0.2 that which I have compiled is basically in this table now the next step is we have to check which rules is activating how many rules are activating at the same time for that input that is soil for soil moisture 40 degree and temperature 20 degree now for that input how many rules are activating so that that tables again I have that tables I have again pasted that we have drawn for the last line that is for the that so that you can see side by side and that all that are the all the rules we have now we have to see which how many rules are activating so you can see that soil moisture is dry and temperature is low so you can see that in which rule it is there so you can map with that table so now the final rule which I have compiled that which that rules are activating on the basis of that this basically that are the these are the three rules that is rule number 2 rule number 4 and rule number 5 on the basis of that table which we have drawn here with the help of that previous slides we can say that so now if the soil moisture is dry that is value 0.25 and the and the temperature is medium that is value comes at to 0.2 now we are using here AND operator for the rules we are using the AND operator AND operator basically choose the minimum value for the both the cases so for 0.125 and 0.2 the minimum value that it is taken is 0.5 and at that time the output should be high output membership function should be high for that the cases now for the rule number 4 if the soil moisture is moderate and temperature if the soil moisture is moderate and the temperature is high then a flow rate should be medium now the moderate membership function is 0.25 that is 0.25 which I have written there and the for the temperature high 0.2 that is 0.2 now minimum we have to take because we are using the AND operator so 0.2 is the minimum for in between the 0.2 0.25 and if the output membership function for that rule is high oh sorry medium now the rule number 5 is activated for that inputs that is if soil moisture is moderate if soil moisture is moderate then its value is 0.25 so I have written here the 0.25 and the temperature is medium temperature is medium the medium temperature membership function value is 0.2 I we have taken the 0.2 now we have to choose the minimum in between the moderate and medium medium that comes to 0.2 in between 0.25 and 0.25 if you can compare the minimum value is 0.2 and the for that the output output should be medium output should be output membership function basically for that is medium so basically this is the figure which I have drawn with the this figure which I have drawn with the help of the last table in which we have calculated the membership function for that like for the for the medium which which the for the rule number rule 2 rule 4 and rule 5 on the basis of that rule which are activating for that inputs I have drawn the table for because the next step is we have to aggregate the output we have to clip the output and aggregating and aggregate that and then we for that aggregated output we have to do we have to apply a diversification method to calculate the crisp output for that okay now I am using a simple formula basically a simple centroid weighted centroid formula I am using to for calculating the output so that that is our output we have seen in the last slide that for the for high we have for a high we have to we have to cut them a high membership function of the output at 0.125 you can see that for the high basically this is for the high I have again take the pointer if I will draw this is for the high membership function this is medium membership function and that is low basically this is for the output mu output that are the point tables for that means these are the these are the figure for the flow rate output I have drawn here and these are the these are the ranges for the low medium and that tabular form I have converted the graphical form for better understanding 6 you can also match with that for the low the range is 008, 0, 0 and 8 so that is the for the range for the medium 6, 10, 14, 6, 10 and 14 and for the high 12, 20, 20, 12, 20, 20 that I have converted basically that table into the membership function graphical form which we have also drawn at the at the time when I am showing you the membership function for all the three for for the three cases for the two inputs and for the one output now we have to cut according to the last table according to the rules which is activating so we have seen for the for the rule number 2 we have to cut the output membership function at 0.125 ok for the high we have to cut at the 0.125 0.125 which I have drawn with the help of that yellow color mark you can see that that that area basically and for then for the for the remaining two rules that is according to rule number 4 and rule number 5 you have to cut the output membership function of medium at 0.2 so you can see that for I have to take the pointer first for 0.2 for the medium I have cut so that area now what we have to we have to calculate the output we have to aggregate that on the basis of that if you will aggregate it will comes like this roughly I am drawing and now we have to calculate the output for that for that aggregation with the help of a some differentiation method so for that numerical I am using weighted centroid formula for calculating the for converting that for converting that aggregated output into crisp output what midpoint what basically centroid formula will tell its formula is summation of membership function multiplied by their peak value divided by summation of the membership functions. So, how you can see for first we will draw 0.125 0.125 for that high cases for the high now if we have to calculate the centroid for that now randomly I am taking 16 I am not calculated the exact centroid for that I have taken the random that will be 16 for that now for the similar for the second that is for the medium it is membership function is 0.2 and 8 to 12 its area so I have taken the centroid 10 so 0.125 plus 0 into 16 plus 0.2 into 10 divided by the summation of the membership function that is 0.125 plus 0.2 so in that way you will get the crisp output that that is 12.31 approximately so that is how Mamdani inference system will work if you will give some input and with the and we have to define some certain membership function for that first for the input also and for the output also and on the basis of all this step you have to calculate the output you will get the output basically for that or for any controller for the for any application if you are using that Mamdani inference systems in any application for the controlling purpose you can get the output with by all this step which we have done in the for that numericals now if you will try to solve the same numerical with the help of the Sugino-Fuzzy inference system now what is the difference first step one is same first you have to define the membership function and for all the inputs for the like for the soil moisture also you have to define the membership function for the temperature also you have to define the membership function but not for the output that is you do not have to draw the membership function or define the membership function for the flow rate in the case of Sugino-Fuzzy inference system only you have to define the membership function for the input now you know in the in the difference in the case of Sugino-Fuzzy inference system is now for the step three you have to define the Sugino-Fuzzy rules with the help of the some output equation means on the basis on the basis of certain rules which you are delivering on the basis of that rules now your output should be a your output should be a mathematical function of the input like you can see that in you can see that in this table I have defined the six rules with the help of that inputs if soil moisture is dry and temperature is high but in the case of Sugino-Fuzzy system the output should be a mathematical function of the input now what is the output for that 0.1 into soil moisture plus 0.5 into temperature plus so that the randomly I have taken random equation I have taken for that if rule number two if soil moisture is dry and temperature is medium then your output should be a 0.2 into soil moisture plus 0.4 into temperature plus 1 similarly for all the remaining rules in that way you have to define the rules with output equation for the Sugino-Fuzzy system now the next step is again same steps is there now you have to map your input what input we have given for the soil moisture if I am giving the input as a 35% now you have to map that 35 to the fuzzy membership functions in this in a similar way in a similar way which we have done for the Mamdan-Farhan system in the similar for the wet you can see that input is 35 and the range for the wet is 60 100 100 it is out of the range for the wet so we have directly we have taken the membership function is equal to 0 for that case and now for the dry it it is coming in in between the 0 to 40 so again you have to use that formula for calculating the membership function for the dry case and similarly for the moderate it is also coming in with the moderate input is also coming in the moderate range in between 30 to 50 you have to use that formula and you have to calculate the membership function moderate all moderate also in the in the similar way as we have calculated for the Mamdan so I am not again calculating for the in that way you can understand how we have to calculate that shows how we have calculated the membership function for the soil moisture now the same for same you have to again map for the temperature also that steps are same for the Mamdan and Farhan system also now again same you can see that the temperature input temperature is 20 degree Celsius but in the case of low our highest range is 15 it is so it is out of the range for the low so directly we can say that the membership function for the low is 0 for the for the low linguistic variable basically now for the medium the input is our input is 28 it is come in between the 20 to 30 so you have to use that formula and you have to calculate the membership function for the medium that is comes to 0.2 and same for the high you can see that our input is 28 so it can comes in the in the range in between A and B so you have to use that formula X minus A upon B minus A and with the help of that you can calculate the membership function for the high which I have calculated here you can see that now next step is we have to calculate the firing strength means which rule is activated and how strongly that rule is activating basically you can see that what we have done that that basically that blue color table basically that blue that blue color table shows the all the rule combinations now we have to check which rule is activating on the basis of our input so we have calculated the if the soil moisture is that then its membership function is 0.25 which we have calculated in the last slide and the temperature is high high is high membership function is calculated again in the previous slide 0.2 so I fill all the values for that soil and for the temperature also now we have to see which rule is activated now the first one is we have to I am using the and operator so we have to take the minimum for that so 0.125 comma 0.2 minimum value comes is 0.125 for the rule number 2 0.125 0.2 the minimum value is 0.125 similarly for the rule number 3 0.25 and 0.2 is there so 0.2 is the minimum value for that similarly for the rule number 4 and similarly we will see the rule number 5 that its minimum value that is 0.25 soil is 0. soil moisture is 0.5 its membership function is 0.25 and that membership function of the temperature is 0 now what is the minimum so basically its minimum is 0 so it means that rule is inactive it is not contributing to the output similarly for the rule number 6 it is the soil moisture for that is 0 and for the temperature we have taken there any type of temperature is there for that so then its basically we will calculate the minimum value for that and it is 0 it means that rule is also inactive it that rule is also not contributing to the not contributing for the output now the next step is we have to calculate the which that that much rules is activating basically rule number 1 2 3 4 that 4 rule that 4 starting 4 rules are activating or basically contributing for the output now we have to calculate the output for that all the 4 rules with the help of that formula which we have drawn which you can see here in the in the previous slides basically in the in the that slide also you can see that with the help of that that for the rule number 1 the or the output calculator output calculation formula is 0.1 into soil moisture plus 0.5 into temperature plus 2 similarly for the rule number 2 with the help of that formula you have to calculate the output you have to calculate the Z so of starting 4 rules are activated now on the basis of that rules I have calculated the Z value now the next step is we have to take the weighted average of that the weighted average of that now that is the formula for the weighted average that is the what is the output basically the direct formula for getting the final output is summation of W 1 into Z 1 W by summation of W 1 that W 1 is basically the firing strength for that how for how strongly that rule is activated we have already calculated in the form of table which I have pasted here again for the clarity and Z 1 is the how much the output value for that rule is which we have calculated in the last slide with the help of that formula of that table is that table is also I have pasted here for the clarity now same now we have to calculate with the output with the help of that formula and that output directly gives you the crisp value you do not have to convert now that value to some other value ok now first one is W 1 so you it is for basically for the rule number 1 and it is for the 0.125 so 0.125 into its output is 19.5 it is 19.5 now for the another rule rule number 2 that is 0.125 into 19.2 now for the third the second rule we have covered now the third rule is 0.2 into its output is 12.9 plus now the fourth rule is again 0.2 into its output is 12.75 all 4 rules we have covered now we have to divide with the now we have to divide with the help of summation of the that firing is sent now the summation is 0.125 plus again 0.125 plus 0.2 plus 0.2 now you can calculate all this first you have to calculate the numerator numerator and then you have to calculate the numerator and after calculating the numerator and denominator you have to divide this now the if I will you can calculate so might be the summation for the numerator is 9.96 and the summation for the denominator is 0.65 so you have to divide that 9.96 to the 0.65 then you will you will get the answer for that that is 15.34 liter per minute means that much of water you have to give it to your crop that much 15.3 liter water you have to give to your crop in 1 minute that is basically that is how fuzzy logic controller work for both the both for both the inferences and if we will use Mamdani inference system then the last then the same numerical we have solved with the help of Mamdani also and same numerical we have solved with the help of Suneo inference systems also so that is all for the today's lecture now in the next in the next lecture we will try to cover the module number 3 for this course that is basically the machine learning thank you."
+}

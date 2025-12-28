@@ -1,0 +1,2413 @@
+{
+    "chunks": [
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 0.0,
+            "end": 18.32,
+            "text": " So, hello everyone, I Aftab Ahmed Ansari again welcome you all to the course on fuzzy logic"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 18.32,
+            "end": 20.68,
+            "text": " inference and machine learning techniques."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 20.68,
+            "end": 26.68,
+            "text": " So, basically this is a department elective course and this is the lecture number 6."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 27.4,
+            "end": 31.28,
+            "text": " So, in previous lecture we have seen some fuzzy sets properties."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 31.28,
+            "end": 34.64,
+            "text": " Now in this lecture we covered the fuzzification method."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 34.64,
+            "end": 39.480000000000004,
+            "text": " Basically these methods we have already covered in the previous lecture, but in previous lecture"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 39.480000000000004,
+            "end": 42.92,
+            "text": " I have not taken any example to explain you in a better manner."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 42.92,
+            "end": 47.96,
+            "text": " So, in this lecture I have covered again with the example of with some example sets."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 47.96,
+            "end": 50.44,
+            "text": " So, basically these are the fuzzification method."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 50.44,
+            "end": 54.2,
+            "text": " Fuzzification method means in which this is the method in which you are converting your"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 54.2,
+            "end": 56.400000000000006,
+            "text": " crisp input in the fuzzy input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 56.400000000000006,
+            "end": 61.800000000000004,
+            "text": " Crisp input is the input which you are applying and fuzzy input is the input for the fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 61.800000000000004,
+            "end": 67.22,
+            "text": " logic controller means it first converts our crisp input which we are applying to the fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 67.22,
+            "end": 68.22,
+            "text": " input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 68.22,
+            "end": 70.28,
+            "text": " So, basically these are the matters which we have learnt."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 70.28,
+            "end": 73.48,
+            "text": " First one is the intuition method, second one is the interference method, third one"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 73.48,
+            "end": 77.76,
+            "text": " is rank ordering, fourth one is neural network, fifth one is genetic algorithm, sixth one"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 77.76,
+            "end": 80.68,
+            "text": " is the inductive reasoning method."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 80.68,
+            "end": 85.4,
+            "text": " Basically these methods we will use to convert our crisp input into the fuzzy set with the"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 85.4,
+            "end": 89.72000000000001,
+            "text": " help or basically I can say to build the membership function in a different manner."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 89.72000000000001,
+            "end": 94.28,
+            "text": " So, basically these are the methods with the help of that method we map our crisp input"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 94.28,
+            "end": 95.80000000000001,
+            "text": " to the fuzzy input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 95.80000000000001,
+            "end": 100.4,
+            "text": " So, basically intuition based fuzzification method we have already learnt with the help"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 100.4,
+            "end": 105.92000000000002,
+            "text": " of some example and second one is the interference based method we have again seen in the previous"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 105.92000000000002,
+            "end": 106.92000000000002,
+            "text": " lecture."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 106.92000000000002,
+            "end": 108.64000000000001,
+            "text": " Now come to the rank ordering fuzzification."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 108.64,
+            "end": 110.76,
+            "text": " This is already learnt, but not with the help of example."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 110.76,
+            "end": 116.32,
+            "text": " So, again I am taking in this lecture to explain this method with the help of a example so"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 116.32,
+            "end": 118.56,
+            "text": " that you can understand in a better manner."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 118.56,
+            "end": 121.52,
+            "text": " So, in this rank ordering fuzzification what we will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 121.52,
+            "end": 126.88,
+            "text": " We will take some preference data from the surveys or from the expert opinions to assign"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 126.88,
+            "end": 130.72,
+            "text": " the fuzzy values by ranking means in this method what we will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 130.72,
+            "end": 137.64,
+            "text": " We will take the help of the surveys or the expert opinions to map our input to the fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 137.64,
+            "end": 144.39999999999998,
+            "text": " input or to convert our crisp input to the fuzzy set basically or I can say the membership"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 144.39999999999998,
+            "end": 149.07999999999998,
+            "text": " function values you are converting your crisp input to the some membership values means"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 149.07999999999998,
+            "end": 152.67999999999998,
+            "text": " you are mapping your input to the some membership function values."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 152.67999999999998,
+            "end": 155.6,
+            "text": " So, first if we go to the process of that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 155.6,
+            "end": 159.72,
+            "text": " So, first step is that we have to collect the pair wise preferences for that then we"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 159.72,
+            "end": 165.35999999999999,
+            "text": " will tally the result then we will decide normalize it based on the top rank."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 165.36,
+            "end": 166.96,
+            "text": " Then we will see with the help of example."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 166.96,
+            "end": 171.84,
+            "text": " So, this is the example I have taken we have taken some surveys of 100 people and based"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 171.84,
+            "end": 178.12,
+            "text": " on that we have that data like we have asked 100 people what is their best season."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 178.12,
+            "end": 182.68,
+            "text": " So, they have answered and with the help of their answer we have created there."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 182.68,
+            "end": 188.92000000000002,
+            "text": " So, the first season is spring season is liked by 39 percent of the people second fall is"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 188.92,
+            "end": 196.35999999999999,
+            "text": " liked by 24.33 percent winter season is liked by 19.83 percent of the people and summer"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 196.35999999999999,
+            "end": 198.56,
+            "text": " is liked by 16.83 percent of the people."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 198.56,
+            "end": 203.27999999999997,
+            "text": " So, basically these are the these are the data which we have taken with the help of"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 203.27999999999997,
+            "end": 209.07999999999998,
+            "text": " some surveys we have done a survey on 100 people and from that survey we got this type"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 209.07999999999998,
+            "end": 210.07999999999998,
+            "text": " of data."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 210.07999999999998,
+            "end": 213.72,
+            "text": " Now, we have to map this data with the fuzzy data."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 213.72,
+            "end": 215.0,
+            "text": " So, what we will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 215.0,
+            "end": 218.32,
+            "text": " So, we know that spring is mostly liked by the people."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 218.72,
+            "end": 219.72,
+            "text": " So, what we have done there?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 219.72,
+            "end": 225.88,
+            "text": " So, we have classified the we have take the spring membership function value is 1 and"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 225.88,
+            "end": 228.12,
+            "text": " second most likely season is the fall."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 228.12,
+            "end": 235.35999999999999,
+            "text": " So, we have mapped their membership membership function value as 0.6 and for the winter we"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 235.35999999999999,
+            "end": 239.92,
+            "text": " have mapped that 0.5 and for summer we have mapped that 0.43 431."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 239.92,
+            "end": 245.56,
+            "text": " So, basically if we will see in the in the in the real real world scenario example of"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 245.56,
+            "end": 246.56,
+            "text": " that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 246.56,
+            "end": 252.72,
+            "text": " So, we will do we will take this fuzzy this fuzzification technique for the product rating"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 252.72,
+            "end": 257.32,
+            "text": " for the course feedback or the favorite food ranking with the help of that type of data"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 257.32,
+            "end": 262.2,
+            "text": " we will define or we will map our crisp input to the fuzzy input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 262.2,
+            "end": 264.64,
+            "text": " Now, the next method is the neural network."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 264.64,
+            "end": 267.16,
+            "text": " So, in this in this method what what we will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 267.16,
+            "end": 272.52,
+            "text": " We will train some data we will use some data to train the fuzzy logic system with the help"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 272.52,
+            "end": 277.12,
+            "text": " of that we with the help of the training data that membership function what we will"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 277.12,
+            "end": 278.12,
+            "text": " do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 278.12,
+            "end": 282.96,
+            "text": " It will learn automatically and we will give we will give some data as a as a training"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 282.96,
+            "end": 287.91999999999996,
+            "text": " data to them and then on the basis of the training data then in the next step it will"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 287.91999999999996,
+            "end": 292.52,
+            "text": " automatically define the membership function value for the new input with the help of that"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 292.52,
+            "end": 293.52,
+            "text": " training data."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 293.52,
+            "end": 297.59999999999997,
+            "text": " So, if the approach for that is first we will feed the input and desired output to the neural"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 297.59999999999997,
+            "end": 302.0,
+            "text": " net for the training purpose then it will train it using the using any techniques I"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 302.0,
+            "end": 306.36,
+            "text": " have written is that back propagation technique then output membership function for the new"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 306.36,
+            "end": 308.96,
+            "text": " input it will be decide automatically."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 308.96,
+            "end": 313.36,
+            "text": " Now, now we have not to do anything manually with the help of with the help of that trained"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 313.36,
+            "end": 319.32,
+            "text": " model it will automatically decide for the new input how he have to map how it have to"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 319.32,
+            "end": 321.68,
+            "text": " map basically to the membership function value."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 321.68,
+            "end": 323.32,
+            "text": " So, let us take an example."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 323.32,
+            "end": 328.92,
+            "text": " So, if we want to define the fuzzy set for the tall students using the neural network"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 328.92,
+            "end": 329.92,
+            "text": " then what we will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 329.92,
+            "end": 334.48,
+            "text": " We will give input as the height of students and output as the membership function value"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 334.48,
+            "end": 335.48,
+            "text": " for that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 335.48,
+            "end": 336.92,
+            "text": " So, for first what we will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 336.92,
+            "end": 339.08000000000004,
+            "text": " We will give some training data for that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 339.08000000000004,
+            "end": 343.64000000000004,
+            "text": " So, basically this is the training data for that example like I have given him a data"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 343.64000000000004,
+            "end": 348.52000000000004,
+            "text": " as a as a training data for that for the height of 150 centimeter their membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 348.52000000000004,
+            "end": 355.68,
+            "text": " value is 0.2 and for height of 160 centimeter their membership function value for is 0.4."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 355.68,
+            "end": 360.24,
+            "text": " Similarly for the 170 170 centimeter height their membership function value is 0.7 for"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 360.24,
+            "end": 365.28000000000003,
+            "text": " 180 centimeter 0.9 for 191 is the membership function value."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 365.28000000000003,
+            "end": 368.64,
+            "text": " These are the training data which I have which I have feed to the fuzzy logic controller"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 368.64,
+            "end": 370.68,
+            "text": " then now what it will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 370.68,
+            "end": 375.72,
+            "text": " After training if I will input as a 175 centimeter then what it will do?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 375.72,
+            "end": 380.6,
+            "text": " Its output might be in between 0.7 to 0.9."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 380.6,
+            "end": 381.6,
+            "text": " Why?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 381.6,
+            "end": 386.6,
+            "text": " Because if you will see our 175 centimeter data which we are now inputting as a new input"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 386.6,
+            "end": 392.08000000000004,
+            "text": " these are the these are the training."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 392.08000000000004,
+            "end": 397.44,
+            "text": " These data we have given him as a training data now we are feeding new input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 397.44,
+            "end": 398.64000000000004,
+            "text": " What our new input is?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 398.64000000000004,
+            "end": 401.52000000000004,
+            "text": " It is 175 centimeter is now we are feeding."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 401.52000000000004,
+            "end": 406.84000000000003,
+            "text": " Now it will automatically decide its membership function value how it will decide?"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 406.84000000000003,
+            "end": 411.04,
+            "text": " So, it will see that 175 comes in between the 170 and 180."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 411.48,
+            "end": 419.6,
+            "text": " So, it will take in its membership function value in between 0.7 to 0.9 that is 0.8 for"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 419.6,
+            "end": 420.6,
+            "text": " this case."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 420.6,
+            "end": 425.76000000000005,
+            "text": " So, this is the method this is the fourth method for converting our crisp input to fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 425.76000000000005,
+            "end": 431.48,
+            "text": " input or fuzzy set we are converting our crisp input to the fuzzy set input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 431.48,
+            "end": 434.44,
+            "text": " Now we come to the next method that is genetic algorithm method."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 434.44,
+            "end": 438.92,
+            "text": " So, basically what we will do in this method our membership function or optimize using"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 438.92,
+            "end": 443.44,
+            "text": " some genetic operation like crossover mutation and selection and with the help of that method"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 443.44,
+            "end": 446.76,
+            "text": " we will optimize our membership function value."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 446.76,
+            "end": 452.48,
+            "text": " So, basically genetic algorithm is an optimization method which is used by which is used and"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 452.48,
+            "end": 457.48,
+            "text": " inspired which is basically inspired by the natural evolution it works through the step"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 457.48,
+            "end": 462.88,
+            "text": " like first it will do the selection then crossover and then mutation and then it finds the best"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 462.88,
+            "end": 468.0,
+            "text": " solution for that data which we are giving as input that crisp input basically."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 468.08,
+            "end": 473.08,
+            "text": " So, to automatically design or find any membership function when human intuition or data fitting"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 473.08,
+            "end": 478.28,
+            "text": " is difficult when we do not know how to map that data with to the fuzzy data to the how"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 478.28,
+            "end": 483.36,
+            "text": " it can how we will convert that crisp input to the fuzzy input or fuzzy set."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 483.36,
+            "end": 489.36,
+            "text": " So, in that in that time when our intuition is not able to judge how we can decide that"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 489.36,
+            "end": 495.24,
+            "text": " this data this input crisp data is belong to which membership function value then in"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 495.24,
+            "end": 498.16,
+            "text": " that case we will use the genetic algorithm method."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 498.16,
+            "end": 503.6,
+            "text": " So, it what it will do it finds the best shape and placement of fuzzy set based on the performance"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 503.6,
+            "end": 506.44,
+            "text": " or accuracy goals."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 506.44,
+            "end": 510.24,
+            "text": " Now last method come to the outcome that is inductive reasoning."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 510.24,
+            "end": 514.72,
+            "text": " So, basically inductive reasoning what we will do it generates fuzzy set by observing"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 514.72,
+            "end": 519.4,
+            "text": " a pattern in the large data set with the help of that large data set what it will do it"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 519.4,
+            "end": 525.16,
+            "text": " will observe some pattern in that large data set and with the help of that it will map"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 526.0799999999999,
+            "end": 528.1999999999999,
+            "text": " our crisp input to the fuzzy set."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 528.1999999999999,
+            "end": 532.3199999999999,
+            "text": " So, it is the process of basically learning general patterns from the specified examples"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 532.3199999999999,
+            "end": 536.12,
+            "text": " or data and then it will map to that membership function value."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 536.12,
+            "end": 540.64,
+            "text": " Now what is the process it is process is first we collect first we collect input output data"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 540.64,
+            "end": 546.64,
+            "text": " then we use statistical inference to build fuzzy rules and the membership grades for"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 546.64,
+            "end": 547.64,
+            "text": " that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 547.64,
+            "end": 551.4399999999999,
+            "text": " So, basically to automatically create a fuzzy membership function from observed input output"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 551.44,
+            "end": 556.48,
+            "text": " data in that case and it is best used when you have some real world data, but no clear"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 556.48,
+            "end": 561.6,
+            "text": " idea, but when when we do not have clear idea how to define the fuzzy set in that type of"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 561.6,
+            "end": 562.6,
+            "text": " input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 562.6,
+            "end": 567.12,
+            "text": " So, for that we can also use the inductive reasoning like I have taken one example from"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 567.12,
+            "end": 574.48,
+            "text": " the hospital which is written here data from the hospital patient is used to create a fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 574.48,
+            "end": 578.5600000000001,
+            "text": " rule for the disease diagnosis means the previous data large data set hospitals have."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 578.68,
+            "end": 583.1999999999999,
+            "text": " So, with the help of data we will try to create the fuzzy rule for the disease diagnosis because"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 583.1999999999999,
+            "end": 588.76,
+            "text": " in a hospital many many types of patient come from the past years if hospital is old then"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 588.76,
+            "end": 593.64,
+            "text": " with the help of that data we will try to create fuzzy rules for the disease diagnosis."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 593.64,
+            "end": 598.4,
+            "text": " So, basically now again I have taken example for the inductive reasoning case."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 598.4,
+            "end": 602.28,
+            "text": " So, first our first step is to collect the training data which is basically temperature"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 602.28,
+            "end": 606.92,
+            "text": " versus comfort level it is means I have taken example in which certain temperature is there"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 607.28,
+            "end": 611.68,
+            "text": " we have taken some the comfort level on the basis of that temperature means how many peoples"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 611.68,
+            "end": 613.4,
+            "text": " are comfort in that type of temperature."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 613.4,
+            "end": 622.04,
+            "text": " So, we have made a table like for 20 degree for 20 for 20 degree temperature for for 20"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 622.04,
+            "end": 630.0799999999999,
+            "text": " degree temperature 0.4 0.4 is the comfort level and for 22 0.7 is the comfort level"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 630.0799999999999,
+            "end": 636.68,
+            "text": " for that and for 24 degree 0.1 is the best comfort level and in the in the in that case"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 636.7199999999999,
+            "end": 643.64,
+            "text": " when temperature is at 24 degree Celsius same for 0.8 26 degree Celsius is the comfort level"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 643.64,
+            "end": 647.3599999999999,
+            "text": " for 28 degree Celsius 0.5 is the comfort level."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 647.3599999999999,
+            "end": 651.2399999999999,
+            "text": " So, whatever what are what are the steps first one is we have to collect the training data"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 651.2399999999999,
+            "end": 656.7199999999999,
+            "text": " that is in the in the in that example that is temperature versus comfort level."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 656.7199999999999,
+            "end": 662.4,
+            "text": " Now we have to identify the pattern based on the people feel like for that example we"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 662.4,
+            "end": 666.52,
+            "text": " have to identify the pattern certain patterns like in between we have if we I will draw"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 666.52,
+            "end": 673.6,
+            "text": " a curve in between 20 to 28 might be there is 20 and might be there is 28."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 673.6,
+            "end": 678.88,
+            "text": " Now we have to draw a graph in between and so, that it will it will clear us what type"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 678.88,
+            "end": 682.48,
+            "text": " of membership function we have to take for our input these are our inputs."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 682.48,
+            "end": 686.84,
+            "text": " Now on the basis of that we will how what type of membership function we have to create"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 686.84,
+            "end": 695.8000000000001,
+            "text": " like for 20 degree we have 0.4 for now 22 is in between here there 0.7 then for 24 it"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 695.8000000000001,
+            "end": 704.6,
+            "text": " is 1 then again for 26 it is 0.8 and then for 28 it is 0.5."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 704.6,
+            "end": 709.6800000000001,
+            "text": " So, if I will draw a graph or it if I want to identify a certain pattern for that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 709.6800000000001,
+            "end": 712.76,
+            "text": " So, we have to create a fuzzy set from the that pattern."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 712.76,
+            "end": 719.56,
+            "text": " So, I will it will look like a bell shape means that type of fuzzy membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 719.56,
+            "end": 721.56,
+            "text": " we will take for that type of data."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 721.56,
+            "end": 726.16,
+            "text": " So, with that is the example of inductive reasoning how we will take how we will judge"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 726.16,
+            "end": 732.4,
+            "text": " which membership function we have to take for that input all type of members not all"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 732.4,
+            "end": 738.0,
+            "text": " we have already learned about the maximum types of membership function like triangular"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 738.0,
+            "end": 742.3199999999999,
+            "text": " trapezoidal bell shape that type of membership function we have already learned in the previous"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 742.36,
+            "end": 743.36,
+            "text": " lecture."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 743.36,
+            "end": 746.72,
+            "text": " So, in so this is the last method for the fuzzification."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 746.72,
+            "end": 751.2,
+            "text": " Fuzzification means you are converting your crisp input to the fuzzy input or you are"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 751.2,
+            "end": 757.2,
+            "text": " converting your crisp set to the fuzzy set with the help of a fuzzification."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 757.2,
+            "end": 761.0,
+            "text": " Fuzzification is the method which convert your crisp input to the fuzzy input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 761.0,
+            "end": 764.32,
+            "text": " Fuzzy input means membership function value what type of membership function value you"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 764.32,
+            "end": 768.4000000000001,
+            "text": " have to take either triangular trapezoidal bell shape many type of membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 768.4000000000001,
+            "end": 770.5200000000001,
+            "text": " we have already learned in the previous lecture."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 770.72,
+            "end": 775.12,
+            "text": " So, this is the step where we will convert your input to the fuzzy input."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 775.12,
+            "end": 779.4,
+            "text": " So, basically this is the bell shape fuzzy set for comfortable temperature can be generated"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 779.4,
+            "end": 784.24,
+            "text": " this type of membership function you can take for this types of input if you have."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 784.24,
+            "end": 788.72,
+            "text": " Now, we come to the next step that is the another method that is defuzzification it"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 788.72,
+            "end": 794.28,
+            "text": " is completely reverse of fuzzification it is completely opposite of fuzzification."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 794.28,
+            "end": 799.16,
+            "text": " In fuzzification you are converting crisp to fuzzy in the case of defuzzification you"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 799.16,
+            "end": 805.7199999999999,
+            "text": " are converting your fuzzy output to the crisp output basically it is the last step of fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 805.7199999999999,
+            "end": 806.7199999999999,
+            "text": " logic architecture."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 806.7199999999999,
+            "end": 812.16,
+            "text": " So, first step of fuzzy logic architecture is you are putting your you are feeding your"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 812.16,
+            "end": 813.16,
+            "text": " input to the system."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 813.16,
+            "end": 818.8399999999999,
+            "text": " So, what system will do first step it will convert your input to the fuzzy input fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 818.8399999999999,
+            "end": 822.24,
+            "text": " set or basically it will map your input to the fuzzy set."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 822.24,
+            "end": 828.28,
+            "text": " Now, what is the last step after doing all the rule or rule interference and all the"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 828.6,
+            "end": 832.6,
+            "text": " things all the operations for the fuzzy logic controller what is the output its output again"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 832.6,
+            "end": 839.48,
+            "text": " comes in the in the in the in the form of fuzzy set, but we are not able to understand"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 839.48,
+            "end": 844.36,
+            "text": " what not understand we are not able to understand what is the what it means."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 844.36,
+            "end": 848.56,
+            "text": " So, what we will do again we will do one step that it which is the reverse of fuzzification"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 848.56,
+            "end": 853.9599999999999,
+            "text": " what we will do we will convert again this output of fuzzy set to the crisp set this"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 853.9599999999999,
+            "end": 854.9599999999999,
+            "text": " is the last step."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 855.2800000000001,
+            "end": 860.0,
+            "text": " So, defuzzification is the final step in the fuzzy logic control it what it do it will"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 860.0,
+            "end": 865.5600000000001,
+            "text": " convert the fuzzy output set which which fuzzy logic controller gives then with into a single"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 865.5600000000001,
+            "end": 869.9200000000001,
+            "text": " crisp value we are converting this fuzzy output set into a single crisp value that that can"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 869.9200000000001,
+            "end": 872.32,
+            "text": " be understable for the real world situation."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 872.32,
+            "end": 879.0,
+            "text": " Now, what motor have to do for what temperature AC have to set that type of output we can"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 879.0,
+            "end": 884.6,
+            "text": " generate after the defuzzification or we are able to understand after the defuzzification"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 884.6,
+            "end": 889.12,
+            "text": " step before the defuzzification fuzzy logic control give the output in the form of fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 889.12,
+            "end": 895.0400000000001,
+            "text": " set that output is not not understable by us or not understable by our actuators in"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 895.0400000000001,
+            "end": 900.08,
+            "text": " which we are using for which for that we are using that fuzzy logic controller."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 900.08,
+            "end": 905.44,
+            "text": " So, what we will do in the last step you are converting that fuzzy output to the crisp"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 905.44,
+            "end": 906.44,
+            "text": " output."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 906.44,
+            "end": 911.32,
+            "text": " So, just like fuzzification map your crisp input the fuzzy value defuzzification does"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 911.32,
+            "end": 915.9200000000001,
+            "text": " the reverse it will map your fuzzy output to the crisp output."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 915.9200000000001,
+            "end": 922.1600000000001,
+            "text": " So, now, why we need fuzzification I already told you that in real world system only crisp"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 922.1600000000001,
+            "end": 926.0,
+            "text": " value can be applied to the our actuators for that we are using fuzzy logic controller"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 926.0,
+            "end": 930.9200000000001,
+            "text": " they only understand the crisp output it is like like a for a heater he does not know"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 930.9200000000001,
+            "end": 935.0400000000001,
+            "text": " what is that triangular membership function means what the output because in fuzzy set"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 935.0400000000001,
+            "end": 940.44,
+            "text": " if a first it will convert your crisp input to the fuzzy fuzzy fuzzy set fuzzy set means"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 940.5600000000001,
+            "end": 945.48,
+            "text": " it will convert your input it will map or we can say I can say it will map your input"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 945.48,
+            "end": 949.5600000000001,
+            "text": " to the any triangular membership function if I am taking now output also come in the"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 949.5600000000001,
+            "end": 952.7600000000001,
+            "text": " similar way output come in that way."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 952.7600000000001,
+            "end": 958.5200000000001,
+            "text": " So, now, our heater or our geyser or for any application if we are using fuzzy logic controller"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 958.5200000000001,
+            "end": 962.12,
+            "text": " then that geyser or heater or pump is not able to understand that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 962.12,
+            "end": 966.2800000000001,
+            "text": " So, again we have to convert that output into the crisp output."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 966.28,
+            "end": 972.4399999999999,
+            "text": " So, that heater is able to understand how much temperature he have to he have to he"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 972.4399999999999,
+            "end": 976.88,
+            "text": " have to take same for the pump or same for the engine or for any actuators which you"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 976.88,
+            "end": 979.1999999999999,
+            "text": " are using the fuzzy logic controller."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 979.1999999999999,
+            "end": 983.12,
+            "text": " So, basically fuzzy interference result in a fuzzy set like a medium high speed that"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 983.12,
+            "end": 987.28,
+            "text": " type of output that type of output is there, but it is not understable our actuators."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 987.28,
+            "end": 991.8,
+            "text": " So, what we will do we will convert this to a usable crisp value which will understand"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 991.8,
+            "end": 997.56,
+            "text": " which will be understable for us or for the actuators like if it is if we are using it"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 997.56,
+            "end": 1001.9599999999999,
+            "text": " for some motors then it is output should be like 70 rpm or 25 degree Celsius."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1001.9599999999999,
+            "end": 1007.12,
+            "text": " 70 rpm if it is a motor then it means the output output the final speed of the motor"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1007.12,
+            "end": 1013.1999999999999,
+            "text": " should be at 70 rpm if we are using that fuzzy logic controller for any for any for in an"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1013.1999999999999,
+            "end": 1017.4399999999999,
+            "text": " application in which you are controlling any motors or generator in that case the output"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1017.4399999999999,
+            "end": 1020.4399999999999,
+            "text": " should be your 70 rpm this is the final output."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1020.44,
+            "end": 1024.8,
+            "text": " For certain conditions we have given as a input like if you have induction motor then"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1024.8,
+            "end": 1029.52,
+            "text": " you have feed the input data like stator current you have feed or any stator voltage you have"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1029.52,
+            "end": 1034.88,
+            "text": " feed then based on this analysis it gives you an output for that that much of voltage"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1034.88,
+            "end": 1040.72,
+            "text": " for that much of or stator current the best rotation the best speed should be 70 rpm I"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1040.72,
+            "end": 1042.48,
+            "text": " am taking an example."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1042.48,
+            "end": 1048.0,
+            "text": " Again similarly for the if I am taking an example of a geyser or any refrigerator then"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1048.0,
+            "end": 1052.92,
+            "text": " what should be the best temperature for that so we will not able to understand what it"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1052.92,
+            "end": 1059.16,
+            "text": " means so we will convert that to a crisper value which will be understable which will"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1059.16,
+            "end": 1064.2,
+            "text": " be understandable for us or for any actuators basically."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1064.2,
+            "end": 1069.0,
+            "text": " So this is our fuzzy logic architecture we have seen in our previous classes this is"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1069.0,
+            "end": 1075.0,
+            "text": " the fuzzification module this is our fuzzification module means this is the first step for that"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1075.0,
+            "end": 1080.8,
+            "text": " we have learnt 5 to 6 methods now we are going to learn the defuzzification module"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1080.8,
+            "end": 1085.0,
+            "text": " means converting fuzzy output to the crisp output."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1085.0,
+            "end": 1089.76,
+            "text": " So basically these are the common some defuzzification methods are there with the help of that methods"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1089.76,
+            "end": 1095.6,
+            "text": " what we will do we will convert our crisp we will convert our fuzzy output to the crisp"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1095.6,
+            "end": 1100.68,
+            "text": " output basically these methods we will use and 8 to 10 methods are there first one is"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1100.68,
+            "end": 1107.52,
+            "text": " the lambda cut method then these methods are also known as maxima method in combination"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1107.52,
+            "end": 1114.3200000000002,
+            "text": " we will write it as maxima these basically 3 methods are known as the maxima method first"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1114.3200000000002,
+            "end": 1120.92,
+            "text": " one is first of maxima method last of maxima mean of maxima ok I have written 2 times mean"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1120.92,
+            "end": 1127.24,
+            "text": " of maxima no show then the next method is weighted average method then center of some"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1127.24,
+            "end": 1132.92,
+            "text": " and center of gravity method these both methods are also known as centroid method or we can"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1132.92,
+            "end": 1136.92,
+            "text": " say these both methods comes in the category of centroid methods."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1136.92,
+            "end": 1142.36,
+            "text": " So first one is now we will go to the first method for that one is lambda cut method so"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1142.36,
+            "end": 1148.56,
+            "text": " lambda cut method whatever we will do basically it will convert your fuzzy output to a crisp"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1148.56,
+            "end": 1154.28,
+            "text": " output but not but that specifically that method that lambda cut method do not convert"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1154.28,
+            "end": 1161.52,
+            "text": " your fuzzy output to a exact crisp value basically what we will do it will give you"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1161.52,
+            "end": 1167.6,
+            "text": " an interval ok your output will lies in between 30 to 40 if I am for explaining I am taking"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1167.6,
+            "end": 1174.0,
+            "text": " an example so it with that lambda cut method will give you a range your output should be"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1174.0,
+            "end": 1179.84,
+            "text": " lies in between 20 to 30 in between an interval 30 to 40 that type of output value it will"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1179.84,
+            "end": 1184.72,
+            "text": " give so lambda cut method it is also called as alpha cut or level cut it is a technique"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1184.72,
+            "end": 1189.72,
+            "text": " basically which is used to extract the crisp set from the fuzzy set that is the same thing"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1189.72,
+            "end": 1194.72,
+            "text": " we are converting your our fuzzy set to a crisp set instead of in this method instead"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1194.72,
+            "end": 1200.52,
+            "text": " of giving us single crisp value it will gives an interval or a crisp subset for the fuzzy"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1200.52,
+            "end": 1205.6399999999999,
+            "text": " set by cutting it horizontally at a specific membership function value I will explain this"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1205.64,
+            "end": 1210.5600000000002,
+            "text": " thing what it means how we will cut it horizontally or a specific membership function what it"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1210.5600000000002,
+            "end": 1216.0400000000002,
+            "text": " means I will tell you in a later slide so basically but this method are the less common"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1216.0400000000002,
+            "end": 1221.5200000000002,
+            "text": " method because it does not give you a exact value for that it will give you a range in"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1221.5200000000002,
+            "end": 1228.1200000000001,
+            "text": " between basically I can say it will gives you a range of maximum to minimum ok 20 is"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1228.1200000000001,
+            "end": 1233.0400000000002,
+            "text": " minimum 30 is maximum in between your answers should be like so it gives the result in that"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1233.04,
+            "end": 1239.12,
+            "text": " way after that again you have to apply some other method to convert that interval to a"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1239.12,
+            "end": 1245.08,
+            "text": " some specified value and that we have seen in the list different type of classification"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1245.08,
+            "end": 1249.72,
+            "text": " method after the lambda cut method again we have to apply one more method it may be centroid"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1249.72,
+            "end": 1257.04,
+            "text": " method it may be average method you have to apply to find the output for that ok so basically"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1257.04,
+            "end": 1261.6399999999999,
+            "text": " it is less common method like for the centroid or mean of maximum which we will learn later"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1262.0400000000002,
+            "end": 1266.68,
+            "text": " so basically it is useful in the case of application which requires a focus on high membership"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1266.68,
+            "end": 1272.16,
+            "text": " function value or when a when a computation simplicity is needed when this method is used"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1272.16,
+            "end": 1276.3600000000001,
+            "text": " in that application where you will require a focus only on the high membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1276.3600000000001,
+            "end": 1282.96,
+            "text": " value in that type of application you can use that method or when you require a simple"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1282.96,
+            "end": 1288.0,
+            "text": " computational simplicity required basically I can say you do not require any complex problem"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1288.0,
+            "end": 1293.36,
+            "text": " to convert your fuzzy to Kirras so in that way if you require simplicity you can use"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1293.36,
+            "end": 1299.56,
+            "text": " that methods ok so in that method what we will do we have to define a level that is"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1299.56,
+            "end": 1304.84,
+            "text": " lambda which is which value should be in between 0 and 1 and then we have to select all the"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1304.84,
+            "end": 1309.32,
+            "text": " element in the fuzzy set whose membership function are value greater than the lambda"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1309.32,
+            "end": 1314.84,
+            "text": " or equal to lambda this is the basically this is the main this is the main mathematical"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1314.84,
+            "end": 1320.1599999999999,
+            "text": " form of form mathematical formula for that lambda cut method means it will consider only"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1320.1599999999999,
+            "end": 1325.56,
+            "text": " that membership functions value whose value is greater than alpha sorry lambda if it if"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1325.56,
+            "end": 1329.8,
+            "text": " any function is there whose value is less than lambda then it will not consider for"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1329.8,
+            "end": 1334.6399999999999,
+            "text": " the output we will see with the help of some example so this is the this is the mathematical"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1334.6399999999999,
+            "end": 1342.04,
+            "text": " mathematical expression that is a lambda x belongs to x you can see that membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1342.04,
+            "end": 1346.12,
+            "text": " should value should be greater than lambda that lambda you have to decide how much value"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1346.12,
+            "end": 1351.8,
+            "text": " you have to take like where lambda is a chosen threshold which you will decide what its value"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1351.8,
+            "end": 1356.52,
+            "text": " should be how much membership how much greater membership function value we are desired for"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1356.52,
+            "end": 1362.44,
+            "text": " whether it is 0.5 it is or whether it is 0.7 you have to decide and then mu f of x again"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1362.44,
+            "end": 1367.76,
+            "text": " it is a membership function value and a is our resulting crisp that is our output crisp"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1367.76,
+            "end": 1373.52,
+            "text": " output means now we are converting our fuzzy output to the crisp output."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1373.52,
+            "end": 1378.96,
+            "text": " So suppose we have taken a fuzzy set for temperature which is defined as these are in first column"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1378.96,
+            "end": 1386.04,
+            "text": " in first column temperature is there then first column our temperature is there and"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1386.04,
+            "end": 1390.28,
+            "text": " in second column we have the membership function value for that temperature like for 20 degree"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1390.28,
+            "end": 1398.36,
+            "text": " Celsius 0.2 membership function value is there for 25 0.4 for 30 0.6 and for 35 0.8"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1398.36,
+            "end": 1403.8,
+            "text": " and for 40 0.1 so basically these are the membership function values for the certain"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1403.8,
+            "end": 1409.12,
+            "text": " temperature now what we have to do we have to choose some lambda values so what we let"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1409.12,
+            "end": 1414.44,
+            "text": " we have chosen our lambda value 0.6 now what will not what will what will this lambda curve"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1414.44,
+            "end": 1420.04,
+            "text": " method will do it will it will take the value it will take those only those values whose"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1420.8,
+            "end": 1424.92,
+            "text": " membership function is greater than 0.6 or equal to 0.6 so basically these three are"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1424.92,
+            "end": 1431.76,
+            "text": " there whose membership function value is greater than 0.6 so now what is our alpha cut set"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1431.76,
+            "end": 1438.68,
+            "text": " or what is our crisp output set that is 30 35 40 so again I have already said to you"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1438.68,
+            "end": 1444.72,
+            "text": " that it gives you a range in between you have now you have got the range that is 30 to 40"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1444.88,
+            "end": 1450.84,
+            "text": " or 30 35 40 are the elements which will contribute to the output set now again you have to use"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1450.84,
+            "end": 1457.84,
+            "text": " some diversification methods after that to convert or to get a specific specific crisp"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1457.84,
+            "end": 1463.3600000000001,
+            "text": " output value okay so now how we will take you can take any method like if I will give"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1463.3600000000001,
+            "end": 1468.48,
+            "text": " an example like weighted average method you can take or any any midpoint method you can"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1468.48,
+            "end": 1475.48,
+            "text": " take how we will find the output now you have to take the average of that now that"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1475.72,
+            "end": 1480.88,
+            "text": " is give you the specified output for that fuzzy input fuzzy output basically means now"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1480.88,
+            "end": 1487.72,
+            "text": " you that answer is your crisp output okay so this is first method that is lambda cut"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1487.72,
+            "end": 1494.72,
+            "text": " method or if I will explain you with the help of I will explain you with the help of some"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1494.88,
+            "end": 1501.88,
+            "text": " figure like if you are like again said like if this is our output like trapezoidal output"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1502.0,
+            "end": 1507.76,
+            "text": " I have in output side if we have got some trapezoidal wave is there if we got that so"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1507.76,
+            "end": 1514.48,
+            "text": " now we have to decide a horizontal cut means like that is 0.6 then above then these values"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1514.48,
+            "end": 1521.48,
+            "text": " are these are the ranges which we will have to use for output or which we will choose"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1522.0,
+            "end": 1527.96,
+            "text": " or we will or basically I can say these are the value that contribute to our crisp output"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1527.96,
+            "end": 1534.72,
+            "text": " in the case of lambda cut method to that type of horizontal cut is written there okay in"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1534.72,
+            "end": 1539.44,
+            "text": " the case of membership function value any membership function any membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1539.44,
+            "end": 1543.72,
+            "text": " you can take it may be triangular I have taken you can take any example of trapezoidal or"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1543.72,
+            "end": 1550.72,
+            "text": " any other you can take so where we can use a lambda method when we need a range of possible"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1551.48,
+            "end": 1556.3600000000001,
+            "text": " output not just one value in that case when we do not want any single value when we want"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1556.3600000000001,
+            "end": 1561.52,
+            "text": " the range of possible output in that case we will use lambda cut method in system where"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1561.52,
+            "end": 1565.92,
+            "text": " interval based control is acceptable in that case we will use that lambda cut method or"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1565.92,
+            "end": 1570.96,
+            "text": " when we want a simplifying fuzzy output not any complex method for that."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1570.96,
+            "end": 1576.16,
+            "text": " Now second method comes to the maxima based fuzzy defuzzification method it comes in the"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1576.16,
+            "end": 1580.72,
+            "text": " category maxima based defuzzification method so in what we will do in this method these"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1580.72,
+            "end": 1584.84,
+            "text": " met in this method what we will do we will take the peak values of the membership function"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1584.84,
+            "end": 1588.76,
+            "text": " we do not have to take we not have to consider all the membership function value we will"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1588.76,
+            "end": 1594.24,
+            "text": " consider only that membership function whose membership function value is highest so what"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1594.24,
+            "end": 1599.52,
+            "text": " we will do it will select with the maximum membership maximum membership degree I can"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1599.52,
+            "end": 1604.24,
+            "text": " say so it is very simple and fast and which will be used in mainly in the application"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1604.24,
+            "end": 1606.32,
+            "text": " of embedded systems."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1606.32,
+            "end": 1612.68,
+            "text": " So these are the three types or these are the three category of the defuzzification"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1612.68,
+            "end": 1617.0,
+            "text": " maxima method of defuzzification that is our second method and this first one is the first"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1617.0,
+            "end": 1622.6,
+            "text": " of maxima second is last of maxima and third one is mean of maxima so we will try to cover"
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1622.6,
+            "end": 1627.64,
+            "text": " all these defuzzification method in the next lecture."
+        },
+        {
+            "number": "6",
+            "title": "Lecture 6",
+            "start": 1627.64,
+            "end": 1628.16,
+            "text": " Thank you."
+        }
+    ],
+    "text": " So, hello everyone, I Aftab Ahmed Ansari again welcome you all to the course on fuzzy logic inference and machine learning techniques. So, basically this is a department elective course and this is the lecture number 6. So, in previous lecture we have seen some fuzzy sets properties. Now in this lecture we covered the fuzzification method. Basically these methods we have already covered in the previous lecture, but in previous lecture I have not taken any example to explain you in a better manner. So, in this lecture I have covered again with the example of with some example sets. So, basically these are the fuzzification method. Fuzzification method means in which this is the method in which you are converting your crisp input in the fuzzy input. Crisp input is the input which you are applying and fuzzy input is the input for the fuzzy logic controller means it first converts our crisp input which we are applying to the fuzzy input. So, basically these are the matters which we have learnt. First one is the intuition method, second one is the interference method, third one is rank ordering, fourth one is neural network, fifth one is genetic algorithm, sixth one is the inductive reasoning method. Basically these methods we will use to convert our crisp input into the fuzzy set with the help or basically I can say to build the membership function in a different manner. So, basically these are the methods with the help of that method we map our crisp input to the fuzzy input. So, basically intuition based fuzzification method we have already learnt with the help of some example and second one is the interference based method we have again seen in the previous lecture. Now come to the rank ordering fuzzification. This is already learnt, but not with the help of example. So, again I am taking in this lecture to explain this method with the help of a example so that you can understand in a better manner. So, in this rank ordering fuzzification what we will do? We will take some preference data from the surveys or from the expert opinions to assign the fuzzy values by ranking means in this method what we will do? We will take the help of the surveys or the expert opinions to map our input to the fuzzy input or to convert our crisp input to the fuzzy set basically or I can say the membership function values you are converting your crisp input to the some membership values means you are mapping your input to the some membership function values. So, first if we go to the process of that. So, first step is that we have to collect the pair wise preferences for that then we will tally the result then we will decide normalize it based on the top rank. Then we will see with the help of example. So, this is the example I have taken we have taken some surveys of 100 people and based on that we have that data like we have asked 100 people what is their best season. So, they have answered and with the help of their answer we have created there. So, the first season is spring season is liked by 39 percent of the people second fall is liked by 24.33 percent winter season is liked by 19.83 percent of the people and summer is liked by 16.83 percent of the people. So, basically these are the these are the data which we have taken with the help of some surveys we have done a survey on 100 people and from that survey we got this type of data. Now, we have to map this data with the fuzzy data. So, what we will do? So, we know that spring is mostly liked by the people. So, what we have done there? So, we have classified the we have take the spring membership function value is 1 and second most likely season is the fall. So, we have mapped their membership membership function value as 0.6 and for the winter we have mapped that 0.5 and for summer we have mapped that 0.43 431. So, basically if we will see in the in the in the real real world scenario example of that. So, we will do we will take this fuzzy this fuzzification technique for the product rating for the course feedback or the favorite food ranking with the help of that type of data we will define or we will map our crisp input to the fuzzy input. Now, the next method is the neural network. So, in this in this method what what we will do? We will train some data we will use some data to train the fuzzy logic system with the help of that we with the help of the training data that membership function what we will do? It will learn automatically and we will give we will give some data as a as a training data to them and then on the basis of the training data then in the next step it will automatically define the membership function value for the new input with the help of that training data. So, if the approach for that is first we will feed the input and desired output to the neural net for the training purpose then it will train it using the using any techniques I have written is that back propagation technique then output membership function for the new input it will be decide automatically. Now, now we have not to do anything manually with the help of with the help of that trained model it will automatically decide for the new input how he have to map how it have to map basically to the membership function value. So, let us take an example. So, if we want to define the fuzzy set for the tall students using the neural network then what we will do? We will give input as the height of students and output as the membership function value for that. So, for first what we will do? We will give some training data for that. So, basically this is the training data for that example like I have given him a data as a as a training data for that for the height of 150 centimeter their membership function value is 0.2 and for height of 160 centimeter their membership function value for is 0.4. Similarly for the 170 170 centimeter height their membership function value is 0.7 for 180 centimeter 0.9 for 191 is the membership function value. These are the training data which I have which I have feed to the fuzzy logic controller then now what it will do? After training if I will input as a 175 centimeter then what it will do? Its output might be in between 0.7 to 0.9. Why? Because if you will see our 175 centimeter data which we are now inputting as a new input these are the these are the training. These data we have given him as a training data now we are feeding new input. What our new input is? It is 175 centimeter is now we are feeding. Now it will automatically decide its membership function value how it will decide? So, it will see that 175 comes in between the 170 and 180. So, it will take in its membership function value in between 0.7 to 0.9 that is 0.8 for this case. So, this is the method this is the fourth method for converting our crisp input to fuzzy input or fuzzy set we are converting our crisp input to the fuzzy set input. Now we come to the next method that is genetic algorithm method. So, basically what we will do in this method our membership function or optimize using some genetic operation like crossover mutation and selection and with the help of that method we will optimize our membership function value. So, basically genetic algorithm is an optimization method which is used by which is used and inspired which is basically inspired by the natural evolution it works through the step like first it will do the selection then crossover and then mutation and then it finds the best solution for that data which we are giving as input that crisp input basically. So, to automatically design or find any membership function when human intuition or data fitting is difficult when we do not know how to map that data with to the fuzzy data to the how it can how we will convert that crisp input to the fuzzy input or fuzzy set. So, in that in that time when our intuition is not able to judge how we can decide that this data this input crisp data is belong to which membership function value then in that case we will use the genetic algorithm method. So, it what it will do it finds the best shape and placement of fuzzy set based on the performance or accuracy goals. Now last method come to the outcome that is inductive reasoning. So, basically inductive reasoning what we will do it generates fuzzy set by observing a pattern in the large data set with the help of that large data set what it will do it will observe some pattern in that large data set and with the help of that it will map our crisp input to the fuzzy set. So, it is the process of basically learning general patterns from the specified examples or data and then it will map to that membership function value. Now what is the process it is process is first we collect first we collect input output data then we use statistical inference to build fuzzy rules and the membership grades for that. So, basically to automatically create a fuzzy membership function from observed input output data in that case and it is best used when you have some real world data, but no clear idea, but when when we do not have clear idea how to define the fuzzy set in that type of input. So, for that we can also use the inductive reasoning like I have taken one example from the hospital which is written here data from the hospital patient is used to create a fuzzy rule for the disease diagnosis means the previous data large data set hospitals have. So, with the help of data we will try to create the fuzzy rule for the disease diagnosis because in a hospital many many types of patient come from the past years if hospital is old then with the help of that data we will try to create fuzzy rules for the disease diagnosis. So, basically now again I have taken example for the inductive reasoning case. So, first our first step is to collect the training data which is basically temperature versus comfort level it is means I have taken example in which certain temperature is there we have taken some the comfort level on the basis of that temperature means how many peoples are comfort in that type of temperature. So, we have made a table like for 20 degree for 20 for 20 degree temperature for for 20 degree temperature 0.4 0.4 is the comfort level and for 22 0.7 is the comfort level for that and for 24 degree 0.1 is the best comfort level and in the in the in that case when temperature is at 24 degree Celsius same for 0.8 26 degree Celsius is the comfort level for 28 degree Celsius 0.5 is the comfort level. So, whatever what are what are the steps first one is we have to collect the training data that is in the in the in that example that is temperature versus comfort level. Now we have to identify the pattern based on the people feel like for that example we have to identify the pattern certain patterns like in between we have if we I will draw a curve in between 20 to 28 might be there is 20 and might be there is 28. Now we have to draw a graph in between and so, that it will it will clear us what type of membership function we have to take for our input these are our inputs. Now on the basis of that we will how what type of membership function we have to create like for 20 degree we have 0.4 for now 22 is in between here there 0.7 then for 24 it is 1 then again for 26 it is 0.8 and then for 28 it is 0.5. So, if I will draw a graph or it if I want to identify a certain pattern for that. So, we have to create a fuzzy set from the that pattern. So, I will it will look like a bell shape means that type of fuzzy membership function we will take for that type of data. So, with that is the example of inductive reasoning how we will take how we will judge which membership function we have to take for that input all type of members not all we have already learned about the maximum types of membership function like triangular trapezoidal bell shape that type of membership function we have already learned in the previous lecture. So, in so this is the last method for the fuzzification. Fuzzification means you are converting your crisp input to the fuzzy input or you are converting your crisp set to the fuzzy set with the help of a fuzzification. Fuzzification is the method which convert your crisp input to the fuzzy input. Fuzzy input means membership function value what type of membership function value you have to take either triangular trapezoidal bell shape many type of membership function we have already learned in the previous lecture. So, this is the step where we will convert your input to the fuzzy input. So, basically this is the bell shape fuzzy set for comfortable temperature can be generated this type of membership function you can take for this types of input if you have. Now, we come to the next step that is the another method that is defuzzification it is completely reverse of fuzzification it is completely opposite of fuzzification. In fuzzification you are converting crisp to fuzzy in the case of defuzzification you are converting your fuzzy output to the crisp output basically it is the last step of fuzzy logic architecture. So, first step of fuzzy logic architecture is you are putting your you are feeding your input to the system. So, what system will do first step it will convert your input to the fuzzy input fuzzy set or basically it will map your input to the fuzzy set. Now, what is the last step after doing all the rule or rule interference and all the things all the operations for the fuzzy logic controller what is the output its output again comes in the in the in the in the form of fuzzy set, but we are not able to understand what not understand we are not able to understand what is the what it means. So, what we will do again we will do one step that it which is the reverse of fuzzification what we will do we will convert again this output of fuzzy set to the crisp set this is the last step. So, defuzzification is the final step in the fuzzy logic control it what it do it will convert the fuzzy output set which which fuzzy logic controller gives then with into a single crisp value we are converting this fuzzy output set into a single crisp value that that can be understable for the real world situation. Now, what motor have to do for what temperature AC have to set that type of output we can generate after the defuzzification or we are able to understand after the defuzzification step before the defuzzification fuzzy logic control give the output in the form of fuzzy set that output is not not understable by us or not understable by our actuators in which we are using for which for that we are using that fuzzy logic controller. So, what we will do in the last step you are converting that fuzzy output to the crisp output. So, just like fuzzification map your crisp input the fuzzy value defuzzification does the reverse it will map your fuzzy output to the crisp output. So, now, why we need fuzzification I already told you that in real world system only crisp value can be applied to the our actuators for that we are using fuzzy logic controller they only understand the crisp output it is like like a for a heater he does not know what is that triangular membership function means what the output because in fuzzy set if a first it will convert your crisp input to the fuzzy fuzzy fuzzy set fuzzy set means it will convert your input it will map or we can say I can say it will map your input to the any triangular membership function if I am taking now output also come in the similar way output come in that way. So, now, our heater or our geyser or for any application if we are using fuzzy logic controller then that geyser or heater or pump is not able to understand that. So, again we have to convert that output into the crisp output. So, that heater is able to understand how much temperature he have to he have to he have to take same for the pump or same for the engine or for any actuators which you are using the fuzzy logic controller. So, basically fuzzy interference result in a fuzzy set like a medium high speed that type of output that type of output is there, but it is not understable our actuators. So, what we will do we will convert this to a usable crisp value which will understand which will be understable for us or for the actuators like if it is if we are using it for some motors then it is output should be like 70 rpm or 25 degree Celsius. 70 rpm if it is a motor then it means the output output the final speed of the motor should be at 70 rpm if we are using that fuzzy logic controller for any for any for in an application in which you are controlling any motors or generator in that case the output should be your 70 rpm this is the final output. For certain conditions we have given as a input like if you have induction motor then you have feed the input data like stator current you have feed or any stator voltage you have feed then based on this analysis it gives you an output for that that much of voltage for that much of or stator current the best rotation the best speed should be 70 rpm I am taking an example. Again similarly for the if I am taking an example of a geyser or any refrigerator then what should be the best temperature for that so we will not able to understand what it means so we will convert that to a crisper value which will be understable which will be understandable for us or for any actuators basically. So this is our fuzzy logic architecture we have seen in our previous classes this is the fuzzification module this is our fuzzification module means this is the first step for that we have learnt 5 to 6 methods now we are going to learn the defuzzification module means converting fuzzy output to the crisp output. So basically these are the common some defuzzification methods are there with the help of that methods what we will do we will convert our crisp we will convert our fuzzy output to the crisp output basically these methods we will use and 8 to 10 methods are there first one is the lambda cut method then these methods are also known as maxima method in combination we will write it as maxima these basically 3 methods are known as the maxima method first one is first of maxima method last of maxima mean of maxima ok I have written 2 times mean of maxima no show then the next method is weighted average method then center of some and center of gravity method these both methods are also known as centroid method or we can say these both methods comes in the category of centroid methods. So first one is now we will go to the first method for that one is lambda cut method so lambda cut method whatever we will do basically it will convert your fuzzy output to a crisp output but not but that specifically that method that lambda cut method do not convert your fuzzy output to a exact crisp value basically what we will do it will give you an interval ok your output will lies in between 30 to 40 if I am for explaining I am taking an example so it with that lambda cut method will give you a range your output should be lies in between 20 to 30 in between an interval 30 to 40 that type of output value it will give so lambda cut method it is also called as alpha cut or level cut it is a technique basically which is used to extract the crisp set from the fuzzy set that is the same thing we are converting your our fuzzy set to a crisp set instead of in this method instead of giving us single crisp value it will gives an interval or a crisp subset for the fuzzy set by cutting it horizontally at a specific membership function value I will explain this thing what it means how we will cut it horizontally or a specific membership function what it means I will tell you in a later slide so basically but this method are the less common method because it does not give you a exact value for that it will give you a range in between basically I can say it will gives you a range of maximum to minimum ok 20 is minimum 30 is maximum in between your answers should be like so it gives the result in that way after that again you have to apply some other method to convert that interval to a some specified value and that we have seen in the list different type of classification method after the lambda cut method again we have to apply one more method it may be centroid method it may be average method you have to apply to find the output for that ok so basically it is less common method like for the centroid or mean of maximum which we will learn later so basically it is useful in the case of application which requires a focus on high membership function value or when a when a computation simplicity is needed when this method is used in that application where you will require a focus only on the high membership function value in that type of application you can use that method or when you require a simple computational simplicity required basically I can say you do not require any complex problem to convert your fuzzy to Kirras so in that way if you require simplicity you can use that methods ok so in that method what we will do we have to define a level that is lambda which is which value should be in between 0 and 1 and then we have to select all the element in the fuzzy set whose membership function are value greater than the lambda or equal to lambda this is the basically this is the main this is the main mathematical form of form mathematical formula for that lambda cut method means it will consider only that membership functions value whose value is greater than alpha sorry lambda if it if any function is there whose value is less than lambda then it will not consider for the output we will see with the help of some example so this is the this is the mathematical mathematical expression that is a lambda x belongs to x you can see that membership function should value should be greater than lambda that lambda you have to decide how much value you have to take like where lambda is a chosen threshold which you will decide what its value should be how much membership how much greater membership function value we are desired for whether it is 0.5 it is or whether it is 0.7 you have to decide and then mu f of x again it is a membership function value and a is our resulting crisp that is our output crisp output means now we are converting our fuzzy output to the crisp output. So suppose we have taken a fuzzy set for temperature which is defined as these are in first column in first column temperature is there then first column our temperature is there and in second column we have the membership function value for that temperature like for 20 degree Celsius 0.2 membership function value is there for 25 0.4 for 30 0.6 and for 35 0.8 and for 40 0.1 so basically these are the membership function values for the certain temperature now what we have to do we have to choose some lambda values so what we let we have chosen our lambda value 0.6 now what will not what will what will this lambda curve method will do it will it will take the value it will take those only those values whose membership function is greater than 0.6 or equal to 0.6 so basically these three are there whose membership function value is greater than 0.6 so now what is our alpha cut set or what is our crisp output set that is 30 35 40 so again I have already said to you that it gives you a range in between you have now you have got the range that is 30 to 40 or 30 35 40 are the elements which will contribute to the output set now again you have to use some diversification methods after that to convert or to get a specific specific crisp output value okay so now how we will take you can take any method like if I will give an example like weighted average method you can take or any any midpoint method you can take how we will find the output now you have to take the average of that now that is give you the specified output for that fuzzy input fuzzy output basically means now you that answer is your crisp output okay so this is first method that is lambda cut method or if I will explain you with the help of I will explain you with the help of some figure like if you are like again said like if this is our output like trapezoidal output I have in output side if we have got some trapezoidal wave is there if we got that so now we have to decide a horizontal cut means like that is 0.6 then above then these values are these are the ranges which we will have to use for output or which we will choose or we will or basically I can say these are the value that contribute to our crisp output in the case of lambda cut method to that type of horizontal cut is written there okay in the case of membership function value any membership function any membership function you can take it may be triangular I have taken you can take any example of trapezoidal or any other you can take so where we can use a lambda method when we need a range of possible output not just one value in that case when we do not want any single value when we want the range of possible output in that case we will use lambda cut method in system where interval based control is acceptable in that case we will use that lambda cut method or when we want a simplifying fuzzy output not any complex method for that. Now second method comes to the maxima based fuzzy defuzzification method it comes in the category maxima based defuzzification method so in what we will do in this method these met in this method what we will do we will take the peak values of the membership function we do not have to take we not have to consider all the membership function value we will consider only that membership function whose membership function value is highest so what we will do it will select with the maximum membership maximum membership degree I can say so it is very simple and fast and which will be used in mainly in the application of embedded systems. So these are the three types or these are the three category of the defuzzification maxima method of defuzzification that is our second method and this first one is the first of maxima second is last of maxima and third one is mean of maxima so we will try to cover all these defuzzification method in the next lecture. Thank you."
+}

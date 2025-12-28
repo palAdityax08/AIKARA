@@ -1,0 +1,3064 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 0.0,
+            "end": 18.0,
+            "text": " So, hello everyone again I welcome you all to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 18.0,
+            "end": 23.080000000000002,
+            "text": " machine learning techniques I am your instructor for this course now today's our lecture number"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 23.080000000000002,
+            "end": 28.72,
+            "text": " is four so in this lecture we will cover the following topics first we will see the theoretical"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 28.72,
+            "end": 32.96,
+            "text": " operations on the fuzzy sets then we will discuss the type of operation what are the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 32.96,
+            "end": 37.08,
+            "text": " type of different types of fuzzy operations are there like complement operation union"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 37.08,
+            "end": 42.239999999999995,
+            "text": " operation intersection operation and then the difference operation was but before applying"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 42.239999999999995,
+            "end": 46.84,
+            "text": " that type of operation first we will try to understand the basic which is related to the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 46.84,
+            "end": 49.32,
+            "text": " fuzzy sets theoretical notations."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 49.32,
+            "end": 55.8,
+            "text": " So, this is basically the basic notation we will use in set theory like if we have two"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 55.8,
+            "end": 63.92,
+            "text": " sets A and B which is which is is under the in the universal set X. So, if X belongs to"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 63.92,
+            "end": 70.39999999999999,
+            "text": " a universal set X then we will write with the help of X belongs to X with the help of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 70.39999999999999,
+            "end": 75.47999999999999,
+            "text": " that epsilon symbol. Now if X belongs to a set A then again we will write with the help"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 75.47999999999999,
+            "end": 81.4,
+            "text": " of that symbol X belongs to A you can see that I will take the pointer."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 81.4,
+            "end": 89.16000000000001,
+            "text": " So, that you can understand better with the help of that symbol we will denote that that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 89.16000000000001,
+            "end": 95.76,
+            "text": " that set belongs to the that bigger set if that X belongs to a set A then we will write"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 95.76,
+            "end": 103.64000000000001,
+            "text": " X belongs to A. Now if X if X does not belongs to B if X does not belong to A then we will"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 103.64000000000001,
+            "end": 110.56,
+            "text": " write X does not belong to we will what we will do we will just cut that epsilon symbol"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 110.72,
+            "end": 114.60000000000001,
+            "text": " and that shows that the X does not belong to that set."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 114.60000000000001,
+            "end": 121.60000000000001,
+            "text": " Then our next is A is a subset of B A means if A contains the if A contains that element"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 121.60000000000001,
+            "end": 125.76,
+            "text": " which are also present in the B then what we will do we will write that A is a subset"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 125.76,
+            "end": 131.36,
+            "text": " of B means B is a larger larger function which contains many number of elements then A is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 131.36,
+            "end": 135.84,
+            "text": " a A is a set which contains some elements of the B then what we will do we will write"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 135.84,
+            "end": 142.92000000000002,
+            "text": " that A is a subset of B and we will show with the help of that symbol that symbol we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 142.92000000000002,
+            "end": 147.76,
+            "text": " will show that that set is a subset of that another set."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 147.76,
+            "end": 151.64000000000001,
+            "text": " Now if the two sets are equal then what we will write we will write with the help of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 151.64000000000001,
+            "end": 157.64000000000001,
+            "text": " that A equal to B means A and B are the equal set that the number of elements are in A is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 157.64000000000001,
+            "end": 161.72,
+            "text": " same as the number of elements are in B means in both the element the number of elements"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 161.72,
+            "end": 166.48,
+            "text": " are same then we will show with the help of equality sign A is equal to B it means"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 166.48,
+            "end": 173.07999999999998,
+            "text": " A and B are both equal sets and phi represents an empty set empty sets if no element is present"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 173.07999999999998,
+            "end": 177.36,
+            "text": " in that set then we will represent with the help of that phi which represents an empty"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 177.36,
+            "end": 178.8,
+            "text": " sets."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 178.8,
+            "end": 182.56,
+            "text": " Now again some basic term that is equality of fuzzy set means what is the meaning of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 182.56,
+            "end": 188.36,
+            "text": " equality in the case of fuzzy sets let we have two sets A and B if they are equal then"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 188.36,
+            "end": 193.0,
+            "text": " what are what are the condition the same element should be present in both the sets"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 193.0,
+            "end": 197.4,
+            "text": " and the same membership function value for the each element means the first condition"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 197.4,
+            "end": 201.56,
+            "text": " is that the elements present in both the set should be equal and then the second condition"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 201.56,
+            "end": 208.0,
+            "text": " is the membership function for that element should also be same then only we can set that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 208.0,
+            "end": 213.92000000000002,
+            "text": " that the two fuzzy set A and B are equal mathematical we will represent with the symbol equality"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 213.92,
+            "end": 219.64,
+            "text": " then A is equal to B when when when the membership function values for the number of elements"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 219.64,
+            "end": 224.56,
+            "text": " of the set A should be equal to the membership function values for the set B for the same"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 224.56,
+            "end": 229.2,
+            "text": " variables for the same generic variables ok let under let us understand with the help"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 229.2,
+            "end": 235.32,
+            "text": " of a example that example is I have taken for that discrete type of fuzzy set ok let"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 235.32,
+            "end": 240.76,
+            "text": " we have two set A which contains one which contains three three elements one two three"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 240.76,
+            "end": 245.32,
+            "text": " and then their membership function is also written like for the one element the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 245.32,
+            "end": 250.56,
+            "text": " function values 0.7 for the two variable the membership function value is 0.5 for three"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 250.56,
+            "end": 256.94,
+            "text": " the membership function value is 0.2. now another set B which which contains the same"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 256.94,
+            "end": 261.12,
+            "text": " element one two three and you can see that the membership function values for all these"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 261.12,
+            "end": 266.08,
+            "text": " three elements are also same so we can say that the membership function values are the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 266.08,
+            "end": 272.03999999999996,
+            "text": " same for all the variables of the X, then A is equal to B, then only the two fuzzy sets"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 272.03999999999996,
+            "end": 277.08,
+            "text": " are equal. If these two conditions meet first, the both the both in both the set, the variable"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 277.08,
+            "end": 282.0,
+            "text": " should be same and for that variables, the membership function value should also be same,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 282.0,
+            "end": 288.96,
+            "text": " then only that two fuzzy sets are equal. If the membership function values for any differ"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 288.96,
+            "end": 293.76,
+            "text": " for any X, then what we will do, we will write A does not equal to B means all the elements"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 293.76,
+            "end": 298.03999999999996,
+            "text": " are same, but their membership function values are not same, then what we will write, we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 298.03999999999996,
+            "end": 302.56,
+            "text": " will write A does not equal to B. I will take one example, so that you can understand in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 302.56,
+            "end": 303.56,
+            "text": " better manner."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 303.56,
+            "end": 316.0,
+            "text": " Let we have two set, first one is that U that X that Y axis represent the membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 316.0,
+            "end": 321.24,
+            "text": " values and then X represent the variable. So, I have taken a continuous fuzzy set in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 321.24,
+            "end": 329.44,
+            "text": " that case, that A, let that one is B and that that one is I have taken four values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 329.44,
+            "end": 344.76,
+            "text": " in that continuous fuzzy sets. Now, I will draw, that is another B set for different"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 344.76,
+            "end": 352.96,
+            "text": " variables of the X. Now, this is A point, this is C point and that point is B 1 and"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 352.96,
+            "end": 363.4,
+            "text": " that point is B 2. Same for that, might be that that value I can randomly taking that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 363.4,
+            "end": 368.59999999999997,
+            "text": " 0.5 and, but the higher value is membership function is value of 1."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 368.59999999999997,
+            "end": 373.71999999999997,
+            "text": " Now, now these are the two continuous functions, two continuous fuzzy sets, first one is A"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 373.72,
+            "end": 378.56,
+            "text": " set and second one is B set with the help of that figure you can see. Now, you can find"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 378.56,
+            "end": 384.96000000000004,
+            "text": " first, whether these two functions are equal set or not. You can pause the video and find"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 384.96000000000004,
+            "end": 391.72,
+            "text": " that, whether these two functions, these two fuzzy sets are equal or not. Like, if, but"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 391.72,
+            "end": 398.32000000000005,
+            "text": " if you will see, that in the case of all the variables are same A B 1 B 2 C, A B 1 B 2"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 398.32,
+            "end": 404.36,
+            "text": " C in the case of second, second set are also same. But now, if you will focus on the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 404.36,
+            "end": 408.92,
+            "text": " function over that, like for the for the point A, the membership function value is same."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 408.92,
+            "end": 413.96,
+            "text": " For the for the A set also it is 0, for the B set it is also 0. At the point C also the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 413.96,
+            "end": 419.6,
+            "text": " membership function value is same 0 0 in the in both the sets, but at the point B 1, if"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 419.6,
+            "end": 425.6,
+            "text": " you can see in the case of set A, the membership function value for the for the point for the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 425.6,
+            "end": 431.36,
+            "text": " generic variable B 1, the membership function value is 1. But in the case of set B, the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 431.36,
+            "end": 437.36,
+            "text": " membership function value for the B 1 is 0.5. So, means the values of the variables are"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 437.36,
+            "end": 441.84000000000003,
+            "text": " same, but their membership function values are different in both the set. Then what we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 441.84000000000003,
+            "end": 448.12,
+            "text": " will do? We will write that A does not equal to B, means their two sets are unequal fuzzy"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 448.12,
+            "end": 455.12,
+            "text": " sets. Are you, you understand that? Now, what is the subset in fuzzy set or in another name"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 455.64000000000004,
+            "end": 461.32000000000005,
+            "text": " is containment in fuzzy set. So, A fuzzy set, A is a subset of fuzzy set B, if the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 461.32000000000005,
+            "end": 465.88,
+            "text": " function value of A are always less than or equal to those of B for all the way for the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 465.88,
+            "end": 470.88,
+            "text": " all the values of x in the universal set. Means, if A is only only function only a subset"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 470.88,
+            "end": 476.84000000000003,
+            "text": " of fuzzy set B, if the membership function values of that A's for all the variables are"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 476.84000000000003,
+            "end": 482.72,
+            "text": " less than or equal to those of B. This is the condition, then only we can say that that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 482.72,
+            "end": 488.48,
+            "text": " the mu of A means A set is a subset of B. Means, the membership function for all the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 488.48,
+            "end": 494.44000000000005,
+            "text": " variables of fuzzy set A should be less than or equal to the membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 494.44000000000005,
+            "end": 500.36,
+            "text": " for the set B. With the help of that expression, you can also see that the membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 500.36,
+            "end": 504.68,
+            "text": " values for the A set is less than or equal to for the membership function values of the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 504.68,
+            "end": 509.6,
+            "text": " set B for all the values of the x, x belongs to the whole values of the x."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 509.6,
+            "end": 517.48,
+            "text": " Now, let us consider an example that we have two discrete types of set. First one is A,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 517.48,
+            "end": 521.5600000000001,
+            "text": " which contains the four variables 1, 2, 3, 4 and their membership function values also"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 521.5600000000001,
+            "end": 526.48,
+            "text": " also given in the question that for the 1, 0.2 is the membership function value, for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 526.48,
+            "end": 533.08,
+            "text": " 2, 0.4 is the membership function value, for 3, 0.6, for 4, 0.8 in the case of set A. Similarly,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 533.4000000000001,
+            "end": 543.2,
+            "text": " of B, 0.5, 0.6, 0.6, 0.9 in the case of B sets. Now, you can see that the all the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 543.2,
+            "end": 548.2800000000001,
+            "text": " function values and all the variables are same in the case of set A and set B, then"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 548.2800000000001,
+            "end": 554.2800000000001,
+            "text": " all the membership function values for that variables is all is less than the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 554.2800000000001,
+            "end": 558.84,
+            "text": " function values for the set B. Means, all the membership function of values of A is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 558.84,
+            "end": 563.02,
+            "text": " less than the membership function of values b, then we can conclude that A is a subset"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 563.02,
+            "end": 566.4,
+            "text": " ok. I will explain with the help of an continuous"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 566.4,
+            "end": 570.9200000000001,
+            "text": " subset like in the previous example, in the previous case which I have taken like we take"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 570.9200000000001,
+            "end": 576.12,
+            "text": " some graph, so that you can also understand in the case of the continuous set ok, that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 576.12,
+            "end": 579.96,
+            "text": " the example is from the discrete types of set, in different type of values we have given"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 579.96,
+            "end": 592.72,
+            "text": " ok. So, that this is the membership function value, this is the definite variable and this"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 592.72,
+            "end": 603.14,
+            "text": " is the A, this is the B ok. Now, you can take this graph and understand"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 603.14,
+            "end": 608.76,
+            "text": " in the case of continuous fuzzy set, now you can see both the both the variables for the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 608.76,
+            "end": 613.16,
+            "text": " both the sets are equal like if you can take any variable, then that variable also same"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 613.16,
+            "end": 619.4,
+            "text": " for that this point is for the B set, this point is for the A set, same for that values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 619.4,
+            "end": 627.3199999999999,
+            "text": " like if randomly I am given A 1, B 1, then this is C 1, obviously this is 1 and this"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 627.3199999999999,
+            "end": 634.88,
+            "text": " is might be 0.8, then again you can take. In both the cases, if you will see deeply,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 634.88,
+            "end": 642.84,
+            "text": " then you can find that the membership function for the B set is always less than the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 642.84,
+            "end": 648.28,
+            "text": " function values for the A. So, we can say that the A contains B and C or B is a subset"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 648.28,
+            "end": 652.88,
+            "text": " of the A, because it also because for all the variables it is having a membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 652.88,
+            "end": 656.56,
+            "text": " value less than the membership function values for the set A."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 656.56,
+            "end": 664.44,
+            "text": " Now, we come to the operations on the fuzzy set, so we will study 4 different types of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 665.0,
+            "end": 669.2,
+            "text": " fuzzy set, which is basically most common types of operations like first one is the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 669.2,
+            "end": 674.0,
+            "text": " complement operation, second one is the union, then third one is intersection, then fourth"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 674.0,
+            "end": 677.6800000000001,
+            "text": " one is fourth one is last one is difference type difference option. First we will study"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 677.6800000000001,
+            "end": 681.8000000000001,
+            "text": " the complement of the fuzzy set, so what is complement? So, the complement of of a fuzzy"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 681.8000000000001,
+            "end": 687.6,
+            "text": " set in a universal universal set X is denoted by the A dash, similarly you have studied"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 687.6,
+            "end": 691.44,
+            "text": " that type of things in your digital digital electronic subject or any any or any other"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 691.44,
+            "end": 694.36,
+            "text": " subject in which you have learned about the crisp type of set."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 694.36,
+            "end": 698.96,
+            "text": " So, in the in the case of fuzzy set also we will represent the complement with the help"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 698.96,
+            "end": 710.32,
+            "text": " of a A dash or A bar, I forgot to mention the sign here, this is A bar A dash or A bar"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 710.32,
+            "end": 714.32,
+            "text": " that represent the complement. Now, in the case of fuzzy set what is the complement means"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 714.32,
+            "end": 720.2,
+            "text": " the complement of A means all the if if we will write the complement of A in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 720.24,
+            "end": 725.2800000000001,
+            "text": " of that fuzzy sets, then it is it contains the membership function value should be subtracted"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 725.2800000000001,
+            "end": 730.5600000000001,
+            "text": " by 1 means the membership function value of each element in the complement set is obtained"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 730.5600000000001,
+            "end": 735.6400000000001,
+            "text": " by subtracting the membership function value of A from 1 means what is the values of membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 735.6400000000001,
+            "end": 740.5200000000001,
+            "text": " function of value of set A should be subtracted from the 1, then only you will get the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 740.5200000000001,
+            "end": 747.48,
+            "text": " function values for the A bar or A complement. Now, now I will explain with the help of the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 747.48,
+            "end": 752.04,
+            "text": " crisp set, so that you can understand better. Now, in a in a classical set what we will"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 752.04,
+            "end": 755.8000000000001,
+            "text": " do the complement set consists of all the elements in the universal set that are not"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 755.8000000000001,
+            "end": 760.24,
+            "text": " in the given set understand with the help of the figure like U is a universal set which"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 760.24,
+            "end": 764.32,
+            "text": " contains all the variables and now A is a simple set which is I have shown with the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 764.32,
+            "end": 767.8000000000001,
+            "text": " help of a circle. Now, what the complement of that that values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 767.8000000000001,
+            "end": 772.84,
+            "text": " which are not a part of the A that is the complement of A that values are should be"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 772.84,
+            "end": 778.8000000000001,
+            "text": " part of the universal set X, but should not be part of the that set A, then only we will"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 778.8000000000001,
+            "end": 784.0,
+            "text": " say that that A bar is the remaining element which are not represent in the A understand"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 784.0,
+            "end": 788.72,
+            "text": " will understand with the help of some discrete type of example like if A is a set which are"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 788.72,
+            "end": 794.76,
+            "text": " having values 1 2 3 and X is the total disclosure set which contains the values 1 2 3 4 5, then"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 794.76,
+            "end": 800.32,
+            "text": " what is the A bar A bar means A complement means the values which are not present in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 800.32,
+            "end": 803.9200000000001,
+            "text": " the set A. So, 1 2 3 are present in the 1 2 3 values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 803.9200000000001,
+            "end": 808.44,
+            "text": " are present in the set A it means the complement for the A that values which are not present"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 808.44,
+            "end": 812.6,
+            "text": " in the A that is the remaining values that is 4 and 5 with the help of example you can"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 812.6,
+            "end": 818.9200000000001,
+            "text": " understand very clearly. Now, we come to the complement of fuzzy set. So, we have seen"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 818.9200000000001,
+            "end": 823.72,
+            "text": " already that the complement of fuzzy set A is defined by the mu dash A X means the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 823.72,
+            "end": 828.6400000000001,
+            "text": " function values for the A complement is equal to 1 minus the membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 828.64,
+            "end": 833.08,
+            "text": " that are for the A set ok. Let understand with the help of example like"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 833.08,
+            "end": 838.8,
+            "text": " if A is a is a fuzzy set which are having 3 variables 1 2 3 and their membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 838.8,
+            "end": 843.1999999999999,
+            "text": " values are also written in the example for 1 0.2 is the membership function value for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 843.1999999999999,
+            "end": 848.04,
+            "text": " 2 0.5 is the membership function value for 3 0.8 is the membership function value ok."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 848.04,
+            "end": 852.24,
+            "text": " Now, what is the if we will write if we want to write the complement of A in the case of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 852.24,
+            "end": 857.28,
+            "text": " fuzzy set then variable are same 1 2 3, but their membership function value is change"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 857.28,
+            "end": 861.8,
+            "text": " we have to obtain the membership function value by subtracting the present membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 861.8,
+            "end": 870.36,
+            "text": " function value of set A from the 1. So, 1 minus 0.2 is 0.8 1 minus 0.5 is 0.5 and 1"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 870.36,
+            "end": 876.16,
+            "text": " minus 0.8 is 0.2 for all the 3 variables. So, that from that way you can write the complement"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 876.16,
+            "end": 881.0799999999999,
+            "text": " of the set A in the case of fuzzy sets ok. Now, with the help of figure you can see that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 881.0799999999999,
+            "end": 886.52,
+            "text": " in the case of continuous set if you will see that we I have taken 2 example first one"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 886.76,
+            "end": 893.76,
+            "text": " if you will see that example which is at the left side ok that example if you can see I"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 893.76,
+            "end": 898.52,
+            "text": " have taken 2 variable 1 variable that is young means young is having a membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 898.52,
+            "end": 906.28,
+            "text": " value here is the graph ok this is the this these shows the membership function value"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 906.28,
+            "end": 912.28,
+            "text": " and this is the different different variables. So, you can see that the young in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 912.28,
+            "end": 919.36,
+            "text": " of 0 to 25 is 1 the membership function values for that 0 to 25 is 1 and after that 25 its"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 919.36,
+            "end": 924.24,
+            "text": " value is continuously gradually decreasing from 25 to 40 and after 40 its value value"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 924.24,
+            "end": 929.0,
+            "text": " is is is 0 that membership function value after 40 is 0."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 929.0,
+            "end": 934.0,
+            "text": " Now, if we have to find the complement for that for that time when their membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 934.0,
+            "end": 938.3199999999999,
+            "text": " is value is 1 means the complement of A's membership function value is 0 because we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 938.32,
+            "end": 944.0,
+            "text": " have to subtract it from the 1 the 1 minus 1 is 0. So, for that set for the that complement"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 944.0,
+            "end": 951.32,
+            "text": " set their membership function value is 0 ok. Now, similarly if that value is 1 1 minus"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 951.32,
+            "end": 960.2,
+            "text": " 1 minus 1 0 let that values 0.8 then 1 minus 0.8 is 0.2. So, both are in the same same"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 960.2,
+            "end": 964.96,
+            "text": " plane means we have to obtain the membership function values for that complement by subtracting"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 964.96,
+            "end": 970.4000000000001,
+            "text": " it from 1 that is 1 figure and same for the from the second figure you can also understand"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 970.4000000000001,
+            "end": 976.1600000000001,
+            "text": " that for from that figure if A is that membership function A is that membership function value"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 976.1600000000001,
+            "end": 980.48,
+            "text": " then with the how we have to find the complement by subtracting all the membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 980.48,
+            "end": 986.2,
+            "text": " for that function from 1 with the help of that you can find the complement of that set."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 986.2,
+            "end": 991.2,
+            "text": " Now, we comes to the another another operation that is the union of fuzzy sets. So, first"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 991.2,
+            "end": 995.24,
+            "text": " we will understand that what is the union meaning in the case of classical set then"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 995.24,
+            "end": 1002.6600000000001,
+            "text": " we will compare we will take that extend that method to the fuzzy set ok. So, in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1002.6600000000001,
+            "end": 1009.0400000000001,
+            "text": " of union of 2 classical sets A and B all the element that belongs to either A or B or both"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1009.0400000000001,
+            "end": 1014.4000000000001,
+            "text": " we have to take and if we want to find the union A of A union B and we have to take all"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1014.4000000000001,
+            "end": 1018.5600000000001,
+            "text": " the element that are in that are present in the set A also and that are present in the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1018.92,
+            "end": 1025.28,
+            "text": " set B also. So, that is the mathematical representation in the case of crisp set or classical set"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1025.28,
+            "end": 1030.6,
+            "text": " you can say then A union B is x, x is that value which contains the variable of A and"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1030.6,
+            "end": 1036.56,
+            "text": " all the variables of the B x should be belongs to A also A and x also should be belong to"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1036.56,
+            "end": 1041.52,
+            "text": " B set that is in the case of fuzzy set. Let us understand with the help of example"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1041.52,
+            "end": 1045.76,
+            "text": " that A is the set which is contains the variables 1 2 3 and B is the set which contains the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1045.76,
+            "end": 1050.6,
+            "text": " variable 3 4 5 then what is the A union B A union B should contains all the elements"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1050.6,
+            "end": 1057.04,
+            "text": " of the A and all the elements of the B then what is A union B it is 1 2 3 4 5 all the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1057.04,
+            "end": 1060.72,
+            "text": " element we have taken all the elements of A and we have taken all the elements of B"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1060.72,
+            "end": 1068.16,
+            "text": " and with the help of that figure also you can see that like A and B are the 2 circular"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1068.16,
+            "end": 1073.36,
+            "text": " sets then what is the value of A union B all the shaded portion in orange represent the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1073.36,
+            "end": 1079.4799999999998,
+            "text": " A union B all the elements of the A and all the elements of the B represent the union"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1079.4799999999998,
+            "end": 1086.9199999999998,
+            "text": " of that and that means all that that all portion that all orange color portion shows the A"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1086.9199999999998,
+            "end": 1092.4399999999998,
+            "text": " union B all the elements of A and all the elements of B we have to take in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1092.4399999999998,
+            "end": 1095.56,
+            "text": " of union. Now, we will extend this to the in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1095.56,
+            "end": 1101.0,
+            "text": " of fuzzy sets in fuzzy set the union operation is determined by the maximum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1101.0,
+            "end": 1106.6,
+            "text": " value for each element in the universal set means for both the set for the A set and for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1106.6,
+            "end": 1113.16,
+            "text": " the B set what we have to do we have to take the maximum membership function for that both"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1113.16,
+            "end": 1120.0,
+            "text": " the set ok no issue we will understand with the help of a example so that is the mathematical"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1120.0,
+            "end": 1126.08,
+            "text": " representation we have to find the membership function value for the A union B then what"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1126.08,
+            "end": 1132.0,
+            "text": " we will do we will take the maximum of the membership function value for the A set or"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1132.0,
+            "end": 1136.04,
+            "text": " for the B set whatever the maximum membership function value is available for that generic"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1136.04,
+            "end": 1140.48,
+            "text": " variable in the case of A set in the case of B set we will take that maximum membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1140.48,
+            "end": 1144.24,
+            "text": " function value for that we will understand with the help of example no issue."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1144.24,
+            "end": 1150.6,
+            "text": " So that is the example if I have taken we have 2 sets members first set is A and another"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1150.6,
+            "end": 1154.96,
+            "text": " set is B I have directly I have not taken the variables name variables should be you"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1154.96,
+            "end": 1162.0,
+            "text": " can take 1 2 3 4 4 1 variable in the case of fuzzy set A ok I will write like I have"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1162.0,
+            "end": 1168.08,
+            "text": " taken I have directly write the membership function values here let we have 4 variables"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1168.08,
+            "end": 1174.48,
+            "text": " 1 2 3 4 for 1 the membership function value in the case of set A is 0.3 for 2 in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1174.48,
+            "end": 1180.48,
+            "text": " of fuzzy set A 0.6 in the case of 3 0.9 in the case of 4 0.5 that all are represent the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1180.48,
+            "end": 1184.08,
+            "text": " membership function values for different types of 4 elements ok."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1184.1999999999998,
+            "end": 1189.52,
+            "text": " Now in the case of B set same for the A the membership function value 0.4 for 2 0.5 for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1189.52,
+            "end": 1196.52,
+            "text": " the 3 0.7 and for 4 0.6 now we have to find the union means in membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1196.52,
+            "end": 1204.96,
+            "text": " for the A union B set ok so that represent the that represent the mu of A union B means"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1204.96,
+            "end": 1210.72,
+            "text": " now we are finding the new set that is A union B now what we have to do we have to take the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1210.72,
+            "end": 1215.48,
+            "text": " maximum values for the generic variables like for the 1 for the case of that 1 the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1215.48,
+            "end": 1219.48,
+            "text": " membership function values in the case of A set is 0.3 in the case of 0.4."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1219.48,
+            "end": 1226.32,
+            "text": " So, I have written all that maximum of 0.3 comma 0.4 we have only 2 sets available in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1226.32,
+            "end": 1232.1200000000001,
+            "text": " the in that question now same for the 2 we have taken 0.6 0.5 0.6 for the A set 0.5 for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1232.1200000000001,
+            "end": 1237.24,
+            "text": " the B set and same for the variable 3 we have this is for the variable 1 this is the for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1237.24,
+            "end": 1242.92,
+            "text": " the variable 2 this is for the variable 3 and this is for the variable 4 these are"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1242.92,
+            "end": 1247.2,
+            "text": " these are the 4 variables are and then we have we have taken the taken the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1247.2,
+            "end": 1252.0,
+            "text": " function values for in the case of both the sets now what we will do we will take that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1252.0,
+            "end": 1258.08,
+            "text": " values which are maximum like for set for variable 1 the membership the maximum membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1258.08,
+            "end": 1262.36,
+            "text": " function value is available in the case of B set then we will take that because 0.4 is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1262.36,
+            "end": 1269.84,
+            "text": " greater than 0.3. So, we have taken that 0.4 0.4 for the 1 now in the case of 2 0.6"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1269.84,
+            "end": 1274.76,
+            "text": " is greater than. So, we have taken for that for the variable 2 the maximum membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1274.76,
+            "end": 1279.76,
+            "text": " function value is available is 0.6 similarly in the case of 3 the maximum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1279.76,
+            "end": 1284.76,
+            "text": " value is available is 0.9 and similarly for the fourth one the maximum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1284.76,
+            "end": 1289.4399999999998,
+            "text": " value is available is 0.6 I hope you have understand with the help of that example in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1289.44,
+            "end": 1294.28,
+            "text": " a better manner what is the meaning of union in the case of fuzzy set or how we find the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1294.28,
+            "end": 1300.3600000000001,
+            "text": " union in the case of fuzzy set I will explain you again with the help of the it contains"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1300.3600000000001,
+            "end": 1304.92,
+            "text": " graphical representation how in the case of graphical representation you can see that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1304.92,
+            "end": 1314.8,
+            "text": " first I will take the pointer. So, like I have taken I have taken that is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1314.8,
+            "end": 1322.82,
+            "text": " the axis for membership function value or comma I am considering both the A and B set"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1322.82,
+            "end": 1332.9199999999998,
+            "text": " in the same axis here is the now this is the variable if I have taken. So, that set that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1332.9199999999998,
+            "end": 1341.1599999999999,
+            "text": " is A set and that is B set now we have to find the membership A union membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1341.16,
+            "end": 1349.5600000000002,
+            "text": " values for the A union B. So, what we have to do we have to take for all the variables"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1349.5600000000002,
+            "end": 1355.0,
+            "text": " the maximum membership function we have to take I will like I will draw from that then"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1355.0,
+            "end": 1360.76,
+            "text": " now if you can if you can see in at that point the membership function values are available"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1360.76,
+            "end": 1367.1200000000001,
+            "text": " in the case of A is 1, but in the case of it is available in the 0 from up to that point"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1367.12,
+            "end": 1371.76,
+            "text": " from up to that point the maximum membership function value of a for available for us is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1371.76,
+            "end": 1382.2399999999998,
+            "text": " 1. So, we will take the maximum members now for that point from there to from that point"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1382.2399999999998,
+            "end": 1389.76,
+            "text": " to that point the maximum membership function available is for A. So, we will take that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1389.76,
+            "end": 1395.8,
+            "text": " now after that the for from means from that point to that point these point to this point"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1395.8,
+            "end": 1400.3999999999999,
+            "text": " you can see that the maximum membership function available for the B set is greater than."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1400.3999999999999,
+            "end": 1407.24,
+            "text": " So, we will take that. So, this is the graph for the this is the graphical representation"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1407.24,
+            "end": 1413.48,
+            "text": " in the case of A union B I hope you have understand better in the case of graphical representation"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1413.48,
+            "end": 1419.3999999999999,
+            "text": " also now if we will take one numerical also in this case you can find for that let we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1419.4,
+            "end": 1429.0800000000002,
+            "text": " have two sets again in which for the I forgot actually I have to again select the pointer"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1429.0800000000002,
+            "end": 1441.16,
+            "text": " for that let x is equal to 1 2 3 4 this is the x variable which contains the 4 element"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1441.16,
+            "end": 1448.96,
+            "text": " now for A I have taken the membership function value 0.7 for the variable 1 I am taking for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1448.96,
+            "end": 1452.92,
+            "text": " that example I am taking the different types of representation for that we have under we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1452.92,
+            "end": 1458.24,
+            "text": " have seen two types of representations of the fuzzy set now I have I am taking the second"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1458.24,
+            "end": 1466.3600000000001,
+            "text": " type of representation today for that numericals now 0.7 now for second 0.5 for 3 if let I"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1466.3600000000001,
+            "end": 1474.72,
+            "text": " have taken 0.1 and for 4 I am taking 0.6 by 4 that are the membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1474.72,
+            "end": 1482.48,
+            "text": " in the case of A set now I am taking for the B set in the in the case of B set I am"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1482.48,
+            "end": 1495.92,
+            "text": " taking only 0.8 by 2 plus 0.3 by 3 only two values we have given that is 8 only two values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1495.92,
+            "end": 1506.72,
+            "text": " we have given now we have to find the A union B in the case of that now how we how we will"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1506.72,
+            "end": 1511.96,
+            "text": " how we will find you can pause the video and find the answer now what we have to do we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1511.96,
+            "end": 1516.76,
+            "text": " know that in the case of union in fuzzy set what we have to do we have to take the maximum"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1516.76,
+            "end": 1521.24,
+            "text": " values for that for that generic variable we have to take the maximum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1521.24,
+            "end": 1526.0,
+            "text": " maximum membership function values that is available for us like we have four values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1526.0,
+            "end": 1530.92,
+            "text": " one two three four means we have four generic variables available for us one two three four"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1530.92,
+            "end": 1536.6,
+            "text": " now what we will do for the case of one you can see in the case for the case of for the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1536.6,
+            "end": 1541.64,
+            "text": " for the case of one now what the membership function available for us in the case of set"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1541.64,
+            "end": 1546.84,
+            "text": " A it is 0.7 in the case of B it is not given means it is 0."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1546.84,
+            "end": 1550.8799999999999,
+            "text": " so the maximum membership function value available for us is 0.7 that is available"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1550.8799999999999,
+            "end": 1558.1999999999998,
+            "text": " in the set A that is the case of that that is the case for the generic variable number"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1558.1999999999998,
+            "end": 1564.1999999999998,
+            "text": " one now for the generic generic variable number two now again we will see the maximum membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1564.1999999999998,
+            "end": 1569.12,
+            "text": " function available for us in the case of A set it is 0.5 in the case of B set it is available"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1569.12,
+            "end": 1579.32,
+            "text": " 0.7 0.8 sorry what we will take we will take the 0.8 now same for the three the maximum"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1579.32,
+            "end": 1583.4799999999998,
+            "text": " membership function what's the maximum membership function available in the case of set A it"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1583.4799999999998,
+            "end": 1589.36,
+            "text": " is 0.1 in the case of set B it is 0.3 so what is maximum 0.3 we can take now same in the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1589.36,
+            "end": 1592.9599999999998,
+            "text": " case of four the maximum membership function available for that generic variable number"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1592.9599999999998,
+            "end": 1597.1999999999998,
+            "text": " four is in the case of set A it is 0.6 in the case of B it is not given means it is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1597.2,
+            "end": 1602.64,
+            "text": " 0. so what is the maximum membership function is 0.6 so that is the answer for that that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1602.64,
+            "end": 1614.52,
+            "text": " type of question if you have to find the union of A and B so that is our final answer."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1614.52,
+            "end": 1618.8,
+            "text": " now the second operation comes that is intersection now what is intersection in the case of classical"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1618.8,
+            "end": 1624.72,
+            "text": " set the intersection means that set which contain all element that are common in both"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1624.72,
+            "end": 1630.56,
+            "text": " the set means the element with the elements which are which are common in both the set"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1630.56,
+            "end": 1636.24,
+            "text": " let us if we have two sets A and B then what is the A intersection B it means all the element"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1636.24,
+            "end": 1641.44,
+            "text": " that are present in the A and that elements are also present in the B it is basically"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1641.44,
+            "end": 1646.24,
+            "text": " the opposite of the union which we have studied in the previous slides means we have to take"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1646.24,
+            "end": 1652.16,
+            "text": " only that values that are common in both the sets with the help of that mathematical representation"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1652.16,
+            "end": 1657.64,
+            "text": " you can see A intersection B is the x the value the value of that x which belongs to"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1657.64,
+            "end": 1662.64,
+            "text": " A also and that belongs to B also we have to take that common values that are in both"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1662.64,
+            "end": 1667.3200000000002,
+            "text": " the sets with the help of example you can understand let A is a set which is having"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1667.3200000000002,
+            "end": 1675.0800000000002,
+            "text": " a value 1 2 3 and B is having a value of 3 4 5 now what is A intersection B the common"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1675.0800000000002,
+            "end": 1678.76,
+            "text": " values which are present in the both the set then only 3 is the variable that are present"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1678.76,
+            "end": 1684.8,
+            "text": " in the A also and in the present in the B also so what the A intersection B is only"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1684.8,
+            "end": 1689.52,
+            "text": " 3 in the we are understanding that in the case of classical sets with the help of that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1689.52,
+            "end": 1696.04,
+            "text": " figure you can also that U is the universal set which contains two set A and B the first"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1696.04,
+            "end": 1703.08,
+            "text": " circle represent the A set and second circle represent the B set that is A set and that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1703.08,
+            "end": 1708.8,
+            "text": " is B set now what is A intersection B means the common part which are present in the A"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1708.8,
+            "end": 1715.8,
+            "text": " also and in the B also so that yellow part is basically our A intersection B that contains"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1716.4399999999998,
+            "end": 1721.56,
+            "text": " or that contains that element which are present in both the sets."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1721.56,
+            "end": 1726.52,
+            "text": " Now we come to the fuzzy set in fuzzy set the intersection operation is determined by"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1726.52,
+            "end": 1731.0,
+            "text": " the minimum membership function value for each element in the case of union we have"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1731.06,
+            "end": 1734.88,
+            "text": " taken the maximum membership function values for that now in the case of intersection we"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1734.88,
+            "end": 1739.28,
+            "text": " will take the minimum value membership function values for each element."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1739.28,
+            "end": 1746.32,
+            "text": " That we have two sets A and B and for the A intersection B what is our membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1746.32,
+            "end": 1752.48,
+            "text": " values minimum of that variables membership function value in the case of set A that variable"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1752.48,
+            "end": 1759.08,
+            "text": " then same for that element in membership function value in B what is the minimum for both the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1759.08,
+            "end": 1763.1599999999999,
+            "text": " set we will take that in the case of union we have taken a maximum, but in the case of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1763.1599999999999,
+            "end": 1768.4399999999998,
+            "text": " intersection we will take the minimum values. So, this is the example with help of the example"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1768.4399999999998,
+            "end": 1772.4399999999998,
+            "text": " again we can understand. So, this is a fuzzy set membership function."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1772.4399999999998,
+            "end": 1779.1599999999999,
+            "text": " Now, you can see the membership function for the fuzzy set A are given that is 0.3, 0.6,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1779.1599999999999,
+            "end": 1785.04,
+            "text": " 0.9, 0.5 that are the four membership function values we have for the four variables again"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1785.04,
+            "end": 1789.68,
+            "text": " for like again I am taking 1, 2, 3, 4 then these are the four variables and for that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1789.68,
+            "end": 1792.8799999999999,
+            "text": " four membership function values are given for the set A."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1792.8799999999999,
+            "end": 1800.6,
+            "text": " Now, same for the set B again four membership function values are given for the set B. Now,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1800.6,
+            "end": 1806.48,
+            "text": " if we have to find A intersection B and how we will determine the membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1806.48,
+            "end": 1811.44,
+            "text": " values for that what we will do we will take the for the variable one what the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1811.44,
+            "end": 1819.28,
+            "text": " function values are available for the A case 0.3 for the B case 0.4 for the two 0.6 in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1819.28,
+            "end": 1823.92,
+            "text": " the case of set A, 0.5 in the case of set B. Similarly, for the variable number three"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1823.92,
+            "end": 1830.48,
+            "text": " 0.9 is available in the set A, 0.7 is available in the set B. Now, same for the four 0.5 is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1830.48,
+            "end": 1834.64,
+            "text": " available in the set A and 0.6 available in the set B."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1834.64,
+            "end": 1838.16,
+            "text": " Now, we have to find the union. So, what we have to do we have to take the minimum of"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1838.16,
+            "end": 1842.0800000000002,
+            "text": " that membership function for variable one you can see the minimum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1842.0800000000002,
+            "end": 1851.8000000000002,
+            "text": " value is available is 0.3 for 0.4 second 0.5 is minimum for 3 0.7 is minimum for 4 0.5"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1851.8000000000002,
+            "end": 1857.4,
+            "text": " is minimum that is the way we will determine the intersection in the case of fuzzy sets."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1857.4,
+            "end": 1862.3600000000001,
+            "text": " Now, we will understand the same thing with the help of that example with the with the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1862.36,
+            "end": 1869.1599999999999,
+            "text": " help of any graphical representation. So, I will take the same example which I have"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1869.1599999999999,
+            "end": 1879.1999999999998,
+            "text": " taken in the case of that. Now, this is the type that this is a function this these are"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1879.1999999999998,
+            "end": 1886.3999999999999,
+            "text": " the two membership these are the two fuzzy set A and B that axis represent the variables"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1886.4,
+            "end": 1899.0400000000002,
+            "text": " and that axis represent the that x axis represent the membership function values and that that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1899.0400000000002,
+            "end": 1904.4,
+            "text": " axis represent the variables. So, these are the two fuzzy sets are available."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1904.4,
+            "end": 1917.8400000000001,
+            "text": " Now, we have to find the A intersection B by mistake their union is written that is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1917.8400000000001,
+            "end": 1928.8400000000001,
+            "text": " intersection we are finding the intersection for that fuzzy sets let mu A union B. Now,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1928.8400000000001,
+            "end": 1932.44,
+            "text": " what we have to do we have to take the minimum membership function that are available. Now,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1932.44,
+            "end": 1938.44,
+            "text": " you can see from that area to that area for the set A the maximum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1938.44,
+            "end": 1945.44,
+            "text": " value is available in the case of A set is 1 in the case of B set is I will write some"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1945.44,
+            "end": 1955.0800000000002,
+            "text": " axis name here A B C D and I am let that point name is O. So, now, from O to A the minimum"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1955.0800000000002,
+            "end": 1959.48,
+            "text": " membership function value is available is 0. So, what we will do we will take the minimum"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1959.48,
+            "end": 1965.28,
+            "text": " membership function that is available with us that is 0 from 0 to A. Now, from A to B"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1965.28,
+            "end": 1971.0,
+            "text": " what the minimum membership function value is available is that for the that part that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1971.0,
+            "end": 1975.6,
+            "text": " is minimum because that the for the set A that is maximum. So, what we will do we will"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1975.6,
+            "end": 1982.28,
+            "text": " take this now that is the point B. Now, from B to C the minimum membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1982.28,
+            "end": 1992.2,
+            "text": " value is available for the case A because for B it is maximum now that is point C. Now,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1992.2,
+            "end": 1997.36,
+            "text": " from C to D in the case of A set the minimum the membership function value is available"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 1997.36,
+            "end": 2002.6,
+            "text": " for the set A is 0 you can see that for set A minimum membership function its membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2002.6,
+            "end": 2007.8,
+            "text": " function sorry its membership function is 0, but in the case of B that is. So, what"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2007.8,
+            "end": 2012.9199999999998,
+            "text": " we have to do in we have to take in the case of intersection minimum. So, the minimum membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2012.9199999999998,
+            "end": 2021.6,
+            "text": " function available is up to point D is from the set A that is 0. So, that part is the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2021.6,
+            "end": 2029.96,
+            "text": " A intersection B I hope you have you have understand it. So, I have taken 2 example"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2029.96,
+            "end": 2034.04,
+            "text": " first in the first with the case of discrete type of set and second with the case of continuous"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2034.04,
+            "end": 2039.92,
+            "text": " type of set. Now, same numerical which I have solved you in the case of intersection"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2039.92,
+            "end": 2045.56,
+            "text": " in the in the case of union you can solve with the help of with the help of intersection"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2045.56,
+            "end": 2052.2,
+            "text": " also same example you can take and solve with the help of that set that intersection also"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2052.2,
+            "end": 2058.7599999999998,
+            "text": " again that part is wrong that is intersection means you have to solve that same numerical"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2058.76,
+            "end": 2064.4,
+            "text": " which I have which I have solved in the case of union you have to solve again that numerical"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2064.4,
+            "end": 2069.0,
+            "text": " in the for the case of intersection also that is homework for you as assignment you can"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2069.0,
+            "end": 2071.2400000000002,
+            "text": " say that. Now, we come to the last operation that is"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2071.2400000000002,
+            "end": 2074.8,
+            "text": " the difference of fuzzy sets. So, in the case of classical set what is the difference difference"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2074.8,
+            "end": 2080.96,
+            "text": " is the difference in the 2 set means which contains element that belongs to 1 set, but"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2080.96,
+            "end": 2086.32,
+            "text": " not the other means that we have to take that elements which belongs to only 1 set, but"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2086.32,
+            "end": 2093.32,
+            "text": " not the other or we can I can say that means the x like with the help of mathematical representation"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2093.32,
+            "end": 2098.48,
+            "text": " you can see a minus b means a difference b is the set that contains the element which"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2098.48,
+            "end": 2105.32,
+            "text": " are from the a, but not from the b means that element should present in the a a set, but"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2105.32,
+            "end": 2115.56,
+            "text": " not in the b that should be this x does not belong to b x should only belong to a in the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2115.56,
+            "end": 2121.2799999999997,
+            "text": " case of difference. Let we have to again let us understand with"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2121.2799999999997,
+            "end": 2126.0,
+            "text": " the help of example let we have to vary 2 sets a is equal to 1 2 3 and b is equal to"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2126.0,
+            "end": 2131.24,
+            "text": " 3 4 5 then what is a difference b the element which are present in the a set, but not in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2131.24,
+            "end": 2135.92,
+            "text": " the b set. So, 1 2 is present in the a set, but not present in the b set we will take"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2135.92,
+            "end": 2142.32,
+            "text": " this, but 3 why not 3 3 is also present in the b set. So, we will not take that 3. So,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2142.32,
+            "end": 2147.1600000000003,
+            "text": " only the 1 2 is the variable that are available in the set in the a set, but not in the b"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2147.1600000000003,
+            "end": 2152.52,
+            "text": " set with the help of that figure also you can see that we have 2 variables a and b in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2152.52,
+            "end": 2157.6000000000004,
+            "text": " the universal set U. Now, what is the a difference b the values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2157.6000000000004,
+            "end": 2162.92,
+            "text": " that are present only in the a set, but not in the b set. So, that yellow portion shows"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2162.92,
+            "end": 2169.6400000000003,
+            "text": " that that are the values that are present in the a set, but not in the b set. Now, same"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2169.64,
+            "end": 2173.6,
+            "text": " we will extend to the fuzzy set in fuzzy set the difference operation is determined"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2173.6,
+            "end": 2178.16,
+            "text": " by using the complement of one set and the minimum operation what we have to do we have"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2178.16,
+            "end": 2182.8799999999997,
+            "text": " to take we have to take the membership function values for the one set same as it is, but"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2182.8799999999997,
+            "end": 2187.16,
+            "text": " for the other set we have to take the complement for that ok."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2187.16,
+            "end": 2191.68,
+            "text": " Let us take the let us see the mathematical representation if you have to find the membership"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2191.68,
+            "end": 2195.96,
+            "text": " function of values for the difference of a and b set what we will take we will take the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2196.42,
+            "end": 2200.3,
+            "text": " minimum values, but for what membersfik function values same for the a membership function"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2200.3,
+            "end": 2205.1,
+            "text": " values we will write as it is, but for b membership function we will take the complement which"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2205.1,
+            "end": 2210.4,
+            "text": " is the first operation we have studied today. So, what we have to do we have to take that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2210.4,
+            "end": 2214.34,
+            "text": " for one set operation like if we are taking a minus b A difference B."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2214.34,
+            "end": 2218.8,
+            "text": " So, what we have to do, we have to take the values for the membership function A is same"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2218.8,
+            "end": 2223.38,
+            "text": " as it is, but for the b what we have to do, we have to take the complement for that set"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2223.38,
+            "end": 2228.78,
+            "text": " With the help of that representation, you can also see that then for that for that set,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2228.78,
+            "end": 2234.7400000000002,
+            "text": " we will take the minimum values, minimum of mu of a, x mean membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2234.7400000000002,
+            "end": 2237.94,
+            "text": " for the A set same as it is that are given the question."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2237.94,
+            "end": 2243.02,
+            "text": " Let me now for the B set, we will take the complement and then we will find the minimum"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2243.02,
+            "end": 2244.98,
+            "text": " in both in for the n variable."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2244.98,
+            "end": 2247.5,
+            "text": " We will take the minimum membership function values."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2247.5,
+            "end": 2254.26,
+            "text": " Let us understand with the help of example, we have a fuzzy set membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2254.26,
+            "end": 2259.26,
+            "text": " again I have taken the same 0.3, 0.6, 0.9, 0.5 for the for any four variables I have"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2259.26,
+            "end": 2260.26,
+            "text": " taken."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2260.26,
+            "end": 2265.1,
+            "text": " Now, for in the case of B set, the membership function values are available as 0.4, 0.5,"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2265.1,
+            "end": 2266.1,
+            "text": " 0.7, 0.6."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2266.1,
+            "end": 2271.86,
+            "text": " So, now what we have to do, we have to find the A difference B, we have to find the A"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2271.86,
+            "end": 2279.1,
+            "text": " difference B, A minus B, we can also represent that way also and we can also represent in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2279.1,
+            "end": 2282.7000000000003,
+            "text": " that case also that represent the difference operation we are performing."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2282.7000000000003,
+            "end": 2289.02,
+            "text": " So, we have to find that how we will find, we will take the member, we are finding the"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2289.02,
+            "end": 2293.6600000000003,
+            "text": " A minus B means we have to take the membership function values for the set A as it is that"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2293.6600000000003,
+            "end": 2300.56,
+            "text": " are given in the question like that is as it is 0.3, 0.6, 0.9, 0.5 that we you can see"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2300.56,
+            "end": 2306.92,
+            "text": " 0.3, 0.5, I have taken that A membership A set values as it is."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2306.92,
+            "end": 2310.36,
+            "text": " Now, for the B set what we have to do, we have to take the complement."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2310.36,
+            "end": 2316.7599999999998,
+            "text": " Now, you can see in the case of membership function values for the B set it is given"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2316.7599999999998,
+            "end": 2318.92,
+            "text": " as 0.4, 0.5, 0.7, 0.6."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2318.92,
+            "end": 2323.64,
+            "text": " So, first I have to take the complement for that values, how we have to take the complement"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2323.64,
+            "end": 2328.16,
+            "text": " by subtracting it from the one that the first operation we have said that."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2328.16,
+            "end": 2333.2799999999997,
+            "text": " So, you can subtract 0.4 from the one you will get the value 0.6 for 0.5, 1 minus 0.5"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2333.2799999999997,
+            "end": 2339.52,
+            "text": " is 0.5, 1 minus 0.7 0.3, 1 minus 0.6 0.4."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2339.52,
+            "end": 2346.52,
+            "text": " So, now that comes the complement for the second set B. Now, we will take that value"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2346.52,
+            "end": 2355.0,
+            "text": " 0.3 comma 0.6 for the one variable, for two variable 0.5 and 0.6 in the case of A set"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2355.0,
+            "end": 2358.0,
+            "text": " and 0.5 in the case of complement of B set."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2358.04,
+            "end": 2363.72,
+            "text": " Similarly, for the C variable 0.9 is given in the case of set A or in the case of complement"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2363.72,
+            "end": 2365.4,
+            "text": " of set B it is 0.3."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2365.4,
+            "end": 2369.4,
+            "text": " Similarly, for the fourth variable 0.4 comma 0.4."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2369.4,
+            "end": 2374.0,
+            "text": " Now, what we have to do, we have to take the minimum like if I will write here, I am writing"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2374.0,
+            "end": 2375.52,
+            "text": " here the answer for that."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2375.52,
+            "end": 2382.0,
+            "text": " So, what is the minimum for that, for variable one it is I have to take the pointer also."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2382.0,
+            "end": 2385.8,
+            "text": " So, what is the variable 0.3 is the minimum."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2385.8,
+            "end": 2392.96,
+            "text": " Now, for second variable 0 in between 0.6 and 0.5, 0.5 is the minimum and in the case"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2392.96,
+            "end": 2399.4,
+            "text": " of third variable 0.3 is the minimum, in the case of four 0.4."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2399.4,
+            "end": 2406.1400000000003,
+            "text": " So, that is the answer for that question means the membership function values for the difference"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2406.1400000000003,
+            "end": 2411.1600000000003,
+            "text": " of A and B comes that 0.3, 0.5, 0.3, 0.4."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2411.16,
+            "end": 2416.52,
+            "text": " Like if question comes in that format like if we have to find membership function values"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2416.52,
+            "end": 2421.68,
+            "text": " for the B minus A. So, what you will do, you will take the membership function values for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2421.68,
+            "end": 2427.92,
+            "text": " the B set as it is and in the case of A set what you will do, you will take the complement"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2427.92,
+            "end": 2433.52,
+            "text": " of that means you will take the membership functions for the complement of A. Then you"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2433.52,
+            "end": 2439.7999999999997,
+            "text": " will find, then you will take the minimum from that two values that we have done in"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2439.8,
+            "end": 2440.8,
+            "text": " that in this question."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2440.8,
+            "end": 2447.84,
+            "text": " So, for same way you can do if like question ask for B minus, if question come like for"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2447.84,
+            "end": 2450.2400000000002,
+            "text": " that for that you have to find the membership function."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2450.2400000000002,
+            "end": 2455.96,
+            "text": " Now, what we will do, you can take the membership function for the B set as it is and comma"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2455.96,
+            "end": 2461.52,
+            "text": " for the A set you can you will take the complement and then from that minimum you have you will"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2461.52,
+            "end": 2463.4,
+            "text": " take at the at the final time."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2463.4,
+            "end": 2468.2000000000003,
+            "text": " So, these are the basic for operation which we have studied in this lecture."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2468.2000000000003,
+            "end": 2475.0,
+            "text": " Now, thank you that is all for that today's lecture and in the next class we will understand"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2475.0,
+            "end": 2480.0,
+            "text": " we will go for the fuzzification and defuzzification that is next topic in the case of our unit"
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2480.0,
+            "end": 2481.0,
+            "text": " 1."
+        },
+        {
+            "number": "4",
+            "title": "Lecture 4",
+            "start": 2481.0,
+            "end": 2481.2000000000003,
+            "text": " Thank you."
+        }
+    ],
+    "text": " So, hello everyone again I welcome you all to the course on fuzzy logic inference and machine learning techniques I am your instructor for this course now today's our lecture number is four so in this lecture we will cover the following topics first we will see the theoretical operations on the fuzzy sets then we will discuss the type of operation what are the type of different types of fuzzy operations are there like complement operation union operation intersection operation and then the difference operation was but before applying that type of operation first we will try to understand the basic which is related to the fuzzy sets theoretical notations. So, this is basically the basic notation we will use in set theory like if we have two sets A and B which is which is is under the in the universal set X. So, if X belongs to a universal set X then we will write with the help of X belongs to X with the help of that epsilon symbol. Now if X belongs to a set A then again we will write with the help of that symbol X belongs to A you can see that I will take the pointer. So, that you can understand better with the help of that symbol we will denote that that that set belongs to the that bigger set if that X belongs to a set A then we will write X belongs to A. Now if X if X does not belongs to B if X does not belong to A then we will write X does not belong to we will what we will do we will just cut that epsilon symbol and that shows that the X does not belong to that set. Then our next is A is a subset of B A means if A contains the if A contains that element which are also present in the B then what we will do we will write that A is a subset of B means B is a larger larger function which contains many number of elements then A is a A is a set which contains some elements of the B then what we will do we will write that A is a subset of B and we will show with the help of that symbol that symbol we will show that that set is a subset of that another set. Now if the two sets are equal then what we will write we will write with the help of that A equal to B means A and B are the equal set that the number of elements are in A is same as the number of elements are in B means in both the element the number of elements are same then we will show with the help of equality sign A is equal to B it means A and B are both equal sets and phi represents an empty set empty sets if no element is present in that set then we will represent with the help of that phi which represents an empty sets. Now again some basic term that is equality of fuzzy set means what is the meaning of equality in the case of fuzzy sets let we have two sets A and B if they are equal then what are what are the condition the same element should be present in both the sets and the same membership function value for the each element means the first condition is that the elements present in both the set should be equal and then the second condition is the membership function for that element should also be same then only we can set that that the two fuzzy set A and B are equal mathematical we will represent with the symbol equality then A is equal to B when when when the membership function values for the number of elements of the set A should be equal to the membership function values for the set B for the same variables for the same generic variables ok let under let us understand with the help of a example that example is I have taken for that discrete type of fuzzy set ok let we have two set A which contains one which contains three three elements one two three and then their membership function is also written like for the one element the membership function values 0.7 for the two variable the membership function value is 0.5 for three the membership function value is 0.2. now another set B which which contains the same element one two three and you can see that the membership function values for all these three elements are also same so we can say that the membership function values are the same for all the variables of the X, then A is equal to B, then only the two fuzzy sets are equal. If these two conditions meet first, the both the both in both the set, the variable should be same and for that variables, the membership function value should also be same, then only that two fuzzy sets are equal. If the membership function values for any differ for any X, then what we will do, we will write A does not equal to B means all the elements are same, but their membership function values are not same, then what we will write, we will write A does not equal to B. I will take one example, so that you can understand in better manner. Let we have two set, first one is that U that X that Y axis represent the membership function values and then X represent the variable. So, I have taken a continuous fuzzy set in that case, that A, let that one is B and that that one is I have taken four values in that continuous fuzzy sets. Now, I will draw, that is another B set for different variables of the X. Now, this is A point, this is C point and that point is B 1 and that point is B 2. Same for that, might be that that value I can randomly taking that 0.5 and, but the higher value is membership function is value of 1. Now, now these are the two continuous functions, two continuous fuzzy sets, first one is A set and second one is B set with the help of that figure you can see. Now, you can find first, whether these two functions are equal set or not. You can pause the video and find that, whether these two functions, these two fuzzy sets are equal or not. Like, if, but if you will see, that in the case of all the variables are same A B 1 B 2 C, A B 1 B 2 C in the case of second, second set are also same. But now, if you will focus on the membership function over that, like for the for the point A, the membership function value is same. For the for the A set also it is 0, for the B set it is also 0. At the point C also the membership function value is same 0 0 in the in both the sets, but at the point B 1, if you can see in the case of set A, the membership function value for the for the point for the generic variable B 1, the membership function value is 1. But in the case of set B, the membership function value for the B 1 is 0.5. So, means the values of the variables are same, but their membership function values are different in both the set. Then what we will do? We will write that A does not equal to B, means their two sets are unequal fuzzy sets. Are you, you understand that? Now, what is the subset in fuzzy set or in another name is containment in fuzzy set. So, A fuzzy set, A is a subset of fuzzy set B, if the membership function value of A are always less than or equal to those of B for all the way for the all the values of x in the universal set. Means, if A is only only function only a subset of fuzzy set B, if the membership function values of that A's for all the variables are less than or equal to those of B. This is the condition, then only we can say that that the mu of A means A set is a subset of B. Means, the membership function for all the variables of fuzzy set A should be less than or equal to the membership function values for the set B. With the help of that expression, you can also see that the membership function values for the A set is less than or equal to for the membership function values of the set B for all the values of the x, x belongs to the whole values of the x. Now, let us consider an example that we have two discrete types of set. First one is A, which contains the four variables 1, 2, 3, 4 and their membership function values also also given in the question that for the 1, 0.2 is the membership function value, for 2, 0.4 is the membership function value, for 3, 0.6, for 4, 0.8 in the case of set A. Similarly, of B, 0.5, 0.6, 0.6, 0.9 in the case of B sets. Now, you can see that the all the membership function values and all the variables are same in the case of set A and set B, then all the membership function values for that variables is all is less than the membership function values for the set B. Means, all the membership function of values of A is less than the membership function of values b, then we can conclude that A is a subset ok. I will explain with the help of an continuous subset like in the previous example, in the previous case which I have taken like we take some graph, so that you can also understand in the case of the continuous set ok, that the example is from the discrete types of set, in different type of values we have given ok. So, that this is the membership function value, this is the definite variable and this is the A, this is the B ok. Now, you can take this graph and understand in the case of continuous fuzzy set, now you can see both the both the variables for the both the sets are equal like if you can take any variable, then that variable also same for that this point is for the B set, this point is for the A set, same for that values like if randomly I am given A 1, B 1, then this is C 1, obviously this is 1 and this is might be 0.8, then again you can take. In both the cases, if you will see deeply, then you can find that the membership function for the B set is always less than the membership function values for the A. So, we can say that the A contains B and C or B is a subset of the A, because it also because for all the variables it is having a membership function value less than the membership function values for the set A. Now, we come to the operations on the fuzzy set, so we will study 4 different types of fuzzy set, which is basically most common types of operations like first one is the complement operation, second one is the union, then third one is intersection, then fourth one is fourth one is last one is difference type difference option. First we will study the complement of the fuzzy set, so what is complement? So, the complement of of a fuzzy set in a universal universal set X is denoted by the A dash, similarly you have studied that type of things in your digital digital electronic subject or any any or any other subject in which you have learned about the crisp type of set. So, in the in the case of fuzzy set also we will represent the complement with the help of a A dash or A bar, I forgot to mention the sign here, this is A bar A dash or A bar that represent the complement. Now, in the case of fuzzy set what is the complement means the complement of A means all the if if we will write the complement of A in the case of that fuzzy sets, then it is it contains the membership function value should be subtracted by 1 means the membership function value of each element in the complement set is obtained by subtracting the membership function value of A from 1 means what is the values of membership function of value of set A should be subtracted from the 1, then only you will get the membership function values for the A bar or A complement. Now, now I will explain with the help of the crisp set, so that you can understand better. Now, in a in a classical set what we will do the complement set consists of all the elements in the universal set that are not in the given set understand with the help of the figure like U is a universal set which contains all the variables and now A is a simple set which is I have shown with the help of a circle. Now, what the complement of that that values which are not a part of the A that is the complement of A that values are should be part of the universal set X, but should not be part of the that set A, then only we will say that that A bar is the remaining element which are not represent in the A understand will understand with the help of some discrete type of example like if A is a set which are having values 1 2 3 and X is the total disclosure set which contains the values 1 2 3 4 5, then what is the A bar A bar means A complement means the values which are not present in the set A. So, 1 2 3 are present in the 1 2 3 values are present in the set A it means the complement for the A that values which are not present in the A that is the remaining values that is 4 and 5 with the help of example you can understand very clearly. Now, we come to the complement of fuzzy set. So, we have seen already that the complement of fuzzy set A is defined by the mu dash A X means the membership function values for the A complement is equal to 1 minus the membership function values that are for the A set ok. Let understand with the help of example like if A is a is a fuzzy set which are having 3 variables 1 2 3 and their membership function values are also written in the example for 1 0.2 is the membership function value for 2 0.5 is the membership function value for 3 0.8 is the membership function value ok. Now, what is the if we will write if we want to write the complement of A in the case of fuzzy set then variable are same 1 2 3, but their membership function value is change we have to obtain the membership function value by subtracting the present membership function value of set A from the 1. So, 1 minus 0.2 is 0.8 1 minus 0.5 is 0.5 and 1 minus 0.8 is 0.2 for all the 3 variables. So, that from that way you can write the complement of the set A in the case of fuzzy sets ok. Now, with the help of figure you can see that in the case of continuous set if you will see that we I have taken 2 example first one if you will see that example which is at the left side ok that example if you can see I have taken 2 variable 1 variable that is young means young is having a membership function value here is the graph ok this is the this these shows the membership function value and this is the different different variables. So, you can see that the young in the case of 0 to 25 is 1 the membership function values for that 0 to 25 is 1 and after that 25 its value is continuously gradually decreasing from 25 to 40 and after 40 its value value is is is 0 that membership function value after 40 is 0. Now, if we have to find the complement for that for that time when their membership function is value is 1 means the complement of A's membership function value is 0 because we have to subtract it from the 1 the 1 minus 1 is 0. So, for that set for the that complement set their membership function value is 0 ok. Now, similarly if that value is 1 1 minus 1 minus 1 0 let that values 0.8 then 1 minus 0.8 is 0.2. So, both are in the same same plane means we have to obtain the membership function values for that complement by subtracting it from 1 that is 1 figure and same for the from the second figure you can also understand that for from that figure if A is that membership function A is that membership function value then with the how we have to find the complement by subtracting all the membership function for that function from 1 with the help of that you can find the complement of that set. Now, we comes to the another another operation that is the union of fuzzy sets. So, first we will understand that what is the union meaning in the case of classical set then we will compare we will take that extend that method to the fuzzy set ok. So, in the case of union of 2 classical sets A and B all the element that belongs to either A or B or both we have to take and if we want to find the union A of A union B and we have to take all the element that are in that are present in the set A also and that are present in the set B also. So, that is the mathematical representation in the case of crisp set or classical set you can say then A union B is x, x is that value which contains the variable of A and all the variables of the B x should be belongs to A also A and x also should be belong to B set that is in the case of fuzzy set. Let us understand with the help of example that A is the set which is contains the variables 1 2 3 and B is the set which contains the variable 3 4 5 then what is the A union B A union B should contains all the elements of the A and all the elements of the B then what is A union B it is 1 2 3 4 5 all the element we have taken all the elements of A and we have taken all the elements of B and with the help of that figure also you can see that like A and B are the 2 circular sets then what is the value of A union B all the shaded portion in orange represent the A union B all the elements of the A and all the elements of the B represent the union of that and that means all that that all portion that all orange color portion shows the A union B all the elements of A and all the elements of B we have to take in the case of union. Now, we will extend this to the in the case of fuzzy sets in fuzzy set the union operation is determined by the maximum membership function value for each element in the universal set means for both the set for the A set and for the B set what we have to do we have to take the maximum membership function for that both the set ok no issue we will understand with the help of a example so that is the mathematical representation we have to find the membership function value for the A union B then what we will do we will take the maximum of the membership function value for the A set or for the B set whatever the maximum membership function value is available for that generic variable in the case of A set in the case of B set we will take that maximum membership function value for that we will understand with the help of example no issue. So that is the example if I have taken we have 2 sets members first set is A and another set is B I have directly I have not taken the variables name variables should be you can take 1 2 3 4 4 1 variable in the case of fuzzy set A ok I will write like I have taken I have directly write the membership function values here let we have 4 variables 1 2 3 4 for 1 the membership function value in the case of set A is 0.3 for 2 in the case of fuzzy set A 0.6 in the case of 3 0.9 in the case of 4 0.5 that all are represent the membership function values for different types of 4 elements ok. Now in the case of B set same for the A the membership function value 0.4 for 2 0.5 for the 3 0.7 and for 4 0.6 now we have to find the union means in membership function values for the A union B set ok so that represent the that represent the mu of A union B means now we are finding the new set that is A union B now what we have to do we have to take the maximum values for the generic variables like for the 1 for the case of that 1 the membership function values in the case of A set is 0.3 in the case of 0.4. So, I have written all that maximum of 0.3 comma 0.4 we have only 2 sets available in the in that question now same for the 2 we have taken 0.6 0.5 0.6 for the A set 0.5 for the B set and same for the variable 3 we have this is for the variable 1 this is the for the variable 2 this is for the variable 3 and this is for the variable 4 these are these are the 4 variables are and then we have we have taken the taken the membership function values for in the case of both the sets now what we will do we will take that values which are maximum like for set for variable 1 the membership the maximum membership function value is available in the case of B set then we will take that because 0.4 is greater than 0.3. So, we have taken that 0.4 0.4 for the 1 now in the case of 2 0.6 is greater than. So, we have taken for that for the variable 2 the maximum membership function value is available is 0.6 similarly in the case of 3 the maximum membership function value is available is 0.9 and similarly for the fourth one the maximum membership function value is available is 0.6 I hope you have understand with the help of that example in a better manner what is the meaning of union in the case of fuzzy set or how we find the union in the case of fuzzy set I will explain you again with the help of the it contains graphical representation how in the case of graphical representation you can see that first I will take the pointer. So, like I have taken I have taken that is the axis for membership function value or comma I am considering both the A and B set in the same axis here is the now this is the variable if I have taken. So, that set that is A set and that is B set now we have to find the membership A union membership function values for the A union B. So, what we have to do we have to take for all the variables the maximum membership function we have to take I will like I will draw from that then now if you can if you can see in at that point the membership function values are available in the case of A is 1, but in the case of it is available in the 0 from up to that point from up to that point the maximum membership function value of a for available for us is 1. So, we will take the maximum members now for that point from there to from that point to that point the maximum membership function available is for A. So, we will take that now after that the for from means from that point to that point these point to this point you can see that the maximum membership function available for the B set is greater than. So, we will take that. So, this is the graph for the this is the graphical representation in the case of A union B I hope you have understand better in the case of graphical representation also now if we will take one numerical also in this case you can find for that let we have two sets again in which for the I forgot actually I have to again select the pointer for that let x is equal to 1 2 3 4 this is the x variable which contains the 4 element now for A I have taken the membership function value 0.7 for the variable 1 I am taking for that example I am taking the different types of representation for that we have under we have seen two types of representations of the fuzzy set now I have I am taking the second type of representation today for that numericals now 0.7 now for second 0.5 for 3 if let I have taken 0.1 and for 4 I am taking 0.6 by 4 that are the membership function values in the case of A set now I am taking for the B set in the in the case of B set I am taking only 0.8 by 2 plus 0.3 by 3 only two values we have given that is 8 only two values we have given now we have to find the A union B in the case of that now how we how we will how we will find you can pause the video and find the answer now what we have to do we know that in the case of union in fuzzy set what we have to do we have to take the maximum values for that for that generic variable we have to take the maximum membership function maximum membership function values that is available for us like we have four values one two three four means we have four generic variables available for us one two three four now what we will do for the case of one you can see in the case for the case of for the for the case of one now what the membership function available for us in the case of set A it is 0.7 in the case of B it is not given means it is 0. so the maximum membership function value available for us is 0.7 that is available in the set A that is the case of that that is the case for the generic variable number one now for the generic generic variable number two now again we will see the maximum membership function available for us in the case of A set it is 0.5 in the case of B set it is available 0.7 0.8 sorry what we will take we will take the 0.8 now same for the three the maximum membership function what's the maximum membership function available in the case of set A it is 0.1 in the case of set B it is 0.3 so what is maximum 0.3 we can take now same in the case of four the maximum membership function available for that generic variable number four is in the case of set A it is 0.6 in the case of B it is not given means it is 0. so what is the maximum membership function is 0.6 so that is the answer for that that type of question if you have to find the union of A and B so that is our final answer. now the second operation comes that is intersection now what is intersection in the case of classical set the intersection means that set which contain all element that are common in both the set means the element with the elements which are which are common in both the set let us if we have two sets A and B then what is the A intersection B it means all the element that are present in the A and that elements are also present in the B it is basically the opposite of the union which we have studied in the previous slides means we have to take only that values that are common in both the sets with the help of that mathematical representation you can see A intersection B is the x the value the value of that x which belongs to A also and that belongs to B also we have to take that common values that are in both the sets with the help of example you can understand let A is a set which is having a value 1 2 3 and B is having a value of 3 4 5 now what is A intersection B the common values which are present in the both the set then only 3 is the variable that are present in the A also and in the present in the B also so what the A intersection B is only 3 in the we are understanding that in the case of classical sets with the help of that figure you can also that U is the universal set which contains two set A and B the first circle represent the A set and second circle represent the B set that is A set and that is B set now what is A intersection B means the common part which are present in the A also and in the B also so that yellow part is basically our A intersection B that contains or that contains that element which are present in both the sets. Now we come to the fuzzy set in fuzzy set the intersection operation is determined by the minimum membership function value for each element in the case of union we have taken the maximum membership function values for that now in the case of intersection we will take the minimum value membership function values for each element. That we have two sets A and B and for the A intersection B what is our membership function values minimum of that variables membership function value in the case of set A that variable then same for that element in membership function value in B what is the minimum for both the set we will take that in the case of union we have taken a maximum, but in the case of intersection we will take the minimum values. So, this is the example with help of the example again we can understand. So, this is a fuzzy set membership function. Now, you can see the membership function for the fuzzy set A are given that is 0.3, 0.6, 0.9, 0.5 that are the four membership function values we have for the four variables again for like again I am taking 1, 2, 3, 4 then these are the four variables and for that four membership function values are given for the set A. Now, same for the set B again four membership function values are given for the set B. Now, if we have to find A intersection B and how we will determine the membership function values for that what we will do we will take the for the variable one what the membership function values are available for the A case 0.3 for the B case 0.4 for the two 0.6 in the case of set A, 0.5 in the case of set B. Similarly, for the variable number three 0.9 is available in the set A, 0.7 is available in the set B. Now, same for the four 0.5 is available in the set A and 0.6 available in the set B. Now, we have to find the union. So, what we have to do we have to take the minimum of that membership function for variable one you can see the minimum membership function value is available is 0.3 for 0.4 second 0.5 is minimum for 3 0.7 is minimum for 4 0.5 is minimum that is the way we will determine the intersection in the case of fuzzy sets. Now, we will understand the same thing with the help of that example with the with the help of any graphical representation. So, I will take the same example which I have taken in the case of that. Now, this is the type that this is a function this these are the two membership these are the two fuzzy set A and B that axis represent the variables and that axis represent the that x axis represent the membership function values and that that axis represent the variables. So, these are the two fuzzy sets are available. Now, we have to find the A intersection B by mistake their union is written that is intersection we are finding the intersection for that fuzzy sets let mu A union B. Now, what we have to do we have to take the minimum membership function that are available. Now, you can see from that area to that area for the set A the maximum membership function value is available in the case of A set is 1 in the case of B set is I will write some axis name here A B C D and I am let that point name is O. So, now, from O to A the minimum membership function value is available is 0. So, what we will do we will take the minimum membership function that is available with us that is 0 from 0 to A. Now, from A to B what the minimum membership function value is available is that for the that part that is minimum because that the for the set A that is maximum. So, what we will do we will take this now that is the point B. Now, from B to C the minimum membership function value is available for the case A because for B it is maximum now that is point C. Now, from C to D in the case of A set the minimum the membership function value is available for the set A is 0 you can see that for set A minimum membership function its membership function sorry its membership function is 0, but in the case of B that is. So, what we have to do in we have to take in the case of intersection minimum. So, the minimum membership function available is up to point D is from the set A that is 0. So, that part is the A intersection B I hope you have you have understand it. So, I have taken 2 example first in the first with the case of discrete type of set and second with the case of continuous type of set. Now, same numerical which I have solved you in the case of intersection in the in the case of union you can solve with the help of with the help of intersection also same example you can take and solve with the help of that set that intersection also again that part is wrong that is intersection means you have to solve that same numerical which I have which I have solved in the case of union you have to solve again that numerical in the for the case of intersection also that is homework for you as assignment you can say that. Now, we come to the last operation that is the difference of fuzzy sets. So, in the case of classical set what is the difference difference is the difference in the 2 set means which contains element that belongs to 1 set, but not the other means that we have to take that elements which belongs to only 1 set, but not the other or we can I can say that means the x like with the help of mathematical representation you can see a minus b means a difference b is the set that contains the element which are from the a, but not from the b means that element should present in the a a set, but not in the b that should be this x does not belong to b x should only belong to a in the case of difference. Let we have to again let us understand with the help of example let we have to vary 2 sets a is equal to 1 2 3 and b is equal to 3 4 5 then what is a difference b the element which are present in the a set, but not in the b set. So, 1 2 is present in the a set, but not present in the b set we will take this, but 3 why not 3 3 is also present in the b set. So, we will not take that 3. So, only the 1 2 is the variable that are available in the set in the a set, but not in the b set with the help of that figure also you can see that we have 2 variables a and b in the universal set U. Now, what is the a difference b the values that are present only in the a set, but not in the b set. So, that yellow portion shows that that are the values that are present in the a set, but not in the b set. Now, same we will extend to the fuzzy set in fuzzy set the difference operation is determined by using the complement of one set and the minimum operation what we have to do we have to take we have to take the membership function values for the one set same as it is, but for the other set we have to take the complement for that ok. Let us take the let us see the mathematical representation if you have to find the membership function of values for the difference of a and b set what we will take we will take the minimum values, but for what membersfik function values same for the a membership function values we will write as it is, but for b membership function we will take the complement which is the first operation we have studied today. So, what we have to do we have to take that for one set operation like if we are taking a minus b A difference B. So, what we have to do, we have to take the values for the membership function A is same as it is, but for the b what we have to do, we have to take the complement for that set With the help of that representation, you can also see that then for that for that set, we will take the minimum values, minimum of mu of a, x mean membership function values for the A set same as it is that are given the question. Let me now for the B set, we will take the complement and then we will find the minimum in both in for the n variable. We will take the minimum membership function values. Let us understand with the help of example, we have a fuzzy set membership function values again I have taken the same 0.3, 0.6, 0.9, 0.5 for the for any four variables I have taken. Now, for in the case of B set, the membership function values are available as 0.4, 0.5, 0.7, 0.6. So, now what we have to do, we have to find the A difference B, we have to find the A difference B, A minus B, we can also represent that way also and we can also represent in that case also that represent the difference operation we are performing. So, we have to find that how we will find, we will take the member, we are finding the A minus B means we have to take the membership function values for the set A as it is that are given in the question like that is as it is 0.3, 0.6, 0.9, 0.5 that we you can see 0.3, 0.5, I have taken that A membership A set values as it is. Now, for the B set what we have to do, we have to take the complement. Now, you can see in the case of membership function values for the B set it is given as 0.4, 0.5, 0.7, 0.6. So, first I have to take the complement for that values, how we have to take the complement by subtracting it from the one that the first operation we have said that. So, you can subtract 0.4 from the one you will get the value 0.6 for 0.5, 1 minus 0.5 is 0.5, 1 minus 0.7 0.3, 1 minus 0.6 0.4. So, now that comes the complement for the second set B. Now, we will take that value 0.3 comma 0.6 for the one variable, for two variable 0.5 and 0.6 in the case of A set and 0.5 in the case of complement of B set. Similarly, for the C variable 0.9 is given in the case of set A or in the case of complement of set B it is 0.3. Similarly, for the fourth variable 0.4 comma 0.4. Now, what we have to do, we have to take the minimum like if I will write here, I am writing here the answer for that. So, what is the minimum for that, for variable one it is I have to take the pointer also. So, what is the variable 0.3 is the minimum. Now, for second variable 0 in between 0.6 and 0.5, 0.5 is the minimum and in the case of third variable 0.3 is the minimum, in the case of four 0.4. So, that is the answer for that question means the membership function values for the difference of A and B comes that 0.3, 0.5, 0.3, 0.4. Like if question comes in that format like if we have to find membership function values for the B minus A. So, what you will do, you will take the membership function values for the B set as it is and in the case of A set what you will do, you will take the complement of that means you will take the membership functions for the complement of A. Then you will find, then you will take the minimum from that two values that we have done in that in this question. So, for same way you can do if like question ask for B minus, if question come like for that for that you have to find the membership function. Now, what we will do, you can take the membership function for the B set as it is and comma for the A set you can you will take the complement and then from that minimum you have you will take at the at the final time. So, these are the basic for operation which we have studied in this lecture. Now, thank you that is all for that today's lecture and in the next class we will understand we will go for the fuzzification and defuzzification that is next topic in the case of our unit 1. Thank you."
+}

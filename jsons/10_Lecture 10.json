@@ -1,0 +1,2476 @@
+{
+    "chunks": [
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 0.0,
+            "end": 17.72,
+            "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 17.72,
+            "end": 18.72,
+            "text": " machine learning techniques."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 18.72,
+            "end": 22.68,
+            "text": " I am Dr. Aftab Ahmed Ansari, your instructor for this course."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 22.68,
+            "end": 24.72,
+            "text": " Basically, this is our lecture number 10."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 24.72,
+            "end": 28.96,
+            "text": " So, if you will see the recap of the previous class, what we have covered in our previous"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 28.96,
+            "end": 29.96,
+            "text": " class."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 29.96,
+            "end": 34.32,
+            "text": " So, we have in the previous class, we have seen about the Mamdani fuzzy inference system"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 34.32,
+            "end": 39.64,
+            "text": " and their basically in their structure, how we will write the rules in the case of Mamdani"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 39.64,
+            "end": 44.56,
+            "text": " fuzzy inference system that is if then rules structure we have seen in the previous class"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 44.56,
+            "end": 48.480000000000004,
+            "text": " and we have also seen about the component of the Mamdani fuzzy inference system that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 48.480000000000004,
+            "end": 53.120000000000005,
+            "text": " is a fuzzification then rule base and inference engine then the diversification method we"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 53.120000000000005,
+            "end": 58.72,
+            "text": " have seen and after evaluating all the rules, how we will generate the output with the help"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 58.72,
+            "end": 59.72,
+            "text": " of T-norm and S-norm."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 59.72,
+            "end": 64.48,
+            "text": " T-norm means and operation and S-norm means or operation with the help of that how we"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 64.48,
+            "end": 69.08,
+            "text": " will generate our output with the help of graphically we have also seen in the previous"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 69.08,
+            "end": 74.52,
+            "text": " class and we have solved also one complete numerical on the Mamdani numerical Mamdani"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 74.52,
+            "end": 78.4,
+            "text": " inference system basically indirectly at that time when we are solving the numerical I have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 78.4,
+            "end": 83.08,
+            "text": " not told you that I am using the Mamdani, but that is basically the example which is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 83.08,
+            "end": 85.75999999999999,
+            "text": " completely based on the Mamdani inference system."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 85.80000000000001,
+            "end": 91.16000000000001,
+            "text": " Now in this class we will learn about the Sugino interference method that is next most"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 91.16000000000001,
+            "end": 96.0,
+            "text": " popular inference method in the fuzzy logic controller now in this class we will try to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 96.0,
+            "end": 101.08000000000001,
+            "text": " understand that Sugino interference method basically so that Sugino inference method"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 101.08000000000001,
+            "end": 105.72,
+            "text": " is introduced by the Takagi Sugino and Kang they have introduced the Sugino inference"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 105.72,
+            "end": 112.16000000000001,
+            "text": " method it is that method is also known as the TSK basically Takagi Sugino Kang model"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 112.16,
+            "end": 116.67999999999999,
+            "text": " and it is now what is the difference between in the Mamdani and Sugino inference method"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 116.67999999999999,
+            "end": 123.52,
+            "text": " that is basically the output of the main excluding output all the steps are same and the root"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 123.52,
+            "end": 129.56,
+            "text": " evolution is also different in the Sugino, but if I will broadly if I will give you the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 129.56,
+            "end": 133.8,
+            "text": " difference between Mamdani and fuzzy is that it is output basically in the case in the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 133.8,
+            "end": 139.84,
+            "text": " case of Mamdani inference method you will get the output in the form of fuzzy set then"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 139.84,
+            "end": 145.88,
+            "text": " you have to apply the fuzzy method to convert that output to the crisp output, but in the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 145.88,
+            "end": 152.44,
+            "text": " case of Sugino inference method you will get directly the output in the form of crisp output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 152.44,
+            "end": 158.4,
+            "text": " you now in this method you do not have to use the fuzzy any fuzzy method to convert"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 158.4,
+            "end": 163.48000000000002,
+            "text": " that output to the crisp output because in this method directly you will get the crisp"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 163.48000000000002,
+            "end": 168.72,
+            "text": " output that is major difference that is major difference between basically in Mamdani and"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 168.72,
+            "end": 172.84,
+            "text": " Sugino inference system. So, that type of method basically that Sugino"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 172.84,
+            "end": 176.8,
+            "text": " inference method we can use in the system where adaptive systems are there or when we"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 176.8,
+            "end": 182.0,
+            "text": " are applying the optimization technique in any control application. So, in that type"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 182.0,
+            "end": 187.32,
+            "text": " of system we will apply our Sugino inference method with the help of that fuzzy logic controller."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 187.32,
+            "end": 193.0,
+            "text": " So, that fuzzy that is a fuzzy inference system that produce the crisp output directly from"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 193.0,
+            "end": 198.68,
+            "text": " the weighted rules after the rule liberation it will directly give the you the crisp output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 198.68,
+            "end": 203.8,
+            "text": " you do not have to convert the output to the again to the crisp output basically that is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 203.8,
+            "end": 209.36,
+            "text": " the most important advantage of the Sugino inference method as compared to the Mamdani"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 209.36,
+            "end": 213.2,
+            "text": " ok. Now, that the comparison table in between"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 213.2,
+            "end": 220.04,
+            "text": " that in the if we will see if we will see consequent term is the input term then it"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 220.04,
+            "end": 225.92,
+            "text": " is fuzzy set and in this also the output the output which you are giving for the output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 225.92,
+            "end": 230.72,
+            "text": " also basically antecedent means your input conditions and the consequent means your output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 230.72,
+            "end": 235.95999999999998,
+            "text": " condition. So, in the case of Mamdani you will you have to also define the fuzzy set"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 235.95999999999998,
+            "end": 240.32,
+            "text": " for the output also like in the previous class if you will see the numerical which we have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 240.32,
+            "end": 244.88,
+            "text": " solved we have we are in that numerical we are controlling the fan speed with the help"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 244.88,
+            "end": 249.95999999999998,
+            "text": " of giving two inputs that is a temperature and humidity and our output is fan speed."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 250.88,
+            "end": 254.96,
+            "text": " Now, for the temperature also we have defined 3 membership functions for the humidity also"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 254.96,
+            "end": 258.84000000000003,
+            "text": " we have defined 3 membership function and for the output also we have we have defined"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 258.84000000000003,
+            "end": 263.84000000000003,
+            "text": " the 3 membership functions, but in the case of Sugino you have to define the membership"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 263.84000000000003,
+            "end": 268.16,
+            "text": " function for the input not for the output means your output will be in the form of a"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 268.16,
+            "end": 274.64,
+            "text": " mathematical function that is if your output is z then it will then it will be in the form"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 274.64,
+            "end": 279.08,
+            "text": " of ax plus by plus c it is in the form of mathematical equations."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 279.08,
+            "end": 285.28,
+            "text": " Now, defuzzification method required in the case of Mamdani method, but in the case of"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 285.28,
+            "end": 291.8,
+            "text": " Sugino method it is not required that is the second difference. Now, it is output is direct"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 291.8,
+            "end": 297.12,
+            "text": " in the case of Mamdani you have to convert that fuzzy output to the crisp output with"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 297.12,
+            "end": 302.03999999999996,
+            "text": " the help of defuzzification, but in the case of Sugino method you will directly get the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 302.04,
+            "end": 306.40000000000003,
+            "text": " crisp output you do not have to use any defuzzification method."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 306.40000000000003,
+            "end": 310.56,
+            "text": " And the computation it is basically in the case of Mamdani system you can see it is a"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 310.56,
+            "end": 315.44,
+            "text": " more complex system as compared to the Sugino like the numerical which we have solved first"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 315.44,
+            "end": 320.84000000000003,
+            "text": " we have to match our input to the crisp to the fuzzy input then we have to see which"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 320.84000000000003,
+            "end": 326.04,
+            "text": " rule is which rule is activated according to that input then we have to aggregate all"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 326.04,
+            "end": 333.64000000000004,
+            "text": " the rules and then after aggregating we have to again we have to again defuzzify to get"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 333.64000000000004,
+            "end": 338.56,
+            "text": " the crisp output it becomes a more little bit more complex as compared to the Sugino"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 338.56,
+            "end": 343.08000000000004,
+            "text": " method and so that is why we can see that it is more efficient as compared to the Mamdani"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 343.08000000000004,
+            "end": 345.36,
+            "text": " method. Now, if we will see about the application"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 345.36,
+            "end": 350.92,
+            "text": " area then it can be it can be used in the human understandable control and the Sugino"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 350.92,
+            "end": 356.24,
+            "text": " method we can use in the application area of optimization at the adaptive system types"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 356.24,
+            "end": 362.32,
+            "text": " of types of application where we can use. Now, if you will see graphically the comparison"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 362.32,
+            "end": 368.20000000000005,
+            "text": " between Mamdani and Sugino. So, input like I have for the Mamdani I have taken the 3"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 368.20000000000005,
+            "end": 376.32,
+            "text": " inputs now first according to the diagram you can see that that conditions are same"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 376.32,
+            "end": 382.76,
+            "text": " means that that that steps you have to follow also in the Sugino method as you have followed"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 382.76,
+            "end": 389.28,
+            "text": " in the Mamdani, but the last step is different from Mamdani and Sugino Mamdani you have to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 389.28,
+            "end": 395.76,
+            "text": " whatever fuzzy output you you will get you have to convert that into the defuzzification"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 395.76,
+            "end": 401.28,
+            "text": " method you have to convert it in the crisp output, but in the case of Sugino after aggregating"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 401.28,
+            "end": 404.76,
+            "text": " basically in this case not aggregating in the weighted average after weighted average"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 404.76,
+            "end": 413.76,
+            "text": " you will directly get the crisp output. Here you get the fuzzy output and you have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 413.76,
+            "end": 420.12,
+            "text": " to convert that fuzzy output to the crisp output with the help of some defuzzification"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 420.12,
+            "end": 429.36,
+            "text": " method you have to apply. So, that is a difference between the Mamdani and Sugino now come now"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 429.36,
+            "end": 434.4,
+            "text": " again we come to the Sugino inference method it will map our crisp point again some steps"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 434.44,
+            "end": 439.79999999999995,
+            "text": " are same as the as in the Mamdani method first you have to map your crisp input to the crisp"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 439.79999999999995,
+            "end": 443.96,
+            "text": " output with the help of some fuzzy rules and then the key steps are again also some key"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 443.96,
+            "end": 449.47999999999996,
+            "text": " steps are also again common as same in the Mamdani's term first one is the fuzzification"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 449.47999999999996,
+            "end": 454.76,
+            "text": " method second one is the rule evolution then third one is the inference engine now that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 454.76,
+            "end": 459.03999999999996,
+            "text": " inference engine is Sugino for that case now in the case of Mamdani fourth step is the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 459.03999999999996,
+            "end": 464.35999999999996,
+            "text": " aggregation and defuzzification the fifth step we can see that in the case of Mamdani,"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 465.32,
+            "end": 470.16,
+            "text": " Sugino inference method after inference engine after the rule evolution you will get you"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 470.16,
+            "end": 475.32,
+            "text": " will go for the weighted average and that output of the weighted average is your crisp"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 475.32,
+            "end": 479.88,
+            "text": " output final output basically you do not have to go for the again for the next step basically."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 479.88,
+            "end": 484.36,
+            "text": " So, output is here our output is the weighted combination of the rule output which is typically"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 484.36,
+            "end": 490.12,
+            "text": " basically a linear functions. So, it is basically computationally efficient as compared to the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 490.12,
+            "end": 496.32,
+            "text": " Mamdani inference system that is why that it is mostly suitable for the optimizations"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 496.32,
+            "end": 501.84000000000003,
+            "text": " types of control system. Now if you will see the rule format for the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 501.84000000000003,
+            "end": 507.12,
+            "text": " Sugino inference system the its rule format is it looks like this input condition are"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 507.12,
+            "end": 511.68,
+            "text": " same as we have we will write in the Mamdani inference system it is same in the case of"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 511.68,
+            "end": 518.6,
+            "text": " Sugino also like if x is a and y is b, but now the difference is its output it should"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 518.6800000000001,
+            "end": 524.76,
+            "text": " be in the form of mathematical function then output should be function of x comma y that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 524.76,
+            "end": 531.0400000000001,
+            "text": " is the major difference between the Mamdani and Sugino rule structure in the case of Mamdani"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 531.0400000000001,
+            "end": 536.84,
+            "text": " you will write if x is a and y is b then z is c and c is another membership function"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 536.84,
+            "end": 542.4,
+            "text": " you can you will use that there, but in the case of Sugino rule Sugino inference engine"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 542.4,
+            "end": 547.76,
+            "text": " you will write z is a function of x comma y and a function of basically we will see"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 547.92,
+            "end": 553.04,
+            "text": " what type of function it may be a linear it may be or constant you can use any mathematical"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 553.04,
+            "end": 558.4,
+            "text": " function you can use in the case of Sugino. Now that is the that is the complete rule"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 558.4,
+            "end": 566.28,
+            "text": " format if x is a and y is b then z is a x plus b y plus c any linear function I am taking"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 566.28,
+            "end": 573.72,
+            "text": " or another rule if you will made if x is b and y is c then z is c directly constant you"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 573.72,
+            "end": 578.32,
+            "text": " also can give both answer you can take from the Sugino as a linear if you want you can"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 578.32,
+            "end": 583.4,
+            "text": " take the linear output if you want the any constant output you can also take the constant"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 583.4,
+            "end": 589.84,
+            "text": " output from the Sugino inference engine. So, basically each rule produce the and it"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 589.84,
+            "end": 595.08,
+            "text": " will each rule directly produce the your crisp output do not have to convert that output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 595.08,
+            "end": 600.48,
+            "text": " to any other form you will directly get the crisp output. So, basically it is useful it"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 600.48,
+            "end": 605.72,
+            "text": " is very useful for the problem when we are a modeling any non-linear types of system"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 605.72,
+            "end": 610.32,
+            "text": " when we are modeling. So, there we will use the fuzzy in fuzzy Sugino interference in"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 610.32,
+            "end": 615.08,
+            "text": " Sugino fuzzy Sugino inference system basically we will use in that type of applications."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 615.08,
+            "end": 620.6,
+            "text": " So, now the rule format again which we have seen already in the previous slide if x is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 620.6,
+            "end": 626.12,
+            "text": " a and y is b then z should be a function of x and y it is a mathematical function basically"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 626.12,
+            "end": 632.6,
+            "text": " and then 0 order 0 now 2 things are there is first one is a 0 order 0 order means when"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 632.6,
+            "end": 638.28,
+            "text": " your output is constant means when you are you are generating your output to a constant"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 638.28,
+            "end": 643.32,
+            "text": " value certain if certain conditions are made if certain rules are made then your output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 643.32,
+            "end": 648.4,
+            "text": " should be a constant value then we will called as 0 order or fuzzy singleton we also see"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 648.4,
+            "end": 653.72,
+            "text": " we will see in the upcoming slide. So, basically it is similar to a 0 order constant means"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 653.84,
+            "end": 658.36,
+            "text": " if you are giving some input and that input is following some rules and for that rules"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 658.36,
+            "end": 664.0400000000001,
+            "text": " you are your output you are generating your output as a constant value or in the first"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 664.0400000000001,
+            "end": 667.4,
+            "text": " order case means if you are using any linear equation for that."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 667.4,
+            "end": 673.5600000000001,
+            "text": " So, outputs are crisp function not any fuzzy step fuzzy basically fuzzy output are not"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 673.5600000000001,
+            "end": 678.6,
+            "text": " there in that fuzzy inferences. So, now if you will see the steps first you have to fuzzified"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 678.6,
+            "end": 682.96,
+            "text": " a fuzzified input using membership function fuzzy step is same as the Mamdani you have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 682.96,
+            "end": 688.84,
+            "text": " to convert your in crisp input to the fuzzy output fuzzy you are will basically map you"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 688.84,
+            "end": 693.6,
+            "text": " have to map your in crisp input to the fuzzy input then you have to evaluate the rule firing"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 693.6,
+            "end": 698.84,
+            "text": " strength same in the previous we have also done the then now the third step is different"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 698.84,
+            "end": 703.48,
+            "text": " basically you have to the compute the rule output using weighted average method using"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 703.48,
+            "end": 709.2,
+            "text": " a weighted average that is the that is the expression for the weighted average that is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 709.6,
+            "end": 717.6,
+            "text": " the how you will how you will generate your output with the help of that means what that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 717.6,
+            "end": 723.44,
+            "text": " is the formula for your aggregation in the case of fuzzification W 1 W i is basically"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 723.44,
+            "end": 731.1600000000001,
+            "text": " your your firing strength which you will find the third step as Z i your output whatever"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 731.1600000000001,
+            "end": 735.72,
+            "text": " rule you are activating with the help of that means which rule is activating which rule"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 735.72,
+            "end": 739.6800000000001,
+            "text": " is activating and what they are generating with the help of a numerical you will understand"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 739.6800000000001,
+            "end": 743.6,
+            "text": " better. So, no issue we will solve we will try to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 743.6,
+            "end": 747.88,
+            "text": " solve one numerical on the. So, we know fuzzy inference system it will all clear your doubt"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 747.88,
+            "end": 752.5600000000001,
+            "text": " how that how that fuzzy inference system will work. So, basically this is a graphical structure"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 752.5600000000001,
+            "end": 757.5600000000001,
+            "text": " how fuzzy inference system will work you will apply your input and after applying your input"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 757.5600000000001,
+            "end": 763.12,
+            "text": " it will map it will map your input to the membership function it it will basically convert"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 763.12,
+            "end": 768.6,
+            "text": " your input to the fuzzy input it will fuzzification step will take place from there and then with"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 768.6,
+            "end": 774.6,
+            "text": " the help of that fuzzy step now we will you will write some rules and then you will evaluate"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 774.6,
+            "end": 779.12,
+            "text": " the rules with the help of that in that two inputs with the help of that and that with"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 779.12,
+            "end": 782.28,
+            "text": " the help of that inputs you will evaluate some rules with the help of any condition"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 782.28,
+            "end": 786.52,
+            "text": " and condition or condition whichever condition you will use and after that you will get the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 786.52,
+            "end": 790.6800000000001,
+            "text": " firing firing sense same in the Mamdani we have seen the."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 790.68,
+            "end": 794.68,
+            "text": " Now the difference is that now which rule is activating and how much output you have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 794.68,
+            "end": 799.8399999999999,
+            "text": " to generate with the help of that output that in the form of Z is equal to AX plus BY plus"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 799.8399999999999,
+            "end": 805.8,
+            "text": " C if I am taking a linear function then with the help of that you will generate our output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 805.8,
+            "end": 811.8399999999999,
+            "text": " then we have to apply for the W 1 Z 1 divided by the same formula which we have seen the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 811.8399999999999,
+            "end": 818.3599999999999,
+            "text": " W 1 Z 1 divided by the summation of W I you have to apply here."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 818.36,
+            "end": 823.04,
+            "text": " And then you have to take monitor to write there if multiple rules are activated then"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 823.04,
+            "end": 829.08,
+            "text": " you have to do the summation of that that is how you will get the final output that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 829.08,
+            "end": 836.64,
+            "text": " is our final output directly we will get the crisp output in that case."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 836.64,
+            "end": 843.28,
+            "text": " Now how graphically we will see how that Sougino-Fuzzy inference system will work now that A 1 is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 843.28,
+            "end": 848.8,
+            "text": " our A 1 is the membership function which we have defined for the input 1 and the B"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 848.8,
+            "end": 855.12,
+            "text": " 1 which we have defined for the B 2. Now that X is our now that X is our input which we"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 855.12,
+            "end": 865.28,
+            "text": " are applying that is the input which you are input you are basically applying for the X"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 865.28,
+            "end": 868.92,
+            "text": " and same Y is also the input which you are applying."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 868.92,
+            "end": 875.1999999999999,
+            "text": " Now that X will map to the that membership function A 1 here and that Y is mapped to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 875.1999999999999,
+            "end": 883.56,
+            "text": " the B 1 here now if I am using the and T norms here now I have to take the minimum. So, that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 883.56,
+            "end": 889.68,
+            "text": " how you will get the W 1 for that whatever minimum you will get same for the if my if"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 889.68,
+            "end": 895.5999999999999,
+            "text": " two rules are activated at a time like a certain into a second rule is also activated at the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 895.6,
+            "end": 900.6800000000001,
+            "text": " same time for the given input. Now again you have to the that this step is same as"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 900.6800000000001,
+            "end": 905.16,
+            "text": " we have seen in the Mamdani inference system. Now again you will get the output now in the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 905.16,
+            "end": 910.44,
+            "text": " Mamdani what we are doing now we are mapping that whatever output we are getting here we"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 910.44,
+            "end": 915.44,
+            "text": " are mapping with certain membership function here now in the case of Mamdani."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 915.44,
+            "end": 921.6,
+            "text": " Here we have seen graphically also that type of area we are getting for that output and"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 921.6,
+            "end": 926.72,
+            "text": " similarly for the next membership function is triangular membership function for the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 926.72,
+            "end": 931.4,
+            "text": " output now you have to you will do you will extend that and you get the idea now after"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 931.4,
+            "end": 939.6800000000001,
+            "text": " that you will then you will aggregate the output and then you apply the defuzzification"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 939.6800000000001,
+            "end": 945.24,
+            "text": " method here. Now in the case of fuzzy you will get the W 1 the firing step for the rule"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 945.24,
+            "end": 950.88,
+            "text": " 1 and W 2 for the rule number 2 you get now you have to calculate the output with the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 950.88,
+            "end": 955.28,
+            "text": " help of that mathematical function that is P 1 X plus Q 1 Y plus R 1 similarly for the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 955.28,
+            "end": 960.64,
+            "text": " 2 and then you will calculate the weighted average with the help of that formula W 1"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 960.64,
+            "end": 964.56,
+            "text": " is the firing strength for the rule 1 W 2 is firing strength for the rule 2 and Z 1"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 964.56,
+            "end": 968.48,
+            "text": " is the output what should be the output if that rule is activating with the you will"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 968.48,
+            "end": 972.48,
+            "text": " calculate with the help of that condition and Z 2 you will calculate with the help of"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 972.48,
+            "end": 978.08,
+            "text": " that P 2 X plus Q 2 Y plus R 2 and then you will apply all will all these value in this"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 978.08,
+            "end": 981.5600000000001,
+            "text": " formula then you will get the output for that also."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 981.5600000000001,
+            "end": 986.6,
+            "text": " Now fuzzy singleton is the condition in which you are getting the output or you are generating"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 986.6,
+            "end": 991.88,
+            "text": " your output to a constant value it means it will represent your output using fixed values"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 991.88,
+            "end": 996.84,
+            "text": " with the help of constant values you will generate your output whatever condition whatever"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 996.84,
+            "end": 1001.88,
+            "text": " you have made some rules and now if you are applying your input and if that input is meeting"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1001.88,
+            "end": 1008.64,
+            "text": " some rules then you are telling that if X is a b is Y then your output is somewhere"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1008.64,
+            "end": 1014.6,
+            "text": " constant value then F is 5 and F is 10 that type of rules are there that type of condition"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1014.6,
+            "end": 1020.4399999999999,
+            "text": " is maintain then we will name here is a fuzzy singleton in the SUGI model and first order"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1020.4399999999999,
+            "end": 1028.4,
+            "text": " SUGI model is basically when it is meeting some mathematical function that is fuzzy linear"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1028.4,
+            "end": 1035.6000000000001,
+            "text": " function method basically fuzzy first order SUGI model and last one is the fuzzy singleton."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1035.6000000000001,
+            "end": 1039.44,
+            "text": " So fuzzy singleton means if your output is meeting to a some constant value or in the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1039.44,
+            "end": 1044.52,
+            "text": " case of first order it means your output is meeting to a some mathematical function."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1044.52,
+            "end": 1048.2800000000002,
+            "text": " Now again I am taken I have taken one numerical for the better understanding about the how"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1048.2800000000002,
+            "end": 1054.0,
+            "text": " SUGI system will work. So we have to design a SUGI type of the controller for an air conditioner"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1054.0,
+            "end": 1058.68,
+            "text": " we have to design I have taken an example for air conditioner now whatever input again"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1058.68,
+            "end": 1064.52,
+            "text": " the same input I have taken for this numerical also that is temperature and degree Celsius"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1064.52,
+            "end": 1069.24,
+            "text": " and humidity and percentage I have taken as a input and our output should be fan speed"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1069.24,
+            "end": 1075.48,
+            "text": " when what is the fan speed for that air conditioner according to that input."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1075.48,
+            "end": 1079.36,
+            "text": " Now first we have to define our input and output range so that is our input range which"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1079.36,
+            "end": 1084.84,
+            "text": " I have taken for the temperature 0 to 40 degree Celsius the humidity 0 to 100 percent"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1084.84,
+            "end": 1088.84,
+            "text": " fan speed 0 to 10 minutes mean that is our range basically for temperature I am taking"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1088.84,
+            "end": 1093.9599999999998,
+            "text": " the range 0 to 40 for humidity I have taken 0 to 100 percent and for the fan speed I have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1093.9599999999998,
+            "end": 1100.08,
+            "text": " taken up to 0 to 10 minutes. Now the step 2 is we have to define the fuzzy set means"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1100.08,
+            "end": 1105.12,
+            "text": " we have to map first we have to design the membership function for that the whatever"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1105.12,
+            "end": 1109.0,
+            "text": " input we are taking we have taken two inputs now we have to design a membership function"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1109.04,
+            "end": 1115.16,
+            "text": " for the two inputs so first one is the temperature membership functions now we have to give make"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1115.16,
+            "end": 1119.24,
+            "text": " some linguistic variables for that so I have taken three linguistic variables for that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1119.24,
+            "end": 1124.48,
+            "text": " that is low medium and high for the low I have taken the range 0 to 20 and triangular"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1124.48,
+            "end": 1130.2,
+            "text": " membership function I have used so I have given a range 0 0 20 for that and for the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1130.2,
+            "end": 1137.04,
+            "text": " medium I have taken the range 15 to 30 and the functions which I have taken the triangular"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1137.04,
+            "end": 1144.1599999999999,
+            "text": " membership function that is 0 0 20 means if I will design it will look like 0 0 comma"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1144.1599999999999,
+            "end": 1153.36,
+            "text": " or that is 20 and that is 15 25 30 basically center value is 25 and starting value is 15"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1153.36,
+            "end": 1164.8,
+            "text": " and ending value is 30 and that is low that is medium and high means 25 so 40 it will"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1164.8,
+            "end": 1173.04,
+            "text": " look like sorry it will it will look like 25 40 40 so that is how our membership function"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1173.04,
+            "end": 1179.0,
+            "text": " value like for the case of temperature that is low for the for the low 0 to 20 and for"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1179.0,
+            "end": 1182.84,
+            "text": " the medium 15 to 30 and for the high 25 to 40."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1182.84,
+            "end": 1187.76,
+            "text": " Now in the same way which I have defined for the temperatures in the same way you have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1187.76,
+            "end": 1194.04,
+            "text": " to define for the humidity also again for the humidity also I have taken three linguistic"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1194.28,
+            "end": 1199.52,
+            "text": " variables that is low medium and high and the range I have taken is for the low 0 to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1199.52,
+            "end": 1205.32,
+            "text": " 40 and for the medium 30 to 70 and for the high 60 to 100 so again I am using the triangular"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1205.32,
+            "end": 1214.56,
+            "text": " membership function for that so now if I will draw it is 0 0 40 here is 40 and that membership"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1214.56,
+            "end": 1224.76,
+            "text": " function is low for the humidity I am drawing now 30 50 70 that is 30 that is 50 and that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1224.76,
+            "end": 1235.84,
+            "text": " is 70 now for the high that is for the medium now for the high it is 60 here will be 60"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1235.84,
+            "end": 1243.6799999999998,
+            "text": " and there will be 100 basically so that how our membership function looks like for the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1243.6799999999998,
+            "end": 1245.9599999999998,
+            "text": " humidity."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1245.9599999999998,
+            "end": 1253.6,
+            "text": " Now if it is a numerical for the Mamdani I have to define in the same membership function"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1253.6,
+            "end": 1257.3999999999999,
+            "text": " for the output also but in the case of so you know you do not have to define the output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1257.3999999999999,
+            "end": 1262.4399999999998,
+            "text": " for the you have to you do not have to define the membership function for the output instead"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1262.44,
+            "end": 1267.6000000000001,
+            "text": " of that you have to define the linear function for that in the form of a t plus b h plus"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1267.6000000000001,
+            "end": 1272.0800000000002,
+            "text": " c a is the whatever input you are applying and t is the temperature h is the humidity"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1272.0800000000002,
+            "end": 1277.92,
+            "text": " and c is any constant with the help of that formula that mathematical function you have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1277.92,
+            "end": 1283.4,
+            "text": " to define the rules now next step we have to define the rules with the consequent functions"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1283.4,
+            "end": 1289.1200000000001,
+            "text": " like so I have defined five rules like if temperature is low and humidity is low then"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1289.12,
+            "end": 1296.4399999999998,
+            "text": " our output is 0.1 into temperature plus 0.1 into humidity plus 1 means if that rule is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1296.4399999999998,
+            "end": 1302.1999999999998,
+            "text": " activated then what is our z then our z is that you have to calculate the z in that way"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1302.1999999999998,
+            "end": 1308.36,
+            "text": " 0.1 t plus 0.1 h plus 1 if rule 2 is activated in which if temperature is low and humidity"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1308.36,
+            "end": 1314.6399999999999,
+            "text": " is high then our output is 0.1 t plus 0.3 h plus 2 similarly if rule 3 is activated"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1314.64,
+            "end": 1320.72,
+            "text": " if temperature is high and humidity is low 0 output it should be 0.4 t plus 0.1 h plus"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1320.72,
+            "end": 1325.5200000000002,
+            "text": " 2 if rule 4 is activated if temperature is high and humidity is high then our output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1325.5200000000002,
+            "end": 1331.92,
+            "text": " is in the form of 0.3 t plus 0.3 h plus 1 if our rule 5 is activated it means if temperature"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1331.92,
+            "end": 1336.0800000000002,
+            "text": " is medium and humidity is medium then our output should be in the form of 0.2 t plus"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1336.0800000000002,
+            "end": 1342.8400000000001,
+            "text": " 0.2 h plus 1.5 that is how we will calculate our output in the case of sogino inference"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1342.84,
+            "end": 1347.04,
+            "text": " system now we have to take the input how what is the our input."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1347.04,
+            "end": 1352.8799999999999,
+            "text": " So, in that case I have taken I have taken the input as so what input you have taken"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1352.8799999999999,
+            "end": 1357.48,
+            "text": " I have taken the temperature as 20 degree Celsius and humidity as 60 percent now the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1357.48,
+            "end": 1362.36,
+            "text": " now the next step is you have to map that input to the membership function whatever"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1362.36,
+            "end": 1365.72,
+            "text": " membership function you have used you have to map that input means fuzzification we have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1365.72,
+            "end": 1371.12,
+            "text": " to do we have to convert that that that is basically our crisp input now we have to do"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1371.12,
+            "end": 1374.4799999999998,
+            "text": " the fuzzification we have to convert that crisp input to the fuzzy."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1374.4799999999998,
+            "end": 1380.1599999999999,
+            "text": " So, that is the table I have again used so that you can side by side you can see how"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1380.1599999999999,
+            "end": 1385.52,
+            "text": " we will convert that. So, now first step is temperature 20 degree Celsius now we have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1385.52,
+            "end": 1390.4799999999998,
+            "text": " to see the range it basically you can see input is 20 degree Celsius, but the range"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1390.4799999999998,
+            "end": 1397.32,
+            "text": " of low the low is 0 to 20 it means it will not act. So, if I write the 28 in the case"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1397.32,
+            "end": 1404.3999999999999,
+            "text": " of low it is basically the 0 which you can see here now the second the second linguistic"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1404.3999999999999,
+            "end": 1408.76,
+            "text": " variable if I will match it with then it is medium it is the range is 15 to 30 now our"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1408.76,
+            "end": 1415.28,
+            "text": " input is 28 degree mean it will come in between the 8 28 it will come in between the b to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1415.28,
+            "end": 1421.96,
+            "text": " c. So, that formula we have to apply c minus x upon c minus b c means output 30 minus input"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1421.96,
+            "end": 1429.44,
+            "text": " 30 minus 28 divided by 30 minus 25 it will come to the answer 0.5 that is how you have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1429.44,
+            "end": 1435.2,
+            "text": " to map your crisp input to the fuzzy. Similarly for the high you have also match"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1435.2,
+            "end": 1440.76,
+            "text": " input is 28 it will comes in between the means now for the high you have to apply that formula"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1440.76,
+            "end": 1445.64,
+            "text": " and for the medium you have applied that formula that x minus a upon b minus then x is your"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1445.64,
+            "end": 1452.6000000000001,
+            "text": " input that is 28 in this case 28 minus 25 divided by 40 minus 25 that is b minus a."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1452.6000000000001,
+            "end": 1457.2800000000002,
+            "text": " So, 40 minus 25 we have decided then we have subtracted basically we will get the output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1457.2800000000002,
+            "end": 1465.2800000000002,
+            "text": " 0.2 that is for the low medium high case. Now, since in the similar way we have also"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1465.2800000000002,
+            "end": 1471.6000000000001,
+            "text": " decide we have to map the humidity input also the 40 the 60 percent input which we have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1471.6,
+            "end": 1477.9199999999998,
+            "text": " we have to map that to the means we have to convert that 60 percent input to the that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1477.9199999999998,
+            "end": 1484.6399999999999,
+            "text": " 60 percent input that is our crisp input basically present you have to convert that to the fuzzy."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1484.6399999999999,
+            "end": 1490.3999999999999,
+            "text": " So, how we will convert in the same way which way the same way which we have converted in"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1490.3999999999999,
+            "end": 1493.8799999999999,
+            "text": " the previous slide for the temperature now we have to convert for the humidity. Now,"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1493.8799999999999,
+            "end": 1498.76,
+            "text": " input is 60 percent now you can see in the first if we will see the range of range of"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1498.76,
+            "end": 1504.96,
+            "text": " low it will 0 0 40 means higher is higher range is 40, but our input is 60 it made is"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1504.96,
+            "end": 1508.52,
+            "text": " out of range then it is their output is 0 for that."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1508.52,
+            "end": 1515.32,
+            "text": " Now, for the medium in between 30 to 70 it is in between 30 to 70 now in which section"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1515.32,
+            "end": 1520.16,
+            "text": " it comes in between the 50 to 70 in between 50 to 70 means in between b to c then you"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1520.16,
+            "end": 1524.8,
+            "text": " have to apply that formula that is c minus x divided by c minus b. So, I have applied"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1524.8,
+            "end": 1534.04,
+            "text": " that here also the our c is 70 minus input that 60 70 minus 60 divided by the c minus"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1534.04,
+            "end": 1540.3999999999999,
+            "text": " b 70 minus 50 that is comes a 0.5. Now, for the same also for the high also you can see"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1540.3999999999999,
+            "end": 1545.1599999999999,
+            "text": " our input we have to first check where our input is coming in between the range of that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1545.1599999999999,
+            "end": 1551.04,
+            "text": " high or not. So, 60 it is coming in the range it is directly coming in the range of 60."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1551.04,
+            "end": 1556.12,
+            "text": " Now, we have to you can see where it will lie in between the. So, you can use that formula"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1556.12,
+            "end": 1562.6,
+            "text": " and that comes the output 1 you can see that. So, that is how you have to convert your input"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1562.6,
+            "end": 1567.32,
+            "text": " to the fuzzy basically. Now, now we have to check the next step we have to check which"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1567.32,
+            "end": 1572.84,
+            "text": " rule is activated and at how much firing strength it is activated how strongly it is activated"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1572.84,
+            "end": 1576.36,
+            "text": " now we have to check. So, now, if temperature is low and humidity"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1576.36,
+            "end": 1580.72,
+            "text": " is low then our output is 0.2 plus 0.8 plus 1 that that is the final output, but first"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1581.4,
+            "end": 1585.52,
+            "text": " we have to check which rule is activated. Now, if rule 1 now we have got the output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1585.52,
+            "end": 1594.24,
+            "text": " for the rule 1 if you will check 0.1 for temperature is low I will take the pointer if temperature"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1594.24,
+            "end": 1601.04,
+            "text": " is low low means 0 if humidity is low. So, 0 0 output should be 0 we are using the end"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1601.04,
+            "end": 1605.6000000000001,
+            "text": " condition. So, we have to use the minimum we have to take the minimum because we are"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1605.6,
+            "end": 1611.9199999999998,
+            "text": " using the end condition in the rule if temperature is if temperature is that and humidity. So,"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1611.9199999999998,
+            "end": 1615.56,
+            "text": " we are using the T norm operator. So, you have to take the minimum now if you will see"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1615.56,
+            "end": 1620.76,
+            "text": " now we will check the second rule if temperature is low and humidity is high temperature low"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1620.76,
+            "end": 1628.7199999999998,
+            "text": " humidity high temperature low basically 0 0 and humidity is high humidity is high 1"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1628.7199999999998,
+            "end": 1633.84,
+            "text": " 0 comma 1. So, minimum is again 0 it 0 output is coming"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1633.84,
+            "end": 1637.9599999999998,
+            "text": " 0 means it is firing strength is coming 0 it means it is not contributing to the output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1637.9599999999998,
+            "end": 1643.36,
+            "text": " it means that rule is not activated for that output for that input basically. Now, we will"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1643.36,
+            "end": 1648.56,
+            "text": " check for the rule number 3 high low temperature is high temperature is high 0.2. So, I felt"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1648.56,
+            "end": 1654.52,
+            "text": " 0.2 and humidity is low and humidity is low that is 0 that is 0 now minimum of both come"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1654.52,
+            "end": 1663.48,
+            "text": " 0. Now, rule 4 high temperature is high that is 0.2. So, I failed here 0.2 and humidity"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1663.52,
+            "end": 1670.1200000000001,
+            "text": " is medium and humidity is medium that is 0.5 that is sorry 1 humidity is also high"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1670.1200000000001,
+            "end": 1676.64,
+            "text": " humidity is also high then 1. So, 0.2 comma 1 minimum is 0.2. So, now, the output comes"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1676.64,
+            "end": 1682.2,
+            "text": " 0.2 it means that rule is activated with the firing strength of 0.2. Now, same now we have"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1682.2,
+            "end": 1686.48,
+            "text": " to check for the rule 5 if temperature is medium of temperature is medium that is 0.4"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1686.48,
+            "end": 1693.4,
+            "text": " I have taken and humidity is also medium humidity is also medium that is 0.5 0.5 0.4 or 0.5"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1693.4,
+            "end": 1700.8000000000002,
+            "text": " now we have to we have to select the minimum. So, now, 0.4 comma 0.5 the minimum is 0.4"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1700.8000000000002,
+            "end": 1707.44,
+            "text": " basically. So, that rule is also activated with a firing strength of 0.4 that is how"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1707.44,
+            "end": 1711.6000000000001,
+            "text": " you will evaluate all the rules and we will calculate the firing strength."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1711.6000000000001,
+            "end": 1717.2,
+            "text": " Now, next step is to compute the Z to basically we have now we have to compute the activated"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1717.2,
+            "end": 1721.88,
+            "text": " rules. So, how we will compute? So, we have seen in the previous slide only 2 rules are"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1721.88,
+            "end": 1725.96,
+            "text": " activated that is rule number 4 and rule number 5 I have pasted the same table here"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1725.96,
+            "end": 1734.0400000000002,
+            "text": " also side by side you can see. So, that rule number 4 and that rule number 5 is activated"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1734.0400000000002,
+            "end": 1739.24,
+            "text": " for that input. Now, we have to calculate the Z we have to compute the we have to calculate"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1739.24,
+            "end": 1744.2800000000002,
+            "text": " the Z for the activated rules. Now, rule number 4 and rule number 5 is activated. So, Z 0.3"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1744.2800000000002,
+            "end": 1750.5600000000002,
+            "text": " T plus 0.3 H plus 1 that is the mathematical function for that. Now, we have to apply that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1750.56,
+            "end": 1757.72,
+            "text": " Z is although I have write here, but again I am writing for the our input is 20 degree"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1757.72,
+            "end": 1764.8,
+            "text": " Celsius plus 0.3 and humidity given in the question or the input which we are applying"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1764.8,
+            "end": 1770.84,
+            "text": " the humidity is 60 and plus 1 that is how you have to calculate the Z and it will comes"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1770.84,
+            "end": 1782.32,
+            "text": " around 27.4 basically it will comes 27.4 that comes the Z 1 I again for the rule number"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1782.32,
+            "end": 1794.4399999999998,
+            "text": " 4 basically. Now, again I have to calculate that Z for the rule number 5 0.2 T plus 0.2"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1794.44,
+            "end": 1802.0800000000002,
+            "text": " H plus 1.5. So, now, you have to put the values here 0.2 into 60 is our 28 is basically"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1802.0800000000002,
+            "end": 1815.8,
+            "text": " our input to erase this 0.2 into temperature input is 28 0.2 into humidity is 60 plus 1.5"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1815.8,
+            "end": 1822.3600000000001,
+            "text": " you will calculate then you will get the output 19.1. So, we will get the Z 1 for the first"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1822.36,
+            "end": 1830.52,
+            "text": " rule that is activate rule number 4 is 27.4 and for the rule 5 that is activated I will"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1830.52,
+            "end": 1835.12,
+            "text": " get the answer 19.1. Now, I have to calculate the final output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1835.12,
+            "end": 1842.04,
+            "text": " that we have seen the final output is W 1 Z 1 divided by summation of W 1 that is our"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1842.04,
+            "end": 1847.04,
+            "text": " final output that is the formula for the final output calculation which we have seen in the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1847.04,
+            "end": 1854.8,
+            "text": " previous slides. Now, the Z 1 should be multiplied by the their firing strength. So, that Z 1"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1854.8,
+            "end": 1859.24,
+            "text": " 27.4 should be multiplying by their firing strength firing strength we have calculated"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1859.24,
+            "end": 1863.6,
+            "text": " in the previous slide. So, for the rule number 4 the for rule number 4 the firing strength"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1863.6,
+            "end": 1869.08,
+            "text": " is 0.2. So, we have to multiply the Z that Z to their firing strength for rule number"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1869.08,
+            "end": 1878.6799999999998,
+            "text": " 5 the firing strength is 0.5 0.4. Now, you have to multiply that 19.1 to the 0.4 here"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1878.6799999999998,
+            "end": 1884.8799999999999,
+            "text": " I have multiplied that in the printed form you can see that that I have multiplied that"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1884.8799999999999,
+            "end": 1890.12,
+            "text": " 27.4 to their firing strength in the similar way I have multiplied that 19.1 output to"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1890.12,
+            "end": 1896.52,
+            "text": " their firing strength. So, to apply to get the output. So, now, that is the final output"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1896.52,
+            "end": 1904.24,
+            "text": " formula summation of W 1 Z 1 divided by summation of W 1 the W 1 W 1 into Z 1 basically W 1"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1904.24,
+            "end": 1913.6399999999999,
+            "text": " into Z 1 you can see 0.2 into 27.4 that is 5.48 we will get and W 2 into Z 2 that means,"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1913.6399999999999,
+            "end": 1920.48,
+            "text": " 19.1 into 0.4 that come to 7.65. Now, we have to take the sum for that. So,"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1920.48,
+            "end": 1927.68,
+            "text": " that is 5.48 plus 7.64 divided by the sum of the membership function of basically the"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1927.68,
+            "end": 1932.6,
+            "text": " firing strength sum of the firing strength that is 0.2 plus 0.5 then you will get directly"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1932.6,
+            "end": 1937.84,
+            "text": " here you will get the output that is 21.87 that is basically the final output. Now, you"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1937.84,
+            "end": 1943.96,
+            "text": " do not have to convert or you do not have to process any condition after that you directly"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1943.96,
+            "end": 1949.16,
+            "text": " that is your output that is your crisp output in the case of SUGINO inference system."
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1949.28,
+            "end": 1954.0400000000002,
+            "text": " So, basically that is all for the today's lecture. So, in this lecture we have covered"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1954.0400000000002,
+            "end": 1959.3200000000002,
+            "text": " about the SUGINO inference systems and one numerical which is based on the SUGINO inference"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1959.3200000000002,
+            "end": 1965.52,
+            "text": " system. In the next lecture I will try to cover one more numerical on the Mamdani inference"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1965.52,
+            "end": 1970.5600000000002,
+            "text": " system. So, that you guys are able completely able to understand between the SUGINO inference"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1970.5600000000002,
+            "end": 1974.96,
+            "text": " system and Mamdani inference system and how will they work in this lecture you have seen"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1974.96,
+            "end": 1978.88,
+            "text": " how SUGINO inference system will work with the help of numerical in the next class I"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1978.96,
+            "end": 1984.7600000000002,
+            "text": " will try to solve one numerical on the topic on the on the numerical basically on the topic"
+        },
+        {
+            "number": "10",
+            "title": "Lecture 10",
+            "start": 1984.7600000000002,
+            "end": 1987.2,
+            "text": " Mamdani fuzzy inference system. Thank you."
+        }
+    ],
+    "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning techniques. I am Dr. Aftab Ahmed Ansari, your instructor for this course. Basically, this is our lecture number 10. So, if you will see the recap of the previous class, what we have covered in our previous class. So, we have in the previous class, we have seen about the Mamdani fuzzy inference system and their basically in their structure, how we will write the rules in the case of Mamdani fuzzy inference system that is if then rules structure we have seen in the previous class and we have also seen about the component of the Mamdani fuzzy inference system that is a fuzzification then rule base and inference engine then the diversification method we have seen and after evaluating all the rules, how we will generate the output with the help of T-norm and S-norm. T-norm means and operation and S-norm means or operation with the help of that how we will generate our output with the help of graphically we have also seen in the previous class and we have solved also one complete numerical on the Mamdani numerical Mamdani inference system basically indirectly at that time when we are solving the numerical I have not told you that I am using the Mamdani, but that is basically the example which is completely based on the Mamdani inference system. Now in this class we will learn about the Sugino interference method that is next most popular inference method in the fuzzy logic controller now in this class we will try to understand that Sugino interference method basically so that Sugino inference method is introduced by the Takagi Sugino and Kang they have introduced the Sugino inference method it is that method is also known as the TSK basically Takagi Sugino Kang model and it is now what is the difference between in the Mamdani and Sugino inference method that is basically the output of the main excluding output all the steps are same and the root evolution is also different in the Sugino, but if I will broadly if I will give you the difference between Mamdani and fuzzy is that it is output basically in the case in the case of Mamdani inference method you will get the output in the form of fuzzy set then you have to apply the fuzzy method to convert that output to the crisp output, but in the case of Sugino inference method you will get directly the output in the form of crisp output you now in this method you do not have to use the fuzzy any fuzzy method to convert that output to the crisp output because in this method directly you will get the crisp output that is major difference that is major difference between basically in Mamdani and Sugino inference system. So, that type of method basically that Sugino inference method we can use in the system where adaptive systems are there or when we are applying the optimization technique in any control application. So, in that type of system we will apply our Sugino inference method with the help of that fuzzy logic controller. So, that fuzzy that is a fuzzy inference system that produce the crisp output directly from the weighted rules after the rule liberation it will directly give the you the crisp output you do not have to convert the output to the again to the crisp output basically that is the most important advantage of the Sugino inference method as compared to the Mamdani ok. Now, that the comparison table in between that in the if we will see if we will see consequent term is the input term then it is fuzzy set and in this also the output the output which you are giving for the output also basically antecedent means your input conditions and the consequent means your output condition. So, in the case of Mamdani you will you have to also define the fuzzy set for the output also like in the previous class if you will see the numerical which we have solved we have we are in that numerical we are controlling the fan speed with the help of giving two inputs that is a temperature and humidity and our output is fan speed. Now, for the temperature also we have defined 3 membership functions for the humidity also we have defined 3 membership function and for the output also we have we have defined the 3 membership functions, but in the case of Sugino you have to define the membership function for the input not for the output means your output will be in the form of a mathematical function that is if your output is z then it will then it will be in the form of ax plus by plus c it is in the form of mathematical equations. Now, defuzzification method required in the case of Mamdani method, but in the case of Sugino method it is not required that is the second difference. Now, it is output is direct in the case of Mamdani you have to convert that fuzzy output to the crisp output with the help of defuzzification, but in the case of Sugino method you will directly get the crisp output you do not have to use any defuzzification method. And the computation it is basically in the case of Mamdani system you can see it is a more complex system as compared to the Sugino like the numerical which we have solved first we have to match our input to the crisp to the fuzzy input then we have to see which rule is which rule is activated according to that input then we have to aggregate all the rules and then after aggregating we have to again we have to again defuzzify to get the crisp output it becomes a more little bit more complex as compared to the Sugino method and so that is why we can see that it is more efficient as compared to the Mamdani method. Now, if we will see about the application area then it can be it can be used in the human understandable control and the Sugino method we can use in the application area of optimization at the adaptive system types of types of application where we can use. Now, if you will see graphically the comparison between Mamdani and Sugino. So, input like I have for the Mamdani I have taken the 3 inputs now first according to the diagram you can see that that conditions are same means that that that steps you have to follow also in the Sugino method as you have followed in the Mamdani, but the last step is different from Mamdani and Sugino Mamdani you have to whatever fuzzy output you you will get you have to convert that into the defuzzification method you have to convert it in the crisp output, but in the case of Sugino after aggregating basically in this case not aggregating in the weighted average after weighted average you will directly get the crisp output. Here you get the fuzzy output and you have to convert that fuzzy output to the crisp output with the help of some defuzzification method you have to apply. So, that is a difference between the Mamdani and Sugino now come now again we come to the Sugino inference method it will map our crisp point again some steps are same as the as in the Mamdani method first you have to map your crisp input to the crisp output with the help of some fuzzy rules and then the key steps are again also some key steps are also again common as same in the Mamdani's term first one is the fuzzification method second one is the rule evolution then third one is the inference engine now that inference engine is Sugino for that case now in the case of Mamdani fourth step is the aggregation and defuzzification the fifth step we can see that in the case of Mamdani, Sugino inference method after inference engine after the rule evolution you will get you will go for the weighted average and that output of the weighted average is your crisp output final output basically you do not have to go for the again for the next step basically. So, output is here our output is the weighted combination of the rule output which is typically basically a linear functions. So, it is basically computationally efficient as compared to the Mamdani inference system that is why that it is mostly suitable for the optimizations types of control system. Now if you will see the rule format for the Sugino inference system the its rule format is it looks like this input condition are same as we have we will write in the Mamdani inference system it is same in the case of Sugino also like if x is a and y is b, but now the difference is its output it should be in the form of mathematical function then output should be function of x comma y that is the major difference between the Mamdani and Sugino rule structure in the case of Mamdani you will write if x is a and y is b then z is c and c is another membership function you can you will use that there, but in the case of Sugino rule Sugino inference engine you will write z is a function of x comma y and a function of basically we will see what type of function it may be a linear it may be or constant you can use any mathematical function you can use in the case of Sugino. Now that is the that is the complete rule format if x is a and y is b then z is a x plus b y plus c any linear function I am taking or another rule if you will made if x is b and y is c then z is c directly constant you also can give both answer you can take from the Sugino as a linear if you want you can take the linear output if you want the any constant output you can also take the constant output from the Sugino inference engine. So, basically each rule produce the and it will each rule directly produce the your crisp output do not have to convert that output to any other form you will directly get the crisp output. So, basically it is useful it is very useful for the problem when we are a modeling any non-linear types of system when we are modeling. So, there we will use the fuzzy in fuzzy Sugino interference in Sugino fuzzy Sugino inference system basically we will use in that type of applications. So, now the rule format again which we have seen already in the previous slide if x is a and y is b then z should be a function of x and y it is a mathematical function basically and then 0 order 0 now 2 things are there is first one is a 0 order 0 order means when your output is constant means when you are you are generating your output to a constant value certain if certain conditions are made if certain rules are made then your output should be a constant value then we will called as 0 order or fuzzy singleton we also see we will see in the upcoming slide. So, basically it is similar to a 0 order constant means if you are giving some input and that input is following some rules and for that rules you are your output you are generating your output as a constant value or in the first order case means if you are using any linear equation for that. So, outputs are crisp function not any fuzzy step fuzzy basically fuzzy output are not there in that fuzzy inferences. So, now if you will see the steps first you have to fuzzified a fuzzified input using membership function fuzzy step is same as the Mamdani you have to convert your in crisp input to the fuzzy output fuzzy you are will basically map you have to map your in crisp input to the fuzzy input then you have to evaluate the rule firing strength same in the previous we have also done the then now the third step is different basically you have to the compute the rule output using weighted average method using a weighted average that is the that is the expression for the weighted average that is the how you will how you will generate your output with the help of that means what that is the formula for your aggregation in the case of fuzzification W 1 W i is basically your your firing strength which you will find the third step as Z i your output whatever rule you are activating with the help of that means which rule is activating which rule is activating and what they are generating with the help of a numerical you will understand better. So, no issue we will solve we will try to solve one numerical on the. So, we know fuzzy inference system it will all clear your doubt how that how that fuzzy inference system will work. So, basically this is a graphical structure how fuzzy inference system will work you will apply your input and after applying your input it will map it will map your input to the membership function it it will basically convert your input to the fuzzy input it will fuzzification step will take place from there and then with the help of that fuzzy step now we will you will write some rules and then you will evaluate the rules with the help of that in that two inputs with the help of that and that with the help of that inputs you will evaluate some rules with the help of any condition and condition or condition whichever condition you will use and after that you will get the firing firing sense same in the Mamdani we have seen the. Now the difference is that now which rule is activating and how much output you have to generate with the help of that output that in the form of Z is equal to AX plus BY plus C if I am taking a linear function then with the help of that you will generate our output then we have to apply for the W 1 Z 1 divided by the same formula which we have seen the W 1 Z 1 divided by the summation of W I you have to apply here. And then you have to take monitor to write there if multiple rules are activated then you have to do the summation of that that is how you will get the final output that is our final output directly we will get the crisp output in that case. Now how graphically we will see how that Sougino-Fuzzy inference system will work now that A 1 is our A 1 is the membership function which we have defined for the input 1 and the B 1 which we have defined for the B 2. Now that X is our now that X is our input which we are applying that is the input which you are input you are basically applying for the X and same Y is also the input which you are applying. Now that X will map to the that membership function A 1 here and that Y is mapped to the B 1 here now if I am using the and T norms here now I have to take the minimum. So, that how you will get the W 1 for that whatever minimum you will get same for the if my if two rules are activated at a time like a certain into a second rule is also activated at the same time for the given input. Now again you have to the that this step is same as we have seen in the Mamdani inference system. Now again you will get the output now in the Mamdani what we are doing now we are mapping that whatever output we are getting here we are mapping with certain membership function here now in the case of Mamdani. Here we have seen graphically also that type of area we are getting for that output and similarly for the next membership function is triangular membership function for the output now you have to you will do you will extend that and you get the idea now after that you will then you will aggregate the output and then you apply the defuzzification method here. Now in the case of fuzzy you will get the W 1 the firing step for the rule 1 and W 2 for the rule number 2 you get now you have to calculate the output with the help of that mathematical function that is P 1 X plus Q 1 Y plus R 1 similarly for the 2 and then you will calculate the weighted average with the help of that formula W 1 is the firing strength for the rule 1 W 2 is firing strength for the rule 2 and Z 1 is the output what should be the output if that rule is activating with the you will calculate with the help of that condition and Z 2 you will calculate with the help of that P 2 X plus Q 2 Y plus R 2 and then you will apply all will all these value in this formula then you will get the output for that also. Now fuzzy singleton is the condition in which you are getting the output or you are generating your output to a constant value it means it will represent your output using fixed values with the help of constant values you will generate your output whatever condition whatever you have made some rules and now if you are applying your input and if that input is meeting some rules then you are telling that if X is a b is Y then your output is somewhere constant value then F is 5 and F is 10 that type of rules are there that type of condition is maintain then we will name here is a fuzzy singleton in the SUGI model and first order SUGI model is basically when it is meeting some mathematical function that is fuzzy linear function method basically fuzzy first order SUGI model and last one is the fuzzy singleton. So fuzzy singleton means if your output is meeting to a some constant value or in the case of first order it means your output is meeting to a some mathematical function. Now again I am taken I have taken one numerical for the better understanding about the how SUGI system will work. So we have to design a SUGI type of the controller for an air conditioner we have to design I have taken an example for air conditioner now whatever input again the same input I have taken for this numerical also that is temperature and degree Celsius and humidity and percentage I have taken as a input and our output should be fan speed when what is the fan speed for that air conditioner according to that input. Now first we have to define our input and output range so that is our input range which I have taken for the temperature 0 to 40 degree Celsius the humidity 0 to 100 percent fan speed 0 to 10 minutes mean that is our range basically for temperature I am taking the range 0 to 40 for humidity I have taken 0 to 100 percent and for the fan speed I have taken up to 0 to 10 minutes. Now the step 2 is we have to define the fuzzy set means we have to map first we have to design the membership function for that the whatever input we are taking we have taken two inputs now we have to design a membership function for the two inputs so first one is the temperature membership functions now we have to give make some linguistic variables for that so I have taken three linguistic variables for that that is low medium and high for the low I have taken the range 0 to 20 and triangular membership function I have used so I have given a range 0 0 20 for that and for the medium I have taken the range 15 to 30 and the functions which I have taken the triangular membership function that is 0 0 20 means if I will design it will look like 0 0 comma or that is 20 and that is 15 25 30 basically center value is 25 and starting value is 15 and ending value is 30 and that is low that is medium and high means 25 so 40 it will look like sorry it will it will look like 25 40 40 so that is how our membership function value like for the case of temperature that is low for the for the low 0 to 20 and for the medium 15 to 30 and for the high 25 to 40. Now in the same way which I have defined for the temperatures in the same way you have to define for the humidity also again for the humidity also I have taken three linguistic variables that is low medium and high and the range I have taken is for the low 0 to 40 and for the medium 30 to 70 and for the high 60 to 100 so again I am using the triangular membership function for that so now if I will draw it is 0 0 40 here is 40 and that membership function is low for the humidity I am drawing now 30 50 70 that is 30 that is 50 and that is 70 now for the high that is for the medium now for the high it is 60 here will be 60 and there will be 100 basically so that how our membership function looks like for the humidity. Now if it is a numerical for the Mamdani I have to define in the same membership function for the output also but in the case of so you know you do not have to define the output for the you have to you do not have to define the membership function for the output instead of that you have to define the linear function for that in the form of a t plus b h plus c a is the whatever input you are applying and t is the temperature h is the humidity and c is any constant with the help of that formula that mathematical function you have to define the rules now next step we have to define the rules with the consequent functions like so I have defined five rules like if temperature is low and humidity is low then our output is 0.1 into temperature plus 0.1 into humidity plus 1 means if that rule is activated then what is our z then our z is that you have to calculate the z in that way 0.1 t plus 0.1 h plus 1 if rule 2 is activated in which if temperature is low and humidity is high then our output is 0.1 t plus 0.3 h plus 2 similarly if rule 3 is activated if temperature is high and humidity is low 0 output it should be 0.4 t plus 0.1 h plus 2 if rule 4 is activated if temperature is high and humidity is high then our output is in the form of 0.3 t plus 0.3 h plus 1 if our rule 5 is activated it means if temperature is medium and humidity is medium then our output should be in the form of 0.2 t plus 0.2 h plus 1.5 that is how we will calculate our output in the case of sogino inference system now we have to take the input how what is the our input. So, in that case I have taken I have taken the input as so what input you have taken I have taken the temperature as 20 degree Celsius and humidity as 60 percent now the now the next step is you have to map that input to the membership function whatever membership function you have used you have to map that input means fuzzification we have to do we have to convert that that that is basically our crisp input now we have to do the fuzzification we have to convert that crisp input to the fuzzy. So, that is the table I have again used so that you can side by side you can see how we will convert that. So, now first step is temperature 20 degree Celsius now we have to see the range it basically you can see input is 20 degree Celsius, but the range of low the low is 0 to 20 it means it will not act. So, if I write the 28 in the case of low it is basically the 0 which you can see here now the second the second linguistic variable if I will match it with then it is medium it is the range is 15 to 30 now our input is 28 degree mean it will come in between the 8 28 it will come in between the b to c. So, that formula we have to apply c minus x upon c minus b c means output 30 minus input 30 minus 28 divided by 30 minus 25 it will come to the answer 0.5 that is how you have to map your crisp input to the fuzzy. Similarly for the high you have also match input is 28 it will comes in between the means now for the high you have to apply that formula and for the medium you have applied that formula that x minus a upon b minus then x is your input that is 28 in this case 28 minus 25 divided by 40 minus 25 that is b minus a. So, 40 minus 25 we have decided then we have subtracted basically we will get the output 0.2 that is for the low medium high case. Now, since in the similar way we have also decide we have to map the humidity input also the 40 the 60 percent input which we have we have to map that to the means we have to convert that 60 percent input to the that 60 percent input that is our crisp input basically present you have to convert that to the fuzzy. So, how we will convert in the same way which way the same way which we have converted in the previous slide for the temperature now we have to convert for the humidity. Now, input is 60 percent now you can see in the first if we will see the range of range of low it will 0 0 40 means higher is higher range is 40, but our input is 60 it made is out of range then it is their output is 0 for that. Now, for the medium in between 30 to 70 it is in between 30 to 70 now in which section it comes in between the 50 to 70 in between 50 to 70 means in between b to c then you have to apply that formula that is c minus x divided by c minus b. So, I have applied that here also the our c is 70 minus input that 60 70 minus 60 divided by the c minus b 70 minus 50 that is comes a 0.5. Now, for the same also for the high also you can see our input we have to first check where our input is coming in between the range of that high or not. So, 60 it is coming in the range it is directly coming in the range of 60. Now, we have to you can see where it will lie in between the. So, you can use that formula and that comes the output 1 you can see that. So, that is how you have to convert your input to the fuzzy basically. Now, now we have to check the next step we have to check which rule is activated and at how much firing strength it is activated how strongly it is activated now we have to check. So, now, if temperature is low and humidity is low then our output is 0.2 plus 0.8 plus 1 that that is the final output, but first we have to check which rule is activated. Now, if rule 1 now we have got the output for the rule 1 if you will check 0.1 for temperature is low I will take the pointer if temperature is low low means 0 if humidity is low. So, 0 0 output should be 0 we are using the end condition. So, we have to use the minimum we have to take the minimum because we are using the end condition in the rule if temperature is if temperature is that and humidity. So, we are using the T norm operator. So, you have to take the minimum now if you will see now we will check the second rule if temperature is low and humidity is high temperature low humidity high temperature low basically 0 0 and humidity is high humidity is high 1 0 comma 1. So, minimum is again 0 it 0 output is coming 0 means it is firing strength is coming 0 it means it is not contributing to the output it means that rule is not activated for that output for that input basically. Now, we will check for the rule number 3 high low temperature is high temperature is high 0.2. So, I felt 0.2 and humidity is low and humidity is low that is 0 that is 0 now minimum of both come 0. Now, rule 4 high temperature is high that is 0.2. So, I failed here 0.2 and humidity is medium and humidity is medium that is 0.5 that is sorry 1 humidity is also high humidity is also high then 1. So, 0.2 comma 1 minimum is 0.2. So, now, the output comes 0.2 it means that rule is activated with the firing strength of 0.2. Now, same now we have to check for the rule 5 if temperature is medium of temperature is medium that is 0.4 I have taken and humidity is also medium humidity is also medium that is 0.5 0.5 0.4 or 0.5 now we have to we have to select the minimum. So, now, 0.4 comma 0.5 the minimum is 0.4 basically. So, that rule is also activated with a firing strength of 0.4 that is how you will evaluate all the rules and we will calculate the firing strength. Now, next step is to compute the Z to basically we have now we have to compute the activated rules. So, how we will compute? So, we have seen in the previous slide only 2 rules are activated that is rule number 4 and rule number 5 I have pasted the same table here also side by side you can see. So, that rule number 4 and that rule number 5 is activated for that input. Now, we have to calculate the Z we have to compute the we have to calculate the Z for the activated rules. Now, rule number 4 and rule number 5 is activated. So, Z 0.3 T plus 0.3 H plus 1 that is the mathematical function for that. Now, we have to apply that Z is although I have write here, but again I am writing for the our input is 20 degree Celsius plus 0.3 and humidity given in the question or the input which we are applying the humidity is 60 and plus 1 that is how you have to calculate the Z and it will comes around 27.4 basically it will comes 27.4 that comes the Z 1 I again for the rule number 4 basically. Now, again I have to calculate that Z for the rule number 5 0.2 T plus 0.2 H plus 1.5. So, now, you have to put the values here 0.2 into 60 is our 28 is basically our input to erase this 0.2 into temperature input is 28 0.2 into humidity is 60 plus 1.5 you will calculate then you will get the output 19.1. So, we will get the Z 1 for the first rule that is activate rule number 4 is 27.4 and for the rule 5 that is activated I will get the answer 19.1. Now, I have to calculate the final output that we have seen the final output is W 1 Z 1 divided by summation of W 1 that is our final output that is the formula for the final output calculation which we have seen in the previous slides. Now, the Z 1 should be multiplied by the their firing strength. So, that Z 1 27.4 should be multiplying by their firing strength firing strength we have calculated in the previous slide. So, for the rule number 4 the for rule number 4 the firing strength is 0.2. So, we have to multiply the Z that Z to their firing strength for rule number 5 the firing strength is 0.5 0.4. Now, you have to multiply that 19.1 to the 0.4 here I have multiplied that in the printed form you can see that that I have multiplied that 27.4 to their firing strength in the similar way I have multiplied that 19.1 output to their firing strength. So, to apply to get the output. So, now, that is the final output formula summation of W 1 Z 1 divided by summation of W 1 the W 1 W 1 into Z 1 basically W 1 into Z 1 you can see 0.2 into 27.4 that is 5.48 we will get and W 2 into Z 2 that means, 19.1 into 0.4 that come to 7.65. Now, we have to take the sum for that. So, that is 5.48 plus 7.64 divided by the sum of the membership function of basically the firing strength sum of the firing strength that is 0.2 plus 0.5 then you will get directly here you will get the output that is 21.87 that is basically the final output. Now, you do not have to convert or you do not have to process any condition after that you directly that is your output that is your crisp output in the case of SUGINO inference system. So, basically that is all for the today's lecture. So, in this lecture we have covered about the SUGINO inference systems and one numerical which is based on the SUGINO inference system. In the next lecture I will try to cover one more numerical on the Mamdani inference system. So, that you guys are able completely able to understand between the SUGINO inference system and Mamdani inference system and how will they work in this lecture you have seen how SUGINO inference system will work with the help of numerical in the next class I will try to solve one numerical on the topic on the on the numerical basically on the topic Mamdani fuzzy inference system. Thank you."
+}

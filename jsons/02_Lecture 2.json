@@ -1,0 +1,2532 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 0.0,
+            "end": 17.88,
+            "text": " So, hello everyone, I again welcome you to the course on fuzzy logic inference and machine"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 17.88,
+            "end": 20.44,
+            "text": " learning techniques, I am your instructor for this course."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 20.44,
+            "end": 25.28,
+            "text": " So, this is our lecture 2, now in previous lecture we have seen the basics of fuzzy logic"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 25.28,
+            "end": 28.92,
+            "text": " and why we need fuzzy logic, we have seen in our previous lecture."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 28.92,
+            "end": 33.440000000000005,
+            "text": " Now, in this lecture we will start with our syllabus of the unit 1."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 33.440000000000005,
+            "end": 38.56,
+            "text": " So, our first unit is basically based on the basics of the fuzzy logic, so this is the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 38.56,
+            "end": 39.56,
+            "text": " course for that."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 39.56,
+            "end": 45.36,
+            "text": " Now, I have cover, I have basically categorized this unit into 5 parts, first one is, first"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 45.36,
+            "end": 50.08,
+            "text": " we will read, first we will learn about the introduction to fuzzy logic and its importance,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 50.08,
+            "end": 54.24,
+            "text": " then we will see the difference between the classical set and the fuzzy set, then we will"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 54.24,
+            "end": 59.28,
+            "text": " see fuzzy membership function and their different types, then we will see the operation on fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 59.28,
+            "end": 63.28,
+            "text": " steps by applying the union, intersection and complement different types of operation,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 63.28,
+            "end": 67.2,
+            "text": " how we will implement on the fuzzy sets, we will see in that and then at the end we will"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 67.2,
+            "end": 71.36,
+            "text": " see the concept of fuzzification and defuzzification with the help of some examples."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 71.36,
+            "end": 76.36,
+            "text": " So, I have already covered the introduction to fuzzy logic, but again I will brief you"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 76.36,
+            "end": 82.4,
+            "text": " or I can say, I can again recap you what we have learnt in the first lecture."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 82.56,
+            "end": 86.4,
+            "text": " So, basically what is fuzzy logic, it is a basically a mathematical approach which is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 86.4,
+            "end": 91.60000000000001,
+            "text": " used to handle the uncertainty and imprecision, it means when we are not able to decide between"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 91.60000000000001,
+            "end": 95.80000000000001,
+            "text": " two values, we will go to the fuzzy logic, so why we need fuzzy logic, because traditional"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 95.80000000000001,
+            "end": 100.80000000000001,
+            "text": " logic only deals with two values, either it is absolutely true or either it is absolutely"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 100.80000000000001,
+            "end": 106.48,
+            "text": " false means, in between 0 and 1, we have to choose, okay but in real situation, it is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 106.48,
+            "end": 111.36000000000001,
+            "text": " not like that, we cannot only choose in between black and white, we are sometimes often we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 111.36,
+            "end": 117.48,
+            "text": " have to go for the grey areas, that's why we have to, that's why we will need, we are"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 117.48,
+            "end": 123.28,
+            "text": " going for to apply the fuzzy logic in that type of cases, where we are not able to take"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 123.28,
+            "end": 128.32,
+            "text": " the decision in between the 0 and 1 and in between the black and white, okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 128.32,
+            "end": 134.36,
+            "text": " So, this is the basic idea in which fuzzy logic allows actually us for degrees of the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 134.36,
+            "end": 140.36,
+            "text": " truth means, in the fuzzy logic, we can decide whether the situation is 30% correct, 70%"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 140.36,
+            "end": 146.56,
+            "text": " correct, 50% correct, 100% correct, so that type of decision allows us the fuzzy logic,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 146.56,
+            "end": 150.64000000000001,
+            "text": " so instead of only choosing the true or false, we can take that decision on the basis of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 150.64000000000001,
+            "end": 156.20000000000002,
+            "text": " the degrees of the truth, how much our content is truth with the help of that we can take"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 156.20000000000002,
+            "end": 157.20000000000002,
+            "text": " the decision."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 157.20000000000002,
+            "end": 162.28000000000003,
+            "text": " Now, with the help of example, I again explain you like in temperature description, if we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 162.28000000000003,
+            "end": 166.24,
+            "text": " are using classical logic, then we have only two option, either it is hot or it is not"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 166.24,
+            "end": 171.04000000000002,
+            "text": " hot, in between these two we have to choose, but in the case of fuzzy logic, we can explore"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 171.04000000000002,
+            "end": 176.72,
+            "text": " more options like if it is slightly hot means, it is its degree is degree of truth is 0.4,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 176.72,
+            "end": 181.52,
+            "text": " okay, now if it is moderately hot, then its degree of truth is 0.7, if it is very hot,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 181.52,
+            "end": 186.28,
+            "text": " then its degree of truth is 0.9, so with the help of fuzzy logic, we are able to classify"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 186.28,
+            "end": 188.92000000000002,
+            "text": " to explore more options, okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 188.92000000000002,
+            "end": 194.92000000000002,
+            "text": " So, basically this is the diagram which I have, this is the diagram of that example,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 194.92,
+            "end": 199.0,
+            "text": " which I have explained in the previous slide, like if it is hot water, then in the case"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 199.0,
+            "end": 203.51999999999998,
+            "text": " of Boolean logic, we have only two option, either yes, it is hot water or no, no, it"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 203.51999999999998,
+            "end": 208.6,
+            "text": " is not hot water, okay, but in the case of fuzzy logic, we have more options like it"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 208.6,
+            "end": 214.67999999999998,
+            "text": " is very much hot, we can categorize its degree of truth is 0.9 means, it is close to the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 214.67999999999998,
+            "end": 218.83999999999997,
+            "text": " desired output, okay, now in the case, in the second case, we have little, it means"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 218.83999999999997,
+            "end": 224.88,
+            "text": " 50% chance, then very less, it means its degree of truth is 0.1, okay, so basically this figure"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 225.84,
+            "end": 229.88,
+            "text": " shows that the fuzzy logics are, fuzzy logics help us to explore more options, when we are"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 229.88,
+            "end": 234.32,
+            "text": " not able to decide in between 0 and 1, we can explore more option with the help of the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 234.32,
+            "end": 235.32,
+            "text": " fuzzy logic, okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 235.32,
+            "end": 239.92,
+            "text": " So, now, first we will understand what is the architecture of the fuzzy system, how"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 239.92,
+            "end": 244.12,
+            "text": " many components are there, how fuzzy logic is working, how they are able to take the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 244.12,
+            "end": 247.96,
+            "text": " decision in between more than two values, okay, so fuzzy logic basically, it consists"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 247.96,
+            "end": 253.76,
+            "text": " of four main parts, first one is the fuzzification module, then second one is the rule base,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 253.76,
+            "end": 258.84,
+            "text": " then the third one is base interference engine, then fourth one is defuzzification module,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 258.84,
+            "end": 262.88,
+            "text": " so one by one we can explore all these components, what these components are doing in the fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 262.88,
+            "end": 263.88,
+            "text": " logic systems."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 263.88,
+            "end": 268.64,
+            "text": " So, basically this is the process of fuzzy logic system, first what we will do, we will"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 268.64,
+            "end": 272.92,
+            "text": " apply our crisp input, we will apply our input to the fuzzification module, so what will"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 272.92,
+            "end": 277.56,
+            "text": " they do, it will converge the crisp input to the fuzzy input, okay, it will take the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 277.56,
+            "end": 283.03999999999996,
+            "text": " base input or crisp input which we are having, might be that input is from some sensors or"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 283.32,
+            "end": 287.88,
+            "text": " basically whatever type of data we have, we can input to the fuzzy logic system, then"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 287.88,
+            "end": 294.32,
+            "text": " the first block, fuzzyification module, what they will do, it will convert our data to"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 294.32,
+            "end": 300.48,
+            "text": " the fuzzy sets, fuzzy inputs, okay, then second one is rule base, what they will do, in this"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 300.48,
+            "end": 306.12,
+            "text": " rule base we have decided some rules, we have implemented some rules, what we have to do"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 306.12,
+            "end": 310.92,
+            "text": " with this, with input data, what operation we have to perform, so in this rule base we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 311.0,
+            "end": 316.52000000000004,
+            "text": " have fetch some rules, second interference engine it will operate, it will take the fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 316.52000000000004,
+            "end": 321.08000000000004,
+            "text": " input and then rules and it will apply and then it will that on the basis of that rules"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 321.08000000000004,
+            "end": 324.32,
+            "text": " and as input it will convert to the fuzzy output."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 324.32,
+            "end": 329.20000000000005,
+            "text": " Then fourth one is defuzzification module, again what they will do, it is the basically"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 329.20000000000005,
+            "end": 333.68,
+            "text": " inverse of the fuzzification module, it takes the fuzzy output and convert it into the crisp"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 333.68,
+            "end": 340.68,
+            "text": " output which the peoples are able to understand what the output is, okay, so this is the fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 340.88,
+            "end": 344.8,
+            "text": " modification module, so basically it is a module or component for transforming the system"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 344.8,
+            "end": 350.56,
+            "text": " inputs means, it basically converts the crisp number into fuzzy steps, okay, with the help"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 350.56,
+            "end": 356.28000000000003,
+            "text": " of that fuzzification module we can convert our crisp input to the fuzzy input, okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 356.28000000000003,
+            "end": 360.8,
+            "text": " Now, the crisp number, what are crisp number, crisp number are those inputs or data which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 360.8,
+            "end": 365.2,
+            "text": " are measured by our sensors and then fuzzification pass them into the control system for the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 365.2,
+            "end": 370.48,
+            "text": " further processing, basically it takes the data and convert it into the fuzzy steps or"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 370.48,
+            "end": 371.88,
+            "text": " the fuzzy data we can say."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 371.88,
+            "end": 375.56,
+            "text": " Now, what are the key elements of the fuzzification module, first one is the input variable which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 375.56,
+            "end": 380.52000000000004,
+            "text": " we are applying that is that can be anything like it can be a real world measurement for"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 380.52000000000004,
+            "end": 383.92,
+            "text": " example, it may be a temperature data, it may be a speed, it may be pressure, it can"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 383.92,
+            "end": 384.92,
+            "text": " be anything."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 384.92,
+            "end": 389.36,
+            "text": " Second one is the membership function, we have to define the degree of belongingness"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 389.36,
+            "end": 393.94,
+            "text": " to the fuzzy set, we will see in detail what is the membership function means."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 393.94,
+            "end": 398.28000000000003,
+            "text": " And third one is the fuzzy set, basically it categorize, it the category how we are"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 398.28,
+            "end": 404.2,
+            "text": " categorizing our input into multiple, multiple number like low, medium, high, if it is a"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 404.2,
+            "end": 409.11999999999995,
+            "text": " Boolean logic or crisp input then we are only able to categorize in between two, either"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 409.11999999999995,
+            "end": 413.15999999999997,
+            "text": " low or high but in the case of fuzzy input we can categorize our data into three type,"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 413.15999999999997,
+            "end": 417.67999999999995,
+            "text": " whether it is low, it is medium, it is high, so that is the basically what the advantage"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 417.67999999999995,
+            "end": 419.32,
+            "text": " of fuzzy set is that."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 419.32,
+            "end": 425.03999999999996,
+            "text": " Now, second is knowledge based or either rule based, so rule based is basically a component"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 425.04,
+            "end": 429.44,
+            "text": " which is we are using for storing the set of rules, in the in that rule based we have"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 429.44,
+            "end": 433.52000000000004,
+            "text": " we have implemented, we have designed some rules, what type of rules, if then type of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 433.52000000000004,
+            "end": 434.52000000000004,
+            "text": " rules."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 434.52000000000004,
+            "end": 439.12,
+            "text": " So, in the if then conditions which are given by the experts or which are desired by a system"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 439.12,
+            "end": 444.0,
+            "text": " we are using for controlling the decision making system, we are in this we want what"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 444.0,
+            "end": 447.64000000000004,
+            "text": " type of decision we want, we can take with the help of or we can categorize with the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 447.64000000000004,
+            "end": 452.28000000000003,
+            "text": " help of the rule based system, in this we will design the rules and then we will apply"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 452.28,
+            "end": 455.15999999999997,
+            "text": " that rules to the input."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 455.15999999999997,
+            "end": 460.4,
+            "text": " Then the third, now again what is the basic component of that knowledge based, so first"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 460.4,
+            "end": 465.0,
+            "text": " one is fuzzy rule based which is a set of if then rules, we are that govern the system"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 465.0,
+            "end": 469.55999999999995,
+            "text": " behavior that decide the system behavior, then the database which are which like what"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 469.55999999999995,
+            "end": 473.15999999999997,
+            "text": " we are storing in the membership function and what the other parameters are there like"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 473.15999999999997,
+            "end": 478.64,
+            "text": " if temperature in this like if we have taken, if we I will write a example for that how"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 478.64,
+            "end": 481.15999999999997,
+            "text": " so that you can understand better what is the rule based."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 481.16,
+            "end": 486.04,
+            "text": " So, basically like we have we have executed some rule in that or we have write some rule"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 486.04,
+            "end": 492.08000000000004,
+            "text": " in the in that rule based, what is that if temperature is high, then fan speed should"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 492.08000000000004,
+            "end": 494.56,
+            "text": " be fast, we have decided that would."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 494.56,
+            "end": 501.84000000000003,
+            "text": " If the temperature is high, then fan speed, then our fan speed should be fast, if temperature"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 501.84000000000003,
+            "end": 503.90000000000003,
+            "text": " is low, then our fan speed should be slow."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 503.90000000000003,
+            "end": 507.92,
+            "text": " So, this type of rules we design in that rule based."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 507.92,
+            "end": 512.8000000000001,
+            "text": " now what is the third main component is its interference engine, now what is the interference"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 512.8000000000001,
+            "end": 517.72,
+            "text": " engine, so basically it is a component in fuzzy logic system because all the information"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 517.72,
+            "end": 523.76,
+            "text": " is processed in the all the information that we have inputted is processed in that inference"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 523.76,
+            "end": 528.64,
+            "text": " engine in which it allows the user to find the matching degree between the current fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 528.64,
+            "end": 533.04,
+            "text": " input and their rules, it match what is the current input and it match that input with"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 533.04,
+            "end": 534.44,
+            "text": " the rules okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 534.44,
+            "end": 538.72,
+            "text": " So now after the matching degree this system determine which rule is to be added on that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 538.72,
+            "end": 542.48,
+            "text": " system which rule should be added according to the given input field when all the rules"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 542.48,
+            "end": 547.4000000000001,
+            "text": " are fired then they are combined there then they are combined for developing the control"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 547.4000000000001,
+            "end": 550.6,
+            "text": " action on the basis of that okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 550.6,
+            "end": 554.58,
+            "text": " Now this component is also responsible for applying fuzzy logic rule to the fuzzified"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 554.58,
+            "end": 559.84,
+            "text": " input and generating the fuzzy output means with the help of that fuzzification component"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 559.84,
+            "end": 564.12,
+            "text": " we get the fuzzy input because that component has converted the crisp input in the fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 564.16,
+            "end": 568.36,
+            "text": " input and then that input we have applied to the inference engine and the second input"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 568.36,
+            "end": 574.28,
+            "text": " for the inference engine is the if rule base, rule base which we have designed then they"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 574.28,
+            "end": 580.2,
+            "text": " apply that rules to the input and then generate output on the basis of that rules okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 580.2,
+            "end": 584.2,
+            "text": " So basically we have two types of inference method in that first one is the Mamdani interference"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 584.2,
+            "end": 588.76,
+            "text": " method basically this uses the fuzzy set for both the input and output means in input also"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 588.76,
+            "end": 592.96,
+            "text": " we are using fuzzy set and the output we are also using the fuzzy set but in the case of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 593.0,
+            "end": 598.44,
+            "text": " Sugino interference method we are using a mathematical function for output to simplify"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 598.44,
+            "end": 603.6800000000001,
+            "text": " the computation or means in Sugino interference method we are using the mathematical equation"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 603.6800000000001,
+            "end": 609.32,
+            "text": " to find the output but in the case of Mamdani we are using what the fuzzy set also for the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 609.32,
+            "end": 613.1600000000001,
+            "text": " input and also for the output in the both the cases we are using the same fuzzy sets"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 613.1600000000001,
+            "end": 616.52,
+            "text": " but in the case of Sugino we are using the mathematical function."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 616.52,
+            "end": 621.48,
+            "text": " Now the last step is the fuzzification module, defuzzification module sorry so defuzzification"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 621.48,
+            "end": 626.96,
+            "text": " is a module or a component of the fuzzy logic system which takes the fuzzy system which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 626.96,
+            "end": 630.9200000000001,
+            "text": " takes the fuzzy set input generated by the interference engine means basically it takes"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 630.9200000000001,
+            "end": 636.64,
+            "text": " the output from the interference engine and then transform that into a crisp value."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 636.64,
+            "end": 640.76,
+            "text": " So basically what they will do it convert the in simplification we can say it convert"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 640.76,
+            "end": 646.0,
+            "text": " the fuzzy output into a crisp value that can be used in our real world application so that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 646.0,
+            "end": 651.0,
+            "text": " that output we can use in our real world application okay that's that defuzzification"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 651.0,
+            "end": 657.32,
+            "text": " can do like if we can take the real life example of that automatic washing machine so like"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 657.32,
+            "end": 661.48,
+            "text": " we have categorized our input into two parts first one is the dirt level second is wash"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 661.48,
+            "end": 667.28,
+            "text": " time like if the dirt is very low in the cloth then the wash time of washing machine should"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 667.28,
+            "end": 672.32,
+            "text": " be of 20 minutes like if the dirt is medium in nature then our wash time should be of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 672.32,
+            "end": 676.84,
+            "text": " 40 minutes if the dirt is very high means if our cloth is of very high dirt then the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 676.84,
+            "end": 680.5200000000001,
+            "text": " wash time of washing machine should be 60 minutes okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 680.5200000000001,
+            "end": 683.24,
+            "text": " Now what the process was fuzzification do?"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 683.24,
+            "end": 686.5200000000001,
+            "text": " Fuzzification do the convert dirt level to the fuzzy values so if we are applying the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 686.5200000000001,
+            "end": 691.94,
+            "text": " input in the form of dirt level so that fuzzification converts that dirt level to the fuzzy values."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 691.94,
+            "end": 696.2800000000001,
+            "text": " Now what the knowledge base we have now then we have to prepare some rules like which we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 696.2800000000001,
+            "end": 701.24,
+            "text": " have shown in the previous slides like if the dirt level is 10 percent then the washing"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 701.24,
+            "end": 706.08,
+            "text": " machine should be run of the time 20 minutes if the dirt level is 50 percent then the washing"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 706.08,
+            "end": 709.8,
+            "text": " machine time should be running time should be of 40 minutes that rule we have decided"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 709.8,
+            "end": 713.84,
+            "text": " and that that rules we have to write in the knowledge base then what interference engine"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 713.84,
+            "end": 718.84,
+            "text": " will do it determine the wash time on the basis of that input the dirt level and then"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 718.84,
+            "end": 723.6,
+            "text": " on the basis of that rules they give the they determine the basically the wash time and"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 723.6,
+            "end": 727.6,
+            "text": " then the wash time output they will give to the defuzzification component what it will"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 727.6,
+            "end": 733.6,
+            "text": " do it will convert the fuzzy output to the exact minutes means how much how minute how"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 733.6,
+            "end": 738.36,
+            "text": " many minutes that washing machine have to be run okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 738.36,
+            "end": 743.84,
+            "text": " Now again come to the classical sets because we have to study the fuzzy sets now we next"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 743.84,
+            "end": 747.52,
+            "text": " topic is difference between the classical set and fuzzy sets means what is the difference"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 747.52,
+            "end": 751.12,
+            "text": " between to the these two type of set first we will understand that then we will go into"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 751.12,
+            "end": 755.84,
+            "text": " deep with the fuzzy logic values how fuzzy logic will work how this fuzzification will"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 755.84,
+            "end": 759.88,
+            "text": " work how this defuzzification will work how they are how we will design the membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 759.88,
+            "end": 763.9200000000001,
+            "text": " function for that and that type of things we will learn so first we have to understand"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 763.9200000000001,
+            "end": 768.2,
+            "text": " what is the classical set so that we are able to compare these two type on the basis of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 768.2,
+            "end": 773.0400000000001,
+            "text": " that comparison you will understand better what is the fuzzy set is there so now like"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 773.0400000000001,
+            "end": 776.9200000000001,
+            "text": " now first we will understand the classical set to basically classical set is a collection"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 776.9200000000001,
+            "end": 782.8000000000001,
+            "text": " of element that either belong to or do not belong to the set again like a Boolean logic"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 782.8,
+            "end": 786.92,
+            "text": " only we have two option either it belongs to that set or either it does not belong to"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 786.92,
+            "end": 791.4799999999999,
+            "text": " the set that is the basically our classic set or crepe set we can say so there is no"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 791.4799999999999,
+            "end": 796.3199999999999,
+            "text": " in between state either it is belong to that set either it is either it does not belong"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 796.3199999999999,
+            "end": 801.52,
+            "text": " to that set okay there is no in between state in that in the case of crepe set what now"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 801.52,
+            "end": 805.12,
+            "text": " what is the characteristics of that classical set so first one is the binary membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 805.12,
+            "end": 809.24,
+            "text": " function in it means if I will categorize their membership function membership function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 809.24,
+            "end": 814.5600000000001,
+            "text": " means how much it belongs to the desire means like a either element is either in the set"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 814.5600000000001,
+            "end": 818.96,
+            "text": " one or not we have only two option either it is belong it means it is its membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 818.96,
+            "end": 822.8,
+            "text": " function is hundred percent it is belonging to that set if it is not belonging then its"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 822.8,
+            "end": 828.08,
+            "text": " membership function is zero zero percent it is not belonging to that set that is the first"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 828.08,
+            "end": 833.16,
+            "text": " characteristic of classical set second one is sharp boundaries so basically we have clear"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 833.16,
+            "end": 838.08,
+            "text": " cut distinction in between the set members and and non members if it is a member then"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 838.08,
+            "end": 842.1600000000001,
+            "text": " we have clear cut boundaries in the case of and crisp set so if it is belong to that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 842.1600000000001,
+            "end": 845.6,
+            "text": " set then we will say its membership function is hundred percent if it does not belong it"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 845.6,
+            "end": 850.8000000000001,
+            "text": " means its membership function is zero now what's the use of what's the use of classical"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 850.8000000000001,
+            "end": 856.44,
+            "text": " logic basically it is a two valued logic two valued logic in between no uncertainties involved"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 856.44,
+            "end": 862.4000000000001,
+            "text": " in the case of classical sets now what's the mathematical representation so basically a"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 862.4000000000001,
+            "end": 867.72,
+            "text": " classical set is represented by a which in curly bracket x so basically x satisfy a certain"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 867.76,
+            "end": 872.6800000000001,
+            "text": " condition a like x belong to satisfy a certain condition in the end now the membership function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 872.6800000000001,
+            "end": 878.88,
+            "text": " of a classical set is basically like a one if x belongs to the set a and zero if x does"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 878.88,
+            "end": 883.48,
+            "text": " not belong to set a we have only two condition in the case of classical set so that is the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 883.48,
+            "end": 888.52,
+            "text": " representation of that classical set or crisp set how we represent these sets in terms of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 888.52,
+            "end": 895.0,
+            "text": " crisp set on in classical set how we represent that type of data okay now consider a example"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 895.0,
+            "end": 899.04,
+            "text": " like consider we have consider a set of tall people where the height of height we have"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 899.04,
+            "end": 904.56,
+            "text": " taken a threshold of height one centimeter we have taken a survey in which many we have"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 904.56,
+            "end": 909.64,
+            "text": " consider we have taken the inputs of all the heights of that person which are we have collected"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 909.64,
+            "end": 914.88,
+            "text": " for our data like and we have set a threshold that is 180 centimeter like if person a is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 914.88,
+            "end": 921.48,
+            "text": " 180 centimeter now if we have we are applying the crisp set in that function like if a person"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 921.48,
+            "end": 927.24,
+            "text": " a if a some person is there that name is a and if its height is 182 centimeter so we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 927.24,
+            "end": 931.08,
+            "text": " have set a threshold of 180 centimeter it means it is the member of set because its"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 931.08,
+            "end": 936.24,
+            "text": " height is greater than 180 degree it means it is a member of the set then its membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 936.24,
+            "end": 941.4,
+            "text": " function is 100 percent okay now in the case of person b that is the its height is 175"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 941.4,
+            "end": 947.4,
+            "text": " centimeter then we have the clear cut input then it is a not a member of that threshold"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 948.4,
+            "end": 953.76,
+            "text": " we have taken that is 180 centimeter it is less than 180 centimeter then it is not the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 953.76,
+            "end": 958.68,
+            "text": " it is not in the set it is not what basically I can say it does not belong to that set okay"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 958.68,
+            "end": 964.0799999999999,
+            "text": " so in classical set there is no middle ground a person who is 179 centimeter is not tall"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 964.0799999999999,
+            "end": 971.36,
+            "text": " but someone who is 180 centimeter it is tall that is in the case of classical set now what"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 971.36,
+            "end": 976.72,
+            "text": " is membership function a membership function is denoted by the mu a of x which tells us"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 976.72,
+            "end": 980.88,
+            "text": " whether an element belong to the set or not which I have already explained like it tells"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 980.88,
+            "end": 987.96,
+            "text": " us whether that element is belong to that set or not but in the case of crisp set we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 987.96,
+            "end": 992.44,
+            "text": " have only two option either it belongs if it is belong then its membership function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 992.44,
+            "end": 998.88,
+            "text": " is 100 percent like if any element is in the set then its membership function is 100 percent"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 998.88,
+            "end": 1004.36,
+            "text": " like if an element is not in that set then its membership function is 0 so that is its"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1004.48,
+            "end": 1010.36,
+            "text": " clear boundaries in the case of crisp set okay now what the fuzzy set is the basically"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1010.36,
+            "end": 1016.2,
+            "text": " fuzzy sets allow us to elements to have partial memberships meaning they meaning they can"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1016.2,
+            "end": 1021.96,
+            "text": " belong to the set to some degrees and we will decide in between the values between 0 and"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1021.96,
+            "end": 1028.0,
+            "text": " 1 how much they are close to that that threshold we will decide on the basis of that okay but"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1028.0,
+            "end": 1031.56,
+            "text": " in the we have seen already seen the case of Boolean we do not have any option either"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1031.56,
+            "end": 1035.6399999999999,
+            "text": " they belong either they do not belong only between only we have 0 and 1 but in the case"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1035.6399999999999,
+            "end": 1041.6,
+            "text": " of fuzzy set we are having a we are having some partial membership types means in which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1041.6,
+            "end": 1046.28,
+            "text": " either they can belong to the some degree how much degree it belong to that set okay"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1046.28,
+            "end": 1050.24,
+            "text": " so what are the characteristics of fuzzy set first one is a partial membership membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1050.24,
+            "end": 1055.76,
+            "text": " means an element can partially belong to a set with a degree between 0 and 1 okay now"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1055.76,
+            "end": 1061.1599999999999,
+            "text": " but the smooth second characteristic is smooth boundaries mean it is flexible there are there"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1061.16,
+            "end": 1067.2,
+            "text": " are no strict cut off to the to the functions like its membership changes gradually on the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1067.2,
+            "end": 1074.2,
+            "text": " basis of that desired output okay it means only it possess smooth boundaries third one"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1074.2,
+            "end": 1079.44,
+            "text": " is a it uses fuzzy logic means it is a fuzzy logic fuzzy set is a basically a multi valued"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1079.44,
+            "end": 1083.72,
+            "text": " logic in which it allows for degrees of truth rather than just true or false means it does"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1083.72,
+            "end": 1087.3600000000001,
+            "text": " not belong to the case where we have to choose in between true and false it allow us for"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1087.36,
+            "end": 1091.7199999999998,
+            "text": " some degrees of truth we can take in between the values of in between the values of truth"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1091.7199999999998,
+            "end": 1097.36,
+            "text": " and false like how much percent it is true like 0.2 percent 0.3 percent 0.4 percent that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1097.36,
+            "end": 1101.8799999999999,
+            "text": " values we also can take in the fuzzy sets now what's the mathematical representation"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1101.8799999999999,
+            "end": 1108.4399999999998,
+            "text": " of fuzzy set you can see that so a fuzzy set is represented as a set of ordered pairs so"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1108.4399999999998,
+            "end": 1114.4799999999998,
+            "text": " a so basically this is a an element and mu and mu AX is its membership function so what"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1114.6,
+            "end": 1121.04,
+            "text": " did this this one what this mu AX it is a membership function and it shows the membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1121.04,
+            "end": 1126.56,
+            "text": " value what the membership value of that X okay now membership function values ranges"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1126.56,
+            "end": 1133.52,
+            "text": " in between the 0 and 1 membership function values can be in between the 0 and 1 and now"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1133.52,
+            "end": 1138.64,
+            "text": " again I have taken the example of fuzzy set after each topic I have taken some example"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1138.64,
+            "end": 1143.96,
+            "text": " so that you guys are able to understand better in that way so I have taken again a example"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1143.96,
+            "end": 1149.52,
+            "text": " of fuzzy set so that you can understand better what's the fuzzy system why fuzzy set is different"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1149.52,
+            "end": 1154.64,
+            "text": " from the Karev set what advantage it give us to okay now suppose we have defined a fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1154.64,
+            "end": 1162.6000000000001,
+            "text": " set A that represent what that represent number closest to 18 oh sorry so now suppose we have"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1162.6000000000001,
+            "end": 1167.08,
+            "text": " defined a fuzzy set A that represent number close to 18 so instead of fully including"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1167.08,
+            "end": 1172.1200000000001,
+            "text": " or fully excluding element we assign some partial membership to that like the universe"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1172.12,
+            "end": 1178.0,
+            "text": " of the set is that in which it comes to 15 16 17 18 19 20 that are the numbers which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1178.0,
+            "end": 1185.04,
+            "text": " we are taking okay now fuzzy set could be written as like now we are writing the mathematical"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1185.04,
+            "end": 1192.3999999999999,
+            "text": " representation of that fuzzy set so A is equal to 16 0.6 17 so now fuzzy set A could be written"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1192.3999999999999,
+            "end": 1202.08,
+            "text": " as A 16 0.6 17 0.9 18 0.2 19 1.0 so 16 is that number which we are comparing with the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1202.08,
+            "end": 1207.52,
+            "text": " set that it belongs to that set or not and 0.6 its degree of truth means its membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1207.52,
+            "end": 1213.08,
+            "text": " function okay and again for 17 its membership function is 0.92 or its degree of truth is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1213.08,
+            "end": 1220.08,
+            "text": " 0.9 and for 18 its membership function is 0.2 or its degree of truth is 0.2 whatever"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1220.08,
+            "end": 1224.84,
+            "text": " you can say okay for the case of 19 its degree of truth is 1.0 so basically I have taken"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1224.84,
+            "end": 1231.56,
+            "text": " a random example okay like if you 6 if you see 16 is somewhat closer to 18 so it belongs"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1231.56,
+            "end": 1236.1599999999999,
+            "text": " to partially 0.6 now we in that case in fuzzy set we are having option we can choose in"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1236.1599999999999,
+            "end": 1241.6799999999998,
+            "text": " between the 0 and 1 also like means it belongs partially means 16 is somewhat closer to 18"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1241.6799999999998,
+            "end": 1247.2,
+            "text": " we can say if it is in the case of crisp set so our answer is it does not belong to it"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1247.2,
+            "end": 1252.72,
+            "text": " does not belong to 18 okay but in the case of fuzzy logic we have an option like it is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1252.72,
+            "end": 1258.0,
+            "text": " somewhat close to 18 so what we can say its partially belong to 18 mean it belongs partially"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1258.0,
+            "end": 1264.2,
+            "text": " so we its membership function we have decided is 0.6 okay now 17 is very close to 18 okay"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1264.2,
+            "end": 1273.04,
+            "text": " so what its member its membership function we have right there 0.9 because it is just"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1273.04,
+            "end": 1278.2,
+            "text": " before the 18 means a degree of truth is large okay so it is the what the membership function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1278.2,
+            "end": 1283.92,
+            "text": " what the degree of truth we have given is 0.9 now 18 is included but with a lower degree"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1283.92,
+            "end": 1288.48,
+            "text": " of now 18 we have included but with a lower degree I have again I am saying I have taken"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1288.48,
+            "end": 1295.5600000000002,
+            "text": " a random example okay do not focus on that what how I have decided that 18 is 18 membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1295.5600000000002,
+            "end": 1303.8000000000002,
+            "text": " function is 0.2 now how 17 membership function is 0.9 I have randomly taken okay now 19 if"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1303.8000000000002,
+            "end": 1308.0,
+            "text": " 19 is fully included means because it is the closest match what I have not taken for 19"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1308.0,
+            "end": 1311.96,
+            "text": " I have taken the degree of membership is 1 or membership degree of truth is 1 of its"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1311.96,
+            "end": 1316.72,
+            "text": " membership function is 1 okay so this is the procedure in which we will write in which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1316.72,
+            "end": 1322.48,
+            "text": " we will represent the fuzzy set first we will write the number input and then second is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1322.48,
+            "end": 1328.16,
+            "text": " the its membership function or its degree of truth okay like again 17 and then its degree"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1328.16,
+            "end": 1333.28,
+            "text": " of truth its membership function again 18 then its membership function comma 19 comma"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1333.28,
+            "end": 1338.3600000000001,
+            "text": " its membership function so now again fuzzy sets can also be represented in two forms"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1338.36,
+            "end": 1344.52,
+            "text": " first one is the discrete fuzzy set that means in which the elements are of finite"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1344.52,
+            "end": 1349.24,
+            "text": " okay so like I have taken example again for a finite set of element we write a fuzzy set"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1349.24,
+            "end": 1358.36,
+            "text": " as like it is written like a mu a mu mu x1 divided by x1 plus mu a x2 by x2 plus mu a"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1358.36,
+            "end": 1364.0,
+            "text": " xn by xn where and in the case of in the in the in also other way we can also write like"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1364.0,
+            "end": 1369.32,
+            "text": " in with the with the help of taking the summation sign okay in that way also we can represent"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1369.32,
+            "end": 1374.72,
+            "text": " our fuzzy set okay like for example again the previous example which we have so which"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1374.72,
+            "end": 1382.52,
+            "text": " we have solved for that again I write a representation in the case of in the in the in the case for"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1382.52,
+            "end": 1388.96,
+            "text": " discrete fuzzy set means in the how we write that fuzzy set in the in in the in discrete"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1388.96,
+            "end": 1393.72,
+            "text": " fuzzy set form in discrete fuzzy set representation how we write that okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1394.44,
+            "end": 1400.3600000000001,
+            "text": " So I have written there again so basically a is that so 0.6 divided by 16 okay so 16"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1400.3600000000001,
+            "end": 1409.44,
+            "text": " is the number and 0.6 is its membership function means again I will take that mu a x1 is the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1409.44,
+            "end": 1415.96,
+            "text": " membership function divided by the number number means for what number we are seeing"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1415.96,
+            "end": 1421.1200000000001,
+            "text": " that that it is now it is belong to that set or not again mu x2 is its membership function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1421.12,
+            "end": 1425.7199999999998,
+            "text": " and x2 is that number which we are saying that it belongs to that set or not similarly"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1425.7199999999998,
+            "end": 1432.28,
+            "text": " in that way we can write and again for clarification I have write again so that you can see in"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1432.28,
+            "end": 1446.1599999999999,
+            "text": " that way we can write this is a membership function or it is the value input okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1446.16,
+            "end": 1452.68,
+            "text": " Now with the help of that example you can see that the 16 membership function is 0.6"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1452.68,
+            "end": 1458.64,
+            "text": " we have already seen previously and 0.17 membership function is 0.9 and 18 membership function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1458.64,
+            "end": 1465.4,
+            "text": " is 0.2 19 membership function is 1 okay so in that way we will write in the case of discrete"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1465.4,
+            "end": 1470.8400000000001,
+            "text": " and if we want to represent our fuzzy set in discrete in discrete fuzzy set if we want"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1470.84,
+            "end": 1478.9199999999998,
+            "text": " to write that type we can write okay clearly I want to say that that plus sign does not"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1478.9199999999998,
+            "end": 1484.56,
+            "text": " mean addition okay basically it is a symbol for separating elements how I am separating"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1484.56,
+            "end": 1489.08,
+            "text": " the element for that I have taken the addition sign addition that plus sign does not mean"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1489.08,
+            "end": 1494.28,
+            "text": " the addition that we are adding that 0.6 by 16 plus 0.9 by 17 it does not mean addition"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1494.28,
+            "end": 1499.24,
+            "text": " okay I have used that plus sign for separating and for the separation purpose I have taken"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1499.24,
+            "end": 1506.0,
+            "text": " that plus sign okay. Now second form is continuous fuzzy set it"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1506.0,
+            "end": 1510.72,
+            "text": " is basically for the infinite element that discrete fuzzy set is for the that discrete"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1510.72,
+            "end": 1515.1200000000001,
+            "text": " fuzzy set representation is for the finite elements and that continuous fuzzy set is"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1515.1200000000001,
+            "end": 1520.92,
+            "text": " for the infinite elements if we are having infinite elements on our set so for that we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1520.92,
+            "end": 1525.2,
+            "text": " will use the continuous fuzzy set like for a continuous fuzzy set we use integration"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1525.2,
+            "end": 1530.48,
+            "text": " instead of summation in discrete we will use summation and for in continuous set we"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1530.48,
+            "end": 1535.44,
+            "text": " use integration instead of using the summation okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1535.44,
+            "end": 1542.44,
+            "text": " So now again same for that a taken pointer so that I can point out here so that again"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1542.44,
+            "end": 1548.8400000000001,
+            "text": " that mu a by 6 mu a mu a x is basically a membership function and that x is a normal"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1548.8400000000001,
+            "end": 1555.16,
+            "text": " value or we I can write in different way like integration mu x divided by x mu a x is basically"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1556.1200000000001,
+            "end": 1560.8400000000001,
+            "text": " a continuous function that gives the membership value for all the elements of the universe"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1560.8400000000001,
+            "end": 1568.28,
+            "text": " okay. So now this table basically shows the what is the difference between classical set"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1568.28,
+            "end": 1571.8000000000002,
+            "text": " and fuzzy set we have seen the classical set with the help of example also with the help"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1571.8000000000002,
+            "end": 1576.52,
+            "text": " of their characteristics also and after that we have seen the fuzzy set with the help of"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1576.52,
+            "end": 1580.3200000000002,
+            "text": " their characteristics with the help of their example we have and with the help of their"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1580.32,
+            "end": 1585.72,
+            "text": " representations also we have studied the in this lecture we have studied the fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1585.72,
+            "end": 1589.6799999999998,
+            "text": " set also. So for that for that we have I have drawn"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1589.6799999999998,
+            "end": 1594.1599999999999,
+            "text": " a comparison in between the classical and fuzzy set what is the main difference between"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1594.1599999999999,
+            "end": 1602.32,
+            "text": " the two these two types of set already with the by seeing previous lecture and by seeing"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1602.32,
+            "end": 1607.9199999999998,
+            "text": " that lecture up to that last previous slide you are able to get the difference between"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1607.92,
+            "end": 1612.6000000000001,
+            "text": " the classical and fuzzy set but for your help I have combined all these differences"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1612.6000000000001,
+            "end": 1618.0800000000002,
+            "text": " in the form of table okay. So now first feature is membership function again I will take the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1618.0800000000002,
+            "end": 1624.24,
+            "text": " pointer so first feature is if we take the feature membership function then in classical"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1624.24,
+            "end": 1631.88,
+            "text": " set it is stick either 0 or 1 means in between we have to choose either it is either that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1631.88,
+            "end": 1636.96,
+            "text": " input is belong to that set or it does not belong to that set but in the case of fuzzy"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1637.0,
+            "end": 1644.28,
+            "text": " set we have an option in between 0 and 1 mean it is 0.1 percent belong it is 0.9 percent"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1644.28,
+            "end": 1651.04,
+            "text": " belong or it is 0.6 percent belong okay. So in between 0 and 1 we can take the values"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1651.04,
+            "end": 1656.4,
+            "text": " in the case of fuzzy set and we will decide like if it is nearly belong to that number"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1656.4,
+            "end": 1661.08,
+            "text": " that desired set then we will say okay 0.9 percent belong to that set if it is far away"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1661.08,
+            "end": 1665.6000000000001,
+            "text": " from that set we will consider it belongs 0.1 to that percent we will basically decide"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1665.6,
+            "end": 1671.8799999999999,
+            "text": " the membership function only 0.1 okay or in the case of it is closely to the desired"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1671.8799999999999,
+            "end": 1676.8,
+            "text": " then we will say its membership function is 0.9 okay but now in the case of classical"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1676.8,
+            "end": 1680.52,
+            "text": " set only we can say either it is 0 percent either it is 100 percent okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1680.52,
+            "end": 1685.0,
+            "text": " Its option we have only two option either it is strictly belong to that set or either"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1685.0,
+            "end": 1690.24,
+            "text": " it does not belong to that set okay so its membership function is either 0 or either"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1690.24,
+            "end": 1696.36,
+            "text": " one okay now second come to the boundaries so basically in classical set we have sharp"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1696.36,
+            "end": 1701.04,
+            "text": " and well defined boundaries okay but in the case of fuzzy set we have gradual and flexible"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1701.04,
+            "end": 1705.2,
+            "text": " boundaries which we can see like with the help of membership function we can say that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1705.2,
+            "end": 1709.2,
+            "text": " we have flexible boundaries in the case of fuzzy sets."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1709.2,
+            "end": 1715.4,
+            "text": " Now what is the logic used so basically in the case of classical set we have only two"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1715.4,
+            "end": 1719.68,
+            "text": " valued we are using the Boolean logic but in the case of fuzzy set we are using the"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1720.1200000000001,
+            "end": 1724.92,
+            "text": " fuzzy logic it means we can take the multiple values in between the 0 and 1 or in between"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1724.92,
+            "end": 1730.0800000000002,
+            "text": " the true and false we can take multiple values that is why that fuzzy set is a multi valued"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1730.0800000000002,
+            "end": 1734.44,
+            "text": " system okay or crisp set is basically a two valued system."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1734.44,
+            "end": 1739.54,
+            "text": " Now mathematical representation in that classical set we have used the characteristics function"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1739.54,
+            "end": 1744.96,
+            "text": " but in the fuzzy set we have used some membership function you have seen that in the representation"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1744.96,
+            "end": 1751.92,
+            "text": " of classical set we have not written there any membership functions value how like 0.1"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1751.92,
+            "end": 1756.48,
+            "text": " like if we have said it is either belong to 0 or does not belong if it is belong to then"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1756.48,
+            "end": 1760.32,
+            "text": " its membership function is 1 if it does not belong its membership function is 0 but in"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1760.32,
+            "end": 1765.52,
+            "text": " the case of representation we have never used their membership function there membership"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1765.52,
+            "end": 1766.52,
+            "text": " function values there and okay."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1766.52,
+            "end": 1771.68,
+            "text": " So with the help of that characteristic function we have represented the classical set but"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1771.68,
+            "end": 1778.68,
+            "text": " in the case of fuzzy set we have importantly used the membership function value okay and"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1778.76,
+            "end": 1782.88,
+            "text": " then if we see the handling of uncertainty then in the case of classical set for that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1782.88,
+            "end": 1787.92,
+            "text": " type of uncertainty content we are not possible to solve that with the help of the classical"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1787.92,
+            "end": 1794.16,
+            "text": " set but in the case of fuzzy set we are able to take the decision in between uncertainty"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1794.16,
+            "end": 1800.04,
+            "text": " if we have that type of data in which we are not able to classify in between two values"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1800.12,
+            "end": 1804.76,
+            "text": " so with the help of that fuzzy set we can classify or we can take the decision in that"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1804.76,
+            "end": 1809.56,
+            "text": " in that type of cases with the help of the fuzzy set so that type of uncertainty handling"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1809.56,
+            "end": 1814.72,
+            "text": " uncertainty is possible in the case of fuzzy sets."
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1814.72,
+            "end": 1819.84,
+            "text": " So that's all for the that lecture now in next lecture we will explore the other topics"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1819.84,
+            "end": 1824.2,
+            "text": " like what's that how many types of membership function how many types of membership functions"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1824.2,
+            "end": 1829.48,
+            "text": " are there and then different type and then different types of input we can apply and"
+        },
+        {
+            "number": "2",
+            "title": "Lecture 2",
+            "start": 1829.48,
+            "end": 1834.2,
+            "text": " then in detail we will see the fuzzification and defuzzification in the next lecture."
+        }
+    ],
+    "text": " So, hello everyone, I again welcome you to the course on fuzzy logic inference and machine learning techniques, I am your instructor for this course. So, this is our lecture 2, now in previous lecture we have seen the basics of fuzzy logic and why we need fuzzy logic, we have seen in our previous lecture. Now, in this lecture we will start with our syllabus of the unit 1. So, our first unit is basically based on the basics of the fuzzy logic, so this is the course for that. Now, I have cover, I have basically categorized this unit into 5 parts, first one is, first we will read, first we will learn about the introduction to fuzzy logic and its importance, then we will see the difference between the classical set and the fuzzy set, then we will see fuzzy membership function and their different types, then we will see the operation on fuzzy steps by applying the union, intersection and complement different types of operation, how we will implement on the fuzzy sets, we will see in that and then at the end we will see the concept of fuzzification and defuzzification with the help of some examples. So, I have already covered the introduction to fuzzy logic, but again I will brief you or I can say, I can again recap you what we have learnt in the first lecture. So, basically what is fuzzy logic, it is a basically a mathematical approach which is used to handle the uncertainty and imprecision, it means when we are not able to decide between two values, we will go to the fuzzy logic, so why we need fuzzy logic, because traditional logic only deals with two values, either it is absolutely true or either it is absolutely false means, in between 0 and 1, we have to choose, okay but in real situation, it is not like that, we cannot only choose in between black and white, we are sometimes often we have to go for the grey areas, that's why we have to, that's why we will need, we are going for to apply the fuzzy logic in that type of cases, where we are not able to take the decision in between the 0 and 1 and in between the black and white, okay. So, this is the basic idea in which fuzzy logic allows actually us for degrees of the truth means, in the fuzzy logic, we can decide whether the situation is 30% correct, 70% correct, 50% correct, 100% correct, so that type of decision allows us the fuzzy logic, so instead of only choosing the true or false, we can take that decision on the basis of the degrees of the truth, how much our content is truth with the help of that we can take the decision. Now, with the help of example, I again explain you like in temperature description, if we are using classical logic, then we have only two option, either it is hot or it is not hot, in between these two we have to choose, but in the case of fuzzy logic, we can explore more options like if it is slightly hot means, it is its degree is degree of truth is 0.4, okay, now if it is moderately hot, then its degree of truth is 0.7, if it is very hot, then its degree of truth is 0.9, so with the help of fuzzy logic, we are able to classify to explore more options, okay. So, basically this is the diagram which I have, this is the diagram of that example, which I have explained in the previous slide, like if it is hot water, then in the case of Boolean logic, we have only two option, either yes, it is hot water or no, no, it is not hot water, okay, but in the case of fuzzy logic, we have more options like it is very much hot, we can categorize its degree of truth is 0.9 means, it is close to the desired output, okay, now in the case, in the second case, we have little, it means 50% chance, then very less, it means its degree of truth is 0.1, okay, so basically this figure shows that the fuzzy logics are, fuzzy logics help us to explore more options, when we are not able to decide in between 0 and 1, we can explore more option with the help of the fuzzy logic, okay. So, now, first we will understand what is the architecture of the fuzzy system, how many components are there, how fuzzy logic is working, how they are able to take the decision in between more than two values, okay, so fuzzy logic basically, it consists of four main parts, first one is the fuzzification module, then second one is the rule base, then the third one is base interference engine, then fourth one is defuzzification module, so one by one we can explore all these components, what these components are doing in the fuzzy logic systems. So, basically this is the process of fuzzy logic system, first what we will do, we will apply our crisp input, we will apply our input to the fuzzification module, so what will they do, it will converge the crisp input to the fuzzy input, okay, it will take the base input or crisp input which we are having, might be that input is from some sensors or basically whatever type of data we have, we can input to the fuzzy logic system, then the first block, fuzzyification module, what they will do, it will convert our data to the fuzzy sets, fuzzy inputs, okay, then second one is rule base, what they will do, in this rule base we have decided some rules, we have implemented some rules, what we have to do with this, with input data, what operation we have to perform, so in this rule base we have fetch some rules, second interference engine it will operate, it will take the fuzzy input and then rules and it will apply and then it will that on the basis of that rules and as input it will convert to the fuzzy output. Then fourth one is defuzzification module, again what they will do, it is the basically inverse of the fuzzification module, it takes the fuzzy output and convert it into the crisp output which the peoples are able to understand what the output is, okay, so this is the fuzzy modification module, so basically it is a module or component for transforming the system inputs means, it basically converts the crisp number into fuzzy steps, okay, with the help of that fuzzification module we can convert our crisp input to the fuzzy input, okay. Now, the crisp number, what are crisp number, crisp number are those inputs or data which are measured by our sensors and then fuzzification pass them into the control system for the further processing, basically it takes the data and convert it into the fuzzy steps or the fuzzy data we can say. Now, what are the key elements of the fuzzification module, first one is the input variable which we are applying that is that can be anything like it can be a real world measurement for example, it may be a temperature data, it may be a speed, it may be pressure, it can be anything. Second one is the membership function, we have to define the degree of belongingness to the fuzzy set, we will see in detail what is the membership function means. And third one is the fuzzy set, basically it categorize, it the category how we are categorizing our input into multiple, multiple number like low, medium, high, if it is a Boolean logic or crisp input then we are only able to categorize in between two, either low or high but in the case of fuzzy input we can categorize our data into three type, whether it is low, it is medium, it is high, so that is the basically what the advantage of fuzzy set is that. Now, second is knowledge based or either rule based, so rule based is basically a component which is we are using for storing the set of rules, in the in that rule based we have we have implemented, we have designed some rules, what type of rules, if then type of rules. So, in the if then conditions which are given by the experts or which are desired by a system we are using for controlling the decision making system, we are in this we want what type of decision we want, we can take with the help of or we can categorize with the help of the rule based system, in this we will design the rules and then we will apply that rules to the input. Then the third, now again what is the basic component of that knowledge based, so first one is fuzzy rule based which is a set of if then rules, we are that govern the system behavior that decide the system behavior, then the database which are which like what we are storing in the membership function and what the other parameters are there like if temperature in this like if we have taken, if we I will write a example for that how so that you can understand better what is the rule based. So, basically like we have we have executed some rule in that or we have write some rule in the in that rule based, what is that if temperature is high, then fan speed should be fast, we have decided that would. If the temperature is high, then fan speed, then our fan speed should be fast, if temperature is low, then our fan speed should be slow. So, this type of rules we design in that rule based. now what is the third main component is its interference engine, now what is the interference engine, so basically it is a component in fuzzy logic system because all the information is processed in the all the information that we have inputted is processed in that inference engine in which it allows the user to find the matching degree between the current fuzzy input and their rules, it match what is the current input and it match that input with the rules okay. So now after the matching degree this system determine which rule is to be added on that system which rule should be added according to the given input field when all the rules are fired then they are combined there then they are combined for developing the control action on the basis of that okay. Now this component is also responsible for applying fuzzy logic rule to the fuzzified input and generating the fuzzy output means with the help of that fuzzification component we get the fuzzy input because that component has converted the crisp input in the fuzzy input and then that input we have applied to the inference engine and the second input for the inference engine is the if rule base, rule base which we have designed then they apply that rules to the input and then generate output on the basis of that rules okay. So basically we have two types of inference method in that first one is the Mamdani interference method basically this uses the fuzzy set for both the input and output means in input also we are using fuzzy set and the output we are also using the fuzzy set but in the case of Sugino interference method we are using a mathematical function for output to simplify the computation or means in Sugino interference method we are using the mathematical equation to find the output but in the case of Mamdani we are using what the fuzzy set also for the input and also for the output in the both the cases we are using the same fuzzy sets but in the case of Sugino we are using the mathematical function. Now the last step is the fuzzification module, defuzzification module sorry so defuzzification is a module or a component of the fuzzy logic system which takes the fuzzy system which takes the fuzzy set input generated by the interference engine means basically it takes the output from the interference engine and then transform that into a crisp value. So basically what they will do it convert the in simplification we can say it convert the fuzzy output into a crisp value that can be used in our real world application so that that output we can use in our real world application okay that's that defuzzification can do like if we can take the real life example of that automatic washing machine so like we have categorized our input into two parts first one is the dirt level second is wash time like if the dirt is very low in the cloth then the wash time of washing machine should be of 20 minutes like if the dirt is medium in nature then our wash time should be of 40 minutes if the dirt is very high means if our cloth is of very high dirt then the wash time of washing machine should be 60 minutes okay. Now what the process was fuzzification do? Fuzzification do the convert dirt level to the fuzzy values so if we are applying the input in the form of dirt level so that fuzzification converts that dirt level to the fuzzy values. Now what the knowledge base we have now then we have to prepare some rules like which we have shown in the previous slides like if the dirt level is 10 percent then the washing machine should be run of the time 20 minutes if the dirt level is 50 percent then the washing machine time should be running time should be of 40 minutes that rule we have decided and that that rules we have to write in the knowledge base then what interference engine will do it determine the wash time on the basis of that input the dirt level and then on the basis of that rules they give the they determine the basically the wash time and then the wash time output they will give to the defuzzification component what it will do it will convert the fuzzy output to the exact minutes means how much how minute how many minutes that washing machine have to be run okay. Now again come to the classical sets because we have to study the fuzzy sets now we next topic is difference between the classical set and fuzzy sets means what is the difference between to the these two type of set first we will understand that then we will go into deep with the fuzzy logic values how fuzzy logic will work how this fuzzification will work how this defuzzification will work how they are how we will design the membership function for that and that type of things we will learn so first we have to understand what is the classical set so that we are able to compare these two type on the basis of that comparison you will understand better what is the fuzzy set is there so now like now first we will understand the classical set to basically classical set is a collection of element that either belong to or do not belong to the set again like a Boolean logic only we have two option either it belongs to that set or either it does not belong to the set that is the basically our classic set or crepe set we can say so there is no in between state either it is belong to that set either it is either it does not belong to that set okay there is no in between state in that in the case of crepe set what now what is the characteristics of that classical set so first one is the binary membership function in it means if I will categorize their membership function membership function means how much it belongs to the desire means like a either element is either in the set one or not we have only two option either it is belong it means it is its membership function is hundred percent it is belonging to that set if it is not belonging then its membership function is zero zero percent it is not belonging to that set that is the first characteristic of classical set second one is sharp boundaries so basically we have clear cut distinction in between the set members and and non members if it is a member then we have clear cut boundaries in the case of and crisp set so if it is belong to that set then we will say its membership function is hundred percent if it does not belong it means its membership function is zero now what's the use of what's the use of classical logic basically it is a two valued logic two valued logic in between no uncertainties involved in the case of classical sets now what's the mathematical representation so basically a classical set is represented by a which in curly bracket x so basically x satisfy a certain condition a like x belong to satisfy a certain condition in the end now the membership function of a classical set is basically like a one if x belongs to the set a and zero if x does not belong to set a we have only two condition in the case of classical set so that is the representation of that classical set or crisp set how we represent these sets in terms of crisp set on in classical set how we represent that type of data okay now consider a example like consider we have consider a set of tall people where the height of height we have taken a threshold of height one centimeter we have taken a survey in which many we have consider we have taken the inputs of all the heights of that person which are we have collected for our data like and we have set a threshold that is 180 centimeter like if person a is 180 centimeter now if we have we are applying the crisp set in that function like if a person a if a some person is there that name is a and if its height is 182 centimeter so we have set a threshold of 180 centimeter it means it is the member of set because its height is greater than 180 degree it means it is a member of the set then its membership function is 100 percent okay now in the case of person b that is the its height is 175 centimeter then we have the clear cut input then it is a not a member of that threshold we have taken that is 180 centimeter it is less than 180 centimeter then it is not the it is not in the set it is not what basically I can say it does not belong to that set okay so in classical set there is no middle ground a person who is 179 centimeter is not tall but someone who is 180 centimeter it is tall that is in the case of classical set now what is membership function a membership function is denoted by the mu a of x which tells us whether an element belong to the set or not which I have already explained like it tells us whether that element is belong to that set or not but in the case of crisp set we have only two option either it belongs if it is belong then its membership function is 100 percent like if any element is in the set then its membership function is 100 percent like if an element is not in that set then its membership function is 0 so that is its clear boundaries in the case of crisp set okay now what the fuzzy set is the basically fuzzy sets allow us to elements to have partial memberships meaning they meaning they can belong to the set to some degrees and we will decide in between the values between 0 and 1 how much they are close to that that threshold we will decide on the basis of that okay but in the we have seen already seen the case of Boolean we do not have any option either they belong either they do not belong only between only we have 0 and 1 but in the case of fuzzy set we are having a we are having some partial membership types means in which either they can belong to the some degree how much degree it belong to that set okay so what are the characteristics of fuzzy set first one is a partial membership membership means an element can partially belong to a set with a degree between 0 and 1 okay now but the smooth second characteristic is smooth boundaries mean it is flexible there are there are no strict cut off to the to the functions like its membership changes gradually on the basis of that desired output okay it means only it possess smooth boundaries third one is a it uses fuzzy logic means it is a fuzzy logic fuzzy set is a basically a multi valued logic in which it allows for degrees of truth rather than just true or false means it does not belong to the case where we have to choose in between true and false it allow us for some degrees of truth we can take in between the values of in between the values of truth and false like how much percent it is true like 0.2 percent 0.3 percent 0.4 percent that values we also can take in the fuzzy sets now what's the mathematical representation of fuzzy set you can see that so a fuzzy set is represented as a set of ordered pairs so a so basically this is a an element and mu and mu AX is its membership function so what did this this one what this mu AX it is a membership function and it shows the membership value what the membership value of that X okay now membership function values ranges in between the 0 and 1 membership function values can be in between the 0 and 1 and now again I have taken the example of fuzzy set after each topic I have taken some example so that you guys are able to understand better in that way so I have taken again a example of fuzzy set so that you can understand better what's the fuzzy system why fuzzy set is different from the Karev set what advantage it give us to okay now suppose we have defined a fuzzy set A that represent what that represent number closest to 18 oh sorry so now suppose we have defined a fuzzy set A that represent number close to 18 so instead of fully including or fully excluding element we assign some partial membership to that like the universe of the set is that in which it comes to 15 16 17 18 19 20 that are the numbers which we are taking okay now fuzzy set could be written as like now we are writing the mathematical representation of that fuzzy set so A is equal to 16 0.6 17 so now fuzzy set A could be written as A 16 0.6 17 0.9 18 0.2 19 1.0 so 16 is that number which we are comparing with the set that it belongs to that set or not and 0.6 its degree of truth means its membership function okay and again for 17 its membership function is 0.92 or its degree of truth is 0.9 and for 18 its membership function is 0.2 or its degree of truth is 0.2 whatever you can say okay for the case of 19 its degree of truth is 1.0 so basically I have taken a random example okay like if you 6 if you see 16 is somewhat closer to 18 so it belongs to partially 0.6 now we in that case in fuzzy set we are having option we can choose in between the 0 and 1 also like means it belongs partially means 16 is somewhat closer to 18 we can say if it is in the case of crisp set so our answer is it does not belong to it does not belong to 18 okay but in the case of fuzzy logic we have an option like it is somewhat close to 18 so what we can say its partially belong to 18 mean it belongs partially so we its membership function we have decided is 0.6 okay now 17 is very close to 18 okay so what its member its membership function we have right there 0.9 because it is just before the 18 means a degree of truth is large okay so it is the what the membership function what the degree of truth we have given is 0.9 now 18 is included but with a lower degree of now 18 we have included but with a lower degree I have again I am saying I have taken a random example okay do not focus on that what how I have decided that 18 is 18 membership function is 0.2 now how 17 membership function is 0.9 I have randomly taken okay now 19 if 19 is fully included means because it is the closest match what I have not taken for 19 I have taken the degree of membership is 1 or membership degree of truth is 1 of its membership function is 1 okay so this is the procedure in which we will write in which we will represent the fuzzy set first we will write the number input and then second is the its membership function or its degree of truth okay like again 17 and then its degree of truth its membership function again 18 then its membership function comma 19 comma its membership function so now again fuzzy sets can also be represented in two forms first one is the discrete fuzzy set that means in which the elements are of finite okay so like I have taken example again for a finite set of element we write a fuzzy set as like it is written like a mu a mu mu x1 divided by x1 plus mu a x2 by x2 plus mu a xn by xn where and in the case of in the in the in also other way we can also write like in with the with the help of taking the summation sign okay in that way also we can represent our fuzzy set okay like for example again the previous example which we have so which we have solved for that again I write a representation in the case of in the in the in the case for discrete fuzzy set means in the how we write that fuzzy set in the in in the in discrete fuzzy set form in discrete fuzzy set representation how we write that okay. So I have written there again so basically a is that so 0.6 divided by 16 okay so 16 is the number and 0.6 is its membership function means again I will take that mu a x1 is the membership function divided by the number number means for what number we are seeing that that it is now it is belong to that set or not again mu x2 is its membership function and x2 is that number which we are saying that it belongs to that set or not similarly in that way we can write and again for clarification I have write again so that you can see in that way we can write this is a membership function or it is the value input okay. Now with the help of that example you can see that the 16 membership function is 0.6 we have already seen previously and 0.17 membership function is 0.9 and 18 membership function is 0.2 19 membership function is 1 okay so in that way we will write in the case of discrete and if we want to represent our fuzzy set in discrete in discrete fuzzy set if we want to write that type we can write okay clearly I want to say that that plus sign does not mean addition okay basically it is a symbol for separating elements how I am separating the element for that I have taken the addition sign addition that plus sign does not mean the addition that we are adding that 0.6 by 16 plus 0.9 by 17 it does not mean addition okay I have used that plus sign for separating and for the separation purpose I have taken that plus sign okay. Now second form is continuous fuzzy set it is basically for the infinite element that discrete fuzzy set is for the that discrete fuzzy set representation is for the finite elements and that continuous fuzzy set is for the infinite elements if we are having infinite elements on our set so for that we will use the continuous fuzzy set like for a continuous fuzzy set we use integration instead of summation in discrete we will use summation and for in continuous set we use integration instead of using the summation okay. So now again same for that a taken pointer so that I can point out here so that again that mu a by 6 mu a mu a x is basically a membership function and that x is a normal value or we I can write in different way like integration mu x divided by x mu a x is basically a continuous function that gives the membership value for all the elements of the universe okay. So now this table basically shows the what is the difference between classical set and fuzzy set we have seen the classical set with the help of example also with the help of their characteristics also and after that we have seen the fuzzy set with the help of their characteristics with the help of their example we have and with the help of their representations also we have studied the in this lecture we have studied the fuzzy set also. So for that for that we have I have drawn a comparison in between the classical and fuzzy set what is the main difference between the two these two types of set already with the by seeing previous lecture and by seeing that lecture up to that last previous slide you are able to get the difference between the classical and fuzzy set but for your help I have combined all these differences in the form of table okay. So now first feature is membership function again I will take the pointer so first feature is if we take the feature membership function then in classical set it is stick either 0 or 1 means in between we have to choose either it is either that input is belong to that set or it does not belong to that set but in the case of fuzzy set we have an option in between 0 and 1 mean it is 0.1 percent belong it is 0.9 percent belong or it is 0.6 percent belong okay. So in between 0 and 1 we can take the values in the case of fuzzy set and we will decide like if it is nearly belong to that number that desired set then we will say okay 0.9 percent belong to that set if it is far away from that set we will consider it belongs 0.1 to that percent we will basically decide the membership function only 0.1 okay or in the case of it is closely to the desired then we will say its membership function is 0.9 okay but now in the case of classical set only we can say either it is 0 percent either it is 100 percent okay. Its option we have only two option either it is strictly belong to that set or either it does not belong to that set okay so its membership function is either 0 or either one okay now second come to the boundaries so basically in classical set we have sharp and well defined boundaries okay but in the case of fuzzy set we have gradual and flexible boundaries which we can see like with the help of membership function we can say that we have flexible boundaries in the case of fuzzy sets. Now what is the logic used so basically in the case of classical set we have only two valued we are using the Boolean logic but in the case of fuzzy set we are using the fuzzy logic it means we can take the multiple values in between the 0 and 1 or in between the true and false we can take multiple values that is why that fuzzy set is a multi valued system okay or crisp set is basically a two valued system. Now mathematical representation in that classical set we have used the characteristics function but in the fuzzy set we have used some membership function you have seen that in the representation of classical set we have not written there any membership functions value how like 0.1 like if we have said it is either belong to 0 or does not belong if it is belong to then its membership function is 1 if it does not belong its membership function is 0 but in the case of representation we have never used their membership function there membership function values there and okay. So with the help of that characteristic function we have represented the classical set but in the case of fuzzy set we have importantly used the membership function value okay and then if we see the handling of uncertainty then in the case of classical set for that type of uncertainty content we are not possible to solve that with the help of the classical set but in the case of fuzzy set we are able to take the decision in between uncertainty if we have that type of data in which we are not able to classify in between two values so with the help of that fuzzy set we can classify or we can take the decision in that in that type of cases with the help of the fuzzy set so that type of uncertainty handling uncertainty is possible in the case of fuzzy sets. So that's all for the that lecture now in next lecture we will explore the other topics like what's that how many types of membership function how many types of membership functions are there and then different type and then different types of input we can apply and then in detail we will see the fuzzification and defuzzification in the next lecture."
+}

@@ -1,0 +1,2441 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 0.0,
+            "end": 18.240000000000002,
+            "text": " So, hello everyone, I welcome you all again to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 18.240000000000002,
+            "end": 23.76,
+            "text": " machine learning techniques, I am Dr. Aftab Ahmad Ansari, instructor for you for you for"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 23.76,
+            "end": 24.76,
+            "text": " this course."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 24.76,
+            "end": 29.6,
+            "text": " So, basically this is our lecture three in previous lecture, we have covered the basics"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 29.6,
+            "end": 34.36,
+            "text": " of the fuzzy logic and their representations and there are in the architecture of fuzzy"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 34.36,
+            "end": 35.36,
+            "text": " logic system."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 35.36,
+            "end": 38.760000000000005,
+            "text": " Now, in this lecture, we will try to cover the different types of membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 38.760000000000005,
+            "end": 40.96,
+            "text": " which we used for the fuzzy logic system."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 40.96,
+            "end": 45.96,
+            "text": " So, first I will I want to give you a brief recap of what we have learned in the previous"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 45.96,
+            "end": 46.96,
+            "text": " previous lecture."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 46.96,
+            "end": 51.480000000000004,
+            "text": " So, we have seen in that the representation of the fuzzy logic in our previous lecture."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 51.480000000000004,
+            "end": 56.56,
+            "text": " So, what is the how many we have seen that there are two types of representation for"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 56.56,
+            "end": 57.56,
+            "text": " any fuzzy set."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 57.56,
+            "end": 62.56,
+            "text": " First one is a discrete fuzzy set that consists of the finite elements in which in means"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 62.56,
+            "end": 66.12,
+            "text": " we have thus in which we have finite set of elements."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 66.12,
+            "end": 68.76,
+            "text": " Now, how we have to represent that in our fuzzy set."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 68.76,
+            "end": 73.6,
+            "text": " So, this is the representation first we with the help of mu A of x i which represent the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 73.6,
+            "end": 78.32000000000001,
+            "text": " membership function for the variable number x 1 which we will write in the denominator"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 78.32000000000001,
+            "end": 82.68,
+            "text": " and same for the if we have another variable that is x 2, then their membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 82.68,
+            "end": 88.80000000000001,
+            "text": " we will write in the numerator and the variable we will write in the denominator and the and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 88.80000000000001,
+            "end": 93.28,
+            "text": " and the sign you have seen addition it does not mean the addition sign it simply it simply"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 93.28,
+            "end": 94.68,
+            "text": " are separating the elements."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 94.68,
+            "end": 99.68,
+            "text": " So, that is the example which we have seen in the previous class that is the example"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 99.68,
+            "end": 103.68,
+            "text": " which like we have taken a set in which 16 is the number and its membership value is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 103.68,
+            "end": 109.56,
+            "text": " 0.6 and then 17 is another number their membership value is 0.9 and same for the 18 its membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 109.56,
+            "end": 114.16,
+            "text": " function value is 0.2 and 19 and its membership function is value is 1."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 114.16,
+            "end": 119.4,
+            "text": " So, this is the way which we will represent in the case of fuzzy sets 0.6 which 0.6 is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 119.4,
+            "end": 123.56,
+            "text": " the membership function for the 16 number and 0.9 is the membership function membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 123.56,
+            "end": 127.08,
+            "text": " value basically for the 17 and similarly for all others."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 127.08,
+            "end": 131.0,
+            "text": " And now if we have continuous fuzzy set in which in which we have infinite elements."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 131.0,
+            "end": 136.72,
+            "text": " So, for that element we will it will represent that fuzzy set in the form of integration"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 136.72,
+            "end": 140.92,
+            "text": " and where mu of x is the continuous function that gives the membership values for all the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 140.92,
+            "end": 143.56,
+            "text": " elements in the universe."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 143.56,
+            "end": 147.64,
+            "text": " Now again I have taken one example like we have taken I have taken a basically a set"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 147.64,
+            "end": 152.96,
+            "text": " of cities which has the universe for the discourse like Delhi, Agra, Mumbai, Kolkata, Kanpur"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 152.96,
+            "end": 157.6,
+            "text": " and next is MIT SDO I have taken that that number of cities."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 157.6,
+            "end": 161.92,
+            "text": " Now we have to define a set in which represent the desirability of living in these cities"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 161.92,
+            "end": 165.88,
+            "text": " based on a personal preference on the basis of personal preferences we have decided the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 166.04,
+            "end": 170.68,
+            "text": " desirability means people people where people want to live more."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 170.68,
+            "end": 175.56,
+            "text": " So, that is the solution if we will write that fuzzy set in the form of pair representation"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 175.56,
+            "end": 176.56,
+            "text": " ok."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 176.56,
+            "end": 180.72,
+            "text": " So, fuzzy set A which represent the desirability we can write as Delhi its membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 180.72,
+            "end": 186.0,
+            "text": " value 0.9 then Agra its membership function value 0.6 similarly Mumbai has have a membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 186.0,
+            "end": 191.72,
+            "text": " function value of 0.7, Kolkata 0.7, Kanpur 0.1 and MIT SDO is having a membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 191.72,
+            "end": 192.72,
+            "text": " value of 1."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 193.04,
+            "end": 197.32,
+            "text": " So, basically these membership value what indicate it indicate the desirability of each"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 197.32,
+            "end": 202.07999999999998,
+            "text": " city where people want to live and the value of 1 means 100 percent desirability it means"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 202.07999999999998,
+            "end": 208.0,
+            "text": " MIT SDO wants people more to live in that case and the value of 0.1 means very low desirability"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 208.0,
+            "end": 211.6,
+            "text": " that is Kanpur in that in that example."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 211.6,
+            "end": 214.6,
+            "text": " Now the same fuzzy set we can also write in the form of submission notation."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 214.6,
+            "end": 217.76,
+            "text": " So, basically 0.9 that is a membership function for the value of Delhi."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 217.76,
+            "end": 226.32,
+            "text": " So, we have write 0.9 divided by Delhi similarly for 0.6 divided by Agra 0.7 divided by Mumbai"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 226.32,
+            "end": 229.16,
+            "text": " basically it is not divided it is a slanted line I have used."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 229.16,
+            "end": 233.16,
+            "text": " So, the first number in each term represent the membership value and the element that"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 233.16,
+            "end": 237.35999999999999,
+            "text": " follows the membership value after a slanted line we will say and it plus and indicate"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 237.35999999999999,
+            "end": 241.35999999999999,
+            "text": " the collection of the element in the fuzzy set it does not means the addition of that"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 241.35999999999999,
+            "end": 246.39999999999998,
+            "text": " the fuzzy sets ok it indicates simply the collections of the elements in the fuzzy sets"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 246.39999999999998,
+            "end": 247.39999999999998,
+            "text": " ok."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 248.04,
+            "end": 251.56,
+            "text": " Now before we will start the types of membership function first we have to understand the basics"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 251.56,
+            "end": 255.68,
+            "text": " of for the fuzzy membership function or we can say the nomenclature which is related"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 255.68,
+            "end": 258.96,
+            "text": " to the fuzzy membership fuzzy membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 258.96,
+            "end": 260.76,
+            "text": " So, first one is the support."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 260.76,
+            "end": 265.12,
+            "text": " So, what represent the support the support of the fuzzy set which includes all element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 265.12,
+            "end": 270.08,
+            "text": " that have some membership value means it includes all the element which are having some membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 270.08,
+            "end": 275.16,
+            "text": " value it means their membership value should be greater than 0 it means it should have"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 275.20000000000005,
+            "end": 279.92,
+            "text": " some membership function value that indicate the supports ok means it is a with the help"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 279.92,
+            "end": 284.8,
+            "text": " of formula you can see that mu of A is greater than 0 it means it is membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 284.8,
+            "end": 286.8,
+            "text": " value should have some value."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 286.8,
+            "end": 292.20000000000005,
+            "text": " Again I have taken an example like if a fuzzy set which represent the warm temperature and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 292.20000000000005,
+            "end": 297.36,
+            "text": " I have defined with the help of a variable x like 20 degree 25 degree 30 35 40 and their"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 297.36,
+            "end": 301.68,
+            "text": " membership value are that are there that are the temperature in the one column first column"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 301.92,
+            "end": 305.96,
+            "text": " and then second column represent the their membership function value membership value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 305.96,
+            "end": 312.36,
+            "text": " like 20 degree temperature is having a membership value of 0.1 similar 25 is having 0.4 30 0.8"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 312.36,
+            "end": 320.16,
+            "text": " 35 1 40 40.6 now if I want to write the support for that number of sets now the 20 25 30 35"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 320.16,
+            "end": 323.56,
+            "text": " I will write because all that element are having a membership value of greater than"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 323.56,
+            "end": 327.72,
+            "text": " 0 all is all are having a membership value greater than 0."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 327.72,
+            "end": 333.28000000000003,
+            "text": " So that supports contain all that the temperature range now with the help of figure you can"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 333.28000000000003,
+            "end": 339.20000000000005,
+            "text": " also see that that is the baseline which shows the support mean it contains all the element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 339.20000000000005,
+            "end": 344.0,
+            "text": " which are having some membership value means some value slightly greater than 0 we can"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 344.0,
+            "end": 349.40000000000003,
+            "text": " say if it is having and I mean main motive is it is their membership value should be"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 349.40000000000003,
+            "end": 353.40000000000003,
+            "text": " greater than the 0."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 353.4,
+            "end": 358.0,
+            "text": " Now second is the core so basically the core consists of elements which is fully belonging"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 358.0,
+            "end": 363.64,
+            "text": " to the set means it contains that of that functions that elements which are having a"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 363.64,
+            "end": 368.84,
+            "text": " membership value exactly one or strictly one okay so the core consists of that element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 368.84,
+            "end": 374.44,
+            "text": " which is fully belonging to the set like in the previous example we have seen like you"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 374.44,
+            "end": 379.08,
+            "text": " can see the 35 degree temperature is having the membership function value exactly equal"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 379.08,
+            "end": 387.12,
+            "text": " to 1 so if now I want to write the core so the core should be I can you can see in the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 387.12,
+            "end": 391.24,
+            "text": " previous example the core is core the core function value is only 35 degree because it"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 391.24,
+            "end": 396.36,
+            "text": " is the function which is having the membership function value exactly equal to 1 okay so"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 396.36,
+            "end": 402.76,
+            "text": " that is the core now with the help of figure you again can you can see that in the case"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 402.76,
+            "end": 408.4,
+            "text": " I will use a pointer for so that you can so that you can understand better okay so this"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 408.71999999999997,
+            "end": 414.52,
+            "text": " is the area of the core because in that area we are having a membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 414.52,
+            "end": 421.67999999999995,
+            "text": " equal to 1 and these are the support these whole are the support because it is having"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 421.67999999999995,
+            "end": 428.2,
+            "text": " a membership function value greater than 0 so that area that area represent the support"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 428.2,
+            "end": 432.84,
+            "text": " and that area which are having strictly having the membership function value of 1 so that"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 432.84,
+            "end": 439.28,
+            "text": " represent the core okay now third function is the cross over point so what is cross over"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 439.28,
+            "end": 444.03999999999996,
+            "text": " point it is basically where the membership function value is exactly 0.5 means it is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 444.03999999999996,
+            "end": 448.79999999999995,
+            "text": " the point where the membership function is having the value of 0.5 that represent the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 448.79999999999995,
+            "end": 453.71999999999997,
+            "text": " cross over point okay let if at 28 degree temperature their membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 453.71999999999997,
+            "end": 457.79999999999995,
+            "text": " that cross over of A is equal to 28 degree Celsius means it contains those element which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 457.8,
+            "end": 463.56,
+            "text": " are having the membership function equal to 0.5 okay now with the help of that figure"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 463.56,
+            "end": 476.32,
+            "text": " you again can see that so that point and basically these represent the membership function membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 476.32,
+            "end": 481.76,
+            "text": " so these x1 and x2 are the cross over point because they are having the membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 481.76,
+            "end": 489.4,
+            "text": " value equal to 0.5 so basically these are the two points these are the two points which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 489.4,
+            "end": 493.28,
+            "text": " we will say the cross over point because they have the membership value which is exactly"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 493.28,
+            "end": 503.2,
+            "text": " 0.5 and that area is again core because they have a membership function of value equal"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 503.2,
+            "end": 510.24,
+            "text": " to 1 that is why these area is called core and that whole area if I will cover that we"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 510.24,
+            "end": 519.84,
+            "text": " call as the support from these point to this point because it is having membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 519.84,
+            "end": 526.08,
+            "text": " value greater than 0 with the help of that figure you I think you are able to clarify"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 526.08,
+            "end": 531.0,
+            "text": " in between the theory point support core and cross over point okay."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 531.0,
+            "end": 535.16,
+            "text": " Now next is bandwidth so for a fuzzy set the bandwidth is defined as the distance between"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 535.16,
+            "end": 539.9599999999999,
+            "text": " the two unique cross over point it is the basically the distance between the two unique"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 539.9599999999999,
+            "end": 548.28,
+            "text": " cross over point so these are the two cross over point so now the distance between them"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 548.28,
+            "end": 554.1999999999999,
+            "text": " is the bandwidth okay now normality so now normality is basically defined for the set"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 554.1999999999999,
+            "end": 559.9599999999999,
+            "text": " whether that set is normal or not okay so a fuzzy set is normal if at least one element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 559.96,
+            "end": 565.9200000000001,
+            "text": " is having the membership function of value 1 at some point at any point if that set is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 565.9200000000001,
+            "end": 571.88,
+            "text": " having a membership function value is equal to 1 then that fuzzy set is normal so basically"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 571.88,
+            "end": 577.1600000000001,
+            "text": " it what it ensure it ensure that the set represent a concept where at least one element is fully"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 577.1600000000001,
+            "end": 580.96,
+            "text": " included now with the help of that example like temperature 20 is having a membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 580.96,
+            "end": 586.36,
+            "text": " function value 0.1 25 is having a value of membership function value 1 35 degree Celsius"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 586.36,
+            "end": 593.12,
+            "text": " is having a membership function membership value is 0.7 so basically that 25 degree Celsius"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 593.12,
+            "end": 598.08,
+            "text": " so basically that 25 degree Celsius is having a membership function value of 1 so means"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 598.08,
+            "end": 603.44,
+            "text": " that a set is basically a normal fuzzy set because it is having it is having a one element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 603.44,
+            "end": 609.12,
+            "text": " that is having a membership function of value exactly equal to 1 so that is why these fuzzy"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 609.12,
+            "end": 614.6,
+            "text": " set is normal fuzzy set okay. Now another is fuzzy singleton so basically"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 614.6,
+            "end": 619.0,
+            "text": " fuzzy singleton is again a fuzzy related to the fuzzy set which with in which with"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 619.0,
+            "end": 623.4,
+            "text": " only one element having a membership 1 and all other element is having a membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 623.4,
+            "end": 627.96,
+            "text": " value of 0 it means only one element is there which is having a membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 627.96,
+            "end": 635.0400000000001,
+            "text": " equal to 1 and all other element is having membership value equal to 0 okay mean one"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 635.0400000000001,
+            "end": 639.2,
+            "text": " element in the set has full membership while other are while other elements are having"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 639.2,
+            "end": 643.88,
+            "text": " a 0 membership function with the help of that figure you can also see that this is the this"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 643.88,
+            "end": 648.88,
+            "text": " is the only element this is the only element which is having a membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 648.88,
+            "end": 654.72,
+            "text": " of n and all other member are having a might be these are the all other member and that"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 654.72,
+            "end": 659.6,
+            "text": " are having a membership function value of 0 so that set in which only one element which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 659.6,
+            "end": 664.64,
+            "text": " is having membership function of membership membership 1 and all other are having 0 memberships"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 664.64,
+            "end": 670.48,
+            "text": " so that fuzzy set we call as a fuzzy singleton. Now what is alpha alpha cut and a strong alpha"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 670.48,
+            "end": 674.96,
+            "text": " cut so basically alpha cut is a crisp or a fuzzy set which contain all the element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 674.96,
+            "end": 679.4,
+            "text": " where membership function is at least alpha means first we define the value alpha and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 679.4,
+            "end": 684.64,
+            "text": " if all the all and the membership function which are having a value greater than or equal"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 684.64,
+            "end": 689.8000000000001,
+            "text": " to alpha then that set we call the alpha cut set and if that set is having value in which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 689.8000000000001,
+            "end": 695.9200000000001,
+            "text": " we are taking the value of alpha greater than then that set we call the strong strong alpha"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 695.92,
+            "end": 701.7199999999999,
+            "text": " cut with the help of that formula you again again clarify in which in which in alpha cut"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 701.7199999999999,
+            "end": 708.76,
+            "text": " pointer so basically this in an alpha cut we are having a membership function in which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 708.76,
+            "end": 714.1999999999999,
+            "text": " it should be greater than alpha or equal to alpha but in the case of strong alpha cut"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 714.1999999999999,
+            "end": 719.18,
+            "text": " their membership function should be strictly greater than the alpha in the case of strong"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 719.18,
+            "end": 722.16,
+            "text": " alpha cut. So basically it includes all the element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 722.16,
+            "end": 726.16,
+            "text": " their membership is strictly greater than alpha in the case of strong alpha cut and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 726.16,
+            "end": 732.3199999999999,
+            "text": " in the case of alpha cut their membership function is at least alpha okay it should"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 732.3199999999999,
+            "end": 738.48,
+            "text": " be greater than alpha or it should be equal to alpha in the case of alpha cut set okay."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 738.48,
+            "end": 743.36,
+            "text": " Now take an example for that like if we are having example in which in which one column"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 743.36,
+            "end": 747.52,
+            "text": " certain temperatures are there and for that temperature some membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 747.52,
+            "end": 752.12,
+            "text": " are shown in the column number 2 so like 20 is having a membership function value of 0.1"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 753.08,
+            "end": 759.68,
+            "text": " similarly 25 0.4 for 30 degree Celsius 0.8 and for 35 1 for 40 0.5 okay these are the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 759.68,
+            "end": 764.2,
+            "text": " membership function value now if we have to define the alpha cut A like if we have to"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 764.2,
+            "end": 768.08,
+            "text": " write the alpha cut A so the alpha represent that which is having a membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 768.08,
+            "end": 772.32,
+            "text": " value greater than alpha now in this question I have decided that the alpha is equal to"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 772.32,
+            "end": 777.92,
+            "text": " 5 now in the alpha cut what value should become those elements should become in that alpha"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 777.92,
+            "end": 785.28,
+            "text": " cut where whose membership function is greater than equal to 0.5 like if we see 2020 membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 785.28,
+            "end": 791.04,
+            "text": " function is less than 0.5 so it doesn't come in the content of alpha cut okay."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 791.04,
+            "end": 795.28,
+            "text": " Now we can see 30 degree temperature is having a membership function value 0.8 so it comes"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 795.28,
+            "end": 802.0799999999999,
+            "text": " under that set 35 it is having a value of greater than 0.5 and similarly 40, 40 is equal"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 802.08,
+            "end": 808.48,
+            "text": " to 0.5 so in the case of alpha cut it comes in that case but if you see in the case of"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 808.48,
+            "end": 813.36,
+            "text": " strong alpha cut it have only two elements because only two elements are there whose"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 813.36,
+            "end": 820.44,
+            "text": " membership function is greater than 0.5 what is that it is 30 degree that 30 degree temperature"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 820.44,
+            "end": 824.64,
+            "text": " and 35 degree temperature these are the two elements which are having a membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 824.64,
+            "end": 833.08,
+            "text": " which are having a membership value exactly or strictly greater than the 0.5 so these"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 833.08,
+            "end": 838.3199999999999,
+            "text": " are the figure with the help of that figure you can see that like if x1 if x1 is the alpha"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 838.3199999999999,
+            "end": 845.12,
+            "text": " if I have taken x1 as the element if I x1 I have taken the cut set then the membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 845.12,
+            "end": 857.28,
+            "text": " function value which is having greater than x1 greater than sorry 0.2 then all these elements"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 857.28,
+            "end": 863.04,
+            "text": " come under the category of alpha cut and the and exactly great and the strictly greater"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 863.04,
+            "end": 868.44,
+            "text": " than the 0.2 then it comes under the category strong alpha cut similarly for the x2 their"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 868.44,
+            "end": 872.88,
+            "text": " member their alpha cut value is 0.5 so the the element which are having value greater"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 872.88,
+            "end": 877.76,
+            "text": " than 0.5 come under the category of alpha cut greater than or equal to alpha cut and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 877.76,
+            "end": 881.72,
+            "text": " if it is strictly greater than the 0.5 then it comes under the category of strong alpha"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 881.72,
+            "end": 882.72,
+            "text": " cut."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 882.72,
+            "end": 887.4399999999999,
+            "text": " Okay now what is convexity of fuzzy set so basically a fuzzy set we call is a convex"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 887.4399999999999,
+            "end": 892.88,
+            "text": " if all its alpha alpha cuts are convex set in the classical sense it means that for any"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 892.88,
+            "end": 897.04,
+            "text": " two points in the fuzzy set all the point between them should have a membership value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 897.04,
+            "end": 902.52,
+            "text": " at least as high as a lowest membership value of the two points means for that set if we"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 902.56,
+            "end": 908.04,
+            "text": " have defined two values like x1 x2 are the two cut points for that x1 x2 in between them"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 908.04,
+            "end": 912.92,
+            "text": " one of one or more point should be there which is having a membership function value greater"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 912.92,
+            "end": 918.56,
+            "text": " than both these values whose whichever is less whether x1 is less whether x2 is less"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 918.56,
+            "end": 922.6,
+            "text": " but there well that value should be greater than that this value then that set we call"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 922.6,
+            "end": 929.6,
+            "text": " as convex set okay so with the help of example if I will tell you first I will take the pointer"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 930.28,
+            "end": 937.28,
+            "text": " so again I have taken two column first one for the temperature second one for the membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 938.72,
+            "end": 945.72,
+            "text": " function that is I have taken two column in which some temperature 20 20 30 40 50 I have"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 950.72,
+            "end": 957.44,
+            "text": " taken value like for 10 I have taken membership function value 0.2 0.6 for 30 I have taken"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 957.44,
+            "end": 964.44,
+            "text": " the membership function 0.1 for 40 0.6 and for 50 I have taken membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 964.6400000000001,
+            "end": 971.6400000000001,
+            "text": " now if you have to pick if I have pick x1 is equal to 20 degree which is having a membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 971.9200000000001,
+            "end": 978.9200000000001,
+            "text": " function of value 0.6 and second point if I have picked the 40 degree Celsius okay their"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 979.24,
+            "end": 985.8800000000001,
+            "text": " membership function value is again 0.6 now in between them if there is any element whose"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 985.88,
+            "end": 991.2,
+            "text": " membership function is greater than 0.6 then that set then that set is convex set okay"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 991.2,
+            "end": 996.68,
+            "text": " so now in between them we have a 30 degree Celsius which is having a membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 996.68,
+            "end": 1003.68,
+            "text": " value of 1 so means that fuzzy set is a convex set because it is having a element which is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1005.32,
+            "end": 1011.12,
+            "text": " having the membership function greater than the two alpha cuts which we have taken like"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1011.24,
+            "end": 1018.24,
+            "text": " x1 x2 for that membership function is 0.6 and for x2 is also 0.6 so in between there"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1018.24,
+            "end": 1023.88,
+            "text": " is a set there is an element which are having a membership function greater than the 0.6"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1023.88,
+            "end": 1029.24,
+            "text": " that is why that set is a convex set okay now if we see another example for the non"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1029.24,
+            "end": 1035.88,
+            "text": " convex set what non convex set is there basically so again I will write okay first I have to"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1035.88,
+            "end": 1042.88,
+            "text": " take pointer so now again I will take the same temperature and membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1045.3200000000002,
+            "end": 1052.3200000000002,
+            "text": " and for like 10 20 30 40 degree 50 for 50 0.2 0.6 0.3 0.6 0.2 again I have taken the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1053.04,
+            "end": 1060.04,
+            "text": " same value now I am taking again these sorry these two I am again these two value now my"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1074.1599999999999,
+            "end": 1081.1599999999999,
+            "text": " x1 is having 20 degree Celsius which is having a membership function value equal to 0.6"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1083.28,
+            "end": 1088.8,
+            "text": " and x2 I have taken again 40 degree Celsius which is having a membership function oh again"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1088.8,
+            "end": 1095.8,
+            "text": " same 0.6 now in between this is a set which is having a value less than 0.6 it means that"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1097.52,
+            "end": 1102.32,
+            "text": " set does not belong to the convex set or we does not call that set is a convex set because"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1102.32,
+            "end": 1107.2,
+            "text": " it in between there is a there is an element which is having a membership function value"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1107.2,
+            "end": 1113.0,
+            "text": " less than these two cross these two cut points okay so basically with the help of that figure"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1113.0,
+            "end": 1116.56,
+            "text": " you can also see the difference between the convex fuzzy set and the non convex fuzzy"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1116.56,
+            "end": 1123.56,
+            "text": " set in this figure you can see if that x if that xn if that xn z is if that xn z I have"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1124.04,
+            "end": 1128.16,
+            "text": " taken a cross crossover point then in between them there is a there is an element y which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1128.16,
+            "end": 1133.5800000000002,
+            "text": " is having a membership function greater than the value of both the x and y separately okay"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1133.6599999999999,
+            "end": 1136.98,
+            "text": " now in the case of non fuzzy set you can see if I have taken again the value taken the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1136.98,
+            "end": 1141.26,
+            "text": " two element that is xn in between there is a membership function there is an element"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1141.26,
+            "end": 1145.54,
+            "text": " which is having a membership function less than the xn z so that is why that set does"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1145.54,
+            "end": 1151.46,
+            "text": " not does not call a convex set we call that as a non convex fuzzy set okay now what now"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1151.46,
+            "end": 1156.06,
+            "text": " again a term called cardinality of a fuzzy set so basically what is cardinality it is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1156.06,
+            "end": 1161.22,
+            "text": " a size of a classical set which is simply represent the number of elements in a set"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1161.34,
+            "end": 1165.78,
+            "text": " how many numbers are there in that set like if I have taken an example A in which I having"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1165.78,
+            "end": 1170.38,
+            "text": " a number our elements 5 10 15 20 now what is the cardinality of that fuzzy set it is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1170.38,
+            "end": 1175.1000000000001,
+            "text": " 4 because that set contains only 4 element so it's very simple so the cardinality of"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1175.1000000000001,
+            "end": 1180.7,
+            "text": " that set is the number of elements the sum of the number of elements now for a continuous"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1180.7,
+            "end": 1185.38,
+            "text": " for a continuous fuzzy set the universe of the discourse will have the infinite elements"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1185.38,
+            "end": 1190.06,
+            "text": " so the cardinality of that type of fuzzy set which is having a continuous values is infinite"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1190.06,
+            "end": 1195.6599999999999,
+            "text": " okay now open and what are open and closed fuzzy sets so basically as the name suggests"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1195.6599999999999,
+            "end": 1200.46,
+            "text": " it is open open left fuzzy set have all the elements on left after a certain point they"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1200.46,
+            "end": 1204.3799999999999,
+            "text": " are having a membership function value of 1 and all the element on the right side after"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1204.3799999999999,
+            "end": 1208.94,
+            "text": " a certain value after a certain point having a membership function value of 0 with the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1208.94,
+            "end": 1215.4199999999998,
+            "text": " help of that expression you can also see that or I will explain with the help of figure"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1215.4199999999998,
+            "end": 1219.26,
+            "text": " so that you can understand better what's the open right and open closed fuzzy set now what"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1219.26,
+            "end": 1223.78,
+            "text": " is open right fuzzy set open right fuzzy set is that set which has a which are having"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1223.78,
+            "end": 1228.82,
+            "text": " a elements on left after a certain point whose membership function a value is 0 and all the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1228.82,
+            "end": 1232.62,
+            "text": " element on the right side after a certain point having a membership function value of"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1232.62,
+            "end": 1239.74,
+            "text": " 1 again that is the expression for open right fuzzy set now the what's the closed fuzzy"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1239.74,
+            "end": 1244.78,
+            "text": " set it is it can it consists of all the elements on the left or right side after a certain"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1274.78,
+            "end": 1280.94,
+            "text": " point having a membership function value equal to 1 or gradually in between 0 to 1"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1280.94,
+            "end": 1285.3799999999999,
+            "text": " now we come to the topic what that fuzzy membership function so basically what is fuzzy membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1285.3799999999999,
+            "end": 1290.3799999999999,
+            "text": " function it defines how which element in a set belongs to that fuzzy set so it assigns"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1290.3799999999999,
+            "end": 1294.74,
+            "text": " we have assign a value we can assign a value in between 0 and 1 to every element which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1294.74,
+            "end": 1299.3799999999999,
+            "text": " represent basically the degree of the membership or degree of belongingness to that set okay"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1299.3799999999999,
+            "end": 1303.8999999999999,
+            "text": " so different type of membership function exist in the world and the choice basically depends"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1303.92,
+            "end": 1308.14,
+            "text": " on the nature of the problem and the type of data which are available to us so for the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1308.14,
+            "end": 1312.18,
+            "text": " with the help of that data or with the help of application we will decide which membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1312.18,
+            "end": 1316.5,
+            "text": " function will suit us or for our way for our application which membership function will"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1316.5,
+            "end": 1317.8400000000001,
+            "text": " be best for our problem."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1317.8400000000001,
+            "end": 1323.2800000000002,
+            "text": " With the help of that data and our choice, we will decide which membership function we"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1323.2800000000002,
+            "end": 1328.46,
+            "text": " have to use in our application now first membership function is a triangular membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1328.46,
+            "end": 1332.52,
+            "text": " that is a base for the first one of the simplest and most commonly used membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1332.52,
+            "end": 1337.24,
+            "text": " So, basically it is defined by the three parameters that first one is a, which is the lower limit"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1337.24,
+            "end": 1341.56,
+            "text": " for that membership function and in between b, which which represent the peak value of"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1341.56,
+            "end": 1344.8799999999999,
+            "text": " that membership function and c, which this is the upper limit for that with the help"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1344.8799999999999,
+            "end": 1346.84,
+            "text": " of figure I will show you again."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1346.84,
+            "end": 1349.4,
+            "text": " So, you can understand better in that case."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1349.4,
+            "end": 1354.32,
+            "text": " So, basically this is a triangular membership function, which is a a is the point, which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1354.32,
+            "end": 1358.72,
+            "text": " is having a lower limit c is the point of high limit and b is the point where membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1358.72,
+            "end": 1359.72,
+            "text": " function is at the peak."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1359.72,
+            "end": 1365.64,
+            "text": " So, this is the function for that membership function like we see if x is less than a,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1365.64,
+            "end": 1367.68,
+            "text": " then it is having a membership function value 0."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1367.68,
+            "end": 1373.72,
+            "text": " Now, if a is in between if x is the value, which is having in between a and b, then it"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1373.72,
+            "end": 1376.92,
+            "text": " is having a membership function value, which we will find with the help of the formula"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1376.92,
+            "end": 1378.84,
+            "text": " x minus a upon b minus a."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1378.84,
+            "end": 1384.92,
+            "text": " Now, if if any function if if is an element, which belongs to in between b and c, then"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1384.92,
+            "end": 1389.64,
+            "text": " their membership value we can find with the help of the formula c minus x upon c minus"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1389.64,
+            "end": 1390.64,
+            "text": " b."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1390.64,
+            "end": 1394.88,
+            "text": " If x is having a value greater than c, then their membership function value is 0."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1394.88,
+            "end": 1401.8400000000001,
+            "text": " Similarly, if x is less than a, its membership function value is 0 in the in that side also"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1401.8400000000001,
+            "end": 1406.8400000000001,
+            "text": " and similarly in that side also their membership function value is 0, but in that case we will"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1406.8400000000001,
+            "end": 1412.44,
+            "text": " find with the help of that formula and for that b to c, we will find with the help of"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1412.96,
+            "end": 1415.28,
+            "text": " the formula, we will find the membership function value."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1415.28,
+            "end": 1420.76,
+            "text": " Now, the second membership function is a trapezoidal membership function, which is an extension"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1420.76,
+            "end": 1426.48,
+            "text": " of the basically triangular membership function, means as compared to the triangular membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1426.48,
+            "end": 1428.8,
+            "text": " function, it has a flat top instead of a single peak."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1428.8,
+            "end": 1433.28,
+            "text": " In triangular membership function, we have seen that it is having a peak at the point"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1433.28,
+            "end": 1440.16,
+            "text": " b, but in the case of trapezoidal membership function, we have a flat top in in in place"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1440.16,
+            "end": 1441.8400000000001,
+            "text": " of that in single peak."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1442.24,
+            "end": 1445.76,
+            "text": " So, it is defined basically by the four parameters, that is a, b, c, d which we have taken."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1445.76,
+            "end": 1449.8,
+            "text": " So, which is in which a defines the lower limit and its upper limit is defined by the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1449.8,
+            "end": 1453.36,
+            "text": " d and the lower and upper limits of its nucleus are defined by the b and c."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1453.36,
+            "end": 1457.1999999999998,
+            "text": " With the help of figure, you will understand better what is the what that point a, b and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1457.1999999999998,
+            "end": 1458.1999999999998,
+            "text": " c, d are."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1458.1999999999998,
+            "end": 1463.6799999999998,
+            "text": " So, now this is the figure in which you can see that a is the point, a is the a is the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1463.6799999999998,
+            "end": 1470.0,
+            "text": " point of lower limit, a is the point of lower limit and d is the point of upper limit and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1470.0,
+            "end": 1477.52,
+            "text": " in between b and c, that membership function is having a value exactly greater than equal"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1477.52,
+            "end": 1483.04,
+            "text": " to sorry equal to 1 and in between a and b, it is having a value in between 0 and 1."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1483.04,
+            "end": 1487.52,
+            "text": " Similarly, for in the case of c and d, it is their membership function value is in between"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1487.52,
+            "end": 1491.0,
+            "text": " 0 and 1 and with the help of that formula, we will find the membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1491.0,
+            "end": 1494.84,
+            "text": " If x belongs to the log, if x belongs in between the a, b, then with the help of that x minus"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1494.84,
+            "end": 1499.32,
+            "text": " a divided by b minus a, we will find the membership function value and if x belongs to b and c,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1499.6399999999999,
+            "end": 1504.04,
+            "text": " then it is strictly their membership function value is equal to 1 and if it belongs to in"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1504.04,
+            "end": 1509.58,
+            "text": " between the c and d, then its membership function we will find with the help of d minus x upon"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1509.58,
+            "end": 1510.58,
+            "text": " d minus c."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1510.58,
+            "end": 1515.56,
+            "text": " So, that is basically a trapezoidal membership function, which is an extension of the triangular"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1515.56,
+            "end": 1516.56,
+            "text": " membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1516.56,
+            "end": 1520.04,
+            "text": " Now, third type of membership function is Gaussian membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1520.04,
+            "end": 1523.96,
+            "text": " Basically, I have taken all that membership function, which we will use generally for"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1523.96,
+            "end": 1528.04,
+            "text": " the application, which is commonly used in the application that type of because many"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1528.04,
+            "end": 1531.84,
+            "text": " various numbers of membership functions are available, but I have taken only that membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1531.84,
+            "end": 1536.08,
+            "text": " function, which we will use commonly in our application in different type of application,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1536.08,
+            "end": 1541.1599999999999,
+            "text": " which we will use commonly that only that membership function I have taken in that case."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1541.1599999999999,
+            "end": 1544.68,
+            "text": " Now, Gaussian membership function, which provide a smooth and bell shaped curve."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1544.68,
+            "end": 1548.12,
+            "text": " So, it is defined with the help of the mean and the standard deviation."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1548.12,
+            "end": 1551.28,
+            "text": " So, it consider the mean and the deviation as a variable."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1551.28,
+            "end": 1555.56,
+            "text": " So, smaller the value, if smaller the value of the standard deviation, then the narrow"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1555.56,
+            "end": 1559.32,
+            "text": " is the bell shaped curve, which I will show you in the next slide."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1559.32,
+            "end": 1565.56,
+            "text": " So, this is the formula, this is the formula for the Gaussian membership function and that"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1565.56,
+            "end": 1570.76,
+            "text": " figure shows the that figure shows the structure of the Gaussian membership function, which"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1570.76,
+            "end": 1579.3999999999999,
+            "text": " m is the mean of that set and sigma represent the standard deviation for that."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1579.3999999999999,
+            "end": 1583.24,
+            "text": " So, this is the Gaussian membership function, which we will use."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1583.92,
+            "end": 1587.1200000000001,
+            "text": " Now, fourth one is a generalized generalized bell membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1587.1200000000001,
+            "end": 1590.92,
+            "text": " So, basically it is a function that has three parameter means, first one is a, which is"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1590.92,
+            "end": 1595.84,
+            "text": " responsible for its width size, which which will represent its width set width size and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1595.84,
+            "end": 1600.36,
+            "text": " c is responsible for its center and b is responsible for its the slope."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1600.36,
+            "end": 1605.08,
+            "text": " So, basically mathematically we will if we will see its mathematical formula, then with"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1605.08,
+            "end": 1610.2,
+            "text": " the help of that formula, which is written in that form x is to a comma b comma c, where"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1610.2,
+            "end": 1615.0,
+            "text": " a a a responsible for its width, c responsible for its center and b responsible for its slope,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1615.0,
+            "end": 1618.8400000000001,
+            "text": " then 1 upon 1 1 upon 1 plus x minus c upon b k power 2 b."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1618.8400000000001,
+            "end": 1622.24,
+            "text": " With the help of that formula, we will find the membership function for that, if we will"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1622.24,
+            "end": 1623.56,
+            "text": " define in that area."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1623.56,
+            "end": 1628.16,
+            "text": " So, this is the structure, this is the structure for the generalized bell membership function,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1628.16,
+            "end": 1633.32,
+            "text": " where in the y axis we have membership function and the x and the n x axis we have the variables."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1633.32,
+            "end": 1640.0800000000002,
+            "text": " So, that a, b and c, we have defined, which b control the stiffness and the a a determine"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1640.1599999999999,
+            "end": 1644.96,
+            "text": " the width of width for that and parameter c represent basically the center of that."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1644.96,
+            "end": 1649.72,
+            "text": " So, basically this is a, this is the bell membership function, bell membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1649.72,
+            "end": 1650.72,
+            "text": " structure."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1650.72,
+            "end": 1653.84,
+            "text": " Now, fifth one is the sigmoidal membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1653.84,
+            "end": 1658.84,
+            "text": " So, basically it is an s shaped curve, that sigmoidal membership function has an s shaped"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1658.84,
+            "end": 1663.72,
+            "text": " curve, which is used, which is we will use for the binary classification and in the case"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1663.72,
+            "end": 1666.1999999999998,
+            "text": " of decision making, we will use that membership function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1666.2,
+            "end": 1670.72,
+            "text": " A sigmoidal membership function has two parameter a, which is responsible for its slope and"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1670.72,
+            "end": 1674.8400000000001,
+            "text": " c is the point, where c are the point, which is the crossover point."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1674.8400000000001,
+            "end": 1680.96,
+            "text": " So, this is the shape, this is the shape, this is the shape for a sigmoidal membership"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1680.96,
+            "end": 1681.96,
+            "text": " function."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1681.96,
+            "end": 1690.76,
+            "text": " So, basically this is the shape for sigmoidal membership function, where I have again, where"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1690.76,
+            "end": 1695.28,
+            "text": " a represent the, a represent its slope and the crossover point, c represent the, its"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1695.3799999999999,
+            "end": 1695.92,
+            "text": " crossover point."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1695.92,
+            "end": 1701.52,
+            "text": " So, basically, this is the crossover point we can say that, we can say that this is the"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1701.52,
+            "end": 1705.08,
+            "text": " crossover point, if I can say whether, we can say that, this is the crossover point,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1705.08,
+            "end": 1709.72,
+            "text": " where it represent the gradual transition between the low and high membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1709.72,
+            "end": 1710.52,
+            "text": " values."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1710.52,
+            "end": 1715.28,
+            "text": " So, sigmoidal function is used, where we have to transform, where we have to taken the gradual"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1715.28,
+            "end": 1718.08,
+            "text": " transition between the low and high membership function values."
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1718.08,
+            "end": 1723.32,
+            "text": " So, these are the basic types of membership function, which we will use in fuzzy logic"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1753.32,
+            "end": 1758.78,
+            "text": " use, so this this is all for today's class, in this class we have covered the representation,"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1758.78,
+            "end": 1762.9199999999998,
+            "text": " then the some basic nomenclature of the fuzzy sets, and then the types of membership function"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1762.9199999999998,
+            "end": 1768.02,
+            "text": " we will use in the case of fuzzy fuzzy set or fuzzy membership of fuzzy logic toolbox"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1768.02,
+            "end": 1772.96,
+            "text": " with that type of membership function we will use, okay, now in the next class we will see"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1772.96,
+            "end": 1777.08,
+            "text": " some operations on that type of fuzzy set like union intersection complement that type"
+        },
+        {
+            "number": "3",
+            "title": "Lecture 3",
+            "start": 1777.08,
+            "end": 1782.04,
+            "text": " of operation we will perform on the fuzzy sets, okay, thank you."
+        }
+    ],
+    "text": " So, hello everyone, I welcome you all again to the course on fuzzy logic inference and machine learning techniques, I am Dr. Aftab Ahmad Ansari, instructor for you for you for this course. So, basically this is our lecture three in previous lecture, we have covered the basics of the fuzzy logic and their representations and there are in the architecture of fuzzy logic system. Now, in this lecture, we will try to cover the different types of membership function which we used for the fuzzy logic system. So, first I will I want to give you a brief recap of what we have learned in the previous previous lecture. So, we have seen in that the representation of the fuzzy logic in our previous lecture. So, what is the how many we have seen that there are two types of representation for any fuzzy set. First one is a discrete fuzzy set that consists of the finite elements in which in means we have thus in which we have finite set of elements. Now, how we have to represent that in our fuzzy set. So, this is the representation first we with the help of mu A of x i which represent the membership function for the variable number x 1 which we will write in the denominator and same for the if we have another variable that is x 2, then their membership function we will write in the numerator and the variable we will write in the denominator and the and and the sign you have seen addition it does not mean the addition sign it simply it simply are separating the elements. So, that is the example which we have seen in the previous class that is the example which like we have taken a set in which 16 is the number and its membership value is 0.6 and then 17 is another number their membership value is 0.9 and same for the 18 its membership function value is 0.2 and 19 and its membership function is value is 1. So, this is the way which we will represent in the case of fuzzy sets 0.6 which 0.6 is the membership function for the 16 number and 0.9 is the membership function membership value basically for the 17 and similarly for all others. And now if we have continuous fuzzy set in which in which we have infinite elements. So, for that element we will it will represent that fuzzy set in the form of integration and where mu of x is the continuous function that gives the membership values for all the elements in the universe. Now again I have taken one example like we have taken I have taken a basically a set of cities which has the universe for the discourse like Delhi, Agra, Mumbai, Kolkata, Kanpur and next is MIT SDO I have taken that that number of cities. Now we have to define a set in which represent the desirability of living in these cities based on a personal preference on the basis of personal preferences we have decided the desirability means people people where people want to live more. So, that is the solution if we will write that fuzzy set in the form of pair representation ok. So, fuzzy set A which represent the desirability we can write as Delhi its membership function value 0.9 then Agra its membership function value 0.6 similarly Mumbai has have a membership function value of 0.7, Kolkata 0.7, Kanpur 0.1 and MIT SDO is having a membership function value of 1. So, basically these membership value what indicate it indicate the desirability of each city where people want to live and the value of 1 means 100 percent desirability it means MIT SDO wants people more to live in that case and the value of 0.1 means very low desirability that is Kanpur in that in that example. Now the same fuzzy set we can also write in the form of submission notation. So, basically 0.9 that is a membership function for the value of Delhi. So, we have write 0.9 divided by Delhi similarly for 0.6 divided by Agra 0.7 divided by Mumbai basically it is not divided it is a slanted line I have used. So, the first number in each term represent the membership value and the element that follows the membership value after a slanted line we will say and it plus and indicate the collection of the element in the fuzzy set it does not means the addition of that the fuzzy sets ok it indicates simply the collections of the elements in the fuzzy sets ok. Now before we will start the types of membership function first we have to understand the basics of for the fuzzy membership function or we can say the nomenclature which is related to the fuzzy membership fuzzy membership function. So, first one is the support. So, what represent the support the support of the fuzzy set which includes all element that have some membership value means it includes all the element which are having some membership value it means their membership value should be greater than 0 it means it should have some membership function value that indicate the supports ok means it is a with the help of formula you can see that mu of A is greater than 0 it means it is membership function value should have some value. Again I have taken an example like if a fuzzy set which represent the warm temperature and I have defined with the help of a variable x like 20 degree 25 degree 30 35 40 and their membership value are that are there that are the temperature in the one column first column and then second column represent the their membership function value membership value like 20 degree temperature is having a membership value of 0.1 similar 25 is having 0.4 30 0.8 35 1 40 40.6 now if I want to write the support for that number of sets now the 20 25 30 35 I will write because all that element are having a membership value of greater than 0 all is all are having a membership value greater than 0. So that supports contain all that the temperature range now with the help of figure you can also see that that is the baseline which shows the support mean it contains all the element which are having some membership value means some value slightly greater than 0 we can say if it is having and I mean main motive is it is their membership value should be greater than the 0. Now second is the core so basically the core consists of elements which is fully belonging to the set means it contains that of that functions that elements which are having a membership value exactly one or strictly one okay so the core consists of that element which is fully belonging to the set like in the previous example we have seen like you can see the 35 degree temperature is having the membership function value exactly equal to 1 so if now I want to write the core so the core should be I can you can see in the previous example the core is core the core function value is only 35 degree because it is the function which is having the membership function value exactly equal to 1 okay so that is the core now with the help of figure you again can you can see that in the case I will use a pointer for so that you can so that you can understand better okay so this is the area of the core because in that area we are having a membership function value equal to 1 and these are the support these whole are the support because it is having a membership function value greater than 0 so that area that area represent the support and that area which are having strictly having the membership function value of 1 so that represent the core okay now third function is the cross over point so what is cross over point it is basically where the membership function value is exactly 0.5 means it is the point where the membership function is having the value of 0.5 that represent the cross over point okay let if at 28 degree temperature their membership function value that cross over of A is equal to 28 degree Celsius means it contains those element which are having the membership function equal to 0.5 okay now with the help of that figure you again can see that so that point and basically these represent the membership function membership so these x1 and x2 are the cross over point because they are having the membership function value equal to 0.5 so basically these are the two points these are the two points which we will say the cross over point because they have the membership value which is exactly 0.5 and that area is again core because they have a membership function of value equal to 1 that is why these area is called core and that whole area if I will cover that we call as the support from these point to this point because it is having membership function value greater than 0 with the help of that figure you I think you are able to clarify in between the theory point support core and cross over point okay. Now next is bandwidth so for a fuzzy set the bandwidth is defined as the distance between the two unique cross over point it is the basically the distance between the two unique cross over point so these are the two cross over point so now the distance between them is the bandwidth okay now normality so now normality is basically defined for the set whether that set is normal or not okay so a fuzzy set is normal if at least one element is having the membership function of value 1 at some point at any point if that set is having a membership function value is equal to 1 then that fuzzy set is normal so basically it what it ensure it ensure that the set represent a concept where at least one element is fully included now with the help of that example like temperature 20 is having a membership function value 0.1 25 is having a value of membership function value 1 35 degree Celsius is having a membership function membership value is 0.7 so basically that 25 degree Celsius so basically that 25 degree Celsius is having a membership function value of 1 so means that a set is basically a normal fuzzy set because it is having it is having a one element that is having a membership function of value exactly equal to 1 so that is why these fuzzy set is normal fuzzy set okay. Now another is fuzzy singleton so basically fuzzy singleton is again a fuzzy related to the fuzzy set which with in which with only one element having a membership 1 and all other element is having a membership function value of 0 it means only one element is there which is having a membership function value equal to 1 and all other element is having membership value equal to 0 okay mean one element in the set has full membership while other are while other elements are having a 0 membership function with the help of that figure you can also see that this is the this is the only element this is the only element which is having a membership function value of n and all other member are having a might be these are the all other member and that are having a membership function value of 0 so that set in which only one element which is having membership function of membership membership 1 and all other are having 0 memberships so that fuzzy set we call as a fuzzy singleton. Now what is alpha alpha cut and a strong alpha cut so basically alpha cut is a crisp or a fuzzy set which contain all the element where membership function is at least alpha means first we define the value alpha and if all the all and the membership function which are having a value greater than or equal to alpha then that set we call the alpha cut set and if that set is having value in which we are taking the value of alpha greater than then that set we call the strong strong alpha cut with the help of that formula you again again clarify in which in which in alpha cut pointer so basically this in an alpha cut we are having a membership function in which it should be greater than alpha or equal to alpha but in the case of strong alpha cut their membership function should be strictly greater than the alpha in the case of strong alpha cut. So basically it includes all the element their membership is strictly greater than alpha in the case of strong alpha cut and in the case of alpha cut their membership function is at least alpha okay it should be greater than alpha or it should be equal to alpha in the case of alpha cut set okay. Now take an example for that like if we are having example in which in which one column certain temperatures are there and for that temperature some membership function value are shown in the column number 2 so like 20 is having a membership function value of 0.1 similarly 25 0.4 for 30 degree Celsius 0.8 and for 35 1 for 40 0.5 okay these are the membership function value now if we have to define the alpha cut A like if we have to write the alpha cut A so the alpha represent that which is having a membership function value greater than alpha now in this question I have decided that the alpha is equal to 5 now in the alpha cut what value should become those elements should become in that alpha cut where whose membership function is greater than equal to 0.5 like if we see 2020 membership function is less than 0.5 so it doesn't come in the content of alpha cut okay. Now we can see 30 degree temperature is having a membership function value 0.8 so it comes under that set 35 it is having a value of greater than 0.5 and similarly 40, 40 is equal to 0.5 so in the case of alpha cut it comes in that case but if you see in the case of strong alpha cut it have only two elements because only two elements are there whose membership function is greater than 0.5 what is that it is 30 degree that 30 degree temperature and 35 degree temperature these are the two elements which are having a membership function which are having a membership value exactly or strictly greater than the 0.5 so these are the figure with the help of that figure you can see that like if x1 if x1 is the alpha if I have taken x1 as the element if I x1 I have taken the cut set then the membership function value which is having greater than x1 greater than sorry 0.2 then all these elements come under the category of alpha cut and the and exactly great and the strictly greater than the 0.2 then it comes under the category strong alpha cut similarly for the x2 their member their alpha cut value is 0.5 so the the element which are having value greater than 0.5 come under the category of alpha cut greater than or equal to alpha cut and if it is strictly greater than the 0.5 then it comes under the category of strong alpha cut. Okay now what is convexity of fuzzy set so basically a fuzzy set we call is a convex if all its alpha alpha cuts are convex set in the classical sense it means that for any two points in the fuzzy set all the point between them should have a membership value at least as high as a lowest membership value of the two points means for that set if we have defined two values like x1 x2 are the two cut points for that x1 x2 in between them one of one or more point should be there which is having a membership function value greater than both these values whose whichever is less whether x1 is less whether x2 is less but there well that value should be greater than that this value then that set we call as convex set okay so with the help of example if I will tell you first I will take the pointer so again I have taken two column first one for the temperature second one for the membership function that is I have taken two column in which some temperature 20 20 30 40 50 I have taken value like for 10 I have taken membership function value 0.2 0.6 for 30 I have taken the membership function 0.1 for 40 0.6 and for 50 I have taken membership function value now if you have to pick if I have pick x1 is equal to 20 degree which is having a membership function of value 0.6 and second point if I have picked the 40 degree Celsius okay their membership function value is again 0.6 now in between them if there is any element whose membership function is greater than 0.6 then that set then that set is convex set okay so now in between them we have a 30 degree Celsius which is having a membership function value of 1 so means that fuzzy set is a convex set because it is having a element which is having the membership function greater than the two alpha cuts which we have taken like x1 x2 for that membership function is 0.6 and for x2 is also 0.6 so in between there is a set there is an element which are having a membership function greater than the 0.6 that is why that set is a convex set okay now if we see another example for the non convex set what non convex set is there basically so again I will write okay first I have to take pointer so now again I will take the same temperature and membership function and for like 10 20 30 40 degree 50 for 50 0.2 0.6 0.3 0.6 0.2 again I have taken the same value now I am taking again these sorry these two I am again these two value now my x1 is having 20 degree Celsius which is having a membership function value equal to 0.6 and x2 I have taken again 40 degree Celsius which is having a membership function oh again same 0.6 now in between this is a set which is having a value less than 0.6 it means that set does not belong to the convex set or we does not call that set is a convex set because it in between there is a there is an element which is having a membership function value less than these two cross these two cut points okay so basically with the help of that figure you can also see the difference between the convex fuzzy set and the non convex fuzzy set in this figure you can see if that x if that xn if that xn z is if that xn z I have taken a cross crossover point then in between them there is a there is an element y which is having a membership function greater than the value of both the x and y separately okay now in the case of non fuzzy set you can see if I have taken again the value taken the two element that is xn in between there is a membership function there is an element which is having a membership function less than the xn z so that is why that set does not does not call a convex set we call that as a non convex fuzzy set okay now what now again a term called cardinality of a fuzzy set so basically what is cardinality it is a size of a classical set which is simply represent the number of elements in a set how many numbers are there in that set like if I have taken an example A in which I having a number our elements 5 10 15 20 now what is the cardinality of that fuzzy set it is 4 because that set contains only 4 element so it's very simple so the cardinality of that set is the number of elements the sum of the number of elements now for a continuous for a continuous fuzzy set the universe of the discourse will have the infinite elements so the cardinality of that type of fuzzy set which is having a continuous values is infinite okay now open and what are open and closed fuzzy sets so basically as the name suggests it is open open left fuzzy set have all the elements on left after a certain point they are having a membership function value of 1 and all the element on the right side after a certain value after a certain point having a membership function value of 0 with the help of that expression you can also see that or I will explain with the help of figure so that you can understand better what's the open right and open closed fuzzy set now what is open right fuzzy set open right fuzzy set is that set which has a which are having a elements on left after a certain point whose membership function a value is 0 and all the element on the right side after a certain point having a membership function value of 1 again that is the expression for open right fuzzy set now the what's the closed fuzzy set it is it can it consists of all the elements on the left or right side after a certain point having a membership function value equal to 1 or gradually in between 0 to 1 now we come to the topic what that fuzzy membership function so basically what is fuzzy membership function it defines how which element in a set belongs to that fuzzy set so it assigns we have assign a value we can assign a value in between 0 and 1 to every element which represent basically the degree of the membership or degree of belongingness to that set okay so different type of membership function exist in the world and the choice basically depends on the nature of the problem and the type of data which are available to us so for the with the help of that data or with the help of application we will decide which membership function will suit us or for our way for our application which membership function will be best for our problem. With the help of that data and our choice, we will decide which membership function we have to use in our application now first membership function is a triangular membership function that is a base for the first one of the simplest and most commonly used membership function So, basically it is defined by the three parameters that first one is a, which is the lower limit for that membership function and in between b, which which represent the peak value of that membership function and c, which this is the upper limit for that with the help of figure I will show you again. So, you can understand better in that case. So, basically this is a triangular membership function, which is a a is the point, which is having a lower limit c is the point of high limit and b is the point where membership function is at the peak. So, this is the function for that membership function like we see if x is less than a, then it is having a membership function value 0. Now, if a is in between if x is the value, which is having in between a and b, then it is having a membership function value, which we will find with the help of the formula x minus a upon b minus a. Now, if if any function if if is an element, which belongs to in between b and c, then their membership value we can find with the help of the formula c minus x upon c minus b. If x is having a value greater than c, then their membership function value is 0. Similarly, if x is less than a, its membership function value is 0 in the in that side also and similarly in that side also their membership function value is 0, but in that case we will find with the help of that formula and for that b to c, we will find with the help of the formula, we will find the membership function value. Now, the second membership function is a trapezoidal membership function, which is an extension of the basically triangular membership function, means as compared to the triangular membership function, it has a flat top instead of a single peak. In triangular membership function, we have seen that it is having a peak at the point b, but in the case of trapezoidal membership function, we have a flat top in in in place of that in single peak. So, it is defined basically by the four parameters, that is a, b, c, d which we have taken. So, which is in which a defines the lower limit and its upper limit is defined by the d and the lower and upper limits of its nucleus are defined by the b and c. With the help of figure, you will understand better what is the what that point a, b and c, d are. So, now this is the figure in which you can see that a is the point, a is the a is the point of lower limit, a is the point of lower limit and d is the point of upper limit and in between b and c, that membership function is having a value exactly greater than equal to sorry equal to 1 and in between a and b, it is having a value in between 0 and 1. Similarly, for in the case of c and d, it is their membership function value is in between 0 and 1 and with the help of that formula, we will find the membership function. If x belongs to the log, if x belongs in between the a, b, then with the help of that x minus a divided by b minus a, we will find the membership function value and if x belongs to b and c, then it is strictly their membership function value is equal to 1 and if it belongs to in between the c and d, then its membership function we will find with the help of d minus x upon d minus c. So, that is basically a trapezoidal membership function, which is an extension of the triangular membership function. Now, third type of membership function is Gaussian membership function. Basically, I have taken all that membership function, which we will use generally for the application, which is commonly used in the application that type of because many various numbers of membership functions are available, but I have taken only that membership function, which we will use commonly in our application in different type of application, which we will use commonly that only that membership function I have taken in that case. Now, Gaussian membership function, which provide a smooth and bell shaped curve. So, it is defined with the help of the mean and the standard deviation. So, it consider the mean and the deviation as a variable. So, smaller the value, if smaller the value of the standard deviation, then the narrow is the bell shaped curve, which I will show you in the next slide. So, this is the formula, this is the formula for the Gaussian membership function and that figure shows the that figure shows the structure of the Gaussian membership function, which m is the mean of that set and sigma represent the standard deviation for that. So, this is the Gaussian membership function, which we will use. Now, fourth one is a generalized generalized bell membership function. So, basically it is a function that has three parameter means, first one is a, which is responsible for its width size, which which will represent its width set width size and c is responsible for its center and b is responsible for its the slope. So, basically mathematically we will if we will see its mathematical formula, then with the help of that formula, which is written in that form x is to a comma b comma c, where a a a responsible for its width, c responsible for its center and b responsible for its slope, then 1 upon 1 1 upon 1 plus x minus c upon b k power 2 b. With the help of that formula, we will find the membership function for that, if we will define in that area. So, this is the structure, this is the structure for the generalized bell membership function, where in the y axis we have membership function and the x and the n x axis we have the variables. So, that a, b and c, we have defined, which b control the stiffness and the a a determine the width of width for that and parameter c represent basically the center of that. So, basically this is a, this is the bell membership function, bell membership function structure. Now, fifth one is the sigmoidal membership function. So, basically it is an s shaped curve, that sigmoidal membership function has an s shaped curve, which is used, which is we will use for the binary classification and in the case of decision making, we will use that membership function. A sigmoidal membership function has two parameter a, which is responsible for its slope and c is the point, where c are the point, which is the crossover point. So, this is the shape, this is the shape, this is the shape for a sigmoidal membership function. So, basically this is the shape for sigmoidal membership function, where I have again, where a represent the, a represent its slope and the crossover point, c represent the, its crossover point. So, basically, this is the crossover point we can say that, we can say that this is the crossover point, if I can say whether, we can say that, this is the crossover point, where it represent the gradual transition between the low and high membership function values. So, sigmoidal function is used, where we have to transform, where we have to taken the gradual transition between the low and high membership function values. So, these are the basic types of membership function, which we will use in fuzzy logic use, so this this is all for today's class, in this class we have covered the representation, then the some basic nomenclature of the fuzzy sets, and then the types of membership function we will use in the case of fuzzy fuzzy set or fuzzy membership of fuzzy logic toolbox with that type of membership function we will use, okay, now in the next class we will see some operations on that type of fuzzy set like union intersection complement that type of operation we will perform on the fuzzy sets, okay, thank you."
+}

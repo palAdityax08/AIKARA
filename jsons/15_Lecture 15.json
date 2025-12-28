@@ -1,0 +1,2231 @@
+{
+    "chunks": [
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 0.0,
+            "end": 18.080000000000002,
+            "text": " Hello everyone, I again welcome you all to the course on fuzzy logic inference and machine"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 18.080000000000002,
+            "end": 19.080000000000002,
+            "text": " learning technique."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 19.080000000000002,
+            "end": 23.240000000000002,
+            "text": " I am doctor Aftab Ahmed Ansari, your instructor for this course."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 23.240000000000002,
+            "end": 25.68,
+            "text": " So, this is our lecture number 15."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 26.24,
+            "end": 30.240000000000002,
+            "text": " So, if we see about the previous class which we have covered in the last class we have"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 30.240000000000002,
+            "end": 37.08,
+            "text": " covered about the preparation of data set we have seen means we are learning the machine"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 37.08,
+            "end": 42.480000000000004,
+            "text": " learning workflow basically we are learning in the from the past 2 to 3 years past 2 to"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 42.480000000000004,
+            "end": 46.760000000000005,
+            "text": " 3 classes and now we are in stage 3 which we have learned in the previous class."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 46.760000000000005,
+            "end": 51.68,
+            "text": " In the stage 3 means data preparation means after the collection of data you have to prepare"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 51.68,
+            "end": 57.48,
+            "text": " your data for the training means what you have to do what are the key steps for the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 57.48,
+            "end": 61.16,
+            "text": " preparation of data first one is the cleaning you have to clean your data means how you"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 61.16,
+            "end": 66.52,
+            "text": " will clean you have to basically fix your errors you have to remove the duplicates if"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 66.52,
+            "end": 71.12,
+            "text": " some entries in the data are duplicate so you have to remove that duplicate entries"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 71.12,
+            "end": 75.72,
+            "text": " and if some missing values are there so you have to fill that missing values for that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 75.72,
+            "end": 80.56,
+            "text": " also we have seen some methods how we can fill the missing values."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 80.56,
+            "end": 86.60000000000001,
+            "text": " Second is encoding means you have to convert your text into the numbers basically or if"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 86.60000000000001,
+            "end": 92.4,
+            "text": " your data set is having some categories then you have to convert that categories into number"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 92.4,
+            "end": 97.96000000000001,
+            "text": " third one is scaling means you have to normalize your values of the data set to the similar"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 97.96000000000001,
+            "end": 104.24000000000001,
+            "text": " ranges means if your data values are something in some values are in square feet some values"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 105.24,
+            "end": 109.72,
+            "text": " have to be in percentage and so you have to normalize this in a same unit basically I"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 109.72,
+            "end": 110.72,
+            "text": " can say in simple."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 110.72,
+            "end": 116.03999999999999,
+            "text": " Last one is the future selections means you have to keep only the important features of"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 116.03999999999999,
+            "end": 121.32,
+            "text": " data you have to remove the unnecessary features if your data is having then you have to remove"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 121.32,
+            "end": 127.47999999999999,
+            "text": " it then we have also discussed about the how to handle the missing data and how we can"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 127.47999999999999,
+            "end": 134.16,
+            "text": " scale the data we have seen these things in the previous classes and for stage 4 also"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 134.16,
+            "end": 138.96,
+            "text": " we have seen that is model selection how we can select our model on the basis of our"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 138.96,
+            "end": 143.44,
+            "text": " on the basis of our problems like what are the common models we have learnt that is linear"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 143.44,
+            "end": 148.04,
+            "text": " regression which is used basically for the prediction of numbers."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 148.04,
+            "end": 152.0,
+            "text": " Second one is logistic regression which we will use when we want to predict about the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 152.0,
+            "end": 158.07999999999998,
+            "text": " categories like for the example basic example we have taken that is in the case of email"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 158.08,
+            "end": 164.36,
+            "text": " that the new email which comes to our that is in which category that emails basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 164.36,
+            "end": 169.32000000000002,
+            "text": " belong to spam or not spam then we have seen about then we have learnt about the decision"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 169.32000000000002,
+            "end": 174.24,
+            "text": " trees which follows the basically rules for last one is the neural network which is basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 174.24,
+            "end": 177.96,
+            "text": " used for the images and speech type of applications."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 177.96,
+            "end": 183.28,
+            "text": " Now in the in the today's class first we will learn about the what are the common mistakes"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 183.28,
+            "end": 186.60000000000002,
+            "text": " we will do when we will go for the model selection."
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 186.6,
+            "end": 192.23999999999998,
+            "text": " First one is the when we will choose the when we are choosing the model for our machine"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 192.23999999999998,
+            "end": 199.0,
+            "text": " learning what we will do we will think like that if our model is complex if our model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 199.0,
+            "end": 203.68,
+            "text": " is if we will choose that model which is complex then might be I will get the better result"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 203.68,
+            "end": 208.88,
+            "text": " but what it will do it will leads to a poor performance or wrong prediction if you if"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 208.88,
+            "end": 214.35999999999999,
+            "text": " you will use any complex model like you are using neural network for a small data you"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 214.36,
+            "end": 219.32000000000002,
+            "text": " are having a small amount of data and you want to use the neural network for that data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 219.32000000000002,
+            "end": 223.84,
+            "text": " because neural network model is a complex model so what you will think what general"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 223.84,
+            "end": 229.08,
+            "text": " people think if something is complex then it is better so that things will not work"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 229.08,
+            "end": 234.48000000000002,
+            "text": " in the case of machine learning machine learning model basically so what you have to do you"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 234.48000000000002,
+            "end": 241.52,
+            "text": " have to use simple model which will be best suit for your problems basically so what like"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 241.68,
+            "end": 247.48000000000002,
+            "text": " if you will use complex model like deep learning so it because that models require some some"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 247.48000000000002,
+            "end": 252.20000000000002,
+            "text": " prerequisite means that models require large amount of data if you are having a large amount"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 252.20000000000002,
+            "end": 258.40000000000003,
+            "text": " of data then only you can use the neural network model otherwise it will it will over fit it"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 258.40000000000003,
+            "end": 263.8,
+            "text": " the basically I can say what over fit means instead of taking the instead of taking the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 263.8,
+            "end": 270.08000000000004,
+            "text": " main features of data it will take the noise it will it will take the noise or learn noise"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 270.08,
+            "end": 275.59999999999997,
+            "text": " from the input which you have given and perform worse than a simple model we can say that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 275.59999999999997,
+            "end": 280.44,
+            "text": " so what is the best approach is you have to start with the simple model like linear regression"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 280.44,
+            "end": 286.2,
+            "text": " linear regression you can use or decision tree you can use or if if you are if you are"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 286.2,
+            "end": 292.4,
+            "text": " having large amount of data then only go for the complex models now second one is the we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 292.4,
+            "end": 298.68,
+            "text": " are second main mistakes which we will do is the ignoring the types of problems I mean"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 298.68,
+            "end": 304.08,
+            "text": " we are not taking the category of problems means in which category our problems belongs"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 304.08,
+            "end": 311.32,
+            "text": " to like we are using some regression models in in the case of in the in the means of it"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 311.32,
+            "end": 317.08,
+            "text": " means in simple I can say if I am having a problems of some other and I am using the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 317.08,
+            "end": 322.2,
+            "text": " other model for that types of problem means if we are using a regression model in regression"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 322.2,
+            "end": 327.0,
+            "text": " model like linear regression for a classification problems and definitely you will get the wrong"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 327.04,
+            "end": 332.16,
+            "text": " result means your model will not work well and it because it is not designed for that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 332.16,
+            "end": 337.8,
+            "text": " problem types so you have to use like if your model belongs to the classification type then"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 337.8,
+            "end": 344.48,
+            "text": " you can use the logistic regression you can use SVM model you can use random forest model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 344.48,
+            "end": 349.16,
+            "text": " you can use if you are having a problems which belongs to the category of regression then"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 349.16,
+            "end": 355.28,
+            "text": " you can use the linear regression linear regression decision tree regression that types of model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 355.28,
+            "end": 360.55999999999995,
+            "text": " you can use for your problems now third one is that you are not basically cross you are"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 360.55999999999995,
+            "end": 366.28,
+            "text": " not validating your models means you are evaluating your model only on you on the one training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 366.28,
+            "end": 373.0,
+            "text": " set means you are not you have not splitted your data and you are using your training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 373.0,
+            "end": 379.2,
+            "text": " your data on that side and you are testing on the same data so that also also a common"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 379.2,
+            "end": 385.12,
+            "text": " mistake which we which might be we can do in future so that is not we have to do for"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 385.12,
+            "end": 391.68,
+            "text": " the machine learning models because what if it will if you will if you will do that mistakes"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 391.68,
+            "end": 396.76,
+            "text": " then what is the what is the result for that it will give you a lucky or bad result which"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 396.76,
+            "end": 401.76,
+            "text": " will which mainly depends on the how the data you have split for that so what is the better"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 401.76,
+            "end": 407.24,
+            "text": " approach for that you have to test the models on multiple split to ensure the consistent"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 407.24,
+            "end": 413.12,
+            "text": " performance we will see that mistake basically in detail in that lecture only now fourth"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 413.12,
+            "end": 417.12,
+            "text": " one is the not checking for over fitting and under fitting over fitting means your model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 417.12,
+            "end": 422.16,
+            "text": " performs great on the training data but it performs purely poorly when you will feed"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 422.16,
+            "end": 427.24,
+            "text": " the new new data when you will feed for the testing purpose then it will fail on that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 427.24,
+            "end": 433.40000000000003,
+            "text": " data so that that we will says the over fitting and under fitting means our model is performing"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 433.4,
+            "end": 438.64,
+            "text": " on poorly on both the data sets on the training data sets on the training side also and on"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 438.64,
+            "end": 445.08,
+            "text": " the new data set also it is performing poorly on both the data sets now why it is a mistake"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 445.08,
+            "end": 450.23999999999995,
+            "text": " basically because such type of models are unreliable in the real world problems we can"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 450.23999999999995,
+            "end": 454.64,
+            "text": " say so what is the better approach for this you have to compare performance on the training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 454.64,
+            "end": 460.59999999999997,
+            "text": " versus data sets you have to compare the performance if test accuracy is much lower your model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 460.6,
+            "end": 466.12,
+            "text": " is like over fitting over other procedure what we can do we have seen about the different"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 466.12,
+            "end": 470.72,
+            "text": " matrices we have seen for the evaluation purpose so you can see that like precision recall"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 470.72,
+            "end": 476.56,
+            "text": " f1 is f1 is score for the for the classification types of problem and for the regression types"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 476.56,
+            "end": 482.44,
+            "text": " of problem you can use mae mac and r square basically you can use for the now what is"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 482.44,
+            "end": 488.88,
+            "text": " the how many stages we have we have covered so basically we have covered about the problem"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 488.88,
+            "end": 493.24,
+            "text": " identification we have covered data collection we have covered data preparation we have covered"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 493.24,
+            "end": 499.32,
+            "text": " and modern selection also we have covered that four that four steps stages basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 499.32,
+            "end": 506.44,
+            "text": " we have covered now in the next step is that is training now we will try to cover the training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 506.44,
+            "end": 510.6,
+            "text": " now what is basically in simple words what is training so basically training is like"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 510.6,
+            "end": 516.8,
+            "text": " a it is a process of teaching a machine learning models to how to make prediction using known"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 516.8,
+            "end": 522.88,
+            "text": " data means how it will predict the next data for your means how will it predict the output"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 522.88,
+            "end": 527.76,
+            "text": " for for the data which you will feed as a input so basically what you have to do first"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 527.76,
+            "end": 532.64,
+            "text": " you have to teach them it is for analogy if I will say it is like a student when a student"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 532.64,
+            "end": 537.8,
+            "text": " learns from the example in a classroom so that how is the model also learns from the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 537.8,
+            "end": 544.8,
+            "text": " examples and that we call as training basically now why training is important because a model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 544.8,
+            "end": 550.12,
+            "text": " initially model starts as a blank page or blank state we can set it so it knows nothing"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 550.12,
+            "end": 556.4799999999999,
+            "text": " so training help it to recognize the patterns and relationship in the data so training is"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 556.4799999999999,
+            "end": 563.4799999999999,
+            "text": " what it basically it will turns a dumb model into a small smart predict I can say now if"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 563.4799999999999,
+            "end": 569.3599999999999,
+            "text": " I will compare it with a simple real world analogy so it is like a teaching a child and"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 569.36,
+            "end": 574.88,
+            "text": " I means if imagine we are teaching a child by with the by taking the names of animal"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 574.88,
+            "end": 579.52,
+            "text": " and showing their picture look at that picture that is a picture of dog that is a picture"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 579.52,
+            "end": 585.0,
+            "text": " of cat so it is very easy for the kid to understand the difference between the different types"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 585.0,
+            "end": 591.6,
+            "text": " of animals similarly what we will do we will same things we will do for the machine learning"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 591.6,
+            "end": 597.2,
+            "text": " models with the help of with the helps of training data we will try to teach we will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 597.2,
+            "end": 603.24,
+            "text": " try to teach the model or learn the model so that model can learn easily similarly similarly"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 603.24,
+            "end": 608.12,
+            "text": " the example which I have taken for a kid so that children are if we will show the children"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 608.12,
+            "end": 613.32,
+            "text": " with the help of a image then it will be easy for him easy for him to learn to identify"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 613.32,
+            "end": 619.44,
+            "text": " the different types of animals correctly similarly we will try to train the models using the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 619.44,
+            "end": 624.84,
+            "text": " labeled type of data so now the in the first why training matters because training enables"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 624.84,
+            "end": 629.96,
+            "text": " the model to make useful prediction based on the real world data now what is the impact"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 629.96,
+            "end": 635.32,
+            "text": " if of good or bad training if I will classify the good training means you are having lots"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 635.32,
+            "end": 642.0400000000001,
+            "text": " of data and varied data means you are having the data of of all the categories you have"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 642.0400000000001,
+            "end": 647.12,
+            "text": " covered in that time that data means multi valued data you have so that means if you"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 647.12,
+            "end": 652.44,
+            "text": " are having good amount of data and multi varied data you have then you are definitely your"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 652.44,
+            "end": 657.48,
+            "text": " model learns well and make the accurate prediction for the for your problem basically poor training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 657.48,
+            "end": 662.08,
+            "text": " means you are having only small amount of data or you are having a data of biased means"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 662.08,
+            "end": 668.32,
+            "text": " your your data is biased data set basically so what it will be for the new types of data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 668.32,
+            "end": 674.6400000000001,
+            "text": " it will perform poor and it will basically make the random guess like example if I will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 674.6400000000001,
+            "end": 681.44,
+            "text": " if I will cover means we are trained we trained with a thousand thousand amount of houses"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 681.44,
+            "end": 686.8800000000001,
+            "text": " examples we have and we are learning various patterns on the basis that means we are we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 686.8800000000001,
+            "end": 692.6,
+            "text": " want to predict the house price for that so predicts prices better in the case of good"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 692.6,
+            "end": 697.36,
+            "text": " training if we have provided if we have provided poor training means what it will do it will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 697.36,
+            "end": 703.1600000000001,
+            "text": " we have why poor training means we are not having enough amount of data so then definitely"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 703.1600000000001,
+            "end": 708.48,
+            "text": " model will perform poor and it will give the poor performance in the case of problems in"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 708.48,
+            "end": 713.28,
+            "text": " the whatever example you will take for that so that it will perform poor for that new"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 713.28,
+            "end": 719.12,
+            "text": " data new test data set basically now how training works what are the steps considered in the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 719.12,
+            "end": 724.36,
+            "text": " training first one is a feed data input data means what we have to do first you have to"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 724.36,
+            "end": 732.6800000000001,
+            "text": " feed the input or label data first you have to feed to the model means you have to give"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 732.68,
+            "end": 738.16,
+            "text": " the model as a input data which like if I am taking the example of that house price"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 738.16,
+            "end": 744.68,
+            "text": " prediction then you have to input the data which consists like size location you have"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 744.68,
+            "end": 750.8,
+            "text": " to feed to the model as a input and output process also you have to feed if it is a labeled"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 750.8,
+            "end": 755.3199999999999,
+            "text": " data then what you have to do then it will compare and adjust means the model makes a"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 755.3199999999999,
+            "end": 761.24,
+            "text": " guess and checks how far the guess is from the actual and then it will try to and then"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 761.24,
+            "end": 766.4,
+            "text": " it will try to adjust itself on the basis of that error which it will generate by comparing"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 766.4,
+            "end": 772.6800000000001,
+            "text": " it with the actual values to the true values or the values which it have predicted and"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 772.6800000000001,
+            "end": 779.52,
+            "text": " then these and that that that error and adjusting that error then adjust then error then adjust"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 779.52,
+            "end": 785.16,
+            "text": " then what it will continues that process for many times until the model learns to guess"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 785.16,
+            "end": 791.92,
+            "text": " the correctly it will continuously do this monitoring means a first it will first it"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 791.92,
+            "end": 797.76,
+            "text": " will first it will guess and then it will compare with the actual values if some error"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 797.76,
+            "end": 802.48,
+            "text": " is there then again it will adjust then process the output then it again it will compare the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 802.48,
+            "end": 809.0799999999999,
+            "text": " output to the actual and again repeatedly it will do until the model learns to guess"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 809.08,
+            "end": 816.08,
+            "text": " the correctly now example if I will take like we have if a house is there which is"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 817.6,
+            "end": 824.6,
+            "text": " having a three bedrooms size 1200 square feet is there and its real price is 50 lakh its"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 825.08,
+            "end": 829.76,
+            "text": " real price is 50 lakh means it is actual value actual value is 50 lakhs and now the model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 829.76,
+            "end": 836.76,
+            "text": " predicts its 40 lakhs so that what is the error 50 minus 40 that is 10 lakhs so error"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 837.76,
+            "end": 844.76,
+            "text": " is 10 lakhs now the model what model will do it will adjust to reduce this gap in the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 845.2,
+            "end": 849.3199999999999,
+            "text": " next prediction again it will predict the next and might be the next guess will come"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 849.3199999999999,
+            "end": 856.3199999999999,
+            "text": " the 45 then again the error is 5 then again it will adjust its and predict the next output"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 857.16,
+            "end": 861.3199999999999,
+            "text": " it will try to reduce the error basically so training is what is training training is"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 861.32,
+            "end": 867.44,
+            "text": " like a practice the more it practices the better it will it gets the output basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 867.44,
+            "end": 872.0,
+            "text": " now what are the types of training data so when we are building a machine learning model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 872.0,
+            "end": 877.24,
+            "text": " we basically we do not want just to memorize the training data we want the model to learn"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 877.24,
+            "end": 882.84,
+            "text": " general patterns on that data so that it can perform well on the new or unseen type of"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 882.84,
+            "end": 888.6800000000001,
+            "text": " data so we what we will do we will try to divide the data set into three parts to guide"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 889.2399999999999,
+            "end": 896.2399999999999,
+            "text": " the model and then test the learning process fairly for the model so the three classification"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 897.04,
+            "end": 901.28,
+            "text": " is basically first one is the training set second one is the validation set and third"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 901.28,
+            "end": 905.7199999999999,
+            "text": " one is the test set training set is basically 70 percent of the total set and validation"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 905.7199999999999,
+            "end": 911.04,
+            "text": " is 15 percent of total and similarly the test is the remaining 50 percent for that so first"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 911.04,
+            "end": 916.0,
+            "text": " what we do we will go for the training means what we will do on the basis of the data we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 916.04,
+            "end": 921.32,
+            "text": " will try to teach the model like for example if we are having a data of 1000 houses then"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 921.32,
+            "end": 927.44,
+            "text": " 700 700 houses required we will use for the training purpose what is our goal our goal"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 927.44,
+            "end": 933.64,
+            "text": " is model can learn the relation between how size and how size and bedrooms affect the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 933.64,
+            "end": 940.64,
+            "text": " prices we will try we basically we want that model we will learn what how how the size"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 940.96,
+            "end": 947.96,
+            "text": " and bedrooms affect the prices of the houses second step is validation set means which"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 948.24,
+            "end": 952.8,
+            "text": " we will use to tune the model during the time of training during the time of training we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 952.8,
+            "end": 957.64,
+            "text": " will use that validation set then that is 15 percent of the total like if we are having"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 957.64,
+            "end": 964.64,
+            "text": " 700 700 houses as a training set then the remaining 300 means now the 4 from the remaining"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 964.84,
+            "end": 971.84,
+            "text": " 300 we will use 150 as a validation set so to check the model if model is working in"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 972.28,
+            "end": 977.92,
+            "text": " over fitting or under fitting we will check in the case of validation set now last step"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 977.92,
+            "end": 983.1999999999999,
+            "text": " is test set basically now the remaining data what what we will do we will use that data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 983.1999999999999,
+            "end": 988.68,
+            "text": " to evaluate the final performance of the model whether it is performing well or not on the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 988.68,
+            "end": 994.68,
+            "text": " on that data that the remaining remaining 150 sets whether it is whether model is able"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 994.68,
+            "end": 1001.68,
+            "text": " to predict the values of that remaining 150 set 150 houses or not now the last 6 stage"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1002.7199999999999,
+            "end": 1007.68,
+            "text": " comes that is the evaluation training we have completed now we will see the stage 6 that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1007.68,
+            "end": 1013.56,
+            "text": " is evaluation means now we have to check how well our trained model performs we have trained"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1013.56,
+            "end": 1019.4399999999999,
+            "text": " the model now we have to evaluate that model how we will evaluate on the base by fitting"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1019.4399999999999,
+            "end": 1025.84,
+            "text": " the new unseen type of data we will feed to the model and we will evaluate that model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1025.84,
+            "end": 1031.2,
+            "text": " on the basis of that new data set whether these model is performing well or not it is"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1031.2,
+            "end": 1036.04,
+            "text": " like basically we are when we are grading a student paper after they have studied whether"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1036.04,
+            "end": 1041.12,
+            "text": " that students actually learn or not that is why we will we will go for the evaluation"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1041.12,
+            "end": 1047.52,
+            "text": " for the basically for the mid sem exams or for the end sem what we will do why we will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1047.52,
+            "end": 1053.1999999999998,
+            "text": " take we want to evaluate the student on the basis of that like for example another example"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1053.1999999999998,
+            "end": 1060.1999999999998,
+            "text": " if I will take a spam detection model we have trained now we have on old emails we have"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1060.1999999999998,
+            "end": 1065.84,
+            "text": " feed we have trained it that model on the basis of the old emails data now we will give"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1065.9199999999998,
+            "end": 1072.9199999999998,
+            "text": " him a new incoming emails and we will see that model is still catch that spam that that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1072.9199999999998,
+            "end": 1079.0,
+            "text": " upcoming email is spam or not so we have to evaluate that models why evaluation why evaluation"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1079.0,
+            "end": 1085.12,
+            "text": " matters because it measure the usefulness and reliability of the machine learning model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1085.12,
+            "end": 1089.4399999999998,
+            "text": " after training our machine learning model we cannot just assume that it works well we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1089.44,
+            "end": 1096.72,
+            "text": " have to check we need to evaluate that similarly you can compare it with you also for the 6"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1096.72,
+            "end": 1102.2,
+            "text": " month teachers will teach you and at the at the end of 6 month we will do the evaluation"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1102.2,
+            "end": 1107.44,
+            "text": " whatever we have teach to student whether they are performing well or not after that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1107.44,
+            "end": 1112.28,
+            "text": " much of teaching basically so that is also for the model why it is important because"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1112.28,
+            "end": 1117.88,
+            "text": " we have to we train to learn but we evaluate we train him to learn so that modern can learn"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1118.1200000000001,
+            "end": 1122.8400000000001,
+            "text": " but we evaluate to verify that how much they have learned from the teaching basically so"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1122.8400000000001,
+            "end": 1128.44,
+            "text": " evaluation tells us tells us about the if the model is ready for the real world problems"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1128.44,
+            "end": 1133.8400000000001,
+            "text": " or not basically now evaluation if good evaluation is there it gives you a confidence basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1133.8400000000001,
+            "end": 1139.24,
+            "text": " it means you have your model is perfect for enough for the real world a poor evaluation"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1139.24,
+            "end": 1145.3600000000001,
+            "text": " means if if it is giving you a wrong decision due to and it might be due to some error which"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1145.36,
+            "end": 1151.34,
+            "text": " you have which you have not noticed basically due to that it will it is performing poor"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1151.34,
+            "end": 1156.8,
+            "text": " now if you are what what the example of a good model means if your model is able to"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1156.8,
+            "end": 1161.1999999999998,
+            "text": " predict this predict the output with the 90 percent accuracy then you can say that it"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1161.1999999999998,
+            "end": 1167.28,
+            "text": " is a good model for basically now bad it means it just guesses randomly not giving right"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1167.28,
+            "end": 1173.12,
+            "text": " answer for all the input if it is giving any average or every average answer then it is"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1173.12,
+            "end": 1177.9599999999998,
+            "text": " not a good model basically so we have to evaluation is basically the quality control"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1177.9599999999998,
+            "end": 1183.3999999999999,
+            "text": " of machine learning in easy way we can say that in the basis of evaluation we will try"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1183.3999999999999,
+            "end": 1190.8,
+            "text": " to we will try to we will try to test the quality of the model basically now what are"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1190.8,
+            "end": 1195.56,
+            "text": " the matrices we will use for the evaluation purpose we just do not look only for the one"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1195.56,
+            "end": 1200.82,
+            "text": " numbers we will use different matrices so which gives us the different inside which"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1200.82,
+            "end": 1206.6599999999999,
+            "text": " depends on the problem basically and on the on single matrices we will not try to evaluate"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1206.6599999999999,
+            "end": 1211.8999999999999,
+            "text": " the model we will use we will use different matrices for the evaluation of the model like"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1211.8999999999999,
+            "end": 1218.26,
+            "text": " for the accuracy like first one is the accuracy in which we will try to get the percentage"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1218.26,
+            "end": 1224.6599999999999,
+            "text": " of the correct prediction means out of hundred out like if model got 85 out of right means"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1224.6599999999999,
+            "end": 1230.1799999999998,
+            "text": " what is the answer for that what is the answer for the accuracy is 85 percent accuracy means"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1230.54,
+            "end": 1237.0600000000002,
+            "text": " out of hundred email he have corrected 85 mails the prediction for the 85 85 mails"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1237.0600000000002,
+            "end": 1243.14,
+            "text": " is that model is giving as a correct now second one is the precision of all the predicted"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1243.14,
+            "end": 1247.18,
+            "text": " positives how many is were correct what are whatever the models are predicted how many"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1247.18,
+            "end": 1253.18,
+            "text": " were the positive basically like if if for example if we if we will see if we if we if"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1253.18,
+            "end": 1257.98,
+            "text": " it said 10 were spam and at really were the spam then what is the precision is basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1257.98,
+            "end": 1263.54,
+            "text": " 80 percent similar like the accuracy error error means how far the predictions are from"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1263.54,
+            "end": 1269.22,
+            "text": " the actual values means what are the difference between the actual values to the predicted"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1269.22,
+            "end": 1275.94,
+            "text": " values that call as error so we use mostly in the that error we will use mostly in the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1275.94,
+            "end": 1282.06,
+            "text": " number prediction when when we are predicting some numbers then that error we will use basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1282.06,
+            "end": 1288.54,
+            "text": " for example I have taken one example one of evaluating a spam model like if we are"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1288.54,
+            "end": 1294.1799999999998,
+            "text": " having a data set of hundred emails and 50 50 are the spam and 50 are not spam basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1294.1799999999998,
+            "end": 1305.54,
+            "text": " so these are the these are the actual values ok these are the actual values total data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1305.54,
+            "end": 1312.6599999999999,
+            "text": " set is 100 emails total data set is 100 emails and 50 and from 100 50 mails are the spam"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1312.6599999999999,
+            "end": 1319.82,
+            "text": " and 50s are not spam now we will go for the model results how it will now how what that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1319.82,
+            "end": 1325.42,
+            "text": " model is correctly predicted it predicted as 40 mails are spam and 45 not spam they"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1325.42,
+            "end": 1332.06,
+            "text": " have predicted means for 40 plus 45 that is 85 means 85 it is predicted correctly and"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1332.06,
+            "end": 1338.5,
+            "text": " correctly predicted as that the the correct answer for the spam is correct quantity for"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1338.5,
+            "end": 1345.06,
+            "text": " the spam mail is 50 and it it have predicted as 40 means 10 are the quantities that model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1345.06,
+            "end": 1351.62,
+            "text": " have missed similarly 50s are the mail which are not spam it have predicted 45 but not"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1351.62,
+            "end": 1357.3,
+            "text": " predicted not able to predict the 5 not spam so now how what is the what was the formula"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1357.3,
+            "end": 1364.94,
+            "text": " for the accuracy is basically correct divided by total correct divided by total so correct"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1364.94,
+            "end": 1374.7,
+            "text": " is 85 that is means accuracy is 85 percent for this model basically so basically what"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1374.7,
+            "end": 1380.7,
+            "text": " it shows it shows how well the model is doing and also reveals what is missing in the model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1380.7,
+            "end": 1385.3,
+            "text": " basically now what is the concept of over fitting and under fitting over fitting means"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1385.3,
+            "end": 1392.02,
+            "text": " the model memorize training data it memorize the training data but fails on the new data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1392.02,
+            "end": 1396.82,
+            "text": " means when we have trained one model on the training with the help of training data set"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1396.82,
+            "end": 1402.1,
+            "text": " but when we are checking when we are feeding a new input to that that is not from the training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1402.1,
+            "end": 1407.3799999999999,
+            "text": " data set then it will fails on that so what we will do we will say that model is over"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1407.3799999999999,
+            "end": 1412.06,
+            "text": " fitting or that concept as over fitting means it is like student who memorize answer but"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1412.06,
+            "end": 1416.4199999999998,
+            "text": " cannot answer the new question when we have changed something and then student is not"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1416.4199999999998,
+            "end": 1421.1,
+            "text": " able to answer that question it is like the over fitting basically under fitting is model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1421.1,
+            "end": 1426.74,
+            "text": " is not performing enough model is not able to catch the enough patterns so it performs"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1426.74,
+            "end": 1432.86,
+            "text": " poorly on both and the training also it performs poor and also in the test data it performs"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1432.86,
+            "end": 1439.26,
+            "text": " poor for both the data it is performing poor so for that type of we say that under fitting"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1439.26,
+            "end": 1445.26,
+            "text": " that concept we will say and so what we need we need balance a model that learns pattern"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1445.26,
+            "end": 1451.46,
+            "text": " but can also generalize that basically what we can say so if we will see the example of"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1451.46,
+            "end": 1456.82,
+            "text": " over fitting and under fitting is we have trained other model on ten house process now"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1456.82,
+            "end": 1464.1,
+            "text": " over fitting means it fit it fits means it exactly predict the output for that ten houses"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1464.1,
+            "end": 1470.34,
+            "text": " which we on which we have trained it but it fails when we will give him a new data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1470.34,
+            "end": 1475.8999999999999,
+            "text": " of the houses it fails for that under fitting means it predicts same price for all the houses"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1475.8999999999999,
+            "end": 1482.6599999999999,
+            "text": " it will not able to predict the correct for the training data set also it is not able"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1482.6599999999999,
+            "end": 1493.1799999999998,
+            "text": " to predict the actual values basically which will be close to and also for the new data"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1493.26,
+            "end": 1498.74,
+            "text": " set also it is not performing well now cross validation means we will use the cross validation"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1498.74,
+            "end": 1504.7,
+            "text": " method to test our model in multiple ways using different parts of data okay we will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1504.7,
+            "end": 1511.7,
+            "text": " understanding like processes we will if we are having some amount of data process service"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1512.3400000000001,
+            "end": 1518.94,
+            "text": " what we will do we will split the data into the k parts if we have splitted our data in"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1518.98,
+            "end": 1525.3400000000001,
+            "text": " some k part and then first we will train the data on k minus k minus one part that one"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1525.3400000000001,
+            "end": 1530.94,
+            "text": " we have that one we have we are not used for the training purpose because that for that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1530.94,
+            "end": 1536.54,
+            "text": " one data we will that one we will use for the test so we have trained the model on that"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1536.54,
+            "end": 1543.54,
+            "text": " k minus one part and then the one which we have uphold is for the test data as we have"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1544.06,
+            "end": 1548.98,
+            "text": " hold this and then we have to repeat this activity k times mean first like if we are"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1548.98,
+            "end": 1554.94,
+            "text": " having ten types of data set first what we will do we will train the model on the first"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1554.94,
+            "end": 1560.74,
+            "text": " one to eight data sets and then the remaining two for the test purpose now again you will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1560.74,
+            "end": 1566.34,
+            "text": " train the model from one to eight you train now you will train two to nine then three"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1566.34,
+            "end": 1572.26,
+            "text": " to ten then four to eleven so that type you will do in the case of cross validation like"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1572.3,
+            "end": 1576.98,
+            "text": " if we are having a data set of five hundred houses so first we have to split the total"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1576.98,
+            "end": 1582.78,
+            "text": " data then we have splitted our data into five parts of hundred houses each each trying we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1582.78,
+            "end": 1589.78,
+            "text": " will train the model on four hundred quantity and then we will test it on the remaining"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1589.78,
+            "end": 1596.78,
+            "text": " hundred then we will try to rotate it means okay I will explain you with the help of pen"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1597.34,
+            "end": 1604.34,
+            "text": " link you can understand we have that we have splitted into five amount first we will train"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1605.7,
+            "end": 1612.7,
+            "text": " on that in the next we will train on that and that one will be test case for that now"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1612.78,
+            "end": 1619.78,
+            "text": " again what we will do we will take three and one for that in that way then in that way"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1620.78,
+            "end": 1627.78,
+            "text": " so that type of you have to train your models means that is the means of rotation and then"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1628.22,
+            "end": 1632.7,
+            "text": " you will take that is the mean of rotation basically how you will rotate the data and"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1632.7,
+            "end": 1637.62,
+            "text": " then you have to take the accuracy for that and then you average the accuracy then it"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1637.62,
+            "end": 1644.22,
+            "text": " will give you the right percentage of the accuracy how much how much accurate your model"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1644.22,
+            "end": 1649.22,
+            "text": " is basically now stage six evolution means what are the tools for the training and evolution"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1649.26,
+            "end": 1654.26,
+            "text": " so when you are building a machine learning model effectively you have to use some powerful"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1654.26,
+            "end": 1660.26,
+            "text": " tools basically that makes coding training and evolution simpler and efficient for the"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1660.26,
+            "end": 1664.38,
+            "text": " for you basically so what are the popular tools for that first one is the python which"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1664.38,
+            "end": 1670.6200000000001,
+            "text": " is most popular language basically for the machine learning and their most popular libraries"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1670.6200000000001,
+            "end": 1675.02,
+            "text": " for that skid learn is basically which is used for the basic machine learning algorithm"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1675.02,
+            "end": 1680.62,
+            "text": " and evolution tensor flow you will use for the deep learning types of model and R you"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1680.62,
+            "end": 1685.42,
+            "text": " can use for the for excellent it is basically excellent for the statistic types of analyze"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1685.42,
+            "end": 1689.5,
+            "text": " analyze and data visualization and for the data visualization we will use and Jupiter"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1689.5,
+            "end": 1694.94,
+            "text": " notebook we will use for the interactive environment to write test and visualize the code we will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1694.94,
+            "end": 1700.62,
+            "text": " use the Jupiter notebook that are that are that are the basically tools for that example"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1700.62,
+            "end": 1705.06,
+            "text": " for evaluating a spam models like if I will take so we can use the skid learn you can"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1705.06,
+            "end": 1709.7399999999998,
+            "text": " train a model and house prices then you will check its accuracy on the test data and then"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1709.7399999999998,
+            "end": 1715.06,
+            "text": " you will try to plot the graph and see the result instantly with the help of tools you"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1715.06,
+            "end": 1720.7399999999998,
+            "text": " can take the results so what that tools will do it will basically make it easier to experiment"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1720.7399999999998,
+            "end": 1725.82,
+            "text": " to experiment test and improve your machine learning models into the real time basically"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1725.82,
+            "end": 1732.06,
+            "text": " it will give you an easiness for you basically now what are the common training mistake which"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1732.06,
+            "end": 1738.1,
+            "text": " we which we do not have to do first one is the you we have to avoid all the data for"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1738.1,
+            "end": 1743.6599999999999,
+            "text": " the training basically if we are having hundred amounts of data and when we are using all"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1743.6599999999999,
+            "end": 1748.34,
+            "text": " hundred amounts of data for the training so that is not good basically that is the common"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1748.34,
+            "end": 1753.1399999999999,
+            "text": " mistake which we will do because if you are having no test no test set then you are we"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1753.14,
+            "end": 1759.18,
+            "text": " are not able to check the performance you may because you have trained that hundred"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1759.18,
+            "end": 1764.1000000000001,
+            "text": " if you are if you are having any hundred amount of data and we have trained on all we have"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1764.1000000000001,
+            "end": 1768.94,
+            "text": " we have used all hundred data set for the training now we we are checking definitely"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1768.94,
+            "end": 1773.22,
+            "text": " we will get the accuracy because because because whatever we have trained and on the basis"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1773.22,
+            "end": 1778.14,
+            "text": " of that training data set we are using for the test purpose so that is not good it definitely"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1778.14,
+            "end": 1782.94,
+            "text": " you will get the hundred percent accuracy for that similarly we have to stop training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1782.94,
+            "end": 1788.0600000000002,
+            "text": " too early means model has not done enough and you are trying to use it for the training"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1788.0600000000002,
+            "end": 1792.26,
+            "text": " purpose which what it will it will leads to the under fitting you will you will not get"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1792.26,
+            "end": 1798.46,
+            "text": " the perfect output for that what is basically ignoring over fitting means model memorize"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1798.46,
+            "end": 1803.98,
+            "text": " the training data but fails on the new data that is that is the type of problems we will"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1804.98,
+            "end": 1809.6200000000001,
+            "text": " for the training basically so that is all for the today's lecture now in the next lecture"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1809.6200000000001,
+            "end": 1814.78,
+            "text": " we will try to cover the types of machine learning basically we will try to cover in"
+        },
+        {
+            "number": "15",
+            "title": "Lecture 15",
+            "start": 1814.78,
+            "end": 1816.66,
+            "text": " the next lecture thank you."
+        }
+    ],
+    "text": " Hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning technique. I am doctor Aftab Ahmed Ansari, your instructor for this course. So, this is our lecture number 15. So, if we see about the previous class which we have covered in the last class we have covered about the preparation of data set we have seen means we are learning the machine learning workflow basically we are learning in the from the past 2 to 3 years past 2 to 3 classes and now we are in stage 3 which we have learned in the previous class. In the stage 3 means data preparation means after the collection of data you have to prepare your data for the training means what you have to do what are the key steps for the preparation of data first one is the cleaning you have to clean your data means how you will clean you have to basically fix your errors you have to remove the duplicates if some entries in the data are duplicate so you have to remove that duplicate entries and if some missing values are there so you have to fill that missing values for that also we have seen some methods how we can fill the missing values. Second is encoding means you have to convert your text into the numbers basically or if your data set is having some categories then you have to convert that categories into number third one is scaling means you have to normalize your values of the data set to the similar ranges means if your data values are something in some values are in square feet some values have to be in percentage and so you have to normalize this in a same unit basically I can say in simple. Last one is the future selections means you have to keep only the important features of data you have to remove the unnecessary features if your data is having then you have to remove it then we have also discussed about the how to handle the missing data and how we can scale the data we have seen these things in the previous classes and for stage 4 also we have seen that is model selection how we can select our model on the basis of our on the basis of our problems like what are the common models we have learnt that is linear regression which is used basically for the prediction of numbers. Second one is logistic regression which we will use when we want to predict about the categories like for the example basic example we have taken that is in the case of email that the new email which comes to our that is in which category that emails basically belong to spam or not spam then we have seen about then we have learnt about the decision trees which follows the basically rules for last one is the neural network which is basically used for the images and speech type of applications. Now in the in the today's class first we will learn about the what are the common mistakes we will do when we will go for the model selection. First one is the when we will choose the when we are choosing the model for our machine learning what we will do we will think like that if our model is complex if our model is if we will choose that model which is complex then might be I will get the better result but what it will do it will leads to a poor performance or wrong prediction if you if you will use any complex model like you are using neural network for a small data you are having a small amount of data and you want to use the neural network for that data because neural network model is a complex model so what you will think what general people think if something is complex then it is better so that things will not work in the case of machine learning machine learning model basically so what you have to do you have to use simple model which will be best suit for your problems basically so what like if you will use complex model like deep learning so it because that models require some some prerequisite means that models require large amount of data if you are having a large amount of data then only you can use the neural network model otherwise it will it will over fit it the basically I can say what over fit means instead of taking the instead of taking the main features of data it will take the noise it will it will take the noise or learn noise from the input which you have given and perform worse than a simple model we can say that so what is the best approach is you have to start with the simple model like linear regression linear regression you can use or decision tree you can use or if if you are if you are having large amount of data then only go for the complex models now second one is the we are second main mistakes which we will do is the ignoring the types of problems I mean we are not taking the category of problems means in which category our problems belongs to like we are using some regression models in in the case of in the in the means of it means in simple I can say if I am having a problems of some other and I am using the other model for that types of problem means if we are using a regression model in regression model like linear regression for a classification problems and definitely you will get the wrong result means your model will not work well and it because it is not designed for that problem types so you have to use like if your model belongs to the classification type then you can use the logistic regression you can use SVM model you can use random forest model you can use if you are having a problems which belongs to the category of regression then you can use the linear regression linear regression decision tree regression that types of model you can use for your problems now third one is that you are not basically cross you are not validating your models means you are evaluating your model only on you on the one training set means you are not you have not splitted your data and you are using your training your data on that side and you are testing on the same data so that also also a common mistake which we which might be we can do in future so that is not we have to do for the machine learning models because what if it will if you will if you will do that mistakes then what is the what is the result for that it will give you a lucky or bad result which will which mainly depends on the how the data you have split for that so what is the better approach for that you have to test the models on multiple split to ensure the consistent performance we will see that mistake basically in detail in that lecture only now fourth one is the not checking for over fitting and under fitting over fitting means your model performs great on the training data but it performs purely poorly when you will feed the new new data when you will feed for the testing purpose then it will fail on that data so that that we will says the over fitting and under fitting means our model is performing on poorly on both the data sets on the training data sets on the training side also and on the new data set also it is performing poorly on both the data sets now why it is a mistake basically because such type of models are unreliable in the real world problems we can say so what is the better approach for this you have to compare performance on the training versus data sets you have to compare the performance if test accuracy is much lower your model is like over fitting over other procedure what we can do we have seen about the different matrices we have seen for the evaluation purpose so you can see that like precision recall f1 is f1 is score for the for the classification types of problem and for the regression types of problem you can use mae mac and r square basically you can use for the now what is the how many stages we have we have covered so basically we have covered about the problem identification we have covered data collection we have covered data preparation we have covered and modern selection also we have covered that four that four steps stages basically we have covered now in the next step is that is training now we will try to cover the training now what is basically in simple words what is training so basically training is like a it is a process of teaching a machine learning models to how to make prediction using known data means how it will predict the next data for your means how will it predict the output for for the data which you will feed as a input so basically what you have to do first you have to teach them it is for analogy if I will say it is like a student when a student learns from the example in a classroom so that how is the model also learns from the examples and that we call as training basically now why training is important because a model initially model starts as a blank page or blank state we can set it so it knows nothing so training help it to recognize the patterns and relationship in the data so training is what it basically it will turns a dumb model into a small smart predict I can say now if I will compare it with a simple real world analogy so it is like a teaching a child and I means if imagine we are teaching a child by with the by taking the names of animal and showing their picture look at that picture that is a picture of dog that is a picture of cat so it is very easy for the kid to understand the difference between the different types of animals similarly what we will do we will same things we will do for the machine learning models with the help of with the helps of training data we will try to teach we will try to teach the model or learn the model so that model can learn easily similarly similarly the example which I have taken for a kid so that children are if we will show the children with the help of a image then it will be easy for him easy for him to learn to identify the different types of animals correctly similarly we will try to train the models using the labeled type of data so now the in the first why training matters because training enables the model to make useful prediction based on the real world data now what is the impact if of good or bad training if I will classify the good training means you are having lots of data and varied data means you are having the data of of all the categories you have covered in that time that data means multi valued data you have so that means if you are having good amount of data and multi varied data you have then you are definitely your model learns well and make the accurate prediction for the for your problem basically poor training means you are having only small amount of data or you are having a data of biased means your your data is biased data set basically so what it will be for the new types of data it will perform poor and it will basically make the random guess like example if I will if I will cover means we are trained we trained with a thousand thousand amount of houses examples we have and we are learning various patterns on the basis that means we are we want to predict the house price for that so predicts prices better in the case of good training if we have provided if we have provided poor training means what it will do it will we have why poor training means we are not having enough amount of data so then definitely model will perform poor and it will give the poor performance in the case of problems in the whatever example you will take for that so that it will perform poor for that new data new test data set basically now how training works what are the steps considered in the training first one is a feed data input data means what we have to do first you have to feed the input or label data first you have to feed to the model means you have to give the model as a input data which like if I am taking the example of that house price prediction then you have to input the data which consists like size location you have to feed to the model as a input and output process also you have to feed if it is a labeled data then what you have to do then it will compare and adjust means the model makes a guess and checks how far the guess is from the actual and then it will try to and then it will try to adjust itself on the basis of that error which it will generate by comparing it with the actual values to the true values or the values which it have predicted and then these and that that that error and adjusting that error then adjust then error then adjust then what it will continues that process for many times until the model learns to guess the correctly it will continuously do this monitoring means a first it will first it will first it will guess and then it will compare with the actual values if some error is there then again it will adjust then process the output then it again it will compare the output to the actual and again repeatedly it will do until the model learns to guess the correctly now example if I will take like we have if a house is there which is having a three bedrooms size 1200 square feet is there and its real price is 50 lakh its real price is 50 lakh means it is actual value actual value is 50 lakhs and now the model predicts its 40 lakhs so that what is the error 50 minus 40 that is 10 lakhs so error is 10 lakhs now the model what model will do it will adjust to reduce this gap in the next prediction again it will predict the next and might be the next guess will come the 45 then again the error is 5 then again it will adjust its and predict the next output it will try to reduce the error basically so training is what is training training is like a practice the more it practices the better it will it gets the output basically now what are the types of training data so when we are building a machine learning model we basically we do not want just to memorize the training data we want the model to learn general patterns on that data so that it can perform well on the new or unseen type of data so we what we will do we will try to divide the data set into three parts to guide the model and then test the learning process fairly for the model so the three classification is basically first one is the training set second one is the validation set and third one is the test set training set is basically 70 percent of the total set and validation is 15 percent of total and similarly the test is the remaining 50 percent for that so first what we do we will go for the training means what we will do on the basis of the data we will try to teach the model like for example if we are having a data of 1000 houses then 700 700 houses required we will use for the training purpose what is our goal our goal is model can learn the relation between how size and how size and bedrooms affect the prices we will try we basically we want that model we will learn what how how the size and bedrooms affect the prices of the houses second step is validation set means which we will use to tune the model during the time of training during the time of training we will use that validation set then that is 15 percent of the total like if we are having 700 700 houses as a training set then the remaining 300 means now the 4 from the remaining 300 we will use 150 as a validation set so to check the model if model is working in over fitting or under fitting we will check in the case of validation set now last step is test set basically now the remaining data what what we will do we will use that data to evaluate the final performance of the model whether it is performing well or not on the on that data that the remaining remaining 150 sets whether it is whether model is able to predict the values of that remaining 150 set 150 houses or not now the last 6 stage comes that is the evaluation training we have completed now we will see the stage 6 that is evaluation means now we have to check how well our trained model performs we have trained the model now we have to evaluate that model how we will evaluate on the base by fitting the new unseen type of data we will feed to the model and we will evaluate that model on the basis of that new data set whether these model is performing well or not it is like basically we are when we are grading a student paper after they have studied whether that students actually learn or not that is why we will we will go for the evaluation for the basically for the mid sem exams or for the end sem what we will do why we will take we want to evaluate the student on the basis of that like for example another example if I will take a spam detection model we have trained now we have on old emails we have feed we have trained it that model on the basis of the old emails data now we will give him a new incoming emails and we will see that model is still catch that spam that that upcoming email is spam or not so we have to evaluate that models why evaluation why evaluation matters because it measure the usefulness and reliability of the machine learning model after training our machine learning model we cannot just assume that it works well we have to check we need to evaluate that similarly you can compare it with you also for the 6 month teachers will teach you and at the at the end of 6 month we will do the evaluation whatever we have teach to student whether they are performing well or not after that much of teaching basically so that is also for the model why it is important because we have to we train to learn but we evaluate we train him to learn so that modern can learn but we evaluate to verify that how much they have learned from the teaching basically so evaluation tells us tells us about the if the model is ready for the real world problems or not basically now evaluation if good evaluation is there it gives you a confidence basically it means you have your model is perfect for enough for the real world a poor evaluation means if if it is giving you a wrong decision due to and it might be due to some error which you have which you have not noticed basically due to that it will it is performing poor now if you are what what the example of a good model means if your model is able to predict this predict the output with the 90 percent accuracy then you can say that it is a good model for basically now bad it means it just guesses randomly not giving right answer for all the input if it is giving any average or every average answer then it is not a good model basically so we have to evaluation is basically the quality control of machine learning in easy way we can say that in the basis of evaluation we will try to we will try to we will try to test the quality of the model basically now what are the matrices we will use for the evaluation purpose we just do not look only for the one numbers we will use different matrices so which gives us the different inside which depends on the problem basically and on the on single matrices we will not try to evaluate the model we will use we will use different matrices for the evaluation of the model like for the accuracy like first one is the accuracy in which we will try to get the percentage of the correct prediction means out of hundred out like if model got 85 out of right means what is the answer for that what is the answer for the accuracy is 85 percent accuracy means out of hundred email he have corrected 85 mails the prediction for the 85 85 mails is that model is giving as a correct now second one is the precision of all the predicted positives how many is were correct what are whatever the models are predicted how many were the positive basically like if if for example if we if we will see if we if we if it said 10 were spam and at really were the spam then what is the precision is basically 80 percent similar like the accuracy error error means how far the predictions are from the actual values means what are the difference between the actual values to the predicted values that call as error so we use mostly in the that error we will use mostly in the number prediction when when we are predicting some numbers then that error we will use basically for example I have taken one example one of evaluating a spam model like if we are having a data set of hundred emails and 50 50 are the spam and 50 are not spam basically so these are the these are the actual values ok these are the actual values total data set is 100 emails total data set is 100 emails and 50 and from 100 50 mails are the spam and 50s are not spam now we will go for the model results how it will now how what that model is correctly predicted it predicted as 40 mails are spam and 45 not spam they have predicted means for 40 plus 45 that is 85 means 85 it is predicted correctly and correctly predicted as that the the correct answer for the spam is correct quantity for the spam mail is 50 and it it have predicted as 40 means 10 are the quantities that model have missed similarly 50s are the mail which are not spam it have predicted 45 but not predicted not able to predict the 5 not spam so now how what is the what was the formula for the accuracy is basically correct divided by total correct divided by total so correct is 85 that is means accuracy is 85 percent for this model basically so basically what it shows it shows how well the model is doing and also reveals what is missing in the model basically now what is the concept of over fitting and under fitting over fitting means the model memorize training data it memorize the training data but fails on the new data means when we have trained one model on the training with the help of training data set but when we are checking when we are feeding a new input to that that is not from the training data set then it will fails on that so what we will do we will say that model is over fitting or that concept as over fitting means it is like student who memorize answer but cannot answer the new question when we have changed something and then student is not able to answer that question it is like the over fitting basically under fitting is model is not performing enough model is not able to catch the enough patterns so it performs poorly on both and the training also it performs poor and also in the test data it performs poor for both the data it is performing poor so for that type of we say that under fitting that concept we will say and so what we need we need balance a model that learns pattern but can also generalize that basically what we can say so if we will see the example of over fitting and under fitting is we have trained other model on ten house process now over fitting means it fit it fits means it exactly predict the output for that ten houses which we on which we have trained it but it fails when we will give him a new data of the houses it fails for that under fitting means it predicts same price for all the houses it will not able to predict the correct for the training data set also it is not able to predict the actual values basically which will be close to and also for the new data set also it is not performing well now cross validation means we will use the cross validation method to test our model in multiple ways using different parts of data okay we will understanding like processes we will if we are having some amount of data process service what we will do we will split the data into the k parts if we have splitted our data in some k part and then first we will train the data on k minus k minus one part that one we have that one we have we are not used for the training purpose because that for that one data we will that one we will use for the test so we have trained the model on that k minus one part and then the one which we have uphold is for the test data as we have hold this and then we have to repeat this activity k times mean first like if we are having ten types of data set first what we will do we will train the model on the first one to eight data sets and then the remaining two for the test purpose now again you will train the model from one to eight you train now you will train two to nine then three to ten then four to eleven so that type you will do in the case of cross validation like if we are having a data set of five hundred houses so first we have to split the total data then we have splitted our data into five parts of hundred houses each each trying we will train the model on four hundred quantity and then we will test it on the remaining hundred then we will try to rotate it means okay I will explain you with the help of pen link you can understand we have that we have splitted into five amount first we will train on that in the next we will train on that and that one will be test case for that now again what we will do we will take three and one for that in that way then in that way so that type of you have to train your models means that is the means of rotation and then you will take that is the mean of rotation basically how you will rotate the data and then you have to take the accuracy for that and then you average the accuracy then it will give you the right percentage of the accuracy how much how much accurate your model is basically now stage six evolution means what are the tools for the training and evolution so when you are building a machine learning model effectively you have to use some powerful tools basically that makes coding training and evolution simpler and efficient for the for you basically so what are the popular tools for that first one is the python which is most popular language basically for the machine learning and their most popular libraries for that skid learn is basically which is used for the basic machine learning algorithm and evolution tensor flow you will use for the deep learning types of model and R you can use for the for excellent it is basically excellent for the statistic types of analyze analyze and data visualization and for the data visualization we will use and Jupiter notebook we will use for the interactive environment to write test and visualize the code we will use the Jupiter notebook that are that are that are the basically tools for that example for evaluating a spam models like if I will take so we can use the skid learn you can train a model and house prices then you will check its accuracy on the test data and then you will try to plot the graph and see the result instantly with the help of tools you can take the results so what that tools will do it will basically make it easier to experiment to experiment test and improve your machine learning models into the real time basically it will give you an easiness for you basically now what are the common training mistake which we which we do not have to do first one is the you we have to avoid all the data for the training basically if we are having hundred amounts of data and when we are using all hundred amounts of data for the training so that is not good basically that is the common mistake which we will do because if you are having no test no test set then you are we are not able to check the performance you may because you have trained that hundred if you are if you are having any hundred amount of data and we have trained on all we have we have used all hundred data set for the training now we we are checking definitely we will get the accuracy because because because whatever we have trained and on the basis of that training data set we are using for the test purpose so that is not good it definitely you will get the hundred percent accuracy for that similarly we have to stop training too early means model has not done enough and you are trying to use it for the training purpose which what it will it will leads to the under fitting you will you will not get the perfect output for that what is basically ignoring over fitting means model memorize the training data but fails on the new data that is that is the type of problems we will for the training basically so that is all for the today's lecture now in the next lecture we will try to cover the types of machine learning basically we will try to cover in the next lecture thank you."
+}

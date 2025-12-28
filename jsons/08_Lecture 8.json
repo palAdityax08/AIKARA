@@ -1,0 +1,3155 @@
+{
+    "chunks": [
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 0.0,
+            "end": 18.32,
+            "text": " Hello everyone, I again welcome you all to the course on fuzzy logic inference and machine"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 18.32,
+            "end": 19.32,
+            "text": " learning techniques."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 19.32,
+            "end": 23.68,
+            "text": " I am Dr. Aftab Ahmed Ansari, your instructor for this course."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 23.68,
+            "end": 25.64,
+            "text": " So today is our lecture number eight."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 25.64,
+            "end": 30.84,
+            "text": " In previous lecture, we have covered about the different types of fuzzification techniques"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 30.84,
+            "end": 34.36,
+            "text": " and different types of defuzzification techniques in the previous lecture."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 34.36,
+            "end": 36.52,
+            "text": " We have already covered."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 36.52,
+            "end": 41.6,
+            "text": " So if I will give you a brief recap of the fuzzy logic controller, so you can see that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 41.6,
+            "end": 47.28,
+            "text": " this is the basic block diagram, basic block diagram of the fuzzy logic controller in which"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 47.28,
+            "end": 53.040000000000006,
+            "text": " up to this lecture, we have covered this fuzzification technique, which is a component of the fuzzy"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 53.04,
+            "end": 58.16,
+            "text": " logic controller in which we will convert the crisp input to the fuzzy input and we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 58.16,
+            "end": 63.72,
+            "text": " have seen different types of method for that fuzzification and then defuzzification we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 63.72,
+            "end": 68.68,
+            "text": " have also covered in the previous lecture and its different types of method we have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 68.68,
+            "end": 71.16,
+            "text": " also seen in the previous lecture."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 71.16,
+            "end": 75.32,
+            "text": " Defuzzification technique is a method in which we will convert the fuzzy input to the crisp"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 75.32,
+            "end": 76.32,
+            "text": " output basically."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 76.32,
+            "end": 81.8,
+            "text": " Okay, and this is the complete block diagram of the fuzzy logic controller."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 81.8,
+            "end": 86.16,
+            "text": " So basically we know that there are four main components of the fuzzy logic controller."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 86.16,
+            "end": 88.84,
+            "text": " First one is the fuzzification, which we have covered."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 88.84,
+            "end": 89.84,
+            "text": " Second one is the rule base."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 89.84,
+            "end": 92.52,
+            "text": " Third one is the interference engine."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 92.52,
+            "end": 96.56,
+            "text": " That too we have to covered in this lecture or in the upcoming lecture, we will try to"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 96.56,
+            "end": 101.03999999999999,
+            "text": " cover these both methods and fourth one is the defuzzification method."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 101.03999999999999,
+            "end": 104.88,
+            "text": " Again we have covered that method in the previous lecture and we have also seen different types"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 104.88,
+            "end": 109.24,
+            "text": " of methods to convert that fuzzy to the crisp output."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 109.24,
+            "end": 115.36,
+            "text": " Okay, so we will talk about the fuzzy rule based system that is also known as the in"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 115.36,
+            "end": 120.16,
+            "text": " short I have written there FRBS in full form I have written in the next slide."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 120.16,
+            "end": 121.16,
+            "text": " So no issue."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 121.16,
+            "end": 125.03999999999999,
+            "text": " Now if I will give you the brief recap in previous lecture we have covered the fuzzification"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 125.03999999999999,
+            "end": 127.03999999999999,
+            "text": " methods and defuzzification method."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 127.03999999999999,
+            "end": 131.79999999999998,
+            "text": " In defuzzification method several methods are there lambda cut method, centroid method,"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 131.79999999999998,
+            "end": 136.48,
+            "text": " weighted average method, maxima method that all are the methods we have covered in the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 136.48,
+            "end": 137.48,
+            "text": " previous lecture."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 137.72,
+            "end": 142.95999999999998,
+            "text": " In this lecture we will try to focus on the fuzzy rule based system."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 142.95999999999998,
+            "end": 144.95999999999998,
+            "text": " Now what is the fuzzy rule based system?"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 144.95999999999998,
+            "end": 148.88,
+            "text": " Basically fuzzy rule based system is the heart of the fuzzy logic controller we can say that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 148.88,
+            "end": 154.72,
+            "text": " because it is a system which uses the fuzzy rule to process the imprecise input and produce"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 154.72,
+            "end": 159.79999999999998,
+            "text": " the output means whatever input we have given to the fuzzy logic controller what it will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 159.79999999999998,
+            "end": 165.72,
+            "text": " process it with the help of some rule and then produce the output on the basis of that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 165.96,
+            "end": 168.4,
+            "text": " certain rules and the input."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 168.4,
+            "end": 174.92,
+            "text": " It will take the input and match with the rule base that rule we will see in this lecture"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 174.92,
+            "end": 180.64,
+            "text": " also what that rule base means and then it will produce the output on the basis of that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 180.64,
+            "end": 182.24,
+            "text": " rules and inputs."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 182.24,
+            "end": 186.56,
+            "text": " So basically it will we can say that it will mimics like a human reasoning method which"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 186.56,
+            "end": 191.76,
+            "text": " comes or which we will use in the under the case of the uncertainty when we are not able"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 191.76,
+            "end": 195.51999999999998,
+            "text": " to decide the output on the basis of 0 and 1."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 195.51999999999998,
+            "end": 200.0,
+            "text": " For that cases we are using that fuzzy logic controller and the knowledge base consists"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 200.0,
+            "end": 204.16,
+            "text": " of two systems, two components that is rules and the membership function."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 204.16,
+            "end": 207.92,
+            "text": " Membership function also we have studied in the first and second lecture different types"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 207.92,
+            "end": 213.76,
+            "text": " of membership function we have already seen in the previous lecture that is lecture number"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 213.76,
+            "end": 217.2,
+            "text": " 1 and 2 you can see that."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 217.2,
+            "end": 222.23999999999998,
+            "text": " Now the component of the fuzzy rule base system FRBS means fuzzy rule base systems"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 222.23999999999998,
+            "end": 235.83999999999997,
+            "text": " I will choose the marker for that FRBS means fuzzy rule base system that is the full form"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 235.83999999999997,
+            "end": 236.83999999999997,
+            "text": " of FRBS."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 236.83999999999997,
+            "end": 243.28,
+            "text": " Now FRBS consists of two knowledge base and interference engine and then knowledge base"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 243.28,
+            "end": 246.72,
+            "text": " consists of two things that is the fuzzy rules."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 246.72,
+            "end": 252.08,
+            "text": " Fuzzy rules is basically a structure in which we will write the rules for the fuzzy logic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 252.08,
+            "end": 257.6,
+            "text": " controller it is basically if else type of rules are there if and then if whatever the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 257.6,
+            "end": 263.32,
+            "text": " condition then what will be the action on the basis of that condition then action."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 263.32,
+            "end": 268.92,
+            "text": " Its structure is like if condition then action on the basis of that condition."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 269.92,
+            "end": 274.92,
+            "text": " If we will see the example which I have written in the slide that if temperature is high then"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 274.92,
+            "end": 276.92,
+            "text": " fan speed is fast."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 276.92,
+            "end": 283.28000000000003,
+            "text": " If condition like what is the condition if temperature is high then action what is the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 283.28000000000003,
+            "end": 289.08000000000004,
+            "text": " action then fan speed should be fast that type of rules we will write in the knowledge"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 289.08000000000004,
+            "end": 292.04,
+            "text": " base and second one is the membership function."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 292.04,
+            "end": 296.92,
+            "text": " Membership function means whatever we are giving input to the fuzzy logic controller"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 296.92,
+            "end": 302.40000000000003,
+            "text": " we will convert that input that crisp input to the fuzzy output we will match basically"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 302.40000000000003,
+            "end": 306.64000000000004,
+            "text": " whatever our input there we will match with the fuzzy membership function."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 306.64000000000004,
+            "end": 310.68,
+            "text": " Different types of fuzzy membership functions are there like triangular means that type"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 310.68,
+            "end": 316.16,
+            "text": " of fuzzy membership function is there triangular membership function one trapezoidal type is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 316.16,
+            "end": 317.16,
+            "text": " there."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 317.16,
+            "end": 323.8,
+            "text": " So, we will match our input to the fuzzy membership functions and then is interference engine"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 323.8,
+            "end": 329.16,
+            "text": " it is basically evaluate the rules and combine the output whatever rules we have written"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 329.16,
+            "end": 334.68,
+            "text": " it on the basis of that input it evaluates all the rule and then combines or combines"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 334.68,
+            "end": 336.48,
+            "text": " the output for each rule."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 336.48,
+            "end": 342.52,
+            "text": " It will check how many rules is activated on the base of that rules and whatever the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 342.52,
+            "end": 347.64,
+            "text": " what is the whatever will be the output for each rules it will check which rules is activated"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 347.64,
+            "end": 353.68,
+            "text": " if multiple rules are activated then it will combine its output and aggregate it."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 354.56,
+            "end": 358.68,
+            "text": " Then the last step is defuzzification then whatever the output we will get after aggregation"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 358.68,
+            "end": 364.2,
+            "text": " we will convert that output to the crisp output with the help of defuzzification."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 364.2,
+            "end": 369.48,
+            "text": " Now, this is basically the fuzzy rule structure if we will see this is basically the syntax"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 369.48,
+            "end": 377.08,
+            "text": " for that what the syntax if antecedent it means the if the condition whatever your condition"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 377.28,
+            "end": 385.0,
+            "text": " then on the basis of that condition action which we also known as consequent and it means"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 385.0,
+            "end": 391.88,
+            "text": " condition whatever condition whatever condition we are giving on the basis of that input then"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 391.88,
+            "end": 396.68,
+            "text": " it will produce the action on the basis of that condition like for example, if we see"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 396.68,
+            "end": 402.0,
+            "text": " if we have temperature is high and humidity is high then fan speed should be fast."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 402.0,
+            "end": 407.84,
+            "text": " So, if you can see that if temperature is high if temperature is high and humidity is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 407.84,
+            "end": 410.12,
+            "text": " humid then fan speed should be fast."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 410.12,
+            "end": 415.72,
+            "text": " So, it will it is the basically rule one we can say and multiple this type of rules we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 415.72,
+            "end": 420.88,
+            "text": " can say that if temperature is low and humidity is low then fan speed should be low that type"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 420.88,
+            "end": 426.66,
+            "text": " of rules we can write in the fuzzy rule base system then antecedents means the input condition"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 426.66,
+            "end": 432.66,
+            "text": " whatever you are giving of as a input and what is the condition for that like for this"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 432.66,
+            "end": 437.46000000000004,
+            "text": " example if you can see our input is temperature now on the basis of that input we have write"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 437.46000000000004,
+            "end": 441.86,
+            "text": " we have write certain rules like if temperature is high humidity is humid then fan speed is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 441.86,
+            "end": 447.54,
+            "text": " fast you can see that we are having two input for that for that fuzzy logic system if we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 447.54,
+            "end": 453.34000000000003,
+            "text": " can say that we are taking temperature as one input and humidity as second input."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 453.46,
+            "end": 457.73999999999995,
+            "text": " So, that multiple inputs we can give to the fuzzy logic controller and on the basis of"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 457.73999999999995,
+            "end": 463.38,
+            "text": " that input we are writing some rules which I have shown here in the form of example and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 463.38,
+            "end": 467.78,
+            "text": " on the basis of that condition it will produce the output."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 467.78,
+            "end": 473.82,
+            "text": " So, in the last I have write or sorry consequent means your output action now on the basis"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 473.82,
+            "end": 479.9,
+            "text": " of that input what action you have to perform that it that comes in the category of consequent."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 479.9,
+            "end": 485.65999999999997,
+            "text": " So, for if temperature is high and humidity is humid then our fan speed should be fast"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 485.65999999999997,
+            "end": 491.65999999999997,
+            "text": " if fuzzy condition then on the basis of that condition fuzzy action this is basically the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 491.65999999999997,
+            "end": 493.97999999999996,
+            "text": " syntax for the fuzzy rules."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 493.97999999999996,
+            "end": 498.7,
+            "text": " Now it comes to the next section that is linguistic variable linguistic variables mean it is a"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 498.7,
+            "end": 504.14,
+            "text": " it is a types of variable with linguistic values means whatever we are giving input"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 504.14,
+            "end": 509.38,
+            "text": " to the fuzzy logic controller that fuzzy logic controller that input that crisp input is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 509.38,
+            "end": 515.86,
+            "text": " converting into the fuzzy into the fuzzy into the fuzzy set now we are for that fuzzy"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 515.86,
+            "end": 519.62,
+            "text": " set we are matching that input to the membership function now."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 519.62,
+            "end": 525.26,
+            "text": " So, for that membership function I will take the pointer for that for that a membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 525.26,
+            "end": 529.98,
+            "text": " function we have to given some names we are giving we are giving some names for the linguistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 529.98,
+            "end": 535.98,
+            "text": " values like if we are having a range like for 30 to 45 degree temperature range we are"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 535.98,
+            "end": 544.82,
+            "text": " writing as low for 45 to 70 we are writing as medium and for greater than 70 we are writing"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 544.82,
+            "end": 546.34,
+            "text": " that temperature condition as high."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 546.34,
+            "end": 552.22,
+            "text": " So, I am using three linguistic variables first one is low second is medium and third"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 552.22,
+            "end": 553.22,
+            "text": " one is high."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 553.22,
+            "end": 558.02,
+            "text": " So, these are these these names are known as the linguistic variables means whatever"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 558.02,
+            "end": 564.02,
+            "text": " be the name of of your membership function we will write as linguistic variable for any"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 564.02,
+            "end": 568.38,
+            "text": " input for any other input you can linguistic variable may be change on the basis of your"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 568.38,
+            "end": 574.38,
+            "text": " input like for for for the case of temperature I have written as low medium high and may"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 574.38,
+            "end": 579.3,
+            "text": " and any many others linguistic variable I also can define like these are the three I"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 579.3,
+            "end": 587.46,
+            "text": " can also define as very low for temperature less than 30 I have added one more membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 587.46,
+            "end": 592.98,
+            "text": " function and for that membership function for that for that for that membership functions"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 592.98,
+            "end": 598.34,
+            "text": " variable I have known as very low same for the high of like if I have defined the category"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 598.34,
+            "end": 603.02,
+            "text": " for the high 70 to high if I am giving greater than temperature high if temperature is greater"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 603.02,
+            "end": 606.66,
+            "text": " than 100 then I have defined another linguistic variable for that very high."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 606.66,
+            "end": 611.46,
+            "text": " So, basically linguistic variables means the it is a name for that for fuzzy membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 611.46,
+            "end": 614.66,
+            "text": " function which you are defining you are giving some names for that."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 614.66,
+            "end": 619.1800000000001,
+            "text": " So, that the input condition will whatever input we are giving whatever crisp input we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 619.18,
+            "end": 622.2199999999999,
+            "text": " are giving now if I am giving the input like 31."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 622.2199999999999,
+            "end": 628.78,
+            "text": " So, now, it will come under the category of low low under comes under the category of"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 628.78,
+            "end": 632.8599999999999,
+            "text": " linguistic variable low and whatever be the membership function you are using for that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 632.8599999999999,
+            "end": 636.78,
+            "text": " low you are using any trapezoidal you are using the triangular any membership function"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 636.78,
+            "end": 638.8199999999999,
+            "text": " you can use for that."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 638.8199999999999,
+            "end": 643.66,
+            "text": " So, it will will be defined by the membership function it may be any triangular trapezoidal"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 643.66,
+            "end": 648.74,
+            "text": " gaucho bell shaped many types of membership function we have studied in the previous lectures."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 649.3,
+            "end": 654.34,
+            "text": " Now, as one example is also shown here for like for the temperature we can take the linguistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 654.34,
+            "end": 660.7,
+            "text": " variable name as low medium and high and now for the output also we are we will take some"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 660.7,
+            "end": 665.9,
+            "text": " membership function and for that output membership function again we are defining some linguistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 665.9,
+            "end": 673.46,
+            "text": " variables like for the for our output I have taken the as fan speed now the three types"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 673.46,
+            "end": 679.98,
+            "text": " of linguistic variable I have defined first one is slow medium fast more I can also design"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 679.98,
+            "end": 685.6600000000001,
+            "text": " a if I want to increase this linguistic variable I can increase like very fast I can design"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 685.6600000000001,
+            "end": 688.3000000000001,
+            "text": " one new very slow I can design new."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 688.3000000000001,
+            "end": 691.34,
+            "text": " So, you can design any number of linguistic variables."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 691.34,
+            "end": 697.74,
+            "text": " So, this comes these are the linguistic variables example shown in this slides like this is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 697.74,
+            "end": 699.94,
+            "text": " a figure 1 for example, 1 I am taking."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 699.94,
+            "end": 706.3800000000001,
+            "text": " So, these are the linguistic variables that blue that blue color shows the I will take"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 706.3800000000001,
+            "end": 713.22,
+            "text": " the pointer that blue color shows the linguistic variable number 1 that is low here you can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 713.22,
+            "end": 718.3000000000001,
+            "text": " see that here I have shown him on the basis of color now these green color show the linguistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 718.3000000000001,
+            "end": 723.3000000000001,
+            "text": " variable number 2 this is medium and that red color shows the high."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 723.3000000000001,
+            "end": 728.74,
+            "text": " So, three linguistic variables I have defined for that example 1 now for the example 2 I"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 728.74,
+            "end": 730.98,
+            "text": " have defined 5 numbers of linguistic variable."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 730.98,
+            "end": 734.9,
+            "text": " So, basically these are the examples of the linguistic variables how your linguistic variables"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 734.9,
+            "end": 739.58,
+            "text": " looks alike and for some functions I am use I am taking the trapezoidal membership function"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 739.58,
+            "end": 744.82,
+            "text": " for some I am using the trapezoidal membership function you can use take any membership function"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 744.82,
+            "end": 751.9,
+            "text": " for your variables like if you can see that for the red it is very low green is shown"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 751.9,
+            "end": 757.26,
+            "text": " by the low blue is for blue I am take I have taken the trapezoidal membership function."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 757.54,
+            "end": 763.22,
+            "text": " So, that is medium and then again green color shows the high and then the pink color shows"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 763.22,
+            "end": 764.22,
+            "text": " the very high."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 764.22,
+            "end": 769.42,
+            "text": " So, this type of linguistic variables we can take for any number for our input for the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 769.42,
+            "end": 772.54,
+            "text": " membership function we can say that and different type of membership function we have study"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 772.54,
+            "end": 776.62,
+            "text": " like Gaussian you can take sigmoid you can take triangular I have shown in the above"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 776.62,
+            "end": 781.8199999999999,
+            "text": " example trapezoidal you can take any types of membership function you can take to match"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 781.8199999999999,
+            "end": 785.86,
+            "text": " your in or to match your crisp input with the membership function."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 786.46,
+            "end": 791.98,
+            "text": " If we come to the next topic that is syntax of fuzzy if then rules that rule based again"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 791.98,
+            "end": 801.82,
+            "text": " shown that if your condition then your action if antecedent then your consequent it means"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 801.82,
+            "end": 809.54,
+            "text": " your action oh sorry your condition and then after then you can write the action on the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 809.54,
+            "end": 813.54,
+            "text": " basis of that condition what action should we have to perform."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 814.54,
+            "end": 819.5,
+            "text": " So, multiple conditions you also can take if you want you can take down a single conditions"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 819.5,
+            "end": 824.2199999999999,
+            "text": " if you want you can take also the multiple condition on the basis of your input you can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 824.2199999999999,
+            "end": 830.0999999999999,
+            "text": " decide like if I can take any single type single condition if you want to take like"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 830.1,
+            "end": 844.38,
+            "text": " if A is x then let our output is B then B is z this is the example of the single conditions"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 844.38,
+            "end": 848.66,
+            "text": " mean if you are using the single variable as your input condition on the basis of that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 848.66,
+            "end": 853.94,
+            "text": " condition you are writing your output if A is x then your output then your B should be"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 853.94,
+            "end": 861.58,
+            "text": " z if multiple conditions are there then you can take if A is x and C is z then B is y"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 861.58,
+            "end": 866.9000000000001,
+            "text": " it means it will check the two conditions it also that also and here I am using the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 866.9000000000001,
+            "end": 874.1800000000001,
+            "text": " and I will you will see this what the meaning of that and in detail in the upcoming slides"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 874.1800000000001,
+            "end": 881.3000000000001,
+            "text": " we have two concept here you can use the and and you can use the or also and is basically"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 881.3,
+            "end": 886.02,
+            "text": " used for when we want to take the intersection type of condition we have to take it means"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 886.02,
+            "end": 889.8199999999999,
+            "text": " both the condition should be satisfied for that then on the basis for that we will write"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 889.8199999999999,
+            "end": 895.18,
+            "text": " the and and if independent condition we want to satisfy then we will take the or we will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 895.18,
+            "end": 899.66,
+            "text": " see in details in the upcoming upcoming slides basically."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 899.66,
+            "end": 907.54,
+            "text": " So, this is the one condition if A is x then B is y for that I have taken the z no issue"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 907.54,
+            "end": 913.38,
+            "text": " now simple fuzzy rule example again I have taken the one example like for any for any"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 913.38,
+            "end": 920.3399999999999,
+            "text": " car if you have taken like if speed is slow then brake pressure is also low if your speed"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 920.3399999999999,
+            "end": 926.4599999999999,
+            "text": " is low then your brake then your brake pressure should be low one this is the rule one that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 926.4599999999999,
+            "end": 930.74,
+            "text": " type of multiple rules you can made in the fuzzy rule basis some that is if I am writing"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 930.74,
+            "end": 937.46,
+            "text": " is rule one now your rule two you also can made if speed is average if speed is medium"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 937.46,
+            "end": 943.26,
+            "text": " then brake pressure is medium that type that is the second rule and third rule if speed"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 943.26,
+            "end": 949.78,
+            "text": " is fast then brake then brake pressure should be fast that type of multiple rules you can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 949.78,
+            "end": 954.58,
+            "text": " made in the fuzzy rule basis some now what fuzzy logic controller then will do it will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 954.58,
+            "end": 959.1,
+            "text": " take the input and then first it will take the input then fuzzify it with the help of"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 959.1,
+            "end": 962.94,
+            "text": " that fuzzification block and then it will match basically in the fuzzification what"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 962.94,
+            "end": 967.98,
+            "text": " you are doing you are mapping your input crisp input to the different types of fuzzy set"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 967.98,
+            "end": 971.1800000000001,
+            "text": " means different whatever membership function you have taken you will matching with that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 971.1800000000001,
+            "end": 976.66,
+            "text": " now after that what that fuzzy rule basis some what will do it will check whatever your"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 976.66,
+            "end": 981.7,
+            "text": " input is there it will match that inputs with the rule in under which condition your input"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 981.7,
+            "end": 987.34,
+            "text": " is coming under which rule it is coming basically which rule is strictly following followed"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 987.34,
+            "end": 992.26,
+            "text": " by your input it will check that and then it will produce the output on the basis of"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 992.26,
+            "end": 999.98,
+            "text": " that input now if multiple condition rules example we can see now if speed is fast and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 999.98,
+            "end": 1009.3000000000001,
+            "text": " road is road is west road is wet then brake pressure is high this this is the this is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1009.3000000000001,
+            "end": 1015.1,
+            "text": " the example for the multi condition when you are defining the rule on the basis of multiple"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1015.1,
+            "end": 1020.7,
+            "text": " condition you are taking to you are taking for that fuzzy logic you are taking 2 2 input"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1020.7,
+            "end": 1027.26,
+            "text": " basically first input is your speed and other input is brake if speed is fast and road is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1027.26,
+            "end": 1030.5,
+            "text": " wet then brake pressure is low. So, again these are the linguistic variable"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1030.5,
+            "end": 1038.46,
+            "text": " for speed input slow medium fast and this these are the linguistic variable for your"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1038.46,
+            "end": 1042.9,
+            "text": " output that is low medium fast. So, these are the examples of basically how you will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1042.9,
+            "end": 1049.98,
+            "text": " write rules in the fuzzy logic system now the rule base rule base is basically it means"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1049.98,
+            "end": 1056.0600000000002,
+            "text": " a set of rules it means in in that system you will write certain rules collection basically"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1056.0600000000002,
+            "end": 1060.6200000000001,
+            "text": " it is in a simple language if I can say it is a collection of fuzzy rules whatever the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1060.6200000000001,
+            "end": 1065.8600000000001,
+            "text": " conditions you want you can write on that condition in that rule base like if temperature"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1065.8600000000001,
+            "end": 1071.42,
+            "text": " if if you can see the example if temperature is low then heater is high I have taken the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1071.42,
+            "end": 1077.66,
+            "text": " example of heater random example I have taken. So, that you can understand better if temperature"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1077.66,
+            "end": 1083.1000000000001,
+            "text": " is medium then heater is medium if temperature is high then heater should be off that type"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1083.1000000000001,
+            "end": 1089.26,
+            "text": " of rules I have I have write an in the rule base of the fuzzy fuzzy logic controller now"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1089.26,
+            "end": 1094.0600000000002,
+            "text": " whatever the you you will give input it will see which rule is activated on the basis of"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1094.06,
+            "end": 1103.5,
+            "text": " that input and then it will produce the output now what what I am telling you in the previous"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1103.5,
+            "end": 1111.7,
+            "text": " lecture that is the case of basically and and or that here now we will go in details"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1111.7,
+            "end": 1118.3,
+            "text": " for that and and or what that and and or means in the rules here we are."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1118.3,
+            "end": 1124.8999999999999,
+            "text": " So, first I will take the pointer. So, understanding T norms or T norms means basically the triangular"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1124.8999999999999,
+            "end": 1130.5,
+            "text": " norms in fuzzy logic basically T norms means which it is used to represent the and operation"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1130.5,
+            "end": 1136.94,
+            "text": " between two or more fuzzy condition man may means when you are writing rules like if if"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1136.94,
+            "end": 1143.5,
+            "text": " a temperature is low and humidity is humid it means you are taking you are taking both"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1143.5,
+            "end": 1148.98,
+            "text": " the rules you are taking you are taking as a intersection for both the rules if both"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1148.98,
+            "end": 1155.66,
+            "text": " the rules are followed then this rule is this rule is applicable for and and other condition"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1155.66,
+            "end": 1160.94,
+            "text": " is if you are using or or means you are taking both the condition as independent variable."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1160.94,
+            "end": 1166.26,
+            "text": " So, for the case of when you want both the condition should be followed then you can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1166.26,
+            "end": 1171.94,
+            "text": " use the and operation here it is used to represent the and operation between the two or more"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1171.94,
+            "end": 1176.3400000000001,
+            "text": " fuzzy condition whatever condition you are writing. So, for that you will you can use"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1176.3400000000001,
+            "end": 1181.42,
+            "text": " and if you want that both the condition should be followed or you when you want to combine"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1181.42,
+            "end": 1186.78,
+            "text": " the multiple condition. So, you can use the and operation for that. So, we will write"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1186.78,
+            "end": 1191.46,
+            "text": " the other name for that is T norm we can set that. So, basically it combine the membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1191.46,
+            "end": 1197.02,
+            "text": " degrees of multiple condition to determine the how strongly a rules apply when all the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1197.02,
+            "end": 1201.26,
+            "text": " condition must be satisfied it means it should be applicable when all the condition should"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1201.26,
+            "end": 1204.58,
+            "text": " be satisfied mean whatever you will have written all the condition of that rule is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1204.58,
+            "end": 1210.02,
+            "text": " satisfied it means that that rule is contributing for the output."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1210.02,
+            "end": 1215.22,
+            "text": " So, basically what T norm answer the question it will answer the question like to what degree"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1215.22,
+            "end": 1222.18,
+            "text": " are both conditions it will take both the condition for that and not taking individually"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1222.18,
+            "end": 1228.34,
+            "text": " both conditions are followed both condition are true then how for how much degree it is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1228.4599999999998,
+            "end": 1234.4599999999998,
+            "text": " true it will take the that output. Now, common types of T norm methods if we can see first"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1234.4599999999998,
+            "end": 1239.74,
+            "text": " one is the minimum and second one is the product minimum means what it will take the minimum"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1239.74,
+            "end": 1245.78,
+            "text": " value sorry I have to take the pointer for that minimum means for whatever the membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1245.78,
+            "end": 1251.1799999999998,
+            "text": " function two conditions are there it will take the minimum values for both the membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1251.1799999999998,
+            "end": 1255.62,
+            "text": " function like if temperature and humidity I have taken. So, it will like if A is having"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1255.62,
+            "end": 1266.3,
+            "text": " 0.6 and B is having 0.4 then it will take the output as a minimum whatever minimum output"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1266.3,
+            "end": 1271.5,
+            "text": " it can take it will take that it is basically most commonly used and it takes the least"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1271.5,
+            "end": 1276.86,
+            "text": " truth value for that in the case of T norm FE you are using minimum."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1276.86,
+            "end": 1281.82,
+            "text": " Now, another type of T norm method are that is product it means it will multiply both"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1281.82,
+            "end": 1289.58,
+            "text": " the membership function like if our example if I can take 0.6 for A and 0.4 for B now"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1289.58,
+            "end": 1298.06,
+            "text": " it will what it will take it will take 0.24 as the final membership function for that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1298.06,
+            "end": 1304.5,
+            "text": " value. So, it is first one is the minimum and second one is the product first one is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1304.5,
+            "end": 1308.86,
+            "text": " basically minimum method is most commonly used and it will take the least truth value"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1308.86,
+            "end": 1313.6599999999999,
+            "text": " and product method is basically statistical independence type and it reduces the it reduces"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1313.6599999999999,
+            "end": 1317.8999999999999,
+            "text": " faster as compared to the minimum it means its value comes faster as compared to the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1317.8999999999999,
+            "end": 1322.6599999999999,
+            "text": " minimum type of we can say. So, rule again rule is the same for that type of like I have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1322.6599999999999,
+            "end": 1327.82,
+            "text": " taken some rules to so that you can understand that T norms in a better manner like if temperature"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1327.82,
+            "end": 1335.1799999999998,
+            "text": " is high and humidity is high then fan speed is fast it means again I have taken two rules"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1335.18,
+            "end": 1339.74,
+            "text": " and I have combined two rules with the help of that T norms operator that is it is and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1339.74,
+            "end": 1345.3,
+            "text": " I have used. So, it will check both the condition for how much both the conditions are true"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1345.3,
+            "end": 1352.42,
+            "text": " like for high temperature 0.8 is the membership function and for a high humidity 0.6 is the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1352.42,
+            "end": 1357.1000000000001,
+            "text": " membership function then for minimum in the case of you can take the for minimum for that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1357.1000000000001,
+            "end": 1363.02,
+            "text": " that is 0.6. So, its firing strength is 0.6 and firing strength means how much that rule"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1363.02,
+            "end": 1369.94,
+            "text": " is activated for how much you can I will tell you in the terms of percentage how much"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1369.94,
+            "end": 1376.62,
+            "text": " from 100 how much that rule is activated. So, if we can if we can see that 0.6 is the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1376.62,
+            "end": 1381.34,
+            "text": " firing strength means 60 percent of that rule is true according to the input and product"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1381.34,
+            "end": 1385.62,
+            "text": " means if this is the another method which will combine which will multiply which will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1385.62,
+            "end": 1390.3799999999999,
+            "text": " take the product of both the membership function whatever you have given as the input that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1390.38,
+            "end": 1397.2600000000002,
+            "text": " is 0.8 0.6 for this case. So, it will multiply 0.8 into 0.6 that is 0.6 it means for if I"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1397.2600000000002,
+            "end": 1405.98,
+            "text": " will take the product if I will take the product product method then it for that it for what"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1405.98,
+            "end": 1411.2600000000002,
+            "text": " its firing strength means it means 48 percent 48 percent of that rule is true according"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1411.2600000000002,
+            "end": 1416.5400000000002,
+            "text": " to the given input. So, now, if I will take one graphical example."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1416.54,
+            "end": 1425.6599999999999,
+            "text": " So, I am taking I have to take the pointer again. So, let I am taking 2 membership function"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1425.6599999999999,
+            "end": 1438.46,
+            "text": " like first one is this and so, I will take as 1 4 6 I am taking any and second I am taking"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1438.46,
+            "end": 1449.3400000000001,
+            "text": " like from 2 I will start and added. So, that 2 I this is our basically 2 input like this"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1449.3400000000001,
+            "end": 1460.66,
+            "text": " is temperature and it is humidity and on the basis of that rules now we have to find the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1460.66,
+            "end": 1466.28,
+            "text": " output according to the and operation as we can see. So, if I will draw if I will combine"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1466.28,
+            "end": 1475.12,
+            "text": " basically both the then it will start from 1 and its medium. So, it will looks like and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1475.12,
+            "end": 1485.68,
+            "text": " it is ending at 6 and another one is starting from 2 and it is ending at 7. So, I have made"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1485.68,
+            "end": 1490.68,
+            "text": " both I have taken both the membership function in one combine area. So, that I can tell you"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1490.68,
+            "end": 1498.3600000000001,
+            "text": " how now if I will draw the output on the basis of that minimum method we are using"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1498.3600000000001,
+            "end": 1502.2,
+            "text": " and operation and for the and operation we are using the minimum method now what is the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1502.2,
+            "end": 1509.3600000000001,
+            "text": " output for that rule now for that rule output is like it will take basically the that common"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1509.3600000000001,
+            "end": 1517.8,
+            "text": " area it will take that that common area it will consider as a output means that much"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1517.8,
+            "end": 1523.3999999999999,
+            "text": " of rule it is activated and it will goes to the output and if multiple rules are if"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1523.3999999999999,
+            "end": 1528.48,
+            "text": " multiple rules are there and how much that rules are activated then at the end what we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1528.48,
+            "end": 1533.04,
+            "text": " will do we will do the aggregation we will see I will take one complete numerical and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1533.04,
+            "end": 1538.0,
+            "text": " I explain how this fuzzy logic controller works. So, that is the output for the case"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1538.0,
+            "end": 1545.28,
+            "text": " of if I will take the minimum like for the same if I will take the output for the for"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1545.28,
+            "end": 1552.16,
+            "text": " the product case if I will take the product method and what it will it will basically"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1552.16,
+            "end": 1559.84,
+            "text": " the multiply. So, if you can see that its output is little bit smooth that type of output"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1559.84,
+            "end": 1567.08,
+            "text": " is there for the case of product. So, this I have shown that T norm both the T norms"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1567.08,
+            "end": 1575.08,
+            "text": " operator in the graphical form also. Now, come the next I have to come to the next"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1575.08,
+            "end": 1579.84,
+            "text": " slide now that that is understanding the S norms. So, basically another type of operator"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1579.84,
+            "end": 1587.36,
+            "text": " that is OR operation what OR operation do basically it will it will take two or more"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1587.36,
+            "end": 1594.56,
+            "text": " fuzzy condition and it will check how independently they are contributing to a rule being true."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1594.56,
+            "end": 1600.3999999999999,
+            "text": " So, in the previous case it will taking both the condition, but in that and then OR operation"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1600.4,
+            "end": 1608.2,
+            "text": " it will take how independently they are contributing to the output and then it and it then it computed"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1608.2,
+            "end": 1612.0400000000002,
+            "text": " and then combined the degree of truth for that. So, basically it is used to combine"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1612.0400000000002,
+            "end": 1617.48,
+            "text": " the fuzzy condition with the OR operation it is basically types of intersection we can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1617.48,
+            "end": 1621.5600000000002,
+            "text": " see that. So, with the help of example we can see that."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1621.5600000000002,
+            "end": 1627.2800000000002,
+            "text": " So, in the case of S norm like if I have taken one example like if temperature is high or"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1627.28,
+            "end": 1632.72,
+            "text": " humidity is high then fan speed is fast means both temperature and humidity can independently"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1632.72,
+            "end": 1638.12,
+            "text": " justifying for the turning on the fan it means it is not depending that rule is not depending"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1638.12,
+            "end": 1643.76,
+            "text": " on both the cases it will take the take both the input condition independently if any one"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1643.76,
+            "end": 1647.16,
+            "text": " of the condition is true then its fan speed should be high like if temperature is high"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1647.16,
+            "end": 1652.72,
+            "text": " then fan speed is high or if humidity is high or mildly buffers condition not true then"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1652.72,
+            "end": 1658.48,
+            "text": " it will take the fan speed as if any one condition is true and it will give the output"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1658.48,
+            "end": 1662.64,
+            "text": " and then these are the common S norms types of methods are there first one is the maximum"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1662.64,
+            "end": 1668.16,
+            "text": " or standard OR type method in which what it will do it will take the it will take the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1668.16,
+            "end": 1674.76,
+            "text": " membership function which is maximum for both the input for both the input whatever the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1674.76,
+            "end": 1680.76,
+            "text": " maximum membership function are there it will take the maximum value of maximum of both"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1680.76,
+            "end": 1685.52,
+            "text": " the values whatever value will be the maximum it will take the right now second is the probabilistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1685.52,
+            "end": 1691.96,
+            "text": " sum what it will do it will take the addition and then subtract the product of the product"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1691.96,
+            "end": 1695.84,
+            "text": " of both the membership function. So, it basically what it will do it will it"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1695.84,
+            "end": 1700.8799999999999,
+            "text": " will basically model the partial type of independence and then the third one is the bounded sum"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1700.8799999999999,
+            "end": 1706.12,
+            "text": " what it will do it will take the minimum of one comma and multiply one comma and addition"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1706.12,
+            "end": 1712.9199999999998,
+            "text": " of that what it will do it will take the bounded sum for the if the sum increases beyond"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1712.9199999999998,
+            "end": 1718.1599999999999,
+            "text": " one then it will take the output as one. So, it basically ensure that the result does not"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1718.1599999999999,
+            "end": 1723.84,
+            "text": " does not exceed one these are the three common types of three common types of S norms are"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1723.84,
+            "end": 1728.4399999999998,
+            "text": " there or S norm methods are there which you can use for your rule for your rule making."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1728.4399999999998,
+            "end": 1733.12,
+            "text": " So, now if we will see the example like if temperature is high or humidity is high then"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1733.12,
+            "end": 1737.7199999999998,
+            "text": " fan speed is high. So, basically what it will both the temperature and humidity can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1737.7199999999998,
+            "end": 1744.2399999999998,
+            "text": " independently justifying to turn on the fan it will act as independent for both the operation"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1744.2399999999998,
+            "end": 1751.4399999999998,
+            "text": " I have I have I will again show this with the help of the graphical form for your better"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1751.4399999999998,
+            "end": 1759.12,
+            "text": " understanding. So, I have again take the same example here our membership function are there"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1759.12,
+            "end": 1767.9199999999998,
+            "text": " here our variable number are there this type of I have taken 1 to 6 and second I have taken"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1767.9199999999998,
+            "end": 1782.28,
+            "text": " from 2 to 7 here 1 it will be it will be our first variable is x second variable is y is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1782.28,
+            "end": 1785.32,
+            "text": " a y values are there here x values and I will combine."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1785.32,
+            "end": 1792.9199999999998,
+            "text": " So, that you can understand these thing in a better manner. So, from 1 to 6 it is having"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1792.9199999999998,
+            "end": 1802.8,
+            "text": " and it is 2 to 7 it is having now I have to combine for all the three cases I will give"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1802.8,
+            "end": 1809.04,
+            "text": " you the answer now if I will combine it with the help of that maximum or standard or operation"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1809.04,
+            "end": 1816.2,
+            "text": " and whatever what is the output for that case it will come then it will take the union"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1816.2,
+            "end": 1828.52,
+            "text": " part basically if I will take the R k it will take the it will take that part as a output"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1828.52,
+            "end": 1834.32,
+            "text": " now 7 is probabilistic sum if we can see that in the case of probabilistic what it will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1834.32,
+            "end": 1844.24,
+            "text": " become little bit smooth it will look like this in the same pattern it will gives output,"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1844.24,
+            "end": 1852.96,
+            "text": " but it will take the if that is first method standard then second method probabilistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1852.96,
+            "end": 1862.0,
+            "text": " now I am giving for the third that is bounded sum now for bounded sum what is the difference"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1862.0,
+            "end": 1870.48,
+            "text": " it will come in that way that type of output it can give because it have to take the maximum"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1870.48,
+            "end": 1875.52,
+            "text": " value for that for this type of case it will have chosen the maximum value. So, this is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1875.52,
+            "end": 1883.52,
+            "text": " the output for all the three cases for of the for the S norms now what is the firing"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1883.52,
+            "end": 1887.28,
+            "text": " strength means. So, basically firing strength of a fuzzy rules means it is a basically it"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1887.28,
+            "end": 1893.04,
+            "text": " is a numerical value that indicates how strongly a rule is activated how many types of rule"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1893.04,
+            "end": 1897.44,
+            "text": " we have different certain different rules we have written now how strongly that rule"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1897.44,
+            "end": 1901.44,
+            "text": " is activated like five rules are there. So, what is the firing strength of each rules"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1901.44,
+            "end": 1906.12,
+            "text": " for any input conditions whatever the input condition we have given now for that input"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1906.12,
+            "end": 1912.44,
+            "text": " how many rules is activated and how much strongly it is activated for that input condition what"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1912.44,
+            "end": 1916.92,
+            "text": " it will do it will check the firing strength how means how much that rule is activated"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1916.96,
+            "end": 1922.1200000000001,
+            "text": " on the basis of that input. So, it is computed by evaluating the fuzzy conditions of the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1922.1200000000001,
+            "end": 1928.16,
+            "text": " rule using the two norms or T norms or S norms any condition whatever condition when you"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1928.16,
+            "end": 1932.68,
+            "text": " have written the rule on the form if you have written the form of T norms or in the form"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1932.68,
+            "end": 1939.04,
+            "text": " of S norms you have written it will check the how much strongly that rule is activated"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1939.04,
+            "end": 1945.04,
+            "text": " on the basis of that input. Now I have taken a example that it is a example"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1945.04,
+            "end": 1950.2,
+            "text": " in which I have in which I am controlling the speed of fan on the basis on the on the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1950.2,
+            "end": 1954.8799999999999,
+            "text": " with the help of the fuzzy logic controller. So, I have taken two input first one first"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1954.8799999999999,
+            "end": 1960.56,
+            "text": " input I have taken is temperature and second input as I have taken as humidity. So, this"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1960.56,
+            "end": 1967.12,
+            "text": " is my first input and this is my second and what is my this is basically inputs and fan"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1967.12,
+            "end": 1977.2399999999998,
+            "text": " speed is my is my output on the basis of that input I am controlling my fan speed on"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1977.2399999999998,
+            "end": 1981.12,
+            "text": " the basis of that temperature humidity as input I am controlling my fan speed which"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1981.12,
+            "end": 1986.32,
+            "text": " is output for my examples. So, first what is the what is the first step for that first"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1986.32,
+            "end": 1990.6799999999998,
+            "text": " you have to define the linguistic variables and the membership function for the inputs"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1990.6799999999998,
+            "end": 1997.04,
+            "text": " like for that temperature input I have defined three linguistic variables that is low medium"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 1997.04,
+            "end": 2005.36,
+            "text": " and high and also for the humidity I have and high I have written three I have taken"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2005.36,
+            "end": 2010.12,
+            "text": " three linguistic variables that is also low medium and high and for the temperature also"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2010.12,
+            "end": 2014.8,
+            "text": " I have taken the same. Now for the output I have taken again three"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2014.8,
+            "end": 2019.6399999999999,
+            "text": " linguistic variables that is slow medium fast on the basis of then that input whatever the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2019.6399999999999,
+            "end": 2024.8,
+            "text": " output will come I have taken for that three linguistic variable and I am using the triangular"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2024.8,
+            "end": 2029.28,
+            "text": " membership function for simplicity. So, that you can understand better in the case of triangular"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2029.28,
+            "end": 2035.24,
+            "text": " membership function means for temperature also I have taken this type of triangular"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2035.24,
+            "end": 2041.1599999999999,
+            "text": " membership function for humidity also and for the output also like this is low and again"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2041.1599999999999,
+            "end": 2048.2,
+            "text": " I have decide with for the another medium then high that is for the temperature I am"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2048.2,
+            "end": 2053.36,
+            "text": " showing randomly here we will see in detail in this numerical what type of values it is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2053.36,
+            "end": 2059.52,
+            "text": " given. So, again this is low this is for medium and this is for high this membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2059.52,
+            "end": 2064.0,
+            "text": " this membership function is for the variable low this is for the high and this is for the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2064.0,
+            "end": 2069.44,
+            "text": " medium this is for the low this is for medium and this is for high for the case of humidity."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2069.44,
+            "end": 2073.1600000000003,
+            "text": " Similarly for the output also your first you have to define the linguistic variable and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2073.1600000000003,
+            "end": 2077.96,
+            "text": " then we have to define the membership function with membership function you will use for"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2077.96,
+            "end": 2084.2,
+            "text": " that input. Now, this is the membership function triangular membership function I am using"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2084.2,
+            "end": 2089.8,
+            "text": " for the temperature and this is the exact value for that for the low case I am taking"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2089.8,
+            "end": 2100.2400000000002,
+            "text": " the range 0 0 50 means 2 triangle consists of this 1 2 3 these 3 values are important"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2100.2400000000002,
+            "end": 2105.44,
+            "text": " for the triangular membership function. So, for 0 0 50 means that 1 and 2 values are the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2105.44,
+            "end": 2111.8,
+            "text": " same that that is 0 0. So, it is it that is 0 0 I have taken and the third value is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2111.8,
+            "end": 2120.16,
+            "text": " 50. So, I have taken it to the 50 that is our first membership function that is low"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2120.16,
+            "end": 2126.88,
+            "text": " now second membership function is second membership function is medium I will take another color"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2126.88,
+            "end": 2135.76,
+            "text": " for that second membership function is medium that is 30 50 70. So, I have taken 30 50 and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2135.76,
+            "end": 2143.56,
+            "text": " then the 70 that is our second membership function that is for the medium and third"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2143.56,
+            "end": 2149.08,
+            "text": " membership function I have taken the 50 100 100 50 is the first and 2 and 3 are the same"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2149.08,
+            "end": 2156.52,
+            "text": " this is our third membership function that is high. So, this is the in that way I have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2156.52,
+            "end": 2162.36,
+            "text": " defined the input 1 that is temperature now it comes to the second that is our humidity"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2162.36,
+            "end": 2168.56,
+            "text": " that is our second input and for that humidity I have also defined some membership function"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2168.56,
+            "end": 2174.48,
+            "text": " triangular membership function I have seen and for that range are also written range"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2174.48,
+            "end": 2179.96,
+            "text": " basically I have taken the same as we have taken for the temperature that is for first"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2179.96,
+            "end": 2187.2400000000002,
+            "text": " one 0 0 50 for second 30 50 70 and for 50 100 100 that figure shows basically for the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2187.2400000000002,
+            "end": 2194.16,
+            "text": " humidity that how its membership function looks like for the all three variable three"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2194.16,
+            "end": 2201.4,
+            "text": " linguistic variables low medium high for the output you have for the output also you have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2201.4,
+            "end": 2204.92,
+            "text": " to define the membership function. So, again I have taken the triangular membership function"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2204.92,
+            "end": 2211.88,
+            "text": " and that is the range of the output we have taken for the output our output is fan speed."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2211.88,
+            "end": 2217.4,
+            "text": " So, in a similar way in a similar how I have to I have defined for the input condition temperature"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2217.4,
+            "end": 2222.04,
+            "text": " humidity in a similar way I have defined the membership function for the output also that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2222.04,
+            "end": 2227.28,
+            "text": " is fan speed in the in the form of three linguistic variable that is low medium and"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2227.44,
+            "end": 2234.1200000000003,
+            "text": " high the range is written and for that range I have shown also in the form of graphics."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2234.1200000000003,
+            "end": 2242.4,
+            "text": " Now, now what we have to second we have to specify the input we have to for the for the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2242.4,
+            "end": 2248.44,
+            "text": " input now we have to find the what what what is the input for our case these we have defined"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2248.44,
+            "end": 2253.0800000000004,
+            "text": " the conditions like for temperature for humidity and for output we have defined the membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2253.08,
+            "end": 2258.04,
+            "text": " function and their range we have to now what is the input the input first step that is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2258.04,
+            "end": 2264.2,
+            "text": " input input to the FLC what input you are giving. So, here I have written I have taken"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2264.2,
+            "end": 2271.08,
+            "text": " the input as temperature is equal to 65 and humidity is equal to 40 that that is the input"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2271.08,
+            "end": 2275.84,
+            "text": " which you are giving to the fuzzy logic controller. Now, what it will do it will firstly, map"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2275.84,
+            "end": 2281.72,
+            "text": " that input to the membership functions it will convert basically that crisp input that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2281.72,
+            "end": 2288.9199999999996,
+            "text": " are the crisp input that are crisp input that it will convert that crisp input to"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2288.9199999999996,
+            "end": 2295.8399999999997,
+            "text": " the fuzzy input with the help of a technique fuzzification. So, these are the methods these"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2295.8399999999997,
+            "end": 2301.16,
+            "text": " are the methods for different for different membership function how we will convert that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2301.16,
+            "end": 2306.6,
+            "text": " input to the fuzzy member of that crisp side to fuzzy side like for the case if I have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2306.6,
+            "end": 2310.3999999999996,
+            "text": " I have shown for the four types of membership function how we will convert it."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2310.52,
+            "end": 2314.8,
+            "text": " Now, for the triangular membership function if you will see we will take the help of that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2314.8,
+            "end": 2320.0,
+            "text": " formula that is x minus a upon b minus a x means our input and a b c are the three linguistic"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2320.0,
+            "end": 2324.2400000000002,
+            "text": " variables which we have used in and similarly for the trapezoidal that method you can use"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2324.2400000000002,
+            "end": 2329.32,
+            "text": " for Gaussian for generalized band these are these are the method basically we have studied"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2329.32,
+            "end": 2335.04,
+            "text": " that method when when in the second lecture basically when we are learning about the membership"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2335.04,
+            "end": 2339.8,
+            "text": " function and their different types. Now, what we have to I have to map that temperature"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2339.8,
+            "end": 2345.1200000000003,
+            "text": " and humidity to the fuzzy to the fuzzy or basically I have to convert that crisp input"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2345.1200000000003,
+            "end": 2350.52,
+            "text": " to the fuzzy input. So, how we will we will convert. So, for first variable if I can see"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2350.52,
+            "end": 2358.6400000000003,
+            "text": " for the mu of 65 if I can see now you can see for the case of low you can see our the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2358.6400000000003,
+            "end": 2362.92,
+            "text": " for the low case this is our this our this is for temperature."
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2362.92,
+            "end": 2369.6000000000004,
+            "text": " Now, you can check our temperature is 65 now it comes under the category of low it come"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2369.6,
+            "end": 2375.44,
+            "text": " will it comes in the category of low no because the highest value in the linguistic variable"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2375.44,
+            "end": 2381.96,
+            "text": " low is 50 and it exceeds means how much membership function for that 0 it will it will it will"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2381.96,
+            "end": 2389.72,
+            "text": " not map with the low low linguistic variables. Now, if I will map with the another that is"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2389.72,
+            "end": 2396.56,
+            "text": " medium it comes in the in the category of because that medium category is from 30 degree"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2396.56,
+            "end": 2402.36,
+            "text": " to 70 degree. So, it comes in the in the category of medium linguistic variables now we have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2402.36,
+            "end": 2410.16,
+            "text": " to subtract it with the help of that formula 70 minus 65 divided by 70 minus that we have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2410.16,
+            "end": 2416.4,
+            "text": " seen in the previous slide how will now you have to solve this 70 minus 65 5 divided by"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2416.4,
+            "end": 2423.6,
+            "text": " 20 it will basically come about 0.25 that means, basically that input is matching with"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2423.6,
+            "end": 2429.6,
+            "text": " the linguistic variable medium up to 0.25 membership function or 25 percent you can"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2429.6,
+            "end": 2436.4,
+            "text": " see that in terms of percentage. Now, for that high also we have to match again"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2436.4,
+            "end": 2442.08,
+            "text": " for high also you can it comes because the high if you can see the high range it comes"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2442.08,
+            "end": 2449.3199999999997,
+            "text": " from the 50 to 100. So, it comes in the in the category of also this 60 minus 50 divided"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2449.32,
+            "end": 2458.92,
+            "text": " by 100 minus 50 that it will come 60 minus 50 15 it will come around 0.3 these are the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2458.92,
+            "end": 2464.36,
+            "text": " membership functions for our input temperature. Now, similar for similar for the humidity"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2464.36,
+            "end": 2472.92,
+            "text": " we have also we have to match again in the same way for the first condition that is 40"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2472.92,
+            "end": 2478.6000000000004,
+            "text": " to the low. Now, it we will see it will comes into the category of that now you can see"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2478.6,
+            "end": 2483.6,
+            "text": " that it will come our humidity category is now in a similar way for humidity we have"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2483.6,
+            "end": 2489.8399999999997,
+            "text": " to do we have to match our input to the that linguistic variables in a similar way that"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2489.8399999999997,
+            "end": 2496.48,
+            "text": " 50 minus 40 then divided by 50 minus 0. So, it is matching up to the 0.3 similar for the"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2496.48,
+            "end": 2502.24,
+            "text": " medium we have to check and similar for the high we have to check. So, all these now we"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2502.24,
+            "end": 2508.2,
+            "text": " will again solve this example in the next lecture also in detail way for because it"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2508.2,
+            "end": 2513.2799999999997,
+            "text": " is not yet completed only we have solved the two steps again the third step also there"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2513.2799999999997,
+            "end": 2519.08,
+            "text": " in which we have to in which basically we have to map how much rule for that input how"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2519.08,
+            "end": 2523.7999999999997,
+            "text": " much rule is activated we have to check and then on the basis of that which rule is activated"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2523.7999999999997,
+            "end": 2529.24,
+            "text": " for how much firing strength we have to check and then we will aggregate the our outputs"
+        },
+        {
+            "number": "8",
+            "title": "Lecture 8",
+            "start": 2529.24,
+            "end": 2532.08,
+            "text": " on the basis of that rules in the next lecture we will see."
+        }
+    ],
+    "text": " Hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning techniques. I am Dr. Aftab Ahmed Ansari, your instructor for this course. So today is our lecture number eight. In previous lecture, we have covered about the different types of fuzzification techniques and different types of defuzzification techniques in the previous lecture. We have already covered. So if I will give you a brief recap of the fuzzy logic controller, so you can see that this is the basic block diagram, basic block diagram of the fuzzy logic controller in which up to this lecture, we have covered this fuzzification technique, which is a component of the fuzzy logic controller in which we will convert the crisp input to the fuzzy input and we have seen different types of method for that fuzzification and then defuzzification we have also covered in the previous lecture and its different types of method we have also seen in the previous lecture. Defuzzification technique is a method in which we will convert the fuzzy input to the crisp output basically. Okay, and this is the complete block diagram of the fuzzy logic controller. So basically we know that there are four main components of the fuzzy logic controller. First one is the fuzzification, which we have covered. Second one is the rule base. Third one is the interference engine. That too we have to covered in this lecture or in the upcoming lecture, we will try to cover these both methods and fourth one is the defuzzification method. Again we have covered that method in the previous lecture and we have also seen different types of methods to convert that fuzzy to the crisp output. Okay, so we will talk about the fuzzy rule based system that is also known as the in short I have written there FRBS in full form I have written in the next slide. So no issue. Now if I will give you the brief recap in previous lecture we have covered the fuzzification methods and defuzzification method. In defuzzification method several methods are there lambda cut method, centroid method, weighted average method, maxima method that all are the methods we have covered in the previous lecture. In this lecture we will try to focus on the fuzzy rule based system. Now what is the fuzzy rule based system? Basically fuzzy rule based system is the heart of the fuzzy logic controller we can say that because it is a system which uses the fuzzy rule to process the imprecise input and produce the output means whatever input we have given to the fuzzy logic controller what it will process it with the help of some rule and then produce the output on the basis of that certain rules and the input. It will take the input and match with the rule base that rule we will see in this lecture also what that rule base means and then it will produce the output on the basis of that rules and inputs. So basically it will we can say that it will mimics like a human reasoning method which comes or which we will use in the under the case of the uncertainty when we are not able to decide the output on the basis of 0 and 1. For that cases we are using that fuzzy logic controller and the knowledge base consists of two systems, two components that is rules and the membership function. Membership function also we have studied in the first and second lecture different types of membership function we have already seen in the previous lecture that is lecture number 1 and 2 you can see that. Now the component of the fuzzy rule base system FRBS means fuzzy rule base systems I will choose the marker for that FRBS means fuzzy rule base system that is the full form of FRBS. Now FRBS consists of two knowledge base and interference engine and then knowledge base consists of two things that is the fuzzy rules. Fuzzy rules is basically a structure in which we will write the rules for the fuzzy logic controller it is basically if else type of rules are there if and then if whatever the condition then what will be the action on the basis of that condition then action. Its structure is like if condition then action on the basis of that condition. If we will see the example which I have written in the slide that if temperature is high then fan speed is fast. If condition like what is the condition if temperature is high then action what is the action then fan speed should be fast that type of rules we will write in the knowledge base and second one is the membership function. Membership function means whatever we are giving input to the fuzzy logic controller we will convert that input that crisp input to the fuzzy output we will match basically whatever our input there we will match with the fuzzy membership function. Different types of fuzzy membership functions are there like triangular means that type of fuzzy membership function is there triangular membership function one trapezoidal type is there. So, we will match our input to the fuzzy membership functions and then is interference engine it is basically evaluate the rules and combine the output whatever rules we have written it on the basis of that input it evaluates all the rule and then combines or combines the output for each rule. It will check how many rules is activated on the base of that rules and whatever the what is the whatever will be the output for each rules it will check which rules is activated if multiple rules are activated then it will combine its output and aggregate it. Then the last step is defuzzification then whatever the output we will get after aggregation we will convert that output to the crisp output with the help of defuzzification. Now, this is basically the fuzzy rule structure if we will see this is basically the syntax for that what the syntax if antecedent it means the if the condition whatever your condition then on the basis of that condition action which we also known as consequent and it means condition whatever condition whatever condition we are giving on the basis of that input then it will produce the action on the basis of that condition like for example, if we see if we have temperature is high and humidity is high then fan speed should be fast. So, if you can see that if temperature is high if temperature is high and humidity is humid then fan speed should be fast. So, it will it is the basically rule one we can say and multiple this type of rules we can say that if temperature is low and humidity is low then fan speed should be low that type of rules we can write in the fuzzy rule base system then antecedents means the input condition whatever you are giving of as a input and what is the condition for that like for this example if you can see our input is temperature now on the basis of that input we have write we have write certain rules like if temperature is high humidity is humid then fan speed is fast you can see that we are having two input for that for that fuzzy logic system if we can say that we are taking temperature as one input and humidity as second input. So, that multiple inputs we can give to the fuzzy logic controller and on the basis of that input we are writing some rules which I have shown here in the form of example and on the basis of that condition it will produce the output. So, in the last I have write or sorry consequent means your output action now on the basis of that input what action you have to perform that it that comes in the category of consequent. So, for if temperature is high and humidity is humid then our fan speed should be fast if fuzzy condition then on the basis of that condition fuzzy action this is basically the syntax for the fuzzy rules. Now it comes to the next section that is linguistic variable linguistic variables mean it is a it is a types of variable with linguistic values means whatever we are giving input to the fuzzy logic controller that fuzzy logic controller that input that crisp input is converting into the fuzzy into the fuzzy into the fuzzy set now we are for that fuzzy set we are matching that input to the membership function now. So, for that membership function I will take the pointer for that for that a membership function we have to given some names we are giving we are giving some names for the linguistic values like if we are having a range like for 30 to 45 degree temperature range we are writing as low for 45 to 70 we are writing as medium and for greater than 70 we are writing that temperature condition as high. So, I am using three linguistic variables first one is low second is medium and third one is high. So, these are these these names are known as the linguistic variables means whatever be the name of of your membership function we will write as linguistic variable for any input for any other input you can linguistic variable may be change on the basis of your input like for for for the case of temperature I have written as low medium high and may and any many others linguistic variable I also can define like these are the three I can also define as very low for temperature less than 30 I have added one more membership function and for that membership function for that for that for that membership functions variable I have known as very low same for the high of like if I have defined the category for the high 70 to high if I am giving greater than temperature high if temperature is greater than 100 then I have defined another linguistic variable for that very high. So, basically linguistic variables means the it is a name for that for fuzzy membership function which you are defining you are giving some names for that. So, that the input condition will whatever input we are giving whatever crisp input we are giving now if I am giving the input like 31. So, now, it will come under the category of low low under comes under the category of linguistic variable low and whatever be the membership function you are using for that low you are using any trapezoidal you are using the triangular any membership function you can use for that. So, it will will be defined by the membership function it may be any triangular trapezoidal gaucho bell shaped many types of membership function we have studied in the previous lectures. Now, as one example is also shown here for like for the temperature we can take the linguistic variable name as low medium and high and now for the output also we are we will take some membership function and for that output membership function again we are defining some linguistic variables like for the for our output I have taken the as fan speed now the three types of linguistic variable I have defined first one is slow medium fast more I can also design a if I want to increase this linguistic variable I can increase like very fast I can design one new very slow I can design new. So, you can design any number of linguistic variables. So, this comes these are the linguistic variables example shown in this slides like this is a figure 1 for example, 1 I am taking. So, these are the linguistic variables that blue that blue color shows the I will take the pointer that blue color shows the linguistic variable number 1 that is low here you can see that here I have shown him on the basis of color now these green color show the linguistic variable number 2 this is medium and that red color shows the high. So, three linguistic variables I have defined for that example 1 now for the example 2 I have defined 5 numbers of linguistic variable. So, basically these are the examples of the linguistic variables how your linguistic variables looks alike and for some functions I am use I am taking the trapezoidal membership function for some I am using the trapezoidal membership function you can use take any membership function for your variables like if you can see that for the red it is very low green is shown by the low blue is for blue I am take I have taken the trapezoidal membership function. So, that is medium and then again green color shows the high and then the pink color shows the very high. So, this type of linguistic variables we can take for any number for our input for the membership function we can say that and different type of membership function we have study like Gaussian you can take sigmoid you can take triangular I have shown in the above example trapezoidal you can take any types of membership function you can take to match your in or to match your crisp input with the membership function. If we come to the next topic that is syntax of fuzzy if then rules that rule based again shown that if your condition then your action if antecedent then your consequent it means your action oh sorry your condition and then after then you can write the action on the basis of that condition what action should we have to perform. So, multiple conditions you also can take if you want you can take down a single conditions if you want you can take also the multiple condition on the basis of your input you can decide like if I can take any single type single condition if you want to take like if A is x then let our output is B then B is z this is the example of the single conditions mean if you are using the single variable as your input condition on the basis of that condition you are writing your output if A is x then your output then your B should be z if multiple conditions are there then you can take if A is x and C is z then B is y it means it will check the two conditions it also that also and here I am using the and I will you will see this what the meaning of that and in detail in the upcoming slides we have two concept here you can use the and and you can use the or also and is basically used for when we want to take the intersection type of condition we have to take it means both the condition should be satisfied for that then on the basis for that we will write the and and if independent condition we want to satisfy then we will take the or we will see in details in the upcoming upcoming slides basically. So, this is the one condition if A is x then B is y for that I have taken the z no issue now simple fuzzy rule example again I have taken the one example like for any for any car if you have taken like if speed is slow then brake pressure is also low if your speed is low then your brake then your brake pressure should be low one this is the rule one that type of multiple rules you can made in the fuzzy rule basis some that is if I am writing is rule one now your rule two you also can made if speed is average if speed is medium then brake pressure is medium that type that is the second rule and third rule if speed is fast then brake then brake pressure should be fast that type of multiple rules you can made in the fuzzy rule basis some now what fuzzy logic controller then will do it will take the input and then first it will take the input then fuzzify it with the help of that fuzzification block and then it will match basically in the fuzzification what you are doing you are mapping your input crisp input to the different types of fuzzy set means different whatever membership function you have taken you will matching with that now after that what that fuzzy rule basis some what will do it will check whatever your input is there it will match that inputs with the rule in under which condition your input is coming under which rule it is coming basically which rule is strictly following followed by your input it will check that and then it will produce the output on the basis of that input now if multiple condition rules example we can see now if speed is fast and road is road is west road is wet then brake pressure is high this this is the this is the example for the multi condition when you are defining the rule on the basis of multiple condition you are taking to you are taking for that fuzzy logic you are taking 2 2 input basically first input is your speed and other input is brake if speed is fast and road is wet then brake pressure is low. So, again these are the linguistic variable for speed input slow medium fast and this these are the linguistic variable for your output that is low medium fast. So, these are the examples of basically how you will write rules in the fuzzy logic system now the rule base rule base is basically it means a set of rules it means in in that system you will write certain rules collection basically it is in a simple language if I can say it is a collection of fuzzy rules whatever the conditions you want you can write on that condition in that rule base like if temperature if if you can see the example if temperature is low then heater is high I have taken the example of heater random example I have taken. So, that you can understand better if temperature is medium then heater is medium if temperature is high then heater should be off that type of rules I have I have write an in the rule base of the fuzzy fuzzy logic controller now whatever the you you will give input it will see which rule is activated on the basis of that input and then it will produce the output now what what I am telling you in the previous lecture that is the case of basically and and or that here now we will go in details for that and and or what that and and or means in the rules here we are. So, first I will take the pointer. So, understanding T norms or T norms means basically the triangular norms in fuzzy logic basically T norms means which it is used to represent the and operation between two or more fuzzy condition man may means when you are writing rules like if if a temperature is low and humidity is humid it means you are taking you are taking both the rules you are taking you are taking as a intersection for both the rules if both the rules are followed then this rule is this rule is applicable for and and other condition is if you are using or or means you are taking both the condition as independent variable. So, for the case of when you want both the condition should be followed then you can use the and operation here it is used to represent the and operation between the two or more fuzzy condition whatever condition you are writing. So, for that you will you can use and if you want that both the condition should be followed or you when you want to combine the multiple condition. So, you can use the and operation for that. So, we will write the other name for that is T norm we can set that. So, basically it combine the membership degrees of multiple condition to determine the how strongly a rules apply when all the condition must be satisfied it means it should be applicable when all the condition should be satisfied mean whatever you will have written all the condition of that rule is satisfied it means that that rule is contributing for the output. So, basically what T norm answer the question it will answer the question like to what degree are both conditions it will take both the condition for that and not taking individually both conditions are followed both condition are true then how for how much degree it is true it will take the that output. Now, common types of T norm methods if we can see first one is the minimum and second one is the product minimum means what it will take the minimum value sorry I have to take the pointer for that minimum means for whatever the membership function two conditions are there it will take the minimum values for both the membership function like if temperature and humidity I have taken. So, it will like if A is having 0.6 and B is having 0.4 then it will take the output as a minimum whatever minimum output it can take it will take that it is basically most commonly used and it takes the least truth value for that in the case of T norm FE you are using minimum. Now, another type of T norm method are that is product it means it will multiply both the membership function like if our example if I can take 0.6 for A and 0.4 for B now it will what it will take it will take 0.24 as the final membership function for that value. So, it is first one is the minimum and second one is the product first one is basically minimum method is most commonly used and it will take the least truth value and product method is basically statistical independence type and it reduces the it reduces faster as compared to the minimum it means its value comes faster as compared to the minimum type of we can say. So, rule again rule is the same for that type of like I have taken some rules to so that you can understand that T norms in a better manner like if temperature is high and humidity is high then fan speed is fast it means again I have taken two rules and I have combined two rules with the help of that T norms operator that is it is and I have used. So, it will check both the condition for how much both the conditions are true like for high temperature 0.8 is the membership function and for a high humidity 0.6 is the membership function then for minimum in the case of you can take the for minimum for that that is 0.6. So, its firing strength is 0.6 and firing strength means how much that rule is activated for how much you can I will tell you in the terms of percentage how much from 100 how much that rule is activated. So, if we can if we can see that 0.6 is the firing strength means 60 percent of that rule is true according to the input and product means if this is the another method which will combine which will multiply which will take the product of both the membership function whatever you have given as the input that is 0.8 0.6 for this case. So, it will multiply 0.8 into 0.6 that is 0.6 it means for if I will take the product if I will take the product product method then it for that it for what its firing strength means it means 48 percent 48 percent of that rule is true according to the given input. So, now, if I will take one graphical example. So, I am taking I have to take the pointer again. So, let I am taking 2 membership function like first one is this and so, I will take as 1 4 6 I am taking any and second I am taking like from 2 I will start and added. So, that 2 I this is our basically 2 input like this is temperature and it is humidity and on the basis of that rules now we have to find the output according to the and operation as we can see. So, if I will draw if I will combine basically both the then it will start from 1 and its medium. So, it will looks like and it is ending at 6 and another one is starting from 2 and it is ending at 7. So, I have made both I have taken both the membership function in one combine area. So, that I can tell you how now if I will draw the output on the basis of that minimum method we are using and operation and for the and operation we are using the minimum method now what is the output for that rule now for that rule output is like it will take basically the that common area it will take that that common area it will consider as a output means that much of rule it is activated and it will goes to the output and if multiple rules are if multiple rules are there and how much that rules are activated then at the end what we will do we will do the aggregation we will see I will take one complete numerical and I explain how this fuzzy logic controller works. So, that is the output for the case of if I will take the minimum like for the same if I will take the output for the for the product case if I will take the product method and what it will it will basically the multiply. So, if you can see that its output is little bit smooth that type of output is there for the case of product. So, this I have shown that T norm both the T norms operator in the graphical form also. Now, come the next I have to come to the next slide now that that is understanding the S norms. So, basically another type of operator that is OR operation what OR operation do basically it will it will take two or more fuzzy condition and it will check how independently they are contributing to a rule being true. So, in the previous case it will taking both the condition, but in that and then OR operation it will take how independently they are contributing to the output and then it and it then it computed and then combined the degree of truth for that. So, basically it is used to combine the fuzzy condition with the OR operation it is basically types of intersection we can see that. So, with the help of example we can see that. So, in the case of S norm like if I have taken one example like if temperature is high or humidity is high then fan speed is fast means both temperature and humidity can independently justifying for the turning on the fan it means it is not depending that rule is not depending on both the cases it will take the take both the input condition independently if any one of the condition is true then its fan speed should be high like if temperature is high then fan speed is high or if humidity is high or mildly buffers condition not true then it will take the fan speed as if any one condition is true and it will give the output and then these are the common S norms types of methods are there first one is the maximum or standard OR type method in which what it will do it will take the it will take the membership function which is maximum for both the input for both the input whatever the maximum membership function are there it will take the maximum value of maximum of both the values whatever value will be the maximum it will take the right now second is the probabilistic sum what it will do it will take the addition and then subtract the product of the product of both the membership function. So, it basically what it will do it will it will basically model the partial type of independence and then the third one is the bounded sum what it will do it will take the minimum of one comma and multiply one comma and addition of that what it will do it will take the bounded sum for the if the sum increases beyond one then it will take the output as one. So, it basically ensure that the result does not does not exceed one these are the three common types of three common types of S norms are there or S norm methods are there which you can use for your rule for your rule making. So, now if we will see the example like if temperature is high or humidity is high then fan speed is high. So, basically what it will both the temperature and humidity can independently justifying to turn on the fan it will act as independent for both the operation I have I have I will again show this with the help of the graphical form for your better understanding. So, I have again take the same example here our membership function are there here our variable number are there this type of I have taken 1 to 6 and second I have taken from 2 to 7 here 1 it will be it will be our first variable is x second variable is y is a y values are there here x values and I will combine. So, that you can understand these thing in a better manner. So, from 1 to 6 it is having and it is 2 to 7 it is having now I have to combine for all the three cases I will give you the answer now if I will combine it with the help of that maximum or standard or operation and whatever what is the output for that case it will come then it will take the union part basically if I will take the R k it will take the it will take that part as a output now 7 is probabilistic sum if we can see that in the case of probabilistic what it will become little bit smooth it will look like this in the same pattern it will gives output, but it will take the if that is first method standard then second method probabilistic now I am giving for the third that is bounded sum now for bounded sum what is the difference it will come in that way that type of output it can give because it have to take the maximum value for that for this type of case it will have chosen the maximum value. So, this is the output for all the three cases for of the for the S norms now what is the firing strength means. So, basically firing strength of a fuzzy rules means it is a basically it is a numerical value that indicates how strongly a rule is activated how many types of rule we have different certain different rules we have written now how strongly that rule is activated like five rules are there. So, what is the firing strength of each rules for any input conditions whatever the input condition we have given now for that input how many rules is activated and how much strongly it is activated for that input condition what it will do it will check the firing strength how means how much that rule is activated on the basis of that input. So, it is computed by evaluating the fuzzy conditions of the rule using the two norms or T norms or S norms any condition whatever condition when you have written the rule on the form if you have written the form of T norms or in the form of S norms you have written it will check the how much strongly that rule is activated on the basis of that input. Now I have taken a example that it is a example in which I have in which I am controlling the speed of fan on the basis on the on the with the help of the fuzzy logic controller. So, I have taken two input first one first input I have taken is temperature and second input as I have taken as humidity. So, this is my first input and this is my second and what is my this is basically inputs and fan speed is my is my output on the basis of that input I am controlling my fan speed on the basis of that temperature humidity as input I am controlling my fan speed which is output for my examples. So, first what is the what is the first step for that first you have to define the linguistic variables and the membership function for the inputs like for that temperature input I have defined three linguistic variables that is low medium and high and also for the humidity I have and high I have written three I have taken three linguistic variables that is also low medium and high and for the temperature also I have taken the same. Now for the output I have taken again three linguistic variables that is slow medium fast on the basis of then that input whatever the output will come I have taken for that three linguistic variable and I am using the triangular membership function for simplicity. So, that you can understand better in the case of triangular membership function means for temperature also I have taken this type of triangular membership function for humidity also and for the output also like this is low and again I have decide with for the another medium then high that is for the temperature I am showing randomly here we will see in detail in this numerical what type of values it is given. So, again this is low this is for medium and this is for high this membership this membership function is for the variable low this is for the high and this is for the medium this is for the low this is for medium and this is for high for the case of humidity. Similarly for the output also your first you have to define the linguistic variable and then we have to define the membership function with membership function you will use for that input. Now, this is the membership function triangular membership function I am using for the temperature and this is the exact value for that for the low case I am taking the range 0 0 50 means 2 triangle consists of this 1 2 3 these 3 values are important for the triangular membership function. So, for 0 0 50 means that 1 and 2 values are the same that that is 0 0. So, it is it that is 0 0 I have taken and the third value is 50. So, I have taken it to the 50 that is our first membership function that is low now second membership function is second membership function is medium I will take another color for that second membership function is medium that is 30 50 70. So, I have taken 30 50 and then the 70 that is our second membership function that is for the medium and third membership function I have taken the 50 100 100 50 is the first and 2 and 3 are the same this is our third membership function that is high. So, this is the in that way I have defined the input 1 that is temperature now it comes to the second that is our humidity that is our second input and for that humidity I have also defined some membership function triangular membership function I have seen and for that range are also written range basically I have taken the same as we have taken for the temperature that is for first one 0 0 50 for second 30 50 70 and for 50 100 100 that figure shows basically for the humidity that how its membership function looks like for the all three variable three linguistic variables low medium high for the output you have for the output also you have to define the membership function. So, again I have taken the triangular membership function and that is the range of the output we have taken for the output our output is fan speed. So, in a similar way in a similar how I have to I have defined for the input condition temperature humidity in a similar way I have defined the membership function for the output also that is fan speed in the in the form of three linguistic variable that is low medium and high the range is written and for that range I have shown also in the form of graphics. Now, now what we have to second we have to specify the input we have to for the for the input now we have to find the what what what is the input for our case these we have defined the conditions like for temperature for humidity and for output we have defined the membership function and their range we have to now what is the input the input first step that is input input to the FLC what input you are giving. So, here I have written I have taken the input as temperature is equal to 65 and humidity is equal to 40 that that is the input which you are giving to the fuzzy logic controller. Now, what it will do it will firstly, map that input to the membership functions it will convert basically that crisp input that are the crisp input that are crisp input that it will convert that crisp input to the fuzzy input with the help of a technique fuzzification. So, these are the methods these are the methods for different for different membership function how we will convert that input to the fuzzy member of that crisp side to fuzzy side like for the case if I have I have shown for the four types of membership function how we will convert it. Now, for the triangular membership function if you will see we will take the help of that formula that is x minus a upon b minus a x means our input and a b c are the three linguistic variables which we have used in and similarly for the trapezoidal that method you can use for Gaussian for generalized band these are these are the method basically we have studied that method when when in the second lecture basically when we are learning about the membership function and their different types. Now, what we have to I have to map that temperature and humidity to the fuzzy to the fuzzy or basically I have to convert that crisp input to the fuzzy input. So, how we will we will convert. So, for first variable if I can see for the mu of 65 if I can see now you can see for the case of low you can see our the for the low case this is our this our this is for temperature. Now, you can check our temperature is 65 now it comes under the category of low it come will it comes in the category of low no because the highest value in the linguistic variable low is 50 and it exceeds means how much membership function for that 0 it will it will it will not map with the low low linguistic variables. Now, if I will map with the another that is medium it comes in the in the category of because that medium category is from 30 degree to 70 degree. So, it comes in the in the category of medium linguistic variables now we have to subtract it with the help of that formula 70 minus 65 divided by 70 minus that we have seen in the previous slide how will now you have to solve this 70 minus 65 5 divided by 20 it will basically come about 0.25 that means, basically that input is matching with the linguistic variable medium up to 0.25 membership function or 25 percent you can see that in terms of percentage. Now, for that high also we have to match again for high also you can it comes because the high if you can see the high range it comes from the 50 to 100. So, it comes in the in the category of also this 60 minus 50 divided by 100 minus 50 that it will come 60 minus 50 15 it will come around 0.3 these are the membership functions for our input temperature. Now, similar for similar for the humidity we have also we have to match again in the same way for the first condition that is 40 to the low. Now, it we will see it will comes into the category of that now you can see that it will come our humidity category is now in a similar way for humidity we have to do we have to match our input to the that linguistic variables in a similar way that 50 minus 40 then divided by 50 minus 0. So, it is matching up to the 0.3 similar for the medium we have to check and similar for the high we have to check. So, all these now we will again solve this example in the next lecture also in detail way for because it is not yet completed only we have solved the two steps again the third step also there in which we have to in which basically we have to map how much rule for that input how much rule is activated we have to check and then on the basis of that which rule is activated for how much firing strength we have to check and then we will aggregate the our outputs on the basis of that rules in the next lecture we will see."
+}

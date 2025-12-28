@@ -1,0 +1,2777 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 0.0,
+            "end": 17.900000000000002,
+            "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 17.900000000000002,
+            "end": 19.8,
+            "text": " machine learning techniques."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 19.8,
+            "end": 23.6,
+            "text": " I am I am doctor Aftab Ahmed Ansari, your instructor for this course."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 23.6,
+            "end": 25.04,
+            "text": " So, this is lecture number five."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 25.04,
+            "end": 29.5,
+            "text": " So, in previous lecture, basically we have covered about the different types of operation"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 29.5,
+            "end": 34.7,
+            "text": " on the fuzzy sets like union, intersection and many more operation we have seen in our"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 34.7,
+            "end": 35.7,
+            "text": " previous lecture."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 35.7,
+            "end": 39.94,
+            "text": " So, in this lecture, we will see some basic operations on the fuzzy sets."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 39.94,
+            "end": 45.5,
+            "text": " If we have two types of set, how we will react when we have two inputs for any cases like"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 45.5,
+            "end": 49.18,
+            "text": " like if we take any example from the electrical branch."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 49.18,
+            "end": 50.82,
+            "text": " So, what we will do?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 50.82,
+            "end": 55.18,
+            "text": " In certain cases, we have to take two types of input like voltage and current to define"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 55.18,
+            "end": 56.18,
+            "text": " some things."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 56.18,
+            "end": 61.78,
+            "text": " So, for that for that type of operation, we will study some more type of operation."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 61.78,
+            "end": 67.78,
+            "text": " Basically, we have seen, but that are related to the like intersection, union, complement,"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 67.78,
+            "end": 73.14,
+            "text": " but in that case, we will see the type of operation in which if we if we have some application"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 73.14,
+            "end": 78.3,
+            "text": " in which we have to add two types of quantity, then how their membership function will react"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 78.3,
+            "end": 82.5,
+            "text": " if we will add two types of quantity or if we will multiply two type of quantity like"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 82.5,
+            "end": 86.14,
+            "text": " in the case of electrical quantities if we want to measure power."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 86.14,
+            "end": 87.14,
+            "text": " So, what is power?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 87.14,
+            "end": 90.26,
+            "text": " Power is the simple multiplication of voltage and current."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 90.26,
+            "end": 93.02,
+            "text": " So, for that type of quantities, what we will take?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 93.02,
+            "end": 96.1,
+            "text": " We have to take the multiplication of two types of function."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 96.1,
+            "end": 101.78,
+            "text": " So, for that types of cases, we will study what will happen to the membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 101.78,
+            "end": 104.58,
+            "text": " if we will multiply two types of input."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 104.58,
+            "end": 110.02,
+            "text": " So, how their membership function react for that types of input, we will see in that classes."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 110.53999999999999,
+            "end": 112.82,
+            "text": " So, first one is the algebraic product of two fuzzy sets."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 112.82,
+            "end": 119.06,
+            "text": " So, let we have two sets A and B and if we will multiply it and then for with their multiplication,"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 119.06,
+            "end": 122.1,
+            "text": " we have given another name C set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 122.1,
+            "end": 125.06,
+            "text": " It means fuzzy set is fuzzy set C is what?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 125.06,
+            "end": 131.22,
+            "text": " It is basically a multiplication of two types of set that is A and B. Now, their membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 131.22,
+            "end": 137.3,
+            "text": " function for the fuzzy set A is mu A and for the B mu B. Now, and for the set C mu C. So,"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 137.3,
+            "end": 141.54000000000002,
+            "text": " now algebraic product is basically in which we combine two types of fuzzy set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 141.54000000000002,
+            "end": 143.70000000000002,
+            "text": " Now, what happen to the other membership function?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 143.70000000000002,
+            "end": 148.70000000000002,
+            "text": " Their membership function of each element is the result of products of degree in the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 148.70000000000002,
+            "end": 149.82000000000002,
+            "text": " two type of set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 149.82000000000002,
+            "end": 153.78,
+            "text": " You can understand these things if you will complex and with the help of mathematical"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 153.78,
+            "end": 156.54000000000002,
+            "text": " representation, you will get the things."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 156.54000000000002,
+            "end": 163.9,
+            "text": " The mu of CX, it is basically the membership function for the C set which we have made"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 163.9,
+            "end": 166.34,
+            "text": " with the help of the multiplication of two sets A and B."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 166.38,
+            "end": 171.14000000000001,
+            "text": " So, their membership function value is mu of AX means membership function value of the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 171.14000000000001,
+            "end": 176.62,
+            "text": " A set multiplied by the membership function of the B set that is mu of B with the help"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 176.62,
+            "end": 180.18,
+            "text": " of mathematical representation, you can easily understand."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 180.18,
+            "end": 185.62,
+            "text": " Now, we also can understand for the better understanding with the help of an example."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 185.62,
+            "end": 189.02,
+            "text": " So, I have taken one example in which I have taken two sets."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 189.02,
+            "end": 194.22,
+            "text": " First one is the set number A in which I have taken three membership function."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 194.22,
+            "end": 199.66,
+            "text": " First one is the X for that quantity, the membership function value is 0.2."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 199.66,
+            "end": 205.46,
+            "text": " For the X2, their membership function value is 0.5 and for the X3, their membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 205.46,
+            "end": 206.46,
+            "text": " value is 0.8."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 206.46,
+            "end": 209.86,
+            "text": " Similarly, for the B set in which again three functions are there."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 209.86,
+            "end": 213.3,
+            "text": " First one is X1, their membership function value is 0.6."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 213.3,
+            "end": 214.62,
+            "text": " For the X2, 0.7."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 214.62,
+            "end": 219.38,
+            "text": " For the X3, now we have to make the third set which is basically the multiplication"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 219.38,
+            "end": 220.82,
+            "text": " of two sets."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 220.82,
+            "end": 225.29999999999998,
+            "text": " Then their membership function, how it will come?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 225.29999999999998,
+            "end": 227.06,
+            "text": " I will take the pointer."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 227.06,
+            "end": 232.14,
+            "text": " So, now how their membership function value comes?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 232.14,
+            "end": 235.54,
+            "text": " By multiplying both the set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 235.54,
+            "end": 241.9,
+            "text": " You have to multiply the membership function values of both the set, but we have to see"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 241.9,
+            "end": 244.9,
+            "text": " the value that both side there should be X1."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 244.9,
+            "end": 247.18,
+            "text": " So, how we will get?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 247.18,
+            "end": 252.38,
+            "text": " If you want to see the step by step method, then for that C function X1 value, their membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 252.38,
+            "end": 257.42,
+            "text": " function value is 0.2 multiplied by the 0.6 for the case of the X1."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 257.42,
+            "end": 261.7,
+            "text": " Similarly, for the case of X2, you have to multiply their membership function where it"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 261.7,
+            "end": 265.06,
+            "text": " is 0.5 to 0.7."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 265.06,
+            "end": 270.78000000000003,
+            "text": " In that step you can see and for the third set, 0.8 should be multiplied with the 0.3"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 270.78000000000003,
+            "end": 272.66,
+            "text": " for the case of X3."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 272.66,
+            "end": 274.9,
+            "text": " Then the final result should look like this."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 274.9,
+            "end": 278.97999999999996,
+            "text": " For the X1, the membership function we get by multiplying the membership function values"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 278.97999999999996,
+            "end": 284.7,
+            "text": " of A and B that is 0.12 and for the X2 that is 0.35, for the X3 that is 0.24."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 284.7,
+            "end": 287.78,
+            "text": " So, here we will write in that way."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 287.78,
+            "end": 290.53999999999996,
+            "text": " So, that is the algebraic product of two types of fuzzy set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 290.53999999999996,
+            "end": 292.02,
+            "text": " That is the result for that."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 292.02,
+            "end": 294.78,
+            "text": " Now I have already tell you about the example."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 294.78,
+            "end": 299.94,
+            "text": " Again if you want to take another example for the which you can understand not technical"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 299.94,
+            "end": 300.94,
+            "text": " type of example."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 300.94,
+            "end": 306.66,
+            "text": " But if you want to take for better clarification like if A is a function in which we have categorized"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 306.66,
+            "end": 312.94,
+            "text": " the tall people and B is the category in which we have categorized for the good jumpers."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 312.94,
+            "end": 315.7,
+            "text": " So, what then A and B represent?"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 315.7,
+            "end": 319.26,
+            "text": " That the man which is tall and also good jumper."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 319.26,
+            "end": 324.26,
+            "text": " For that type of cases, we will use the algebraic product of two types of fuzzy cases."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 324.26,
+            "end": 329.06,
+            "text": " So, if we want to see the significance which we will use when both conditions must be met"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 329.18,
+            "end": 334.02,
+            "text": " that is the common in fuzzy logic system for if you are modeling conjunction type of system"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 334.02,
+            "end": 338.9,
+            "text": " if you are modeling then you will use this algebraic product of two fuzzy sets in that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 338.9,
+            "end": 340.42,
+            "text": " case."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 340.42,
+            "end": 344.42,
+            "text": " Second one is the scalar multiplication of a fuzzy set means if we have to I want to"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 344.42,
+            "end": 349.46,
+            "text": " multiply the membership function or I have to scale that multiplying that membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 349.46,
+            "end": 353.78,
+            "text": " function though I can multiply it with the help of a constant scalar function that may"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 353.78,
+            "end": 358.54,
+            "text": " be alpha and that value should be in between the range 0 is less than alpha is less than"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 358.54,
+            "end": 359.54,
+            "text": " 1."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 359.54,
+            "end": 362.26000000000005,
+            "text": " Now, for the for better understanding we can see the expression."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 362.26000000000005,
+            "end": 367.26000000000005,
+            "text": " So, the membership function value expression for that C set if I have taken which is the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 367.26000000000005,
+            "end": 368.26000000000005,
+            "text": " resultant set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 368.26000000000005,
+            "end": 373.46000000000004,
+            "text": " So, alpha is the scaling factor and mu A is the membership function value for the set"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 373.46000000000004,
+            "end": 379.34000000000003,
+            "text": " A. Let take an example A is the set which is having three function that first one is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 379.34000000000003,
+            "end": 384.46000000000004,
+            "text": " the x 1 whose membership function value is 0.3 x 2 is another function whose membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 384.46,
+            "end": 389.26,
+            "text": " function value is 0.6 x is another whose membership function value is 0.9."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 389.26,
+            "end": 391.65999999999997,
+            "text": " Now, if I want to scale their membership function."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 391.65999999999997,
+            "end": 394.26,
+            "text": " So, I have taken an alpha whose value is 0.5."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 394.26,
+            "end": 399.9,
+            "text": " So, now you can solve first you will try then I will go to the first you can pause the video"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 399.9,
+            "end": 406.7,
+            "text": " and try to find the membership function for the C set for the C set C set C set you can"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 406.7,
+            "end": 411.26,
+            "text": " find the membership function value for that set by your you can pause the video and find"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 411.26,
+            "end": 412.26,
+            "text": " the answer."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 412.26,
+            "end": 417.53999999999996,
+            "text": " So, this is the final expression we will find the membership function of C set with the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 417.53999999999996,
+            "end": 424.46,
+            "text": " help of alpha multiply by the membership function value of the set A. So, that is the step by"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 424.46,
+            "end": 428.7,
+            "text": " step answer for that numerical question I hope you have already solved in your copy."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 428.7,
+            "end": 433.18,
+            "text": " So, that is 0.5 should be multiplied by the x 1 x 1 membership function value that is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 433.18,
+            "end": 439.94,
+            "text": " 0.3 0.5 is again multiply for the x 2 membership function value that is 0.6 and same for the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 439.94,
+            "end": 442.14,
+            "text": " x 3 function their membership function value is 0.3."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 442.14,
+            "end": 448.5,
+            "text": " So, we have multiplied with the by that scaling factor that is 0.5 for our question for that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 448.5,
+            "end": 451.06,
+            "text": " type of for this question which we have taken."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 451.06,
+            "end": 456.82,
+            "text": " Now, the resultant set how the resultant C set look like it will it will look like 0"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 456.82,
+            "end": 464.42,
+            "text": " x 1 for their membership function value is 0.15 for x 2 0.3 and for x 3 0.45."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 464.42,
+            "end": 473.54,
+            "text": " So, we use the that type of that scalar multiplication in the case where our truss level is reduced"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 473.54,
+            "end": 476.34000000000003,
+            "text": " due to some certain conditions happen in the system."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 476.34000000000003,
+            "end": 481.5,
+            "text": " So, for that type of system we will use this scalar multiplication and what is the significance"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 481.5,
+            "end": 485.86,
+            "text": " with the help of that we can adjust our strength of a fuzzy set which is useful in the case"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 485.86,
+            "end": 490.66,
+            "text": " of when we are modeling the uncertainty in the confidence type of reduction cases."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 490.66,
+            "end": 496.22,
+            "text": " So, now what is the power of a fuzzy set that is concentration power means which we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 496.22,
+            "end": 499.98,
+            "text": " have already says like x square it means the power of x is 2."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 499.98,
+            "end": 506.06,
+            "text": " So, for that type of cases we are sometimes our power should also be x key power 1 by"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 506.06,
+            "end": 509.42,
+            "text": " 2 it means it basically means under root x."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 509.42,
+            "end": 515.58,
+            "text": " So, if we are if we are taken power in the in the in the not in fraction in real numbers"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 515.58,
+            "end": 518.98,
+            "text": " if we are taking power then we will say that concentration."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 519.3000000000001,
+            "end": 523.38,
+            "text": " So, for that type of power of a fuzzy set we have given one name the specific name that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 523.38,
+            "end": 530.02,
+            "text": " is concentration in it means in that type of function we are squaring the membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 530.02,
+            "end": 531.02,
+            "text": " function value."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 531.02,
+            "end": 536.3000000000001,
+            "text": " So, what it do it will increase the sharpness of membership function by squaring each membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 536.3000000000001,
+            "end": 540.7,
+            "text": " function by pushing their values which is closer to 0 to 1."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 540.7,
+            "end": 545.62,
+            "text": " So, that is the expression for that again c is the resultant membership function and"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 545.62,
+            "end": 550.62,
+            "text": " mu a is the our primary membership function and for that c we are squaring it which means"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 550.62,
+            "end": 554.58,
+            "text": " we are taking the concentration of that if you want to find the concentration for that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 554.58,
+            "end": 560.18,
+            "text": " set what you will do you will square the values of the membership function of the primary"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 560.18,
+            "end": 565.3,
+            "text": " set that you are using that is given in the question if you see like again I have taken"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 565.3,
+            "end": 571.34,
+            "text": " one example for the better understanding like a 1 is the set in which 3 functions I have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 571.34,
+            "end": 577.5400000000001,
+            "text": " taken first one is x whose membership function value is 0.3 same for x 2 0.7 for x 3 0.9"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 577.5400000000001,
+            "end": 582.4200000000001,
+            "text": " for this we have to find the concentration that is our question let it be we have to"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 582.4200000000001,
+            "end": 587.1,
+            "text": " find the concentration for that set now you can pause the video and again find the answer"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 587.1,
+            "end": 588.6600000000001,
+            "text": " by yours."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 588.6600000000001,
+            "end": 594.1,
+            "text": " So, this is the step by step solution for that what we have to do you have to simply"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 594.1,
+            "end": 597.5,
+            "text": " square the membership function for that for x 1 that is 0.3."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 597.5,
+            "end": 604.22,
+            "text": " So, you can square it 0.3 square that is 0.09 for this again for this x 2 that is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 604.22,
+            "end": 612.06,
+            "text": " 0.7 square then 0.41 is the resultant answer for third case x 3 0.9 is the value and you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 612.06,
+            "end": 614.58,
+            "text": " can again square it you can get the value 0.81."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 614.58,
+            "end": 621.98,
+            "text": " So, that is the result for the c set now again the power of a fuzzy set when we are taking"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 621.98,
+            "end": 627.1800000000001,
+            "text": " the power in terms of fraction that it be 1 by 2 1 by 2 means square root."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 627.1800000000001,
+            "end": 632.46,
+            "text": " So, for that case we have given a specific name that is dilation what it will do it basically"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 632.46,
+            "end": 637.54,
+            "text": " soften the set by taking the square root of each membership function value which it makes"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 637.54,
+            "end": 640.46,
+            "text": " it more inclusive let us see the expression."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 640.46,
+            "end": 646.22,
+            "text": " So, it expression looks like the again mu of c means c set is our resultant set and"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 646.22,
+            "end": 650.1,
+            "text": " mu a we are taking the dilution for that a set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 650.1,
+            "end": 655.58,
+            "text": " So, what we have to do we have to square root the membership function value for that our"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 655.58,
+            "end": 661.1800000000001,
+            "text": " primary set that is a set if I am taking if I am taking an example that a set is our primary"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 661.1800000000001,
+            "end": 664.3000000000001,
+            "text": " set and we have to find the dilation for that set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 664.3000000000001,
+            "end": 668.86,
+            "text": " So, what we will do we will under root mean we will square we have we will take the square"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 668.86,
+            "end": 673.9,
+            "text": " root of the membership function values for that set again let us take an example that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 673.9,
+            "end": 680.14,
+            "text": " a is a set our primary set and x 1 is the function in that set that is 0.2 for again"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 680.14,
+            "end": 685.6999999999999,
+            "text": " second is x 2 whose membership function value is 0.5 x 3 whose membership function value"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 685.6999999999999,
+            "end": 687.66,
+            "text": " is 0.81."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 687.66,
+            "end": 692.5,
+            "text": " Now what we have to do for that question we have to find the dilation dilation for that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 692.5,
+            "end": 693.5,
+            "text": " a set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 693.5,
+            "end": 699.84,
+            "text": " So, again you can pause the video and the find the answer by yours it is basically very"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 699.84,
+            "end": 701.22,
+            "text": " easy question for."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 701.74,
+            "end": 706.98,
+            "text": " So, again this is the step by step procedure for x 1 you have to you have to take the under"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 706.98,
+            "end": 711.82,
+            "text": " root for that membership function value that is 0.2 in that case it approximately around"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 711.82,
+            "end": 719.02,
+            "text": " 0.447 for the case of x 1 similarly for the x 2 under root 0.5 it will around 0.707 again"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 719.02,
+            "end": 726.58,
+            "text": " for the x 3 function their membership function value is 0.81 it have some correction that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 726.58,
+            "end": 733.0600000000001,
+            "text": " it is basically x 3 x 3 x 2 is already covered in the second."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 733.0600000000001,
+            "end": 739.7,
+            "text": " So, that one is a under root 0.1 basically it comes exactly 0.91 0.9 and for the first"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 739.7,
+            "end": 741.9000000000001,
+            "text": " two cases it is approximately 0.447."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 741.9000000000001,
+            "end": 748.26,
+            "text": " So, now, the what is the resultant set looks like x 1 the new membership function value"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 748.26,
+            "end": 755.26,
+            "text": " that is 0.447 for x 2 their new membership function value 0.707 and same for the third"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 755.54,
+            "end": 767.74,
+            "text": " case. So, what we have we have done the dilation of fuzzy set A we have done in that question."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 767.74,
+            "end": 774.02,
+            "text": " Now, again come to the next topic now the second for the one is the algebraic sum of"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 774.02,
+            "end": 778.38,
+            "text": " two fuzzy set mean it represent the union of two fuzzy set using a formula which we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 778.38,
+            "end": 783.38,
+            "text": " will see in the expression. So, what we are doing in that case we are adding two fuzzy"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 783.7,
+            "end": 789.78,
+            "text": " sets let us it we are having two fuzzy set A and B what we have to we have to add that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 789.78,
+            "end": 794.9399999999999,
+            "text": " two fuzzy sets. So, how we will add that types of fuzzy sets we will see."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 794.9399999999999,
+            "end": 799.42,
+            "text": " So, this is the basically expression with the help of say with the help of that expression"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 799.42,
+            "end": 804.14,
+            "text": " you can understand better. So, how we will add if you want to add or we have to take"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 804.14,
+            "end": 809.02,
+            "text": " the algebraic sum of two fuzzy set with the help of that formula you can take that one"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 809.02,
+            "end": 814.34,
+            "text": " is the expression. So, what expression says you have to first take the addition of the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 814.34,
+            "end": 819.86,
+            "text": " two membership function value mu of x plus mu of B of x minus and then you have to subtract"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 819.86,
+            "end": 824.9399999999999,
+            "text": " the multiplication of the membership function value that is the formula if you want to add"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 824.9399999999999,
+            "end": 830.3,
+            "text": " two type if you if you want to take the algebraic sum of two fuzzy set with the help of that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 830.3,
+            "end": 834.8199999999999,
+            "text": " expression you can find the answer. Again I have taken example that first one"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 834.8199999999999,
+            "end": 838.8199999999999,
+            "text": " is the A set which is having three different function and that different membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 838.82,
+            "end": 846.1800000000001,
+            "text": " values are given in the question for x 1 0.4 for x 2 0.5 and for x 3 0.6 similarly"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 846.1800000000001,
+            "end": 852.74,
+            "text": " for the B cases 0.3 0.7 and 0.2. Now, again you can pause the video and you have to find"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 852.74,
+            "end": 857.3000000000001,
+            "text": " the membership function for the C set which is the basically algebraic sum of the sets"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 857.3000000000001,
+            "end": 863.98,
+            "text": " A and B you can pause and find the solution for that it is very easy you have to simply"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 863.98,
+            "end": 868.58,
+            "text": " add them let if I am finding for the x 1. So, what you have to do you have to simply"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 868.58,
+            "end": 878.62,
+            "text": " add means 0.4 plus 0.3 minus 0.4 into 0.3. If you are able to solve you can solve in"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 878.62,
+            "end": 884.38,
+            "text": " your copy otherwise like if I am finding for the for that x 1 set if I am finding what"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 884.38,
+            "end": 889.3000000000001,
+            "text": " should what should be the membership function value for the x 1 if I am taking what I have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 889.3,
+            "end": 894.9799999999999,
+            "text": " to do I have to take the membership function value for A set that is 0.4 given then 0.3"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 894.9799999999999,
+            "end": 902.3,
+            "text": " that is given for the B set now what I have to do I have to multiply both that is 0.7"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 902.3,
+            "end": 912.62,
+            "text": " minus 0.12 again you have to subtract this 0.7 minus 0.12 for in that way you can find"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 912.62,
+            "end": 916.9799999999999,
+            "text": " the answer for that in the next slide I have all the answers basically. So, this is the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 916.98,
+            "end": 923.98,
+            "text": " way you can find the answer 0.4 plus 0.3 minus 0.4 into 0.3 for all the 3 cases for"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 923.98,
+            "end": 929.3000000000001,
+            "text": " the x 1 for the x 2 for the x 3 you have to solve in that way and then our final result"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 929.3000000000001,
+            "end": 936.38,
+            "text": " looks like which is shown in the in the result column that is c x 1 comma 0.58 for the x"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 936.38,
+            "end": 944.4200000000001,
+            "text": " 1 for x 2 that is 0.85 and for x 3 that is 0.68. So, this is the way if you have to find"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 944.42,
+            "end": 948.8199999999999,
+            "text": " the addition if you have to find algebraic sum of 2 type of fuzzy set you can use this"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 948.8199999999999,
+            "end": 954.2199999999999,
+            "text": " formula now if I have to take the bounded sum of 2 fuzzy set means we have to there"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 954.2199999999999,
+            "end": 959.8199999999999,
+            "text": " we have to find the fuzzy union operation where the membership value is the minimum"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 959.8199999999999,
+            "end": 964.18,
+            "text": " of 1 or a sum of the individual membership function value it means that maximum value"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 964.18,
+            "end": 969.42,
+            "text": " should be 1 either maximum value should be 1 and the minimum can be the addition of the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 969.42,
+            "end": 975.6999999999999,
+            "text": " 2 which is less than in the 2 cases either it is minimum like if I am taking the case"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 975.6999999999999,
+            "end": 981.6999999999999,
+            "text": " where first function membership function value 0.3 again 0. and next function is 0.3. So,"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 981.6999999999999,
+            "end": 986.9399999999999,
+            "text": " 0.4 plus 0.3 that is 0.7 it may it is less than 1. So, I can take the membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 986.9399999999999,
+            "end": 992.74,
+            "text": " value 0.7, but in a case like for the a side 0.9 membership function value and for the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 992.74,
+            "end": 998.02,
+            "text": " b side 0.9 again 9 you can take. So, now, if you will add. So, you can you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 998.02,
+            "end": 1003.06,
+            "text": " get the value 0.9 plus 0.8 that is 1.7. So, it means it is greater than 1. So, what you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1003.06,
+            "end": 1007.22,
+            "text": " have to you have to take the bounded output that is 1 you have to take that bounded value"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1007.22,
+            "end": 1014.9,
+            "text": " if your value exceeds 1 you can take the minimum of that we can see the we will see the expression"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1014.9,
+            "end": 1021.98,
+            "text": " that is the expression if you want to found the bounded operation of the 2 sets. So, you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1021.98,
+            "end": 1028.14,
+            "text": " can see that in that. So, this is the expression for mu of c of x that is a resultant set now"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1028.14,
+            "end": 1034.6200000000001,
+            "text": " I am finding the bounded sum of that 2 fuzzy set that is mu a and mu b for that 2 sets"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1034.6200000000001,
+            "end": 1039.7,
+            "text": " I am finding the bounded sum. So, what how we will find that I have explained to you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1039.7,
+            "end": 1046.18,
+            "text": " you have to take the minimum value if minimum if value exceeds 1 then you have to take the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1046.18,
+            "end": 1051.7,
+            "text": " 1 if your value is not exceeding 1 then you can directly take the sum whatever it comes."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1051.7,
+            "end": 1057.42,
+            "text": " So, again I have taken 1 example. So, there will be 2 sets first one is a set which is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1057.42,
+            "end": 1063.8600000000001,
+            "text": " having membership function value for the x 1 0.1 x 2 0.4 x 3 0.7 and similarly for the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1063.8600000000001,
+            "end": 1069.9,
+            "text": " b 0.5 0.6 0.4 now you can pause the video and try to solve that question you can find"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1069.9,
+            "end": 1075.26,
+            "text": " the bounded sum of a and b set. So, that is the step by step solution for"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1075.34,
+            "end": 1083.1,
+            "text": " this question also if you will see that we have again I will take the pointer. So, this"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1083.1,
+            "end": 1090.26,
+            "text": " is the 0.1 and 0.1 for the a set 0.5 for the b set I have taken the addition that comes"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1090.26,
+            "end": 1097.54,
+            "text": " 0.6 1 and 0.6 the minimum value is 0.6. So, I have taken 0.6 for the x 2 0.4 is the 4"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1097.54,
+            "end": 1103.22,
+            "text": " a 0.6 for the b I will add it comes 1.0 I will take the minimum that is 1 now in the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1103.22,
+            "end": 1109.02,
+            "text": " case of c you can see 0.7 plus 0.4 that is 1.1 now I have to take the minimum value that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1109.02,
+            "end": 1115.1000000000001,
+            "text": " is 1. So, that means, we are taking the bounded sum of 2 if you want to take the bounded sum"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1115.1000000000001,
+            "end": 1118.98,
+            "text": " of 2 types of fuzzy set in that way you can take this."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1118.98,
+            "end": 1124.5,
+            "text": " Now we come to the our main part before that we have we have studied about some different"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1124.5,
+            "end": 1129.8600000000001,
+            "text": " types of operation some different types of properties of the fuzzy sets means like we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1129.86,
+            "end": 1135.26,
+            "text": " have seen intersection operation complement operation union operation that type of operation"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1135.26,
+            "end": 1140.26,
+            "text": " we have seen now we have after then in today's class we have seen the how we will add how"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1140.26,
+            "end": 1144.54,
+            "text": " we will multiply 2 types of set if you want to if conditions come when you have to multiply"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1144.54,
+            "end": 1150.1399999999999,
+            "text": " 2 types of fuzzy set we have already seen. Now we come to the main topic main part of"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1150.1399999999999,
+            "end": 1156.58,
+            "text": " the fuzzy mechanism that is the first step. So, the first step of the fuzzy set mechanism"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1156.58,
+            "end": 1161.3799999999999,
+            "text": " which we have studied in the first class I have shown you the block diagram of the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1161.3799999999999,
+            "end": 1166.1799999999998,
+            "text": " block diagram of the fuzzy whole fuzzy mechanism. So, here you can there you can see that the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1166.1799999999998,
+            "end": 1172.1799999999998,
+            "text": " first step are is fuzzification means what fuzzification means it is the process of converting"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1172.1799999999998,
+            "end": 1177.46,
+            "text": " the crisp input which we have given the input into the degree of memberships in fuzzy set"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1177.46,
+            "end": 1183.74,
+            "text": " it means you are converting the crisp input into the fuzzy input or in easy language we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1183.86,
+            "end": 1189.5,
+            "text": " can say you are mapping that crisp into the fuzzy input you are converting that the random"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1189.5,
+            "end": 1195.26,
+            "text": " input which you are feeding to the fuzzy mechanism then the first step is to convert that crisp"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1195.26,
+            "end": 1200.18,
+            "text": " input that random input into the fuzzy logic input or into the fuzzy set."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1200.18,
+            "end": 1204.9,
+            "text": " So, what it do it is basically translate your quantitative input which you have fed like"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1204.9,
+            "end": 1210.66,
+            "text": " in the case like you can see now you can take the example of temperature. So, I have feed"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1210.66,
+            "end": 1214.94,
+            "text": " the temperature as a crisp input. So, now, what we will do I will convert that first"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1214.94,
+            "end": 1220.38,
+            "text": " first step that is fuzzification I will map this with the fuzzy with the with the membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1220.38,
+            "end": 1224.5,
+            "text": " function like first what we will do I will take some linguistic variables like if I have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1224.5,
+            "end": 1230.46,
+            "text": " taken an example of temperature the temperature may be hot more hot less hot moderate hot"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1230.46,
+            "end": 1237.02,
+            "text": " or any value you can take this type this type of linguistic labels we can we can take and"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1237.02,
+            "end": 1242.5,
+            "text": " then in that labels we will our I will map our crisp into the different different types"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1242.5,
+            "end": 1248.34,
+            "text": " of labels which we have taken in the fuzzy set in which category our input comes into"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1248.34,
+            "end": 1253.1399999999999,
+            "text": " the into the system we will see. So, fuzzification is basically the first step"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1253.1399999999999,
+            "end": 1257.82,
+            "text": " in a fuzzy logic system it allows a fuzzy system to handle the real world imprecise"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1257.82,
+            "end": 1263.58,
+            "text": " input ok. So, it it is basically you can think like adding human like and perception to the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1263.58,
+            "end": 1269.46,
+            "text": " machine in the fuzzy fuzzification process we are doing we are adding a human like perception"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1269.46,
+            "end": 1276.54,
+            "text": " to the machine ok. So, let a crisp value value be x and mu x be the membership function with"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1276.54,
+            "end": 1282.1399999999999,
+            "text": " that fuzzy x then fuzzified value is the membership function value for that set ok like if a if"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1282.1399999999999,
+            "end": 1288.78,
+            "text": " I will take the example in which fuzzy temperature if a if a temperature is 32 degree Celsius"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1288.78,
+            "end": 1291.8999999999999,
+            "text": " and the fuzzy set hot is defined with the membership function value."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1291.8999999999999,
+            "end": 1300.18,
+            "text": " So, how we will define I will map that 32 degree 32 degree temperature to a fuzzification"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1300.18,
+            "end": 1306.3799999999999,
+            "text": " means we have studied the membership function ok I will explain you we have already studied"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1306.3799999999999,
+            "end": 1310.02,
+            "text": " about the membership function membership function different different type of membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1310.02,
+            "end": 1314.78,
+            "text": " value. So, what we will do you have to map that input that crisp input to that fuzzification"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1314.78,
+            "end": 1319.94,
+            "text": " to that membership values ok let I will take a triangular membership function which we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1319.94,
+            "end": 1328.94,
+            "text": " have studied. So, it looks like that ok here a the b this is the input now what I am mapping"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1328.94,
+            "end": 1338.62,
+            "text": " that hot to the in between what I have do it is 0 for x less than or ok I will take"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1338.62,
+            "end": 1342.6999999999998,
+            "text": " any example not less than I will take I am taking 25 degree Celsius."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1342.6999999999998,
+            "end": 1351.1799999999998,
+            "text": " Now, for that x minus 25 by 10 I have taken for the middle values the it mean if our values"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1351.1799999999998,
+            "end": 1359.3799999999999,
+            "text": " in between 25 to 35 ok now last case when x is greater than 35 the my membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1359.3799999999999,
+            "end": 1365.4599999999998,
+            "text": " value for that is 1 I have taken. So, for that what we will do we will our map we will"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1365.46,
+            "end": 1370.6200000000001,
+            "text": " see in which category our input function is lying in that in the in that case if I"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1370.6200000000001,
+            "end": 1374.66,
+            "text": " have taken the triangular membership function if I have taken you can take any membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1374.66,
+            "end": 1380.58,
+            "text": " function it will depend on the your basically operation or sorry application on it will"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1380.58,
+            "end": 1385.42,
+            "text": " the which membership function you will best suit for a application you will take this"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1385.42,
+            "end": 1391.46,
+            "text": " or I will ok we will also see how we will how we will take the membership function for"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1391.46,
+            "end": 1395.58,
+            "text": " that like which membership function I have to choose I have to choose triangular I have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1395.58,
+            "end": 1400.9,
+            "text": " to choose trapezoidal I have to take sigma what type of membership function we have to"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1400.9,
+            "end": 1406.66,
+            "text": " choose we will see how we will decide the which membership function which membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1406.66,
+            "end": 1410.6200000000001,
+            "text": " function we will take ok. So, that is the example for that now the what"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1410.6200000000001,
+            "end": 1414.18,
+            "text": " the real world example means like if an air conditioner system the. So, controller might"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1414.18,
+            "end": 1419.7,
+            "text": " interpret 30 degree as either hot means it is basically hot for some cases of like for"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1419.7,
+            "end": 1424.3,
+            "text": " the for their for 30 degree 2 degree Celsius we have taken the membership function value"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1424.3,
+            "end": 1430.5,
+            "text": " is 0.7 for the hot case and for the warm we have taken ok it might be little warm of also"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1430.5,
+            "end": 1434.66,
+            "text": " for that we have taken their membership function low as compared to what that is 0.3 and it"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1434.66,
+            "end": 1439.94,
+            "text": " is not called at for the 30 degree Celsius then we have considered their membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1439.94,
+            "end": 1443.18,
+            "text": " value is 0. So, instead of only one crisp level we have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1443.18,
+            "end": 1450.1000000000001,
+            "text": " divided into 3 part. So, not like not like digital logic we have to decide whether 32"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1450.1000000000001,
+            "end": 1455.8200000000002,
+            "text": " degree hot or not that is the advantage of fuzzy set basically we can decide in between"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1455.8200000000002,
+            "end": 1462.8200000000002,
+            "text": " 0 and 1 also ok. So, that fuzzy there is significance may be it enables the system to mimic human"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1462.8200000000002,
+            "end": 1468.02,
+            "text": " type reasoning and handle the uncertainty condition by considering the partial truth"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1468.02,
+            "end": 1473.3799999999999,
+            "text": " rather than the binary logic which we have studied in detail in our first 2 lectures"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1473.3799999999999,
+            "end": 1477.3,
+            "text": " ok. Now, these are the components of fuzzification"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1477.3,
+            "end": 1481.42,
+            "text": " first one is the crisp input which you are applying to the system second was the linguistic"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1481.42,
+            "end": 1486.62,
+            "text": " variable means you are describing the input what it may be what it is it is a whether"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1486.62,
+            "end": 1490.62,
+            "text": " it is a temperature it is a voltage it is a current or it may be anything then you will"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1490.62,
+            "end": 1495.5,
+            "text": " describe that system what input you are giving then we have to what we have to set the labels"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1495.5,
+            "end": 1499.74,
+            "text": " like means we have to set the range like if we are defining the membership function"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1499.74,
+            "end": 1504.02,
+            "text": " for the cold. So, what is the range for that cold what is the range for that warm what"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1504.02,
+            "end": 1508.22,
+            "text": " is the range for that hot if I am taking the example of temperature then we will choose"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1508.22,
+            "end": 1513.5,
+            "text": " the membership function value like the curve which define how much a crisp input belong"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1513.5,
+            "end": 1517.38,
+            "text": " to the fuzzy set that defines by the membership function."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1517.38,
+            "end": 1524.86,
+            "text": " So, we will see the if ok I will explain with the help of visual institution like if you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1524.9399999999998,
+            "end": 1531.9399999999998,
+            "text": " can say you have to take the pointer like that means what I want to concluding you means"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1532.2199999999998,
+            "end": 1539.2199999999998,
+            "text": " that I have taken like first one is the cold second one is for the warm and third one is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1540.02,
+            "end": 1547.02,
+            "text": " for the hot. So, there our temperature lies and there lies the membership function value."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1548.02,
+            "end": 1555.02,
+            "text": " So, like if I am taking an 82 degree temperature then it will be there then now you can see"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1556.86,
+            "end": 1563.86,
+            "text": " so, that 82 degree temperatures come also under the membership function value of warm"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1564.78,
+            "end": 1570.82,
+            "text": " and comes also under the hot also now you can see whether it mostly belongs basically"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1570.82,
+            "end": 1575.34,
+            "text": " the if you can see the cold it does not belong to cold then their membership function which"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1575.34,
+            "end": 1581.1799999999998,
+            "text": " I have written is 0 it does not belong to cold you can see the cold range is from there"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1581.1799999999998,
+            "end": 1586.98,
+            "text": " to there it does not belong to the cold membership function now you can see the warm it belongs"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1586.98,
+            "end": 1592.22,
+            "text": " to something there to warm. So, I have taken 0.3 randomly now for the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1592.22,
+            "end": 1598.1,
+            "text": " hot it belongs to more there we have membership function and their maximum value is 1 the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1598.1,
+            "end": 1604.1,
+            "text": " membership the maximum value for the certain for any membership function value is 1 that"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1604.1,
+            "end": 1609.6599999999999,
+            "text": " is the maximum value and like if I have taken. So, for the for the 82 degree temperature"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1609.6599999999999,
+            "end": 1614.6599999999999,
+            "text": " our membership function value in the case of warm is 0.3 in the case of hot is 0.7."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1614.6599999999999,
+            "end": 1621.6599999999999,
+            "text": " So, basically that crisp value can belong partially to multiple types of fuzzy cells"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1621.86,
+            "end": 1627.6599999999999,
+            "text": " that is the advantage of also that of case. So, like we do not have to categorize in only"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1627.6599999999999,
+            "end": 1632.1,
+            "text": " in the warm only in the hot. So, that is the advantage you can categorize in between two"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1632.1,
+            "end": 1639.1,
+            "text": " also like 30 percent hot 70 percent 70 percent hot 30 percent warm we can take in the at"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1639.3799999999999,
+            "end": 1645.74,
+            "text": " the 82 degree Celsius temperature if we have in the case of that example which I have taken"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1645.74,
+            "end": 1652.74,
+            "text": " now come to the classification of fuzzy method the method which I am explaining before 2"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1652.74,
+            "end": 1657.3799999999999,
+            "text": " to 5 slides like how we will decide which membership function we have to take how we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1657.38,
+            "end": 1661.14,
+            "text": " will decide. So, these are the various methods with the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1661.14,
+            "end": 1666.14,
+            "text": " help of that you can decide your membership function value for the for your crisp input."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1666.14,
+            "end": 1670.7800000000002,
+            "text": " So, basically first one is the intuition by your thinking you can decide with the help"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1670.7800000000002,
+            "end": 1677.7800000000002,
+            "text": " of your domain knowledge with the help of your experience you can decide for that for"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1677.8600000000001,
+            "end": 1682.94,
+            "text": " my voltage for my temperature I will take the triangular membership function value because"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1682.94,
+            "end": 1687.38,
+            "text": " it suits most with the help of experience you are deciding that with the help of interference"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1687.38,
+            "end": 1692.46,
+            "text": " means you are applying some formulas for that and you are then defining that for that interference"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1692.46,
+            "end": 1697.18,
+            "text": " is the best method for your and third one is the rank ordering with the help of surveys"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1697.18,
+            "end": 1702.26,
+            "text": " if you have taken some surveys you have taken some surveys from the expert also you have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1702.26,
+            "end": 1706.54,
+            "text": " taken the opinions from the expert basically with the help of that you are deciding any"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1706.54,
+            "end": 1711.38,
+            "text": " neural network method you are using for deciding that some genetic algorithm method you are"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1711.38,
+            "end": 1714.8200000000002,
+            "text": " using and some for the inductive reasoning type of things you are using. So, each method"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1714.8200000000002,
+            "end": 1718.2600000000002,
+            "text": " basically helps you to build the membership function differently."
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1718.2600000000002,
+            "end": 1722.5,
+            "text": " So, first one is the intuition based specification which of which I have already tell you it"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1722.5,
+            "end": 1726.94,
+            "text": " is a method which is created based on the human experience with the help of your human"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1726.94,
+            "end": 1730.7800000000002,
+            "text": " experience you are defining the membership function value or with the help of your domain"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1730.7800000000002,
+            "end": 1734.18,
+            "text": " knowledge like if I am from electrical. So, I have certain knowledge in electrical with"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1734.18,
+            "end": 1739.8600000000001,
+            "text": " the help of that I am deciding for my voltage or for my current the triangular membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1739.86,
+            "end": 1743.6599999999999,
+            "text": " function based best source for that. So, with the help of your experience you are"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1743.6599999999999,
+            "end": 1749.4199999999998,
+            "text": " deciding which membership function value will suits your application. So, now, it is basically"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1749.4199999999998,
+            "end": 1755.4199999999998,
+            "text": " the just a good feeling about how the value behaves. So, like if I am take one example"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1755.4199999999998,
+            "end": 1760.34,
+            "text": " which define the speed of a vehicle like for me 0 to 40, 0 to 40 kilometer per hour is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1760.34,
+            "end": 1765.78,
+            "text": " a slow speed 30 to in between 30 to 70 for me it is a moderate speed and for greater"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1765.78,
+            "end": 1772.1,
+            "text": " than 60 it is a fast speed, but if I will take any other person if I will take the example"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1772.1,
+            "end": 1778.06,
+            "text": " of my parents. So, what it will be for there the slow speed is 0 to 20 moderate is 220"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1778.06,
+            "end": 1784.54,
+            "text": " to 50 and greater than 50 they should what they will decide they will take greater than"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1784.54,
+            "end": 1788.86,
+            "text": " 50 as a fast speed. So, basically this different for different"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1788.86,
+            "end": 1794.18,
+            "text": " people different categorization should be happen. So, these things are basically might"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1794.18,
+            "end": 1799.8200000000002,
+            "text": " be overlapping because the idea of moderate speed can vary in the case in that case second"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1799.8200000000002,
+            "end": 1804.9,
+            "text": " one is the interface specification means you are you are logically or deducting some reasoning"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1804.9,
+            "end": 1810.38,
+            "text": " types of methods you are taking in which with the help of that you are deciding some domain"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1810.38,
+            "end": 1814.54,
+            "text": " rules to construct the membership function like if you want to categorize the triangle"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1814.54,
+            "end": 1819.1000000000001,
+            "text": " triangle. So, you can classify you can classify it with the help of their angles like if 2"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1819.1000000000001,
+            "end": 1823.78,
+            "text": " angles are equal it means that is isosceles triangles if one angle is near 90 it means"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1823.78,
+            "end": 1828.78,
+            "text": " it is right triangle. So, what you are doing? So, basically that formulas are derived empirically"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1828.78,
+            "end": 1833.02,
+            "text": " you are not using your theoretical knowledge you are you have derived this empirically"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1833.02,
+            "end": 1839.86,
+            "text": " and with for for these reasons you are using by defining your membership function second"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1839.86,
+            "end": 1845.82,
+            "text": " is rank order for rank ordering specification in which you are preferring some data from"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1845.82,
+            "end": 1851.82,
+            "text": " the survey you are taking the help of some surveys by analyzing that data or by using"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1851.86,
+            "end": 1857.62,
+            "text": " some experts opinion to assign the fuzzy values by the ranking ok you have you have taken"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1857.62,
+            "end": 1863.06,
+            "text": " a survey for that for that particular temperature for that application if I am giving I if I"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1863.06,
+            "end": 1868.46,
+            "text": " am for the fuzzy mechanism if I am giving a temperature input for a certain application"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1868.46,
+            "end": 1874.02,
+            "text": " then what membership function I will use you will you have taken the you have conducting"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1874.02,
+            "end": 1880.02,
+            "text": " you have conduct a survey and now on the basis of the that survey you are deciding ok what"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1880.42,
+            "end": 1885.3,
+            "text": " maximum people can choose ok maximum people will have chosen the triangular membership"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1885.3,
+            "end": 1889.22,
+            "text": " function for that then you are using the triangular membership function or you have taken some"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1889.22,
+            "end": 1895.46,
+            "text": " expert opinion to the to the researchers or to someone who is expert in that field you"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1895.46,
+            "end": 1899.98,
+            "text": " are taking their opinions and with the help of that opinion you are deciding that it comes"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1899.98,
+            "end": 1904.1399999999999,
+            "text": " under the category rank ordering specification what is that process you will collect the"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1904.1399999999999,
+            "end": 1908.74,
+            "text": " pair wise preferences then you will tally the results and then with the help of normalization"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1908.74,
+            "end": 1912.7,
+            "text": " you will decide on the basis of the top rank ok triangular membership function comes on"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1912.7,
+            "end": 1918.54,
+            "text": " the top rank so I will use the triangular membership function for my system and and"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1918.54,
+            "end": 1923.1,
+            "text": " there are also two types of fuzzification that first one is the support fuzzification"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1923.1,
+            "end": 1928.1,
+            "text": " and other one is the great fuzzification what it means ok in simply in basic you can just"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1928.1,
+            "end": 1934.18,
+            "text": " understand in the case of support fuzzification you will map you will map your crisp valid"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1934.18,
+            "end": 1940.5,
+            "text": " to a fuzzy set ok the the input which which you are giving the fuzzy set mechanism in"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1940.5,
+            "end": 1945.9,
+            "text": " fuzzy mechanism or fuzzy logic controller that x is mapped to the some fuzzy set in"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1945.9,
+            "end": 1950.9,
+            "text": " the case of great fuzzification it is basically completely opposite to the support fuzzification"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1950.9,
+            "end": 1957.02,
+            "text": " in great fuzzification that is in short we can say g fuzzification the membership value"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1957.02,
+            "end": 1963.5,
+            "text": " is itself fuzzified ok ok I will ok in the next lecture I will try to take the example"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1963.5,
+            "end": 1967.78,
+            "text": " for that and you guys for with the help of example you can understand better what is"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1967.78,
+            "end": 1973.34,
+            "text": " the difference between that these type of these two types of methods first that is support"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1973.34,
+            "end": 1979.3,
+            "text": " fuzzification and then the great fuzzification so that is all for the today's lecture in"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1979.3,
+            "end": 1984.98,
+            "text": " this lecture we have seen different types of product how we will add to fuzzy how we"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1984.98,
+            "end": 1989.58,
+            "text": " will take the algebraic sum of two fuzzy set how we will take the product of two type fuzzy"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1989.58,
+            "end": 1993.5,
+            "text": " set which I have seen and the first step of the for the fuzzy logic mechanism we have"
+        },
+        {
+            "number": "5",
+            "title": "Lecture 5",
+            "start": 1993.5,
+            "end": 1996.98,
+            "text": " seen that is a fuzzification ok that is all for today."
+        }
+    ],
+    "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning techniques. I am I am doctor Aftab Ahmed Ansari, your instructor for this course. So, this is lecture number five. So, in previous lecture, basically we have covered about the different types of operation on the fuzzy sets like union, intersection and many more operation we have seen in our previous lecture. So, in this lecture, we will see some basic operations on the fuzzy sets. If we have two types of set, how we will react when we have two inputs for any cases like like if we take any example from the electrical branch. So, what we will do? In certain cases, we have to take two types of input like voltage and current to define some things. So, for that for that type of operation, we will study some more type of operation. Basically, we have seen, but that are related to the like intersection, union, complement, but in that case, we will see the type of operation in which if we if we have some application in which we have to add two types of quantity, then how their membership function will react if we will add two types of quantity or if we will multiply two type of quantity like in the case of electrical quantities if we want to measure power. So, what is power? Power is the simple multiplication of voltage and current. So, for that type of quantities, what we will take? We have to take the multiplication of two types of function. So, for that types of cases, we will study what will happen to the membership function if we will multiply two types of input. So, how their membership function react for that types of input, we will see in that classes. So, first one is the algebraic product of two fuzzy sets. So, let we have two sets A and B and if we will multiply it and then for with their multiplication, we have given another name C set. It means fuzzy set is fuzzy set C is what? It is basically a multiplication of two types of set that is A and B. Now, their membership function for the fuzzy set A is mu A and for the B mu B. Now, and for the set C mu C. So, now algebraic product is basically in which we combine two types of fuzzy set. Now, what happen to the other membership function? Their membership function of each element is the result of products of degree in the two type of set. You can understand these things if you will complex and with the help of mathematical representation, you will get the things. The mu of CX, it is basically the membership function for the C set which we have made with the help of the multiplication of two sets A and B. So, their membership function value is mu of AX means membership function value of the A set multiplied by the membership function of the B set that is mu of B with the help of mathematical representation, you can easily understand. Now, we also can understand for the better understanding with the help of an example. So, I have taken one example in which I have taken two sets. First one is the set number A in which I have taken three membership function. First one is the X for that quantity, the membership function value is 0.2. For the X2, their membership function value is 0.5 and for the X3, their membership function value is 0.8. Similarly, for the B set in which again three functions are there. First one is X1, their membership function value is 0.6. For the X2, 0.7. For the X3, now we have to make the third set which is basically the multiplication of two sets. Then their membership function, how it will come? I will take the pointer. So, now how their membership function value comes? By multiplying both the set. You have to multiply the membership function values of both the set, but we have to see the value that both side there should be X1. So, how we will get? If you want to see the step by step method, then for that C function X1 value, their membership function value is 0.2 multiplied by the 0.6 for the case of the X1. Similarly, for the case of X2, you have to multiply their membership function where it is 0.5 to 0.7. In that step you can see and for the third set, 0.8 should be multiplied with the 0.3 for the case of X3. Then the final result should look like this. For the X1, the membership function we get by multiplying the membership function values of A and B that is 0.12 and for the X2 that is 0.35, for the X3 that is 0.24. So, here we will write in that way. So, that is the algebraic product of two types of fuzzy set. That is the result for that. Now I have already tell you about the example. Again if you want to take another example for the which you can understand not technical type of example. But if you want to take for better clarification like if A is a function in which we have categorized the tall people and B is the category in which we have categorized for the good jumpers. So, what then A and B represent? That the man which is tall and also good jumper. For that type of cases, we will use the algebraic product of two types of fuzzy cases. So, if we want to see the significance which we will use when both conditions must be met that is the common in fuzzy logic system for if you are modeling conjunction type of system if you are modeling then you will use this algebraic product of two fuzzy sets in that case. Second one is the scalar multiplication of a fuzzy set means if we have to I want to multiply the membership function or I have to scale that multiplying that membership function though I can multiply it with the help of a constant scalar function that may be alpha and that value should be in between the range 0 is less than alpha is less than 1. Now, for the for better understanding we can see the expression. So, the membership function value expression for that C set if I have taken which is the resultant set. So, alpha is the scaling factor and mu A is the membership function value for the set A. Let take an example A is the set which is having three function that first one is the x 1 whose membership function value is 0.3 x 2 is another function whose membership function value is 0.6 x is another whose membership function value is 0.9. Now, if I want to scale their membership function. So, I have taken an alpha whose value is 0.5. So, now you can solve first you will try then I will go to the first you can pause the video and try to find the membership function for the C set for the C set C set C set you can find the membership function value for that set by your you can pause the video and find the answer. So, this is the final expression we will find the membership function of C set with the help of alpha multiply by the membership function value of the set A. So, that is the step by step answer for that numerical question I hope you have already solved in your copy. So, that is 0.5 should be multiplied by the x 1 x 1 membership function value that is 0.3 0.5 is again multiply for the x 2 membership function value that is 0.6 and same for the x 3 function their membership function value is 0.3. So, we have multiplied with the by that scaling factor that is 0.5 for our question for that type of for this question which we have taken. Now, the resultant set how the resultant C set look like it will it will look like 0 x 1 for their membership function value is 0.15 for x 2 0.3 and for x 3 0.45. So, we use the that type of that scalar multiplication in the case where our truss level is reduced due to some certain conditions happen in the system. So, for that type of system we will use this scalar multiplication and what is the significance with the help of that we can adjust our strength of a fuzzy set which is useful in the case of when we are modeling the uncertainty in the confidence type of reduction cases. So, now what is the power of a fuzzy set that is concentration power means which we have already says like x square it means the power of x is 2. So, for that type of cases we are sometimes our power should also be x key power 1 by 2 it means it basically means under root x. So, if we are if we are taken power in the in the in the not in fraction in real numbers if we are taking power then we will say that concentration. So, for that type of power of a fuzzy set we have given one name the specific name that is concentration in it means in that type of function we are squaring the membership function value. So, what it do it will increase the sharpness of membership function by squaring each membership function by pushing their values which is closer to 0 to 1. So, that is the expression for that again c is the resultant membership function and mu a is the our primary membership function and for that c we are squaring it which means we are taking the concentration of that if you want to find the concentration for that set what you will do you will square the values of the membership function of the primary set that you are using that is given in the question if you see like again I have taken one example for the better understanding like a 1 is the set in which 3 functions I have taken first one is x whose membership function value is 0.3 same for x 2 0.7 for x 3 0.9 for this we have to find the concentration that is our question let it be we have to find the concentration for that set now you can pause the video and again find the answer by yours. So, this is the step by step solution for that what we have to do you have to simply square the membership function for that for x 1 that is 0.3. So, you can square it 0.3 square that is 0.09 for this again for this x 2 that is 0.7 square then 0.41 is the resultant answer for third case x 3 0.9 is the value and you can again square it you can get the value 0.81. So, that is the result for the c set now again the power of a fuzzy set when we are taking the power in terms of fraction that it be 1 by 2 1 by 2 means square root. So, for that case we have given a specific name that is dilation what it will do it basically soften the set by taking the square root of each membership function value which it makes it more inclusive let us see the expression. So, it expression looks like the again mu of c means c set is our resultant set and mu a we are taking the dilution for that a set. So, what we have to do we have to square root the membership function value for that our primary set that is a set if I am taking if I am taking an example that a set is our primary set and we have to find the dilation for that set. So, what we will do we will under root mean we will square we have we will take the square root of the membership function values for that set again let us take an example that a is a set our primary set and x 1 is the function in that set that is 0.2 for again second is x 2 whose membership function value is 0.5 x 3 whose membership function value is 0.81. Now what we have to do for that question we have to find the dilation dilation for that a set. So, again you can pause the video and the find the answer by yours it is basically very easy question for. So, again this is the step by step procedure for x 1 you have to you have to take the under root for that membership function value that is 0.2 in that case it approximately around 0.447 for the case of x 1 similarly for the x 2 under root 0.5 it will around 0.707 again for the x 3 function their membership function value is 0.81 it have some correction that it is basically x 3 x 3 x 2 is already covered in the second. So, that one is a under root 0.1 basically it comes exactly 0.91 0.9 and for the first two cases it is approximately 0.447. So, now, the what is the resultant set looks like x 1 the new membership function value that is 0.447 for x 2 their new membership function value 0.707 and same for the third case. So, what we have we have done the dilation of fuzzy set A we have done in that question. Now, again come to the next topic now the second for the one is the algebraic sum of two fuzzy set mean it represent the union of two fuzzy set using a formula which we will see in the expression. So, what we are doing in that case we are adding two fuzzy sets let us it we are having two fuzzy set A and B what we have to we have to add that two fuzzy sets. So, how we will add that types of fuzzy sets we will see. So, this is the basically expression with the help of say with the help of that expression you can understand better. So, how we will add if you want to add or we have to take the algebraic sum of two fuzzy set with the help of that formula you can take that one is the expression. So, what expression says you have to first take the addition of the two membership function value mu of x plus mu of B of x minus and then you have to subtract the multiplication of the membership function value that is the formula if you want to add two type if you if you want to take the algebraic sum of two fuzzy set with the help of that expression you can find the answer. Again I have taken example that first one is the A set which is having three different function and that different membership function values are given in the question for x 1 0.4 for x 2 0.5 and for x 3 0.6 similarly for the B cases 0.3 0.7 and 0.2. Now, again you can pause the video and you have to find the membership function for the C set which is the basically algebraic sum of the sets A and B you can pause and find the solution for that it is very easy you have to simply add them let if I am finding for the x 1. So, what you have to do you have to simply add means 0.4 plus 0.3 minus 0.4 into 0.3. If you are able to solve you can solve in your copy otherwise like if I am finding for the for that x 1 set if I am finding what should what should be the membership function value for the x 1 if I am taking what I have to do I have to take the membership function value for A set that is 0.4 given then 0.3 that is given for the B set now what I have to do I have to multiply both that is 0.7 minus 0.12 again you have to subtract this 0.7 minus 0.12 for in that way you can find the answer for that in the next slide I have all the answers basically. So, this is the way you can find the answer 0.4 plus 0.3 minus 0.4 into 0.3 for all the 3 cases for the x 1 for the x 2 for the x 3 you have to solve in that way and then our final result looks like which is shown in the in the result column that is c x 1 comma 0.58 for the x 1 for x 2 that is 0.85 and for x 3 that is 0.68. So, this is the way if you have to find the addition if you have to find algebraic sum of 2 type of fuzzy set you can use this formula now if I have to take the bounded sum of 2 fuzzy set means we have to there we have to find the fuzzy union operation where the membership value is the minimum of 1 or a sum of the individual membership function value it means that maximum value should be 1 either maximum value should be 1 and the minimum can be the addition of the 2 which is less than in the 2 cases either it is minimum like if I am taking the case where first function membership function value 0.3 again 0. and next function is 0.3. So, 0.4 plus 0.3 that is 0.7 it may it is less than 1. So, I can take the membership function value 0.7, but in a case like for the a side 0.9 membership function value and for the b side 0.9 again 9 you can take. So, now, if you will add. So, you can you get the value 0.9 plus 0.8 that is 1.7. So, it means it is greater than 1. So, what you have to you have to take the bounded output that is 1 you have to take that bounded value if your value exceeds 1 you can take the minimum of that we can see the we will see the expression that is the expression if you want to found the bounded operation of the 2 sets. So, you can see that in that. So, this is the expression for mu of c of x that is a resultant set now I am finding the bounded sum of that 2 fuzzy set that is mu a and mu b for that 2 sets I am finding the bounded sum. So, what how we will find that I have explained to you you have to take the minimum value if minimum if value exceeds 1 then you have to take the 1 if your value is not exceeding 1 then you can directly take the sum whatever it comes. So, again I have taken 1 example. So, there will be 2 sets first one is a set which is having membership function value for the x 1 0.1 x 2 0.4 x 3 0.7 and similarly for the b 0.5 0.6 0.4 now you can pause the video and try to solve that question you can find the bounded sum of a and b set. So, that is the step by step solution for this question also if you will see that we have again I will take the pointer. So, this is the 0.1 and 0.1 for the a set 0.5 for the b set I have taken the addition that comes 0.6 1 and 0.6 the minimum value is 0.6. So, I have taken 0.6 for the x 2 0.4 is the 4 a 0.6 for the b I will add it comes 1.0 I will take the minimum that is 1 now in the case of c you can see 0.7 plus 0.4 that is 1.1 now I have to take the minimum value that is 1. So, that means, we are taking the bounded sum of 2 if you want to take the bounded sum of 2 types of fuzzy set in that way you can take this. Now we come to the our main part before that we have we have studied about some different types of operation some different types of properties of the fuzzy sets means like we have seen intersection operation complement operation union operation that type of operation we have seen now we have after then in today's class we have seen the how we will add how we will multiply 2 types of set if you want to if conditions come when you have to multiply 2 types of fuzzy set we have already seen. Now we come to the main topic main part of the fuzzy mechanism that is the first step. So, the first step of the fuzzy set mechanism which we have studied in the first class I have shown you the block diagram of the block diagram of the fuzzy whole fuzzy mechanism. So, here you can there you can see that the first step are is fuzzification means what fuzzification means it is the process of converting the crisp input which we have given the input into the degree of memberships in fuzzy set it means you are converting the crisp input into the fuzzy input or in easy language we can say you are mapping that crisp into the fuzzy input you are converting that the random input which you are feeding to the fuzzy mechanism then the first step is to convert that crisp input that random input into the fuzzy logic input or into the fuzzy set. So, what it do it is basically translate your quantitative input which you have fed like in the case like you can see now you can take the example of temperature. So, I have feed the temperature as a crisp input. So, now, what we will do I will convert that first first step that is fuzzification I will map this with the fuzzy with the with the membership function like first what we will do I will take some linguistic variables like if I have taken an example of temperature the temperature may be hot more hot less hot moderate hot or any value you can take this type this type of linguistic labels we can we can take and then in that labels we will our I will map our crisp into the different different types of labels which we have taken in the fuzzy set in which category our input comes into the into the system we will see. So, fuzzification is basically the first step in a fuzzy logic system it allows a fuzzy system to handle the real world imprecise input ok. So, it it is basically you can think like adding human like and perception to the machine in the fuzzy fuzzification process we are doing we are adding a human like perception to the machine ok. So, let a crisp value value be x and mu x be the membership function with that fuzzy x then fuzzified value is the membership function value for that set ok like if a if I will take the example in which fuzzy temperature if a if a temperature is 32 degree Celsius and the fuzzy set hot is defined with the membership function value. So, how we will define I will map that 32 degree 32 degree temperature to a fuzzification means we have studied the membership function ok I will explain you we have already studied about the membership function membership function different different type of membership function value. So, what we will do you have to map that input that crisp input to that fuzzification to that membership values ok let I will take a triangular membership function which we have studied. So, it looks like that ok here a the b this is the input now what I am mapping that hot to the in between what I have do it is 0 for x less than or ok I will take any example not less than I will take I am taking 25 degree Celsius. Now, for that x minus 25 by 10 I have taken for the middle values the it mean if our values in between 25 to 35 ok now last case when x is greater than 35 the my membership function value for that is 1 I have taken. So, for that what we will do we will our map we will see in which category our input function is lying in that in the in that case if I have taken the triangular membership function if I have taken you can take any membership function it will depend on the your basically operation or sorry application on it will the which membership function you will best suit for a application you will take this or I will ok we will also see how we will how we will take the membership function for that like which membership function I have to choose I have to choose triangular I have to choose trapezoidal I have to take sigma what type of membership function we have to choose we will see how we will decide the which membership function which membership function we will take ok. So, that is the example for that now the what the real world example means like if an air conditioner system the. So, controller might interpret 30 degree as either hot means it is basically hot for some cases of like for the for their for 30 degree 2 degree Celsius we have taken the membership function value is 0.7 for the hot case and for the warm we have taken ok it might be little warm of also for that we have taken their membership function low as compared to what that is 0.3 and it is not called at for the 30 degree Celsius then we have considered their membership function value is 0. So, instead of only one crisp level we have divided into 3 part. So, not like not like digital logic we have to decide whether 32 degree hot or not that is the advantage of fuzzy set basically we can decide in between 0 and 1 also ok. So, that fuzzy there is significance may be it enables the system to mimic human type reasoning and handle the uncertainty condition by considering the partial truth rather than the binary logic which we have studied in detail in our first 2 lectures ok. Now, these are the components of fuzzification first one is the crisp input which you are applying to the system second was the linguistic variable means you are describing the input what it may be what it is it is a whether it is a temperature it is a voltage it is a current or it may be anything then you will describe that system what input you are giving then we have to what we have to set the labels like means we have to set the range like if we are defining the membership function for the cold. So, what is the range for that cold what is the range for that warm what is the range for that hot if I am taking the example of temperature then we will choose the membership function value like the curve which define how much a crisp input belong to the fuzzy set that defines by the membership function. So, we will see the if ok I will explain with the help of visual institution like if you can say you have to take the pointer like that means what I want to concluding you means that I have taken like first one is the cold second one is for the warm and third one is for the hot. So, there our temperature lies and there lies the membership function value. So, like if I am taking an 82 degree temperature then it will be there then now you can see so, that 82 degree temperatures come also under the membership function value of warm and comes also under the hot also now you can see whether it mostly belongs basically the if you can see the cold it does not belong to cold then their membership function which I have written is 0 it does not belong to cold you can see the cold range is from there to there it does not belong to the cold membership function now you can see the warm it belongs to something there to warm. So, I have taken 0.3 randomly now for the hot it belongs to more there we have membership function and their maximum value is 1 the membership the maximum value for the certain for any membership function value is 1 that is the maximum value and like if I have taken. So, for the for the 82 degree temperature our membership function value in the case of warm is 0.3 in the case of hot is 0.7. So, basically that crisp value can belong partially to multiple types of fuzzy cells that is the advantage of also that of case. So, like we do not have to categorize in only in the warm only in the hot. So, that is the advantage you can categorize in between two also like 30 percent hot 70 percent 70 percent hot 30 percent warm we can take in the at the 82 degree Celsius temperature if we have in the case of that example which I have taken now come to the classification of fuzzy method the method which I am explaining before 2 to 5 slides like how we will decide which membership function we have to take how we will decide. So, these are the various methods with the help of that you can decide your membership function value for the for your crisp input. So, basically first one is the intuition by your thinking you can decide with the help of your domain knowledge with the help of your experience you can decide for that for my voltage for my temperature I will take the triangular membership function value because it suits most with the help of experience you are deciding that with the help of interference means you are applying some formulas for that and you are then defining that for that interference is the best method for your and third one is the rank ordering with the help of surveys if you have taken some surveys you have taken some surveys from the expert also you have taken the opinions from the expert basically with the help of that you are deciding any neural network method you are using for deciding that some genetic algorithm method you are using and some for the inductive reasoning type of things you are using. So, each method basically helps you to build the membership function differently. So, first one is the intuition based specification which of which I have already tell you it is a method which is created based on the human experience with the help of your human experience you are defining the membership function value or with the help of your domain knowledge like if I am from electrical. So, I have certain knowledge in electrical with the help of that I am deciding for my voltage or for my current the triangular membership function based best source for that. So, with the help of your experience you are deciding which membership function value will suits your application. So, now, it is basically the just a good feeling about how the value behaves. So, like if I am take one example which define the speed of a vehicle like for me 0 to 40, 0 to 40 kilometer per hour is a slow speed 30 to in between 30 to 70 for me it is a moderate speed and for greater than 60 it is a fast speed, but if I will take any other person if I will take the example of my parents. So, what it will be for there the slow speed is 0 to 20 moderate is 220 to 50 and greater than 50 they should what they will decide they will take greater than 50 as a fast speed. So, basically this different for different people different categorization should be happen. So, these things are basically might be overlapping because the idea of moderate speed can vary in the case in that case second one is the interface specification means you are you are logically or deducting some reasoning types of methods you are taking in which with the help of that you are deciding some domain rules to construct the membership function like if you want to categorize the triangle triangle. So, you can classify you can classify it with the help of their angles like if 2 angles are equal it means that is isosceles triangles if one angle is near 90 it means it is right triangle. So, what you are doing? So, basically that formulas are derived empirically you are not using your theoretical knowledge you are you have derived this empirically and with for for these reasons you are using by defining your membership function second is rank order for rank ordering specification in which you are preferring some data from the survey you are taking the help of some surveys by analyzing that data or by using some experts opinion to assign the fuzzy values by the ranking ok you have you have taken a survey for that for that particular temperature for that application if I am giving I if I am for the fuzzy mechanism if I am giving a temperature input for a certain application then what membership function I will use you will you have taken the you have conducting you have conduct a survey and now on the basis of the that survey you are deciding ok what maximum people can choose ok maximum people will have chosen the triangular membership function for that then you are using the triangular membership function or you have taken some expert opinion to the to the researchers or to someone who is expert in that field you are taking their opinions and with the help of that opinion you are deciding that it comes under the category rank ordering specification what is that process you will collect the pair wise preferences then you will tally the results and then with the help of normalization you will decide on the basis of the top rank ok triangular membership function comes on the top rank so I will use the triangular membership function for my system and and there are also two types of fuzzification that first one is the support fuzzification and other one is the great fuzzification what it means ok in simply in basic you can just understand in the case of support fuzzification you will map you will map your crisp valid to a fuzzy set ok the the input which which you are giving the fuzzy set mechanism in fuzzy mechanism or fuzzy logic controller that x is mapped to the some fuzzy set in the case of great fuzzification it is basically completely opposite to the support fuzzification in great fuzzification that is in short we can say g fuzzification the membership value is itself fuzzified ok ok I will ok in the next lecture I will try to take the example for that and you guys for with the help of example you can understand better what is the difference between that these type of these two types of methods first that is support fuzzification and then the great fuzzification so that is all for the today's lecture in this lecture we have seen different types of product how we will add to fuzzy how we will take the algebraic sum of two fuzzy set how we will take the product of two type fuzzy set which I have seen and the first step of the for the fuzzy logic mechanism we have seen that is a fuzzification ok that is all for today."
+}

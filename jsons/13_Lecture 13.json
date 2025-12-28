@@ -1,0 +1,2910 @@
+{
+    "chunks": [
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 0.0,
+            "end": 17.8,
+            "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 17.8,
+            "end": 19.0,
+            "text": " machine learning technique."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 19.0,
+            "end": 22.6,
+            "text": " I am Dr. Aftab Abbad Ansari, your instructor for this course."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 22.6,
+            "end": 27.44,
+            "text": " So, basically this is our lecture number 13 in the previous lecture we have covered about"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 27.44,
+            "end": 31.840000000000003,
+            "text": " the introduction to machine learning, we have seen about the what is machine learning, why"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 31.840000000000003,
+            "end": 37.08,
+            "text": " it is useful for us and what is the difference between the traditional programming and the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 37.08,
+            "end": 42.120000000000005,
+            "text": " machine learning and we have also seen the main key ingredients of the machine learning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 42.120000000000005,
+            "end": 48.24,
+            "text": " that is data, model and learning and then we have seen also about the simple example"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 48.24,
+            "end": 52.96,
+            "text": " by in which we have predicted the marks of students with the help of machine learning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 52.96,
+            "end": 57.8,
+            "text": " basically which will help us to understand what is the machine learning and how machine"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 57.8,
+            "end": 62.36,
+            "text": " learning will work that all we have studied in our the previous class."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 62.36,
+            "end": 67.4,
+            "text": " Now in today's class, we will try to understand the machine learning workflow and then one"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 67.4,
+            "end": 72.8,
+            "text": " to one step by step we will see the component of the machine learning workflow because we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 72.8,
+            "end": 77.4,
+            "text": " have seen that machine learning is now our integral part in a for our daily lives because"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 77.4,
+            "end": 82.92,
+            "text": " in our daily lives we have we are using many multiple applications of the machine learning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 82.92,
+            "end": 88.2,
+            "text": " whether it is the whether it is in the application of recommendations, whether it is the application"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 88.2,
+            "end": 90.28,
+            "text": " of Siri or Alexa."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 90.28,
+            "end": 95.0,
+            "text": " So that's why we have to understand the machine learning how what's the workflow basically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 95.0,
+            "end": 97.16000000000001,
+            "text": " how machine learning is working."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 97.16000000000001,
+            "end": 101.32000000000001,
+            "text": " So first machine learning workflow is basically it is a structured process in which we use"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 101.32000000000001,
+            "end": 105.36000000000001,
+            "text": " to develop train and deploy the machine learning model."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 105.36,
+            "end": 110.36,
+            "text": " First what we do we will try to develop it then we will go for the training then we will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 110.36,
+            "end": 117.12,
+            "text": " deploy it what it ensures basically it ensures the consistency and efficiency of our systems."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 117.12,
+            "end": 121.8,
+            "text": " Now if if I will compare it with with the real world analogy like it is like when we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 121.8,
+            "end": 127.6,
+            "text": " want to cook a food first we have to decide what we have to cook for that if we have decided"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 127.6,
+            "end": 132.84,
+            "text": " what we have to cook then we go for the ingredients now we will go for the it is the collection"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 132.84,
+            "end": 137.56,
+            "text": " of the ingredient when then we will try to collect all the ingredient which will be which"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 137.56,
+            "end": 143.68,
+            "text": " we which we will be used for that dish then we will prepare it then we will cook it then"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 143.68,
+            "end": 145.72,
+            "text": " we will go for the taste."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 145.72,
+            "end": 149.92000000000002,
+            "text": " Similarly for the machine machine learning also what's the first step first step is the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 149.92000000000002,
+            "end": 158.68,
+            "text": " problem identification basically that is missing in that slide that is the machine problem"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 158.68,
+            "end": 160.84,
+            "text": " identification basically."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 160.84,
+            "end": 167.64000000000001,
+            "text": " What we will what we have to do first you have to identify your problem what you want"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 167.64000000000001,
+            "end": 171.24,
+            "text": " to do with the machine learning what type of task you want to solve with the help of"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 171.24,
+            "end": 175.8,
+            "text": " machine learning first you have to identify that then you have to go for the data collection"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 175.8,
+            "end": 180.76,
+            "text": " data preparation model selection training evolution and all other remaining things."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 180.76,
+            "end": 186.68,
+            "text": " So if we will see the key stages first one is the problem identification or problem definition"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 186.68,
+            "end": 190.52,
+            "text": " means in which you will decide what you have to do with the machine learning whether you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 191.20000000000002,
+            "end": 195.84,
+            "text": " have to go for the recommendations whether you have to go for the predictions or for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 195.84,
+            "end": 200.60000000000002,
+            "text": " the different types of regression and any other problems whatever first you have to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 200.60000000000002,
+            "end": 206.56,
+            "text": " identify your problems then next step is the data collection now for that problem for that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 206.56,
+            "end": 211.48000000000002,
+            "text": " problem you have to collect the data which will be useful for your problem you have to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 211.48000000000002,
+            "end": 216.24,
+            "text": " collect that types of data then you have to prepare that data because sometimes data are"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 216.24,
+            "end": 221.52,
+            "text": " missing so you have to prepare or you have to prepare that data in a good form so that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 221.52,
+            "end": 227.8,
+            "text": " it is it is easily it is easy for the machine to understand that data and to catch the pattern"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 227.8,
+            "end": 231.20000000000002,
+            "text": " what type of pattern that data is following."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 231.20000000000002,
+            "end": 235.4,
+            "text": " Now next step is model selection then you have to select the model which which model"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 235.4,
+            "end": 240.64000000000001,
+            "text": " you will use for your machine learning model basically means like if you are using for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 240.64000000000001,
+            "end": 244.76000000000002,
+            "text": " different types of application then different types of machine learning models are there"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 244.76,
+            "end": 248.88,
+            "text": " then you have to select that models then you have to go for the training you have to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 248.88,
+            "end": 254.2,
+            "text": " train then you will go for the evaluation and then the final step that is prediction"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 254.2,
+            "end": 260.08,
+            "text": " that that is your now final output which you have to do now first before we will start"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 260.08,
+            "end": 264.88,
+            "text": " the machine learning workflow first we have to understand about the representation representation"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 264.88,
+            "end": 270.48,
+            "text": " is what basically it is the process of turning real world things into numbers because what"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 270.48,
+            "end": 276.24,
+            "text": " is computer learn in the machine learning what what is our desirable thing is we want"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 276.24,
+            "end": 281.44,
+            "text": " to teach the computer we want that computer can learns that things we want so for that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 281.44,
+            "end": 286.32,
+            "text": " what you have to do because computer is not able to understand the image the speech so"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 286.32,
+            "end": 292.56,
+            "text": " what it will do it will convert all your real world things into the numbers so first method"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 292.56,
+            "end": 296.44,
+            "text": " first things we have to learn about the representation."
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 296.44,
+            "end": 301.84,
+            "text": " Then convert your real world things into numbers because computers and machine learning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 301.84,
+            "end": 308.0,
+            "text": " models only understands the numbers it is like if if we do not know Hindi if we do not"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 308.0,
+            "end": 312.32,
+            "text": " know English what we will do first we will take the sentence of English and for understanding"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 312.32,
+            "end": 317.32,
+            "text": " purpose what we will do we will translate that English sentence to Hindi so that we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 317.32,
+            "end": 322.84,
+            "text": " can learn what does what that statement or what that sentence is want and now if you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 322.84,
+            "end": 326.91999999999996,
+            "text": " want to rewrite it then what we will do first we will write that sentence in Hindi then"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 326.91999999999996,
+            "end": 332.15999999999997,
+            "text": " we translate that Hindi to English similarly for the machine learning also what it will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 332.15999999999997,
+            "end": 337.91999999999996,
+            "text": " do it will convert or your all your work to the numbers basically whatever you will give"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 337.91999999999996,
+            "end": 343.28,
+            "text": " like if you are for example if I will take a house features the what the what are the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 343.28,
+            "end": 348.76,
+            "text": " how features of that house basically it is what are first is the size of the house how"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 348.76,
+            "end": 355.08,
+            "text": " many square feet how many square feet it have then second is the bedroom how many bedrooms"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 355.08,
+            "end": 360.64,
+            "text": " are there in the houses and third one is the location so now that that's the thing which"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 360.64,
+            "end": 367.59999999999997,
+            "text": " we will understand but computer does not understand it so we have to convert that thing into numbers"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 367.59999999999997,
+            "end": 373.52,
+            "text": " you can see in example which I have shown here with the help of that example you can"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 373.52,
+            "end": 380.08,
+            "text": " see that we have to convert that our house features means basically size bedroom location"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 380.08,
+            "end": 386.03999999999996,
+            "text": " into that form because that form is understable for understandable for the computers okay"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 386.03999999999996,
+            "end": 391.56,
+            "text": " now why it is important because machine cannot be directly understand the text images or"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 391.56,
+            "end": 397.52,
+            "text": " audio so what we have to do you have to convert that text images or audio into the numbers"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 397.52,
+            "end": 404.79999999999995,
+            "text": " so that then the computers are able to learn and patterns to learn basically what it have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 404.79999999999995,
+            "end": 410.71999999999997,
+            "text": " to do with that data it will try to catch the patterns and it is only able to catch"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 410.71999999999997,
+            "end": 416.47999999999996,
+            "text": " that patterns from the numbers only so that's why it will converts all your input to the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 416.47999999999996,
+            "end": 422.64,
+            "text": " numbers and then it will try to catch the pattern from that numbers now a good representation"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 422.64,
+            "end": 429.71999999999997,
+            "text": " helps the model learn better and make prediction better if your data is having in a good representation"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 429.71999999999997,
+            "end": 435.88,
+            "text": " form then it is very easy for the computer to understand it to learn it and to make and"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 435.88,
+            "end": 441.96,
+            "text": " to catch the pattern in a best way so that it will make the prediction better similarly"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 441.96,
+            "end": 450.28,
+            "text": " for a kid if you will give if you will write if it is like if you want to if you want to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 450.28,
+            "end": 455.52,
+            "text": " teach a kid so what you will do you will give him a 1 2 3 in that manner so that that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 455.52,
+            "end": 461.71999999999997,
+            "text": " kid is able to understand the difference between 1 2 and 3 but if you will give in that rough"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 461.71999999999997,
+            "end": 466.03999999999996,
+            "text": " type of language then it is difficult for that kid to understand similarly for the computer"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 466.03999999999996,
+            "end": 470.88,
+            "text": " also if you will give good amount of data and good types of data in a good representation"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 470.88,
+            "end": 476.44,
+            "text": " then it is it is easy for the computer to learn that then to catch the pattern from"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 476.44,
+            "end": 483.16,
+            "text": " that and that data set basically which you have given now basically why why the representation"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 483.16,
+            "end": 488.28,
+            "text": " matters for the machine learning because it helps the machine to find patterns in the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 488.28,
+            "end": 494.88,
+            "text": " to find patterns in data to make for the prediction because it it it will create a easy path for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 494.88,
+            "end": 500.76,
+            "text": " the machine learning if you will give the representation in that form in which it it"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 500.76,
+            "end": 506.28,
+            "text": " works or it understand basically so like what's our impact if we see if we are if we are having"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 506.32,
+            "end": 511.88,
+            "text": " a good representation then accurate and fast learning we will get from the computer similarly"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 511.88,
+            "end": 516.28,
+            "text": " if we are having a bad representation then what it will do sometime you will get the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 516.28,
+            "end": 521.12,
+            "text": " wrong prediction or it will be a slow learning for the computer because data data is not"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 521.12,
+            "end": 527.28,
+            "text": " in that form which is demanded by the computer so it what it will do so the limitation for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 527.28,
+            "end": 533.52,
+            "text": " that types of data is it will predict wrong things or it will learn slow so now if we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 533.52,
+            "end": 539.72,
+            "text": " can see the example like if we want if we want computer to differentiate between the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 539.72,
+            "end": 546.52,
+            "text": " between the fruits like so what it will do if we are we are hanging an apple and other"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 546.52,
+            "end": 553.52,
+            "text": " things in orange so if we will give the data of that two fruits to computer in the in the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 554.04,
+            "end": 561.04,
+            "text": " form of size then it is very difficult I am giving the computer of both the fruits in"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 562.04,
+            "end": 567.36,
+            "text": " the form of size then it will be then it is very difficult for the computer to differentiate"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 567.36,
+            "end": 573.7199999999999,
+            "text": " between the two fruits now if you if I will give the data in the form of size in the form"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 573.7199999999999,
+            "end": 580.7199999999999,
+            "text": " of size in the form of color so then it is easy it is easy for the computer to understand"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 581.9599999999999,
+            "end": 587.52,
+            "text": " the difference between the two fruits like for the size make an size may be vary because"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 587.52,
+            "end": 593.52,
+            "text": " what is the disadvantage of giving only the size to the computer sometimes the sometimes"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 593.52,
+            "end": 599.0,
+            "text": " the size of the apple and orange will become equal and then it will be not able to differentiate"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 599.0,
+            "end": 604.56,
+            "text": " between this two fruits so if I will give him the input the size and color also like"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 604.56,
+            "end": 611.56,
+            "text": " if red I will give for the apple and similarly orange for the and similarly orange for the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 612.56,
+            "end": 619.56,
+            "text": " orange basically then it is easy for the computer to differentiate between this two fruits so"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 619.68,
+            "end": 626.04,
+            "text": " what good like bad if we it is a bad data if we use only weight because that which computers"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 626.04,
+            "end": 633.04,
+            "text": " might not be able to separate between the two now now the types of representation next"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 634.2399999999999,
+            "end": 639.1999999999999,
+            "text": " topic is so there are four types of basically representation to represent the data first"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 639.2,
+            "end": 643.5600000000001,
+            "text": " one is the feature vector feature vector in which basically these feature vectors are"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 643.5600000000001,
+            "end": 649.0,
+            "text": " simple list of numbers that is speed weight color any type of variables it is having so"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 649.0,
+            "end": 655.2,
+            "text": " it is basically the simple list of number embedded means embedded means it is a it is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 655.2,
+            "end": 660.9000000000001,
+            "text": " a representation in which smart numbers smart numbers are used that capture the meaning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 660.9000000000001,
+            "end": 665.84,
+            "text": " between like for example king and queen their embeddings are simple because their meanings"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 665.84,
+            "end": 672.84,
+            "text": " are similar so embeddings for that that kings and queens are similar to each other graph"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 672.84,
+            "end": 678.0400000000001,
+            "text": " third type of representation is graph which basically shows the relationship between two"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 678.0400000000001,
+            "end": 684.44,
+            "text": " types of numbers or two types of variables like for example a social network who is connected"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 684.44,
+            "end": 690.48,
+            "text": " to whom that type of that type of representation is there in that is in the form of graph for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 690.48,
+            "end": 695.76,
+            "text": " this time series it means data over time data with respect to time basically like if"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 695.76,
+            "end": 702.04,
+            "text": " I am taking data from a some sensor like from temperature sensor if I am taking the data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 702.04,
+            "end": 709.04,
+            "text": " so with respect to time I will get the data like okay like in the form of that you can"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 709.76,
+            "end": 716.76,
+            "text": " say that like okay at 4 p.m. temperature is 36 like 6 p.m. temperature increases like"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 717.52,
+            "end": 724.52,
+            "text": " 8 p.m. temperature decreases so that type of time series data basically 36 38 again"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 725.3199999999999,
+            "end": 732.3199999999999,
+            "text": " 36 if I will count it is a 38 36 so that type of data we will say as time series data in"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 732.56,
+            "end": 738.68,
+            "text": " which data is there with respect to time okay any other type of data we can also take like"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 738.68,
+            "end": 743.96,
+            "text": " humidity soil moisture sensor soil moisture sensor if we will use you can you will get"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 743.96,
+            "end": 748.76,
+            "text": " the humidity also temperature also with the help of that so different type of sensor you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 748.76,
+            "end": 755.0400000000001,
+            "text": " can use to collect the data from that sensor we will get the data over time like for example"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 755.0400000000001,
+            "end": 760.12,
+            "text": " in a if we will see the example like in a movie app you can use we will use the feature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 760.12,
+            "end": 765.5600000000001,
+            "text": " vectors to show the movie ratings and embeddings we will use for the description of the movie"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 765.5600000000001,
+            "end": 770.32,
+            "text": " that is the example of basically two types of data where we can use for two types of"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 770.32,
+            "end": 774.6400000000001,
+            "text": " for two different application different types of representation we can use like key points"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 774.6400000000001,
+            "end": 779.6,
+            "text": " I have written here different problems need different types of representation as per problem"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 779.6,
+            "end": 786.6,
+            "text": " we have to decide which representation we have to use in a now in next slide is now"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 787.9200000000001,
+            "end": 792.88,
+            "text": " we will go in details one by one for all the types of representation so first one is the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 792.88,
+            "end": 797.4000000000001,
+            "text": " feature vectors basically if we will see it is a list of number which are represents the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 797.4,
+            "end": 802.48,
+            "text": " feature which represent basically the properties and of object what the feature vector will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 802.48,
+            "end": 809.3199999999999,
+            "text": " describe is basically describes the properties of an example properties of an object basically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 809.3199999999999,
+            "end": 816.0799999999999,
+            "text": " now we will see one example I have I have taken a example of a car in which three three"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 816.0799999999999,
+            "end": 821.3199999999999,
+            "text": " properties are the in which I have shown or basically I have taken the three properties"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 821.32,
+            "end": 827.7600000000001,
+            "text": " of a car first one is speed weight and color now I have to give that types of data to the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 827.7600000000001,
+            "end": 832.4000000000001,
+            "text": " computer so it will give if I have to give in the form of feature vector then this is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 832.4000000000001,
+            "end": 838.6400000000001,
+            "text": " the correct way in the form of square bracket you have to give him the data so that it is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 838.6400000000001,
+            "end": 845.6400000000001,
+            "text": " easy it is understandable understandable for the computer to to to take that data for the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 846.12,
+            "end": 852.12,
+            "text": " training purpose and it is easy easy for her to understand basically so that is speed you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 852.12,
+            "end": 859.12,
+            "text": " you can you have already used that type of data when you are going to apply for a formula"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 859.28,
+            "end": 866.04,
+            "text": " in excel so similarly similar you can see that that type of representation is also there"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 866.04,
+            "end": 871.36,
+            "text": " in the in the excel when you are applying any formula now what is the step if we will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 871.36,
+            "end": 878.2,
+            "text": " see the feature like the red color I have coded as a one and each number is one feature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 878.2,
+            "end": 884.12,
+            "text": " basically 120 is one feature that represent basically the speed 2000 is also another feature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 884.12,
+            "end": 889.16,
+            "text": " that represent basically the weight of car and similarly the last one that represent"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 889.16,
+            "end": 894.84,
+            "text": " the color now step first we have to pick the important feature we do not have we we have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 894.84,
+            "end": 900.8000000000001,
+            "text": " to use that feature which is important for us because if we will use the brand name then"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 900.8,
+            "end": 906.4399999999999,
+            "text": " what machine learning what what machine have to do with the brand name we have to use we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 906.4399999999999,
+            "end": 911.68,
+            "text": " have to give that types of data that is important for us that is important basically for the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 911.68,
+            "end": 918.52,
+            "text": " machine so that it is easy easy for us and then it is easy for machine and then it is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 918.52,
+            "end": 923.28,
+            "text": " able to predict on the basis of data what you what you want to do to predict with the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 923.28,
+            "end": 929.56,
+            "text": " help of that model basically now if and we can convert the categories into numbers like"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 929.68,
+            "end": 935.1199999999999,
+            "text": " for example I am using for red I am using one and for blue I am using zero basically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 935.1199999999999,
+            "end": 940.0799999999999,
+            "text": " so what are the feature vector basically it is like the summaries of the real real things"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 940.0799999999999,
+            "end": 945.4,
+            "text": " that machine can use there are the feature vectors now we will go to the second that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 945.4,
+            "end": 951.4399999999999,
+            "text": " is embeddings it means the it in embeddings we will use the smart numbers that help the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 951.4399999999999,
+            "end": 957.28,
+            "text": " machine to understand the meaning or content of the or context of the complex data basically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 957.28,
+            "end": 961.92,
+            "text": " like in the form of word in the form of images users or products so what it will do it will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 961.92,
+            "end": 968.0799999999999,
+            "text": " convert that that types of data to smart types of number basically in the form of decimal"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 968.0799999999999,
+            "end": 973.76,
+            "text": " number it will convert for example or for the similar types of things for the similar"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 973.76,
+            "end": 979.6,
+            "text": " type of embedding it use the same types of embedding like example for like king and queen"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 979.6,
+            "end": 985.0799999999999,
+            "text": " if we will see the backend meaning of both are similar to each other so what that embeddings"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 985.08,
+            "end": 991.4000000000001,
+            "text": " will do it will use the same types of data for this because they are related in meaning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 991.4000000000001,
+            "end": 997.48,
+            "text": " so they will use the similar embeddings for the that types of data now third one is the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 997.48,
+            "end": 1002.76,
+            "text": " third type of representation is the graph in which graph or what it is basically structure"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1002.76,
+            "end": 1007.2,
+            "text": " that represent the connection between the things what graph will give to us it will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1007.2,
+            "end": 1012.84,
+            "text": " give us the connection between the things so third type of data is in the form of graph"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1012.84,
+            "end": 1017.6800000000001,
+            "text": " and they are basically what are the if we will see the main important component of the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1017.6800000000001,
+            "end": 1024.64,
+            "text": " graph that first one is the node and second one is the edges node means the things and"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1024.64,
+            "end": 1029.44,
+            "text": " edges means the connection basically with the help of that image you can see that that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1029.44,
+            "end": 1040.08,
+            "text": " are the this is the nodes and these are the basically edges edges shows the connections"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1040.08,
+            "end": 1045.36,
+            "text": " and node shows basically the things like in a social network we can if we will compare"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1045.36,
+            "end": 1050.56,
+            "text": " it with the real world analogy with the with the social network if I will compare it then"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1050.56,
+            "end": 1057.72,
+            "text": " peoples are the node for that and the friendships are the edges basically similarly so what"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1057.72,
+            "end": 1064.0,
+            "text": " graph shows it shows who is friend with whom that types of data we called as a graph data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1064.0,
+            "end": 1069.56,
+            "text": " basically so graph helps the model and graph basically helps the model to understand the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1070.04,
+            "end": 1074.6799999999998,
+            "text": " relationship between the object from one object to another what the relationship between these"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1074.6799999999998,
+            "end": 1079.52,
+            "text": " two object that is understandable with the help of graph basically now fourth one is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1079.52,
+            "end": 1085.24,
+            "text": " the time series data time series data is basically sequence of number which we have collected"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1085.24,
+            "end": 1090.36,
+            "text": " over time with different different time instance we have collected different different readings"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1090.36,
+            "end": 1096.32,
+            "text": " with the help of some sensors or for or from any object we have collected the data over"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1096.32,
+            "end": 1101.28,
+            "text": " time we have collected so that type of data we will with that type of representation we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1101.28,
+            "end": 1106.56,
+            "text": " called as time series representation like for example which I have taken is temperature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1106.56,
+            "end": 1112.36,
+            "text": " reading we are continuously monitoring or taking the temperature reading like for the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1112.36,
+            "end": 1118.1599999999999,
+            "text": " day one it is 32 32 degree Celsius for the day two we have collected the temperature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1118.1599999999999,
+            "end": 1124.96,
+            "text": " that is 34 for the day three it is 36 so now the vector finally, will become 32 34 36 so"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1125.1200000000001,
+            "end": 1132.1200000000001,
+            "text": " that type of data we will called as time series data so basically what why it is special basically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1134.32,
+            "end": 1141.32,
+            "text": " because sometimes for some problems the order of the data matters because sometimes of some"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1141.56,
+            "end": 1147.1200000000001,
+            "text": " time of some type of applications are there in which the order of the data is important"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1147.1200000000001,
+            "end": 1152.4,
+            "text": " for us so that's why for that types of data we will use the time series pattern or time"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1152.52,
+            "end": 1157.96,
+            "text": " series representation we will use for that it is useful like if I will see the example"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1157.96,
+            "end": 1163.44,
+            "text": " also so it will be useful for when we want to detect the trends what type of trend that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1163.44,
+            "end": 1169.0400000000002,
+            "text": " data is following when we have to pattern okay like for day one 32 34 36 type of temperature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1169.0400000000002,
+            "end": 1173.52,
+            "text": " is there for the three days now what is the temperature for the day four so that type"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1173.52,
+            "end": 1179.92,
+            "text": " of that type of prediction basically we need that types of data so because we want to catch"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1179.96,
+            "end": 1184.88,
+            "text": " the pattern we want to catch the trends similarly for the patterns also when we want to catch"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1184.88,
+            "end": 1191.16,
+            "text": " the patterns and or our anomalies if we want to see over time so we can we will use that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1191.16,
+            "end": 1195.88,
+            "text": " type of representation in that case use cases examples for that or application for that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1195.88,
+            "end": 1200.92,
+            "text": " type of time series data is when we want to predict the stock market prices when we want"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1200.92,
+            "end": 1207.44,
+            "text": " to collect the data from sensors for for any machine and for health monitoring for health"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1207.44,
+            "end": 1213.04,
+            "text": " monitoring we want so we will use the different types of sensor like heart rate spotty sensor"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1213.04,
+            "end": 1217.6000000000001,
+            "text": " that type of sensor we will use and we will collect that data for the future prediction"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1217.6000000000001,
+            "end": 1226.52,
+            "text": " of that if some if any doctor want to if you want basically if any any doctor want to predict"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1226.52,
+            "end": 1233.6000000000001,
+            "text": " that disease with predict that this is early if any doctor wants to early predict the disease"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1233.76,
+            "end": 1238.8,
+            "text": " so they can predict with the help of that health monitoring data so for that types for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1238.8,
+            "end": 1245.8,
+            "text": " that application also they need the time series data now the now our stage one comes that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1246.7199999999998,
+            "end": 1253.32,
+            "text": " is problem identification is our first step in which we have to first identify what we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1253.32,
+            "end": 1258.04,
+            "text": " are going to what we are trying to solve what types of problem we have to solve first we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1258.04,
+            "end": 1265.04,
+            "text": " have to identify that first step problem identification first step is first you have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1267.84,
+            "end": 1272.84,
+            "text": " to understand what we are trying to solve second like classification or regression types"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1272.84,
+            "end": 1278.32,
+            "text": " of problem you have solved and third one is a what is the expected outcome for that problem"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1278.32,
+            "end": 1283.92,
+            "text": " first we have to identify these things then we have to go for the remaining step if we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1284.0,
+            "end": 1289.1200000000001,
+            "text": " are going because we are learning the machine learning workflow so the first stage one is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1289.1200000000001,
+            "end": 1294.0800000000002,
+            "text": " we have to identify our problems like regression means if you want to predict the house prices"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1294.0800000000002,
+            "end": 1299.2,
+            "text": " of something like for a colony if you want to predict the house prices so we you will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1299.2,
+            "end": 1305.0800000000002,
+            "text": " use the regression method now classification classification means if you when you want"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1305.0800000000002,
+            "end": 1309.88,
+            "text": " to classify different types of things like in a gmail if you want to classify whether"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1309.88,
+            "end": 1314.88,
+            "text": " that mail is spam or not spam you have to segregate basically these two types of emails"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1314.88,
+            "end": 1319.88,
+            "text": " then you will use the classification type of problem it is if you want to predict something"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1319.88,
+            "end": 1325.4,
+            "text": " then it will be a regression type of problems now these are the basically types of problems"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1325.4,
+            "end": 1330.72,
+            "text": " in machine learning first one is the classification when you want to assign the labels for the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1330.72,
+            "end": 1337.1200000000001,
+            "text": " data like if if that types of mails come and it means that then that that types of mail"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1337.12,
+            "end": 1342.52,
+            "text": " should be come to the spam folder and if it if it does not contain that types of meaning"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1342.52,
+            "end": 1347.8799999999999,
+            "text": " then it will should have to go to the directly in box wars similarly in the case of regression"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1347.8799999999999,
+            "end": 1352.8,
+            "text": " we will predict the continuous values like in the case for the case of house prediction"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1352.8,
+            "end": 1359.8799999999999,
+            "text": " you want to you want from a data to predict the house prices similarly clustering it means"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1359.8799999999999,
+            "end": 1366.52,
+            "text": " when you want to group the similar types of items that it will use for the basically its"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1366.52,
+            "end": 1370.52,
+            "text": " main application is in the form of customer segmentation when you want to segregate the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1370.52,
+            "end": 1375.68,
+            "text": " customer when you want to when you want to go for the basically for the rating types"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1375.68,
+            "end": 1381.76,
+            "text": " of things you will classify there you will use that you will use their clustering recommendation"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1381.76,
+            "end": 1386.8799999999999,
+            "text": " when fourth one is the recommendation means when you want to suggest like in the case"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1386.8799999999999,
+            "end": 1392.72,
+            "text": " of Netflix in the case of Amazon in the case of Spotify so what you will do there what"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1392.72,
+            "end": 1397.16,
+            "text": " basically that application will use that application will use recommendation types"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1397.16,
+            "end": 1402.72,
+            "text": " of machine learning because they have to suggest the items to the user after completing it"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1402.72,
+            "end": 1408.04,
+            "text": " one web series it will suggest you can watch that or when you are buying some some product"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1408.04,
+            "end": 1414.44,
+            "text": " then at that Amazon will suggest you ok you can with that product you can buy that type"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1414.44,
+            "end": 1419.88,
+            "text": " of product or after that after buying of that product it will suggest you can also buy that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1419.88,
+            "end": 1427.0,
+            "text": " types of product so that comes in the category of recommendations now now the stage two comes"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1427.0,
+            "end": 1431.8400000000001,
+            "text": " that is the data collection basically these data collection stage is the foundation of"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1431.8400000000001,
+            "end": 1436.6000000000001,
+            "text": " the machine learning it is the base for the machine learning what what we have to do in"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1436.6000000000001,
+            "end": 1442.7600000000002,
+            "text": " this data collection we have to collect the data from different types of things like with"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1442.7600000000002,
+            "end": 1448.2800000000002,
+            "text": " the help of sensor you can collect data by doing some surveys you can collect data with"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1448.28,
+            "end": 1453.8799999999999,
+            "text": " the help of some log with the help of websites you can collect data with the help of APIs"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1453.8799999999999,
+            "end": 1458.8,
+            "text": " you can get the data so these are the different types of methods to collect the data so first"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1458.8,
+            "end": 1464.72,
+            "text": " is second step is you have to collect the data like if you want if I want to segregate"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1464.72,
+            "end": 1471.56,
+            "text": " the mails in between spam and not spam mail so I have to I have to collect at least ten"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1471.56,
+            "end": 1477.3999999999999,
+            "text": " thousand labeled emails I have to collect for the learning purpose of the that the any"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1477.52,
+            "end": 1484.0400000000002,
+            "text": " model which we will see in the upcoming upcoming upcoming classes when we will go to the stage"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1484.0400000000002,
+            "end": 1489.96,
+            "text": " four or stage five here we will learn about the models so first you have to collect second"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1489.96,
+            "end": 1494.72,
+            "text": " step is you have to collect the data like if you want to predict the students marks"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1494.72,
+            "end": 1502.0400000000002,
+            "text": " so you have to be with the data that shows you the hours which that students have studied"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1502.04,
+            "end": 1507.44,
+            "text": " versus marks from the past student basically that type of data you need when you want to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1507.44,
+            "end": 1512.6399999999999,
+            "text": " predict the marks of the students basically so data collection means basically you have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1512.6399999999999,
+            "end": 1517.6,
+            "text": " to gather information you have to gather the information from different different types"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1517.6,
+            "end": 1523.24,
+            "text": " of applications like with the with the help which I have shown in the shown you in the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1523.24,
+            "end": 1527.2,
+            "text": " previous slides with the help of sensors you can collect data with the help of surveys"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1527.2,
+            "end": 1531.6,
+            "text": " you can collect data with the help of doing some experimental work you can collect the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1531.6399999999999,
+            "end": 1538.56,
+            "text": " data so you have to collect some data that's our second step because we will use that data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1538.56,
+            "end": 1543.76,
+            "text": " to train the machine learning models like analogy that I have used here so that you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1543.76,
+            "end": 1548.8,
+            "text": " guys can understand better in a better manner you can understand this thing is like if you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1548.8,
+            "end": 1558.3,
+            "text": " if I want to make a dish or so what I have to do first I have to first I have to do problem"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1558.3,
+            "end": 1563.7,
+            "text": " what our problem identification what I have to be made first that now on the basis of"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1563.7,
+            "end": 1567.82,
+            "text": " that problem okay I have to make this type of dish I have to make paneer now what I will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1567.82,
+            "end": 1573.58,
+            "text": " do now I will collect the ingredients for that dish basically it is my second step so"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1573.58,
+            "end": 1578.82,
+            "text": " that is the data collection step basically if I will compare if I will if I will made"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1578.82,
+            "end": 1584.22,
+            "text": " analogy in between that then that data that ingredient collection is similar to the data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1584.22,
+            "end": 1589.9,
+            "text": " collection in the case of machine learning workflow if we are now the second thing that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1589.9,
+            "end": 1596.1000000000001,
+            "text": " example shows that now if you want to cook a good dish so what you will do you will use"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1596.1000000000001,
+            "end": 1600.54,
+            "text": " the fresh items for that dish similarly for the machine learning you will you have to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1600.54,
+            "end": 1606.54,
+            "text": " use the good data for that if you want to predict something in a good accuracy you have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1606.54,
+            "end": 1614.18,
+            "text": " to use a good data or the data which is basically I can say correct for that we does not have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1614.3,
+            "end": 1620.66,
+            "text": " any error that type of data if you will use then that model then that model can predict"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1620.66,
+            "end": 1629.8200000000002,
+            "text": " the predict the output with the good accuracy now example if I collect 1000 labels of data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1629.8200000000002,
+            "end": 1635.6200000000001,
+            "text": " 1000 labels data of photos of cats and dog to train a model to tell them apart that types"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1635.6200000000001,
+            "end": 1641.18,
+            "text": " of example we can take if I want the models to differentiate between the cats and dog"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1641.18,
+            "end": 1647.8600000000001,
+            "text": " first I have to feed him the 10000 at least one 1000 to 10000 labels of data the machine"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1647.8600000000001,
+            "end": 1652.9,
+            "text": " learning model so that they are able so that they can learn the difference between the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1652.9,
+            "end": 1658.9,
+            "text": " cats and dogs now again if you will different types of data basically you have to collect"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1658.9,
+            "end": 1665.02,
+            "text": " for that also only if you will use the only one breed of cat then it is not able to under"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1665.02,
+            "end": 1669.54,
+            "text": " to understand the model to differentiate between if some other now when we are going when we"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1669.54,
+            "end": 1674.78,
+            "text": " are going to feed the exact actual input which for which you have to predict what is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1674.78,
+            "end": 1679.42,
+            "text": " that basically whether it is a cat or dog now if you have for the for the training purpose"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1679.42,
+            "end": 1683.94,
+            "text": " if you will use only one type of data only one category of data you have used like for"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1683.94,
+            "end": 1688.94,
+            "text": " the cat if you have trained if you have trained the model with the help of only one breeds"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1688.94,
+            "end": 1695.7,
+            "text": " of cat then when you feed the in exact input as another breed of the another breed of cat"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1695.7,
+            "end": 1701.02,
+            "text": " then it is very difficult for the machine learning model to differentiate between it"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1701.02,
+            "end": 1707.18,
+            "text": " whether that that data is belong to cat or not so you have to use the diverse amount"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1707.18,
+            "end": 1713.1000000000001,
+            "text": " of data you have to train the model with the help of diverse amount of data so it means"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1713.1000000000001,
+            "end": 1718.3,
+            "text": " if I will go for that stage two so it means the conclusion is you have to collect the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1718.3,
+            "end": 1724.5,
+            "text": " diverse amount of data for the data collection because without good data even the we can"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1724.5,
+            "end": 1730.74,
+            "text": " say that best algorithm can fail wherever type of algorithm we can use if our data feeding"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1730.74,
+            "end": 1736.22,
+            "text": " data is not good then it is difficult for the machine to predict the output on the basis"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1736.22,
+            "end": 1741.02,
+            "text": " of that data which you have fed so why does that data collection matter because the because"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1741.02,
+            "end": 1746.9,
+            "text": " we collect data so that machine can find patterns and make decision on the basis of that data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1746.9,
+            "end": 1753.02,
+            "text": " so that's why we need data so that machine can find patterns in that data so now what's"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1753.02,
+            "end": 1758.58,
+            "text": " the impact of data if we are having a good data that is clear second thing is diverse"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1758.58,
+            "end": 1764.18,
+            "text": " and we are having enough samples of that then you will get the accurate predictions if you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1764.18,
+            "end": 1770.18,
+            "text": " are in remember one thing two things are there if you are having diverse amount of data and"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1770.18,
+            "end": 1774.5,
+            "text": " you should have enough sample then only you will get the accurate prediction that's called"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1774.5,
+            "end": 1780.42,
+            "text": " the good data now bad data is if you are having limited or biased type of data or poor quality"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1780.42,
+            "end": 1785.6200000000001,
+            "text": " of data if you are having definitely there is a chance you will get the wrong or unfair"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1785.6200000000001,
+            "end": 1790.6200000000001,
+            "text": " result with the help of that machine learning model for example good if you have photos"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1790.6200000000001,
+            "end": 1795.5,
+            "text": " of all types of dog and then you you will train the models with the help of that type"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1795.5,
+            "end": 1802.18,
+            "text": " of data then it will get you will get the accurate output for that if you are having"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1802.18,
+            "end": 1806.5800000000002,
+            "text": " the if you are having bad data bad data means you are training the model with the help of"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1806.58,
+            "end": 1814.62,
+            "text": " only a small dogs then that that for that types of data you will get the unfair output"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1814.62,
+            "end": 1820.26,
+            "text": " or basically in accurate output you will get if you will use that type of data so without"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1820.26,
+            "end": 1825.26,
+            "text": " good data even the best algorithm can fail again the same things I have written here"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1825.26,
+            "end": 1830.58,
+            "text": " that is the basically key points for that data collection now what what are the sources"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1830.58,
+            "end": 1835.98,
+            "text": " for the data because some public data sets are also available like Kaggle UCLML repository"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1836.38,
+            "end": 1841.74,
+            "text": " basically that website that contains the various amount of data a huge amount of data is available"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1841.74,
+            "end": 1846.8600000000001,
+            "text": " and that website you can on the basis of your problem you can get the data from that website"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1846.8600000000001,
+            "end": 1851.34,
+            "text": " now second is you can get the company data by seeing their sales record by by seeing"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1851.34,
+            "end": 1857.22,
+            "text": " their company's history by seeing the customer history you can collect the data of of the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1857.22,
+            "end": 1863.8600000000001,
+            "text": " of the problem which for which you have to apply the ML now web scrapping means data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1863.9799999999998,
+            "end": 1868.02,
+            "text": " from the different types of websites you can collect like product price you can take from"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1868.02,
+            "end": 1872.74,
+            "text": " the Amazon flipkart Mithra different different types of you can different types of website"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1872.74,
+            "end": 1877.1399999999999,
+            "text": " you can collect the data fourth one is the sensor with the help of some sensor you can"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1877.1399999999999,
+            "end": 1882.62,
+            "text": " collect you can collect the data like for temperature you can use a temperature sensor"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1882.62,
+            "end": 1887.74,
+            "text": " for the for the temperature humidity you can use that as like DHT 11 sensor you can use"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1887.74,
+            "end": 1893.1,
+            "text": " to collect that data for fifth one is the service with the help of opinions from the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1893.1,
+            "end": 1898.9399999999998,
+            "text": " people's or with the help by taking the feedback from the people you also can collect the data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1898.9399999999998,
+            "end": 1903.06,
+            "text": " now the example you can use the Kaggle data for predicting the house prices or you can"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1903.06,
+            "end": 1908.82,
+            "text": " use the surveys response when we want to improve a movie recommendation system you can use"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1908.82,
+            "end": 1914.4599999999998,
+            "text": " the survey response for that so you can you have to choose the data from that source which"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1914.4599999999998,
+            "end": 1919.1,
+            "text": " match which which will be match with your problems by seeing your problem you have to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1919.1,
+            "end": 1926.02,
+            "text": " choose the source of data now first method is surveys and surveys means you have to ask"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1926.02,
+            "end": 1931.1799999999998,
+            "text": " question to the people's to collect the specific type of data so what you will do you will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1931.1799999999998,
+            "end": 1936.4199999999998,
+            "text": " collect the data directly by asking to the people like if some movie releases so you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1936.4199999999998,
+            "end": 1944.1399999999999,
+            "text": " can ask you can ask the you can ask the audience after the theatre whether they like the movies"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1944.14,
+            "end": 1949.22,
+            "text": " or not or like a view like whether you like action movies or not so that you can get the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1949.22,
+            "end": 1954.5,
+            "text": " you will get the data from that service but the pros of that types of data but the pros"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1954.5,
+            "end": 1959.98,
+            "text": " of that is you get the direct answer from that users if you are using the surveys but"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1959.98,
+            "end": 1964.8600000000001,
+            "text": " cons is that might be you will get the bias data because only because for that money if"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1964.8600000000001,
+            "end": 1969.98,
+            "text": " a Shahrukh Khan movie is there so only the mostly the fan of Shahrukh Khan is going to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1969.98,
+            "end": 1975.42,
+            "text": " watch that movie so we you will not get the actual data you will get the basically bias"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1975.42,
+            "end": 1979.6200000000001,
+            "text": " data because they are biased to Shahrukh Khan we can say that if they are a fan of that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1979.6200000000001,
+            "end": 1984.3,
+            "text": " now key point the key points we can say that surveys are basically are great for collecting"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1984.3,
+            "end": 1990.26,
+            "text": " opinions but but they must be designed but they must be designed carefully now second"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1990.26,
+            "end": 1995.6200000000001,
+            "text": " type of method is experiment experiment based means by doing some experiment you can collect"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 1995.62,
+            "end": 2001.2199999999998,
+            "text": " the data if you are doing a certain experiment by changing like if I will take the example"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2001.2199999999998,
+            "end": 2005.6999999999998,
+            "text": " of an electrical so you can with the help of changing any voltage or current you can"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2005.6999999999998,
+            "end": 2009.82,
+            "text": " collect the data if you are doing some electrical related experiment so from the experiment"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2009.82,
+            "end": 2015.1399999999999,
+            "text": " you also get the data an example is like if you are testing two different fan blade design"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2015.1399999999999,
+            "end": 2020.54,
+            "text": " to see which one used less power or for the for the same air flow so you can get the data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2020.54,
+            "end": 2026.74,
+            "text": " from that types of experiment also now what the pros for that it will it will helps you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2026.74,
+            "end": 2032.82,
+            "text": " to find the cause and effect also and but the cons for the experiment type of data is"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2032.82,
+            "end": 2039.3799999999999,
+            "text": " it is costly it is costly for you because sometimes it is not able to perform the to"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2039.3799999999999,
+            "end": 2045.6599999999999,
+            "text": " for the data you cannot perform the experiment because you have to take like if I am take"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2045.6599999999999,
+            "end": 2050.42,
+            "text": " the example of an electrical so if you want the data with related to the transformer so"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2050.5,
+            "end": 2054.38,
+            "text": " you have to made the transformer for that so it will be sometime it will be costlier"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2054.38,
+            "end": 2060.66,
+            "text": " for us to get the data from the experiment now third type of data is basically observational"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2060.66,
+            "end": 2067.9,
+            "text": " studies means by simply observing and recording what people naturally do you will you are"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2067.9,
+            "end": 2073.1800000000003,
+            "text": " not doing any changes with that you are simply observing like in a in a restaurant you are"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2073.1800000000003,
+            "end": 2077.9,
+            "text": " just watching what everyone eats in the cafeteria without asking them you are just watching"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2077.9,
+            "end": 2082.7400000000002,
+            "text": " them so that type of data we will call as observational data so from that data you will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2082.7400000000002,
+            "end": 2086.6600000000003,
+            "text": " get the real world data no interference are there because you are not asking you are not"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2086.6600000000003,
+            "end": 2092.1,
+            "text": " forcing anyone to answer that you are just observing that but you cannot know why user"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2092.1,
+            "end": 2097.1800000000003,
+            "text": " did something that is the problem with that types of data like it is great for capturing"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2097.1800000000003,
+            "end": 2102.82,
+            "text": " the normal natural behavior if you want to collect but it is hard to interpret without"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2102.82,
+            "end": 2107.58,
+            "text": " context why they are using that you do not know that now the fourth method is web scribing"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2108.2599999999998,
+            "end": 2113.98,
+            "text": " means web scribing means using with the help of some tools you are collecting data automatically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2113.98,
+            "end": 2119.22,
+            "text": " from the website you can use the IMDB website for the movies review so that you can train"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2119.22,
+            "end": 2124.18,
+            "text": " a sentiment analysis for that if you want to create a sentiment analysis model for that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2124.18,
+            "end": 2129.66,
+            "text": " you will get the data from the IMDB its pros is that you can access to huge amount of data"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2129.66,
+            "end": 2136.34,
+            "text": " with the help of that but the cons is that sometime many websites will use the some strict"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2136.34,
+            "end": 2141.02,
+            "text": " policy they are using so it may be illegal for you to collect that type of data if you"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2141.02,
+            "end": 2146.06,
+            "text": " will done improperly for that now it is basically a useful key points if I will say it is a"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2146.06,
+            "end": 2151.54,
+            "text": " useful method but you have to check the permission and legal boundaries for that type of now"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2151.54,
+            "end": 2157.1800000000003,
+            "text": " last method is basically API API means application programming interface means you will get the"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2157.1800000000003,
+            "end": 2163.3,
+            "text": " structured data from other apps or platform means some applications or platforms are there"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2163.3,
+            "end": 2167.7400000000002,
+            "text": " they are basically providing you the fresh they are providing you the exact structured"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2167.7400000000002,
+            "end": 2172.34,
+            "text": " data for you so that you can use for any types of prediction for your help basically they"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2172.34,
+            "end": 2179.1000000000004,
+            "text": " are providing your data like you can you can use a twitter API to get the tweets about"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2179.1000000000004,
+            "end": 2184.38,
+            "text": " a topic for the sentiment analysis types of models if you want you can get data from twitter"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2184.38,
+            "end": 2190.5800000000004,
+            "text": " API but the advantage is that you get the clean and organized data but cons are that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2190.58,
+            "end": 2195.38,
+            "text": " sometimes you have a usage limit or sometimes you have to pay the cost for that so that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2195.38,
+            "end": 2200.7,
+            "text": " that on that is the only way you get the data for that so basically this type of application"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2200.7,
+            "end": 2206.42,
+            "text": " programming interface are ideal for getting the trusted and real time data from the known"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2206.42,
+            "end": 2212.02,
+            "text": " sources from that types of sources you will get the actual data now last method is sensors"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2212.02,
+            "end": 2217.42,
+            "text": " and IOT devices means with the help of some sensor you can apply like if you want temperature"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2217.54,
+            "end": 2221.3,
+            "text": " you can use a temperature sensor you will get the data for the continuous monitoring"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2221.3,
+            "end": 2226.3,
+            "text": " of the temperature you get you want the humidity and temperature in the board you can use that"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2226.3,
+            "end": 2231.02,
+            "text": " type of sensors so different types of sensor you can use and collect the data like in a"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2231.02,
+            "end": 2236.82,
+            "text": " watch different types of sensors are there which will gives you the continuously they"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2236.82,
+            "end": 2243.2200000000003,
+            "text": " are giving you the data about the steps about the sp02 and different types of different"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2243.22,
+            "end": 2248.3399999999997,
+            "text": " types of data basically they are giving to you so you can take the data from the sensors"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2248.3399999999997,
+            "end": 2255.5,
+            "text": " also its advantage is that you can you will get the real time and continuous data but"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2255.5,
+            "end": 2261.66,
+            "text": " again problem with that is same for the same problem as with the application experimental"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2261.66,
+            "end": 2267.9399999999996,
+            "text": " types of data that it is sometime expensive for you to collect the data from this so basically"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2267.9399999999996,
+            "end": 2272.54,
+            "text": " this the key point for this is it is best for the real world monitoring but you have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2272.58,
+            "end": 2280.58,
+            "text": " to use this with the care now in next lecture we will try to cover what is the problem with"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2280.58,
+            "end": 2287.7,
+            "text": " this type of data we will see in the next class because in the next class we will try"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2287.7,
+            "end": 2292.14,
+            "text": " to understand what are the challenges for the data collection basically different types"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2292.14,
+            "end": 2297.5,
+            "text": " of challenges are there you will face when you go for the collection of data we will"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2297.5,
+            "end": 2301.86,
+            "text": " see in the next class so that's all for the today's lecture we in this lecture we have"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2301.86,
+            "end": 2307.54,
+            "text": " seen about the machine learning workflow and their 1 to 2 steps we have seen first"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2307.54,
+            "end": 2312.5,
+            "text": " step we have seen about the problem identification second is data collection we have seen in"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2312.5,
+            "end": 2317.1,
+            "text": " this and the methods for the data collection is also we have seen in this lecture now in"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2317.1,
+            "end": 2323.1400000000003,
+            "text": " next lecture we will the we will in the next lecture we will try to cover the challenge"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2323.1400000000003,
+            "end": 2328.1400000000003,
+            "text": " challenges which we face when we are going for the data collection and the next steps"
+        },
+        {
+            "number": "13",
+            "title": "Lecture 13",
+            "start": 2328.14,
+            "end": 2332.06,
+            "text": " of the machine learning workflow we will cover in the next lecture thank you."
+        }
+    ],
+    "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning technique. I am Dr. Aftab Abbad Ansari, your instructor for this course. So, basically this is our lecture number 13 in the previous lecture we have covered about the introduction to machine learning, we have seen about the what is machine learning, why it is useful for us and what is the difference between the traditional programming and the machine learning and we have also seen the main key ingredients of the machine learning that is data, model and learning and then we have seen also about the simple example by in which we have predicted the marks of students with the help of machine learning basically which will help us to understand what is the machine learning and how machine learning will work that all we have studied in our the previous class. Now in today's class, we will try to understand the machine learning workflow and then one to one step by step we will see the component of the machine learning workflow because we have seen that machine learning is now our integral part in a for our daily lives because in our daily lives we have we are using many multiple applications of the machine learning whether it is the whether it is in the application of recommendations, whether it is the application of Siri or Alexa. So that's why we have to understand the machine learning how what's the workflow basically how machine learning is working. So first machine learning workflow is basically it is a structured process in which we use to develop train and deploy the machine learning model. First what we do we will try to develop it then we will go for the training then we will deploy it what it ensures basically it ensures the consistency and efficiency of our systems. Now if if I will compare it with with the real world analogy like it is like when we want to cook a food first we have to decide what we have to cook for that if we have decided what we have to cook then we go for the ingredients now we will go for the it is the collection of the ingredient when then we will try to collect all the ingredient which will be which we which we will be used for that dish then we will prepare it then we will cook it then we will go for the taste. Similarly for the machine machine learning also what's the first step first step is the problem identification basically that is missing in that slide that is the machine problem identification basically. What we will what we have to do first you have to identify your problem what you want to do with the machine learning what type of task you want to solve with the help of machine learning first you have to identify that then you have to go for the data collection data preparation model selection training evolution and all other remaining things. So if we will see the key stages first one is the problem identification or problem definition means in which you will decide what you have to do with the machine learning whether you have to go for the recommendations whether you have to go for the predictions or for the different types of regression and any other problems whatever first you have to identify your problems then next step is the data collection now for that problem for that problem you have to collect the data which will be useful for your problem you have to collect that types of data then you have to prepare that data because sometimes data are missing so you have to prepare or you have to prepare that data in a good form so that it is it is easily it is easy for the machine to understand that data and to catch the pattern what type of pattern that data is following. Now next step is model selection then you have to select the model which which model you will use for your machine learning model basically means like if you are using for different types of application then different types of machine learning models are there then you have to select that models then you have to go for the training you have to train then you will go for the evaluation and then the final step that is prediction that that is your now final output which you have to do now first before we will start the machine learning workflow first we have to understand about the representation representation is what basically it is the process of turning real world things into numbers because what is computer learn in the machine learning what what is our desirable thing is we want to teach the computer we want that computer can learns that things we want so for that what you have to do because computer is not able to understand the image the speech so what it will do it will convert all your real world things into the numbers so first method first things we have to learn about the representation. Then convert your real world things into numbers because computers and machine learning models only understands the numbers it is like if if we do not know Hindi if we do not know English what we will do first we will take the sentence of English and for understanding purpose what we will do we will translate that English sentence to Hindi so that we can learn what does what that statement or what that sentence is want and now if you want to rewrite it then what we will do first we will write that sentence in Hindi then we translate that Hindi to English similarly for the machine learning also what it will do it will convert or your all your work to the numbers basically whatever you will give like if you are for example if I will take a house features the what the what are the how features of that house basically it is what are first is the size of the house how many square feet how many square feet it have then second is the bedroom how many bedrooms are there in the houses and third one is the location so now that that's the thing which we will understand but computer does not understand it so we have to convert that thing into numbers you can see in example which I have shown here with the help of that example you can see that we have to convert that our house features means basically size bedroom location into that form because that form is understable for understandable for the computers okay now why it is important because machine cannot be directly understand the text images or audio so what we have to do you have to convert that text images or audio into the numbers so that then the computers are able to learn and patterns to learn basically what it have to do with that data it will try to catch the patterns and it is only able to catch that patterns from the numbers only so that's why it will converts all your input to the numbers and then it will try to catch the pattern from that numbers now a good representation helps the model learn better and make prediction better if your data is having in a good representation form then it is very easy for the computer to understand it to learn it and to make and to catch the pattern in a best way so that it will make the prediction better similarly for a kid if you will give if you will write if it is like if you want to if you want to teach a kid so what you will do you will give him a 1 2 3 in that manner so that that kid is able to understand the difference between 1 2 and 3 but if you will give in that rough type of language then it is difficult for that kid to understand similarly for the computer also if you will give good amount of data and good types of data in a good representation then it is it is easy for the computer to learn that then to catch the pattern from that and that data set basically which you have given now basically why why the representation matters for the machine learning because it helps the machine to find patterns in the to find patterns in data to make for the prediction because it it it will create a easy path for the machine learning if you will give the representation in that form in which it it works or it understand basically so like what's our impact if we see if we are if we are having a good representation then accurate and fast learning we will get from the computer similarly if we are having a bad representation then what it will do sometime you will get the wrong prediction or it will be a slow learning for the computer because data data is not in that form which is demanded by the computer so it what it will do so the limitation for that types of data is it will predict wrong things or it will learn slow so now if we can see the example like if we want if we want computer to differentiate between the between the fruits like so what it will do if we are we are hanging an apple and other things in orange so if we will give the data of that two fruits to computer in the in the form of size then it is very difficult I am giving the computer of both the fruits in the form of size then it will be then it is very difficult for the computer to differentiate between the two fruits now if you if I will give the data in the form of size in the form of size in the form of color so then it is easy it is easy for the computer to understand the difference between the two fruits like for the size make an size may be vary because what is the disadvantage of giving only the size to the computer sometimes the sometimes the size of the apple and orange will become equal and then it will be not able to differentiate between this two fruits so if I will give him the input the size and color also like if red I will give for the apple and similarly orange for the and similarly orange for the orange basically then it is easy for the computer to differentiate between this two fruits so what good like bad if we it is a bad data if we use only weight because that which computers might not be able to separate between the two now now the types of representation next topic is so there are four types of basically representation to represent the data first one is the feature vector feature vector in which basically these feature vectors are simple list of numbers that is speed weight color any type of variables it is having so it is basically the simple list of number embedded means embedded means it is a it is a representation in which smart numbers smart numbers are used that capture the meaning between like for example king and queen their embeddings are simple because their meanings are similar so embeddings for that that kings and queens are similar to each other graph third type of representation is graph which basically shows the relationship between two types of numbers or two types of variables like for example a social network who is connected to whom that type of that type of representation is there in that is in the form of graph for this time series it means data over time data with respect to time basically like if I am taking data from a some sensor like from temperature sensor if I am taking the data so with respect to time I will get the data like okay like in the form of that you can say that like okay at 4 p.m. temperature is 36 like 6 p.m. temperature increases like 8 p.m. temperature decreases so that type of time series data basically 36 38 again 36 if I will count it is a 38 36 so that type of data we will say as time series data in which data is there with respect to time okay any other type of data we can also take like humidity soil moisture sensor soil moisture sensor if we will use you can you will get the humidity also temperature also with the help of that so different type of sensor you can use to collect the data from that sensor we will get the data over time like for example in a if we will see the example like in a movie app you can use we will use the feature vectors to show the movie ratings and embeddings we will use for the description of the movie that is the example of basically two types of data where we can use for two types of for two different application different types of representation we can use like key points I have written here different problems need different types of representation as per problem we have to decide which representation we have to use in a now in next slide is now we will go in details one by one for all the types of representation so first one is the feature vectors basically if we will see it is a list of number which are represents the feature which represent basically the properties and of object what the feature vector will describe is basically describes the properties of an example properties of an object basically now we will see one example I have I have taken a example of a car in which three three properties are the in which I have shown or basically I have taken the three properties of a car first one is speed weight and color now I have to give that types of data to the computer so it will give if I have to give in the form of feature vector then this is the correct way in the form of square bracket you have to give him the data so that it is easy it is understandable understandable for the computer to to to take that data for the training purpose and it is easy easy for her to understand basically so that is speed you you can you have already used that type of data when you are going to apply for a formula in excel so similarly similar you can see that that type of representation is also there in the in the excel when you are applying any formula now what is the step if we will see the feature like the red color I have coded as a one and each number is one feature basically 120 is one feature that represent basically the speed 2000 is also another feature that represent basically the weight of car and similarly the last one that represent the color now step first we have to pick the important feature we do not have we we have to use that feature which is important for us because if we will use the brand name then what machine learning what what machine have to do with the brand name we have to use we have to give that types of data that is important for us that is important basically for the machine so that it is easy easy for us and then it is easy for machine and then it is able to predict on the basis of data what you what you want to do to predict with the help of that model basically now if and we can convert the categories into numbers like for example I am using for red I am using one and for blue I am using zero basically so what are the feature vector basically it is like the summaries of the real real things that machine can use there are the feature vectors now we will go to the second that is embeddings it means the it in embeddings we will use the smart numbers that help the machine to understand the meaning or content of the or context of the complex data basically like in the form of word in the form of images users or products so what it will do it will convert that that types of data to smart types of number basically in the form of decimal number it will convert for example or for the similar types of things for the similar type of embedding it use the same types of embedding like example for like king and queen if we will see the backend meaning of both are similar to each other so what that embeddings will do it will use the same types of data for this because they are related in meaning so they will use the similar embeddings for the that types of data now third one is the third type of representation is the graph in which graph or what it is basically structure that represent the connection between the things what graph will give to us it will give us the connection between the things so third type of data is in the form of graph and they are basically what are the if we will see the main important component of the graph that first one is the node and second one is the edges node means the things and edges means the connection basically with the help of that image you can see that that are the this is the nodes and these are the basically edges edges shows the connections and node shows basically the things like in a social network we can if we will compare it with the real world analogy with the with the social network if I will compare it then peoples are the node for that and the friendships are the edges basically similarly so what graph shows it shows who is friend with whom that types of data we called as a graph data basically so graph helps the model and graph basically helps the model to understand the relationship between the object from one object to another what the relationship between these two object that is understandable with the help of graph basically now fourth one is the time series data time series data is basically sequence of number which we have collected over time with different different time instance we have collected different different readings with the help of some sensors or for or from any object we have collected the data over time we have collected so that type of data we will with that type of representation we called as time series representation like for example which I have taken is temperature reading we are continuously monitoring or taking the temperature reading like for the day one it is 32 32 degree Celsius for the day two we have collected the temperature that is 34 for the day three it is 36 so now the vector finally, will become 32 34 36 so that type of data we will called as time series data so basically what why it is special basically because sometimes for some problems the order of the data matters because sometimes of some time of some type of applications are there in which the order of the data is important for us so that's why for that types of data we will use the time series pattern or time series representation we will use for that it is useful like if I will see the example also so it will be useful for when we want to detect the trends what type of trend that data is following when we have to pattern okay like for day one 32 34 36 type of temperature is there for the three days now what is the temperature for the day four so that type of that type of prediction basically we need that types of data so because we want to catch the pattern we want to catch the trends similarly for the patterns also when we want to catch the patterns and or our anomalies if we want to see over time so we can we will use that type of representation in that case use cases examples for that or application for that type of time series data is when we want to predict the stock market prices when we want to collect the data from sensors for for any machine and for health monitoring for health monitoring we want so we will use the different types of sensor like heart rate spotty sensor that type of sensor we will use and we will collect that data for the future prediction of that if some if any doctor want to if you want basically if any any doctor want to predict that disease with predict that this is early if any doctor wants to early predict the disease so they can predict with the help of that health monitoring data so for that types for that application also they need the time series data now the now our stage one comes that is problem identification is our first step in which we have to first identify what we are going to what we are trying to solve what types of problem we have to solve first we have to identify that first step problem identification first step is first you have to understand what we are trying to solve second like classification or regression types of problem you have solved and third one is a what is the expected outcome for that problem first we have to identify these things then we have to go for the remaining step if we are going because we are learning the machine learning workflow so the first stage one is we have to identify our problems like regression means if you want to predict the house prices of something like for a colony if you want to predict the house prices so we you will use the regression method now classification classification means if you when you want to classify different types of things like in a gmail if you want to classify whether that mail is spam or not spam you have to segregate basically these two types of emails then you will use the classification type of problem it is if you want to predict something then it will be a regression type of problems now these are the basically types of problems in machine learning first one is the classification when you want to assign the labels for the data like if if that types of mails come and it means that then that that types of mail should be come to the spam folder and if it if it does not contain that types of meaning then it will should have to go to the directly in box wars similarly in the case of regression we will predict the continuous values like in the case for the case of house prediction you want to you want from a data to predict the house prices similarly clustering it means when you want to group the similar types of items that it will use for the basically its main application is in the form of customer segmentation when you want to segregate the customer when you want to when you want to go for the basically for the rating types of things you will classify there you will use that you will use their clustering recommendation when fourth one is the recommendation means when you want to suggest like in the case of Netflix in the case of Amazon in the case of Spotify so what you will do there what basically that application will use that application will use recommendation types of machine learning because they have to suggest the items to the user after completing it one web series it will suggest you can watch that or when you are buying some some product then at that Amazon will suggest you ok you can with that product you can buy that type of product or after that after buying of that product it will suggest you can also buy that types of product so that comes in the category of recommendations now now the stage two comes that is the data collection basically these data collection stage is the foundation of the machine learning it is the base for the machine learning what what we have to do in this data collection we have to collect the data from different types of things like with the help of sensor you can collect data by doing some surveys you can collect data with the help of some log with the help of websites you can collect data with the help of APIs you can get the data so these are the different types of methods to collect the data so first is second step is you have to collect the data like if you want if I want to segregate the mails in between spam and not spam mail so I have to I have to collect at least ten thousand labeled emails I have to collect for the learning purpose of the that the any model which we will see in the upcoming upcoming upcoming classes when we will go to the stage four or stage five here we will learn about the models so first you have to collect second step is you have to collect the data like if you want to predict the students marks so you have to be with the data that shows you the hours which that students have studied versus marks from the past student basically that type of data you need when you want to predict the marks of the students basically so data collection means basically you have to gather information you have to gather the information from different different types of applications like with the with the help which I have shown in the shown you in the previous slides with the help of sensors you can collect data with the help of surveys you can collect data with the help of doing some experimental work you can collect the data so you have to collect some data that's our second step because we will use that data to train the machine learning models like analogy that I have used here so that you guys can understand better in a better manner you can understand this thing is like if you if I want to make a dish or so what I have to do first I have to first I have to do problem what our problem identification what I have to be made first that now on the basis of that problem okay I have to make this type of dish I have to make paneer now what I will do now I will collect the ingredients for that dish basically it is my second step so that is the data collection step basically if I will compare if I will if I will made analogy in between that then that data that ingredient collection is similar to the data collection in the case of machine learning workflow if we are now the second thing that example shows that now if you want to cook a good dish so what you will do you will use the fresh items for that dish similarly for the machine learning you will you have to use the good data for that if you want to predict something in a good accuracy you have to use a good data or the data which is basically I can say correct for that we does not have any error that type of data if you will use then that model then that model can predict the predict the output with the good accuracy now example if I collect 1000 labels of data 1000 labels data of photos of cats and dog to train a model to tell them apart that types of example we can take if I want the models to differentiate between the cats and dog first I have to feed him the 10000 at least one 1000 to 10000 labels of data the machine learning model so that they are able so that they can learn the difference between the cats and dogs now again if you will different types of data basically you have to collect for that also only if you will use the only one breed of cat then it is not able to under to understand the model to differentiate between if some other now when we are going when we are going to feed the exact actual input which for which you have to predict what is that basically whether it is a cat or dog now if you have for the for the training purpose if you will use only one type of data only one category of data you have used like for the cat if you have trained if you have trained the model with the help of only one breeds of cat then when you feed the in exact input as another breed of the another breed of cat then it is very difficult for the machine learning model to differentiate between it whether that that data is belong to cat or not so you have to use the diverse amount of data you have to train the model with the help of diverse amount of data so it means if I will go for that stage two so it means the conclusion is you have to collect the diverse amount of data for the data collection because without good data even the we can say that best algorithm can fail wherever type of algorithm we can use if our data feeding data is not good then it is difficult for the machine to predict the output on the basis of that data which you have fed so why does that data collection matter because the because we collect data so that machine can find patterns and make decision on the basis of that data so that's why we need data so that machine can find patterns in that data so now what's the impact of data if we are having a good data that is clear second thing is diverse and we are having enough samples of that then you will get the accurate predictions if you are in remember one thing two things are there if you are having diverse amount of data and you should have enough sample then only you will get the accurate prediction that's called the good data now bad data is if you are having limited or biased type of data or poor quality of data if you are having definitely there is a chance you will get the wrong or unfair result with the help of that machine learning model for example good if you have photos of all types of dog and then you you will train the models with the help of that type of data then it will get you will get the accurate output for that if you are having the if you are having bad data bad data means you are training the model with the help of only a small dogs then that that for that types of data you will get the unfair output or basically in accurate output you will get if you will use that type of data so without good data even the best algorithm can fail again the same things I have written here that is the basically key points for that data collection now what what are the sources for the data because some public data sets are also available like Kaggle UCLML repository basically that website that contains the various amount of data a huge amount of data is available and that website you can on the basis of your problem you can get the data from that website now second is you can get the company data by seeing their sales record by by seeing their company's history by seeing the customer history you can collect the data of of the of the problem which for which you have to apply the ML now web scrapping means data from the different types of websites you can collect like product price you can take from the Amazon flipkart Mithra different different types of you can different types of website you can collect the data fourth one is the sensor with the help of some sensor you can collect you can collect the data like for temperature you can use a temperature sensor for the for the temperature humidity you can use that as like DHT 11 sensor you can use to collect that data for fifth one is the service with the help of opinions from the people's or with the help by taking the feedback from the people you also can collect the data now the example you can use the Kaggle data for predicting the house prices or you can use the surveys response when we want to improve a movie recommendation system you can use the survey response for that so you can you have to choose the data from that source which match which which will be match with your problems by seeing your problem you have to choose the source of data now first method is surveys and surveys means you have to ask question to the people's to collect the specific type of data so what you will do you will collect the data directly by asking to the people like if some movie releases so you can ask you can ask the you can ask the audience after the theatre whether they like the movies or not or like a view like whether you like action movies or not so that you can get the you will get the data from that service but the pros of that types of data but the pros of that is you get the direct answer from that users if you are using the surveys but cons is that might be you will get the bias data because only because for that money if a Shahrukh Khan movie is there so only the mostly the fan of Shahrukh Khan is going to watch that movie so we you will not get the actual data you will get the basically bias data because they are biased to Shahrukh Khan we can say that if they are a fan of that now key point the key points we can say that surveys are basically are great for collecting opinions but but they must be designed but they must be designed carefully now second type of method is experiment experiment based means by doing some experiment you can collect the data if you are doing a certain experiment by changing like if I will take the example of an electrical so you can with the help of changing any voltage or current you can collect the data if you are doing some electrical related experiment so from the experiment you also get the data an example is like if you are testing two different fan blade design to see which one used less power or for the for the same air flow so you can get the data from that types of experiment also now what the pros for that it will it will helps you to find the cause and effect also and but the cons for the experiment type of data is it is costly it is costly for you because sometimes it is not able to perform the to for the data you cannot perform the experiment because you have to take like if I am take the example of an electrical so if you want the data with related to the transformer so you have to made the transformer for that so it will be sometime it will be costlier for us to get the data from the experiment now third type of data is basically observational studies means by simply observing and recording what people naturally do you will you are not doing any changes with that you are simply observing like in a in a restaurant you are just watching what everyone eats in the cafeteria without asking them you are just watching them so that type of data we will call as observational data so from that data you will get the real world data no interference are there because you are not asking you are not forcing anyone to answer that you are just observing that but you cannot know why user did something that is the problem with that types of data like it is great for capturing the normal natural behavior if you want to collect but it is hard to interpret without context why they are using that you do not know that now the fourth method is web scribing means web scribing means using with the help of some tools you are collecting data automatically from the website you can use the IMDB website for the movies review so that you can train a sentiment analysis for that if you want to create a sentiment analysis model for that you will get the data from the IMDB its pros is that you can access to huge amount of data with the help of that but the cons is that sometime many websites will use the some strict policy they are using so it may be illegal for you to collect that type of data if you will done improperly for that now it is basically a useful key points if I will say it is a useful method but you have to check the permission and legal boundaries for that type of now last method is basically API API means application programming interface means you will get the structured data from other apps or platform means some applications or platforms are there they are basically providing you the fresh they are providing you the exact structured data for you so that you can use for any types of prediction for your help basically they are providing your data like you can you can use a twitter API to get the tweets about a topic for the sentiment analysis types of models if you want you can get data from twitter API but the advantage is that you get the clean and organized data but cons are that sometimes you have a usage limit or sometimes you have to pay the cost for that so that that on that is the only way you get the data for that so basically this type of application programming interface are ideal for getting the trusted and real time data from the known sources from that types of sources you will get the actual data now last method is sensors and IOT devices means with the help of some sensor you can apply like if you want temperature you can use a temperature sensor you will get the data for the continuous monitoring of the temperature you get you want the humidity and temperature in the board you can use that type of sensors so different types of sensor you can use and collect the data like in a watch different types of sensors are there which will gives you the continuously they are giving you the data about the steps about the sp02 and different types of different types of data basically they are giving to you so you can take the data from the sensors also its advantage is that you can you will get the real time and continuous data but again problem with that is same for the same problem as with the application experimental types of data that it is sometime expensive for you to collect the data from this so basically this the key point for this is it is best for the real world monitoring but you have to use this with the care now in next lecture we will try to cover what is the problem with this type of data we will see in the next class because in the next class we will try to understand what are the challenges for the data collection basically different types of challenges are there you will face when you go for the collection of data we will see in the next class so that's all for the today's lecture we in this lecture we have seen about the machine learning workflow and their 1 to 2 steps we have seen first step we have seen about the problem identification second is data collection we have seen in this and the methods for the data collection is also we have seen in this lecture now in next lecture we will the we will in the next lecture we will try to cover the challenge challenges which we face when we are going for the data collection and the next steps of the machine learning workflow we will cover in the next lecture thank you."
+}

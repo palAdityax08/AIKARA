@@ -1,0 +1,3022 @@
+{
+    "chunks": [
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 0.0,
+            "end": 18.32,
+            "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 18.32,
+            "end": 19.76,
+            "text": " machine learning techniques."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 19.76,
+            "end": 23.84,
+            "text": " I am Dr. Aftab Ahmad Ansari, your instructor for this course."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 23.84,
+            "end": 26.72,
+            "text": " So, basically this is our lecture number 12."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 26.72,
+            "end": 31.16,
+            "text": " In previous to this lecture, we have covered about the fuzzy logic inference and their"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 31.16,
+            "end": 32.16,
+            "text": " techniques."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 32.16,
+            "end": 37.12,
+            "text": " Basically, we have covered about details about the fuzzy logic controller, how fuzzy logic"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 37.12,
+            "end": 41.68,
+            "text": " controller will work, how it step by step we have seen what is fuzzification, what is"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 41.68,
+            "end": 46.8,
+            "text": " defuzzification, what is rule base and different types of components of the fuzzy logic controller."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 46.8,
+            "end": 51.879999999999995,
+            "text": " We have covered in our previous lecture and on the basis of that fuzzy logic controller,"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 51.88,
+            "end": 56.88,
+            "text": " how they will work with the help of numerical also we have seen in our previous classes."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 56.88,
+            "end": 61.800000000000004,
+            "text": " Now, from the today onwards from the lecture number 12, we will try to cover the next module"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 61.800000000000004,
+            "end": 63.6,
+            "text": " that is machine learning basically."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 63.6,
+            "end": 66.28,
+            "text": " This is our module number 3 for this course."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 66.28,
+            "end": 68.2,
+            "text": " Now, what is machine learning?"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 68.2,
+            "end": 72.52000000000001,
+            "text": " Basically, machine learning is basically you have seen in your day to day life also like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 72.52000000000001,
+            "end": 76.04,
+            "text": " if you are watching a Netflix, if you are watching a web series in a Netflix, you can"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 76.04,
+            "end": 82.0,
+            "text": " see that after completing your one web series, you can see that Netflix suggested another,"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 82.0,
+            "end": 86.72,
+            "text": " how he how he is able to suggest you the next web series which you have to watch or any"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 86.72,
+            "end": 92.16000000000001,
+            "text": " other example you can take like how Spotify, how if you will take the example of a Spotify,"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 92.16000000000001,
+            "end": 98.16000000000001,
+            "text": " how it is able to suggest you the next song, how what you have to listen after completing"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 98.16000000000001,
+            "end": 99.16000000000001,
+            "text": " this songs."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 99.16000000000001,
+            "end": 103.36000000000001,
+            "text": " Now, similarly, if you can take the another easy example of that like if you are typing"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 103.36,
+            "end": 109.08,
+            "text": " in your keyboard, you can see that after typing one word that keyboard is able to suggest"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 109.08,
+            "end": 112.48,
+            "text": " you the next word, what should be the next word you can type after that."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 112.48,
+            "end": 114.4,
+            "text": " So, how it is possible?"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 114.4,
+            "end": 117.16,
+            "text": " These things is possible because of the machine learning."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 117.16,
+            "end": 122.6,
+            "text": " So, basically now machine learning is what basically it is it is a it is a thing in which"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 122.6,
+            "end": 127.44,
+            "text": " you are teaching the computer to learn from the examples, not just follow the rules like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 127.44,
+            "end": 128.96,
+            "text": " in programming what we will do?"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 128.96,
+            "end": 133.96,
+            "text": " We will instruct the computer after that if this condition met, then you have to then"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 133.96,
+            "end": 138.04000000000002,
+            "text": " you have to give the then you have to give answer like that it means you are following"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 138.04000000000002,
+            "end": 143.64000000000001,
+            "text": " a series, but in the case of machine learning, you are teaching the computers that they have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 143.64000000000001,
+            "end": 148.56,
+            "text": " to learn from the with that they have to learn all the things from the examples like the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 148.56,
+            "end": 154.20000000000002,
+            "text": " example which I have given you all your phone is able to predict what you have to type next"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 154.20000000000002,
+            "end": 155.20000000000002,
+            "text": " what is this?"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 155.20000000000002,
+            "end": 158.32,
+            "text": " This is basically the example of a machine learning."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 158.68,
+            "end": 163.04,
+            "text": " Now, in this lecture, we will try to understand the difference between how it is different"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 163.04,
+            "end": 166.64,
+            "text": " from the regular programming which we will now doing."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 166.64,
+            "end": 172.92,
+            "text": " So, we will see the definition of machine learning from a pioneer of this field that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 172.92,
+            "end": 173.92,
+            "text": " is Arthur Samuel."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 173.92,
+            "end": 178.95999999999998,
+            "text": " He said that machine learning is basically the field of study in which the computers"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 178.95999999999998,
+            "end": 184.4,
+            "text": " learns computer in which computers give the ability to learn from the data without being"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 184.4,
+            "end": 186.48000000000002,
+            "text": " explicitly program."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 186.48000000000002,
+            "end": 191.88,
+            "text": " It means it is the ability to learn from the data without being explicitly program."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 191.88,
+            "end": 196.72,
+            "text": " So, it means you are teaching a computer how to make decision by showing it data."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 196.72,
+            "end": 201.6,
+            "text": " You are giving certain numbers of example to the computer and it will detect the pattern"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 201.6,
+            "end": 207.36,
+            "text": " on that example and that he will it will predict what should be the then you will give the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 207.36,
+            "end": 213.08,
+            "text": " next input then it will predict the output on the basis of the data on which you have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 213.08,
+            "end": 214.52,
+            "text": " trained the computer."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 214.52,
+            "end": 218.64000000000001,
+            "text": " These things we have we will do in the in machine learning basically."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 218.64000000000001,
+            "end": 221.76000000000002,
+            "text": " We will teach the computers with the help of examples."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 221.76000000000002,
+            "end": 226.28,
+            "text": " The machine learning is when component learn patterns from the data without us telling"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 226.28,
+            "end": 229.08,
+            "text": " that what exactly it have to do."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 229.08,
+            "end": 234.12,
+            "text": " With the help of that example, it catch the patterns and generate the output with the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 234.12,
+            "end": 238.84,
+            "text": " help of that trained data which you with the help of that data you will teach basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 238.84,
+            "end": 242.64000000000001,
+            "text": " the computer what it have to do what it have to predict."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 243.2,
+            "end": 247.6,
+            "text": " Like example if I can say we can we will show a computer thousand pictures of the cats and"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 247.6,
+            "end": 250.16,
+            "text": " dog and it learns to tell them apart."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 250.16,
+            "end": 254.64,
+            "text": " It basically after that you will ask the computer now you have to differentiate between the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 254.64,
+            "end": 258.88,
+            "text": " cats and dog on the basis of that you have you have basically teach him with the help"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 258.88,
+            "end": 260.64,
+            "text": " of that thousand picture."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 260.64,
+            "end": 267.36,
+            "text": " If I will if I will take the another example like like a for a small kid what we will do"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 267.44,
+            "end": 272.96000000000004,
+            "text": " we will not tell him the rules like if a if a animal is having four legs and two ears"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 272.96000000000004,
+            "end": 275.12,
+            "text": " and two eyes then it is that animal."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 275.12,
+            "end": 278.64,
+            "text": " If it is having hair in their head then it is that animal."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 278.64,
+            "end": 284.64,
+            "text": " Alternately what we will do we will show him the pictures of different types of animal"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 284.64,
+            "end": 290.48,
+            "text": " and with the help of that picture we will try to to we will we will try to teach the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 290.48,
+            "end": 293.6,
+            "text": " kid how they are able to differentiate."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 293.6,
+            "end": 298.08000000000004,
+            "text": " Same for the machine learning also with the help of with the help of images with the help"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 298.08000000000004,
+            "end": 303.52000000000004,
+            "text": " of any types of data we will try to train the computer so that they can that so that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 303.52000000000004,
+            "end": 307.52000000000004,
+            "text": " they can take the decision for the next type of output."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 307.52000000000004,
+            "end": 312.8,
+            "text": " Similarly this this image you can think that computers now computers is now thinking what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 312.8,
+            "end": 313.8,
+            "text": " is the animal."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 313.8,
+            "end": 318.16,
+            "text": " If we have feeding a new input to them then it will it should be able to differentiate"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 318.16,
+            "end": 323.20000000000005,
+            "text": " between the new input what that new input is either it is cat or it is dog because we"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 323.28,
+            "end": 328.32,
+            "text": " have trained the computer with the help of by feeding thousands pictures of cat and cats"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 328.32,
+            "end": 333.76,
+            "text": " and dog to tell him to learn basically first it it will it will have to learn with the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 333.76,
+            "end": 339.03999999999996,
+            "text": " help of that images then after that learning then it will have to decide what is that new"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 339.03999999999996,
+            "end": 342.52,
+            "text": " what is new images basically."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 342.52,
+            "end": 347.28,
+            "text": " Now this is the another examples of how machine learning's power the modern technology we"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 347.28,
+            "end": 353.15999999999997,
+            "text": " can say Netflix is the best example is the Netflix that it is able to suggest the movie"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 353.32000000000005,
+            "end": 358.08000000000004,
+            "text": " which you will like and then also you can see the another example of machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 358.08000000000004,
+            "end": 363.96000000000004,
+            "text": " is in the case of Gmail basically it is spam the filter blocks it is spam the filters and"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 363.96000000000004,
+            "end": 370.20000000000005,
+            "text": " block the junk email it automatically predict that that mail is belong to the junk mail"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 370.20000000000005,
+            "end": 376.28000000000003,
+            "text": " so that it can forward that mail to the jump set spam section basically and another example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 376.28000000000003,
+            "end": 381.08000000000004,
+            "text": " is that self-driving cars which can navigate the roads which can automatically navigate"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 381.08,
+            "end": 385.4,
+            "text": " the road it doesn't need the humans basically it automatically detect that way we have to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 385.4,
+            "end": 390.59999999999997,
+            "text": " go that way that way we don't have to go and fun fact is like machine learning also helps"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 390.59999999999997,
+            "end": 394.88,
+            "text": " the doctor to predict the disease from the patient data means machine learning also can"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 394.88,
+            "end": 400.91999999999996,
+            "text": " predict the disease that if if it have a if it is having a data of certain patient like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 400.91999999999996,
+            "end": 405.47999999999996,
+            "text": " that that age it is having that weight it is having that type of blood pressure is having"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 405.47999999999996,
+            "end": 410.79999999999995,
+            "text": " by continuously monitoring that data that machine learning is able to predict the disease"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 410.8,
+            "end": 416.68,
+            "text": " for a patient so basically it can help the doctor also in that way now why machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 416.68,
+            "end": 421.84000000000003,
+            "text": " is important so we can see that in everyday examples we are using the machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 421.84000000000003,
+            "end": 426.24,
+            "text": " like for Siri and Alexa you can set that it is able it is a voice assistant basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 426.24,
+            "end": 430.96000000000004,
+            "text": " it can understand your speech it is able to understand what you are saying what you are"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 430.96000000000004,
+            "end": 438.2,
+            "text": " asking to them to the right devices it is able to answer that online ad show online"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 438.2,
+            "end": 443.24,
+            "text": " ad shows basically which you why when you will search when you will search something"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 443.24,
+            "end": 448.76,
+            "text": " in a flipkart then you can see that like if you have search the shoes if you have search"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 448.76,
+            "end": 452.96,
+            "text": " in flipkart for the shoes then you can see that for everywhere you are now you can we"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 452.96,
+            "end": 458.15999999999997,
+            "text": " will see the ad of the shoes everywhere like if you are if you are watching the cricket"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 458.15999999999997,
+            "end": 463.15999999999997,
+            "text": " then you will get the advertisement for that shoes also if you are visiting some website"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 463.16,
+            "end": 468.08000000000004,
+            "text": " then you will find that in certain top or bottom corner you will get the ad of that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 468.08000000000004,
+            "end": 474.40000000000003,
+            "text": " should also that shoes ad also so what what what is this this is machine learning basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 474.40000000000003,
+            "end": 479.20000000000005,
+            "text": " with the help of that they know that that now you are watching you are in need of shoes"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 479.20000000000005,
+            "end": 484.84000000000003,
+            "text": " so then it will shows you the ad of that shoes everywhere where whichever side you will go"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 484.84000000000003,
+            "end": 491.44000000000005,
+            "text": " for the visit now game also uses machine learning to make the to make smarter to make smarter"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 491.44,
+            "end": 495.6,
+            "text": " the opponent so that opponent is able to predict your next move what you are going"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 495.6,
+            "end": 501.0,
+            "text": " for the next move after that now machine learning also helps in health care also finance finance"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 501.0,
+            "end": 507.8,
+            "text": " also and any more cases that machine learning can help you so that you can make the system"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 507.8,
+            "end": 513.6,
+            "text": " more smarter as compared to the traditional now what is traditional basically traditional"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 513.6,
+            "end": 519.04,
+            "text": " in that in that in that sense in the according to that sense is traditional programming basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 519.04,
+            "end": 524.52,
+            "text": " it is what in which you will follow a rule based approach where programmers basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 524.52,
+            "end": 529.0,
+            "text": " write the instruction to process and produce the output in that programming what you will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 529.0,
+            "end": 533.8,
+            "text": " do you will write certain rules and that what that programming will do it will match your"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 533.8,
+            "end": 538.76,
+            "text": " inputs according to the certain rules and then it produce the output on the basis of"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 538.76,
+            "end": 543.0,
+            "text": " whatever the program logic you have write there it will follow that rules and predict"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 543.0,
+            "end": 548.0799999999999,
+            "text": " the output on the basis of that rules like what is the characteristics of that prediction"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 548.12,
+            "end": 554.5600000000001,
+            "text": " program if we see it will it will be deterministic mean it will follow the same input all it"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 554.5600000000001,
+            "end": 559.6800000000001,
+            "text": " will also for always follow the same input which produce the same output it is explicit"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 559.6800000000001,
+            "end": 565.32,
+            "text": " means programmers defines or programmers have to define all the rules manually instead instead"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 565.32,
+            "end": 570.9200000000001,
+            "text": " of that it automatically suggest what is the new rule will be what it will do it will it"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 570.9200000000001,
+            "end": 575.48,
+            "text": " will have to define all the rules manually like for example if we can say the if we have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 575.48,
+            "end": 579.72,
+            "text": " to define the if we have to define the algorithm for some sorting if we have to do some sorting"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 579.72,
+            "end": 584.72,
+            "text": " type of thing then we have to define the rules for that and then it will go for the sorting"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 584.72,
+            "end": 590.4,
+            "text": " that sorting that data database queries are also another now we can see the another example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 590.4,
+            "end": 595.9200000000001,
+            "text": " is that calculator programs you have to we have if you want to add to certain number"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 595.9200000000001,
+            "end": 601.84,
+            "text": " then you have to write some rules like if a is the if if you are taking the inputs from"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 601.84,
+            "end": 606.1600000000001,
+            "text": " the user then you have to write in that way if you are if you are giving directly the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 606.1600000000001,
+            "end": 610.76,
+            "text": " input then you can write a is equal to dash and b is equal to dash and then you will write"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 610.76,
+            "end": 616.2800000000001,
+            "text": " the program for adding that a that you have to find basically the a plus b or a minus"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 616.2800000000001,
+            "end": 620.8000000000001,
+            "text": " b whatever operation you have to perform you can write for that some certain rules you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 620.8000000000001,
+            "end": 627.2,
+            "text": " can write like example if I can say another another example I can give you if we have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 627.2,
+            "end": 631.76,
+            "text": " to find whether the number is even or odd so what we have to do we have to write again"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 631.76,
+            "end": 637.44,
+            "text": " a code for that like if number is able to divisible by 2 and produce a remainder 0 then"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 637.44,
+            "end": 642.76,
+            "text": " in return you can give that the even means that number is even whatever the user has"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 642.76,
+            "end": 648.5600000000001,
+            "text": " fitted that input that is even basically otherwise if it is not able to generate the remainder"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 648.5600000000001,
+            "end": 653.8000000000001,
+            "text": " as a 0 then it means it will that number will be a odd that is a example that is a example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 653.8,
+            "end": 659.0,
+            "text": " of basically a traditional programming which we can say that traditional program is what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 659.0,
+            "end": 664.3199999999999,
+            "text": " in which you will write the exact rules for the computer which computer have to follow"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 664.3199999999999,
+            "end": 669.28,
+            "text": " like for example if another example I can take if a score is greater than 60 then it"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 669.28,
+            "end": 676.16,
+            "text": " will be pass or fails or otherwise if it is not having a score of greater than 60 it means"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 676.16,
+            "end": 681.24,
+            "text": " it is a fails you can use the if else the fails conditions in which you will write if"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 681.24,
+            "end": 685.5600000000001,
+            "text": " score is greater than 60 then the output should be then the with the help of that print"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 685.5600000000001,
+            "end": 692.24,
+            "text": " of you can write that then the student is fail if score is less than 60 then it is fail"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 692.24,
+            "end": 698.12,
+            "text": " if a score is greater than 60 then it is pass that types of rules are there in traditional"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 698.12,
+            "end": 702.84,
+            "text": " programming it is like basically if I will compare it with the real time analogy if I"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 702.84,
+            "end": 708.4,
+            "text": " can take it is like giving a chef a detailed recipe to cook a dish like if you want to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 708.4,
+            "end": 712.3199999999999,
+            "text": " cook a dish with the help of some chef we are giving a detailed recipe like first you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 712.3199999999999,
+            "end": 715.88,
+            "text": " have to collect this then you have to collect this then you have to mix that that type of"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 715.88,
+            "end": 720.3199999999999,
+            "text": " recipe you are giving it is like that basically in traditional programming in the form of"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 720.3199999999999,
+            "end": 725.4,
+            "text": " image you also can say that how is the weather so now we have to give the condition how he"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 725.4,
+            "end": 730.92,
+            "text": " have to give the output on the basis of that like if weather is equal to sunny then you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 730.92,
+            "end": 736.16,
+            "text": " have to wear the sunglasses else if another condition I have added that if weather is"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 736.16,
+            "end": 741.92,
+            "text": " equal to rainy you can carry a umbrella otherwise you can wear a cap so that types of things"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 741.92,
+            "end": 747.88,
+            "text": " are there in the in the case of traditional programming also now it is another example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 747.88,
+            "end": 754.24,
+            "text": " like if I want the gmail to detect the spam spam emails so I have to give certain with"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 754.24,
+            "end": 759.36,
+            "text": " the help of some rules I have to tell like if that what's come in the mail then that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 759.36,
+            "end": 764.9599999999999,
+            "text": " mail should become good that that mail should be go to the spam spam section basically like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 764.96,
+            "end": 770.5600000000001,
+            "text": " if email is a win free or lottery then mark it as a spam spam means if that emails contain"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 770.5600000000001,
+            "end": 777.64,
+            "text": " that type of word then then it then that email should go to the spam means if you have to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 777.64,
+            "end": 782.96,
+            "text": " you have to give the email text as input then it will find that okay if that certain words"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 782.96,
+            "end": 789.2,
+            "text": " are there in the email then that email will go to the spam section basically now what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 789.2,
+            "end": 795.36,
+            "text": " are the limitation of the traditional programming because first first disadvantage or first"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 795.36,
+            "end": 799.9200000000001,
+            "text": " limitation we can see that it is hard to write the rules for the complex problem if we are"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 799.9200000000001,
+            "end": 804.6,
+            "text": " having some easy problem then we can write the rules for that but if we are having some"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 804.6,
+            "end": 810.0400000000001,
+            "text": " complex problem then it is very hard to write the rules for that complex problem now if"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 810.0400000000001,
+            "end": 814.5200000000001,
+            "text": " we want to recognize a face in photos then it is not possible for the traditional programming"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 814.52,
+            "end": 820.0799999999999,
+            "text": " similarly if we want to predict the house prices then we are not able to go for the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 820.0799999999999,
+            "end": 824.52,
+            "text": " prediction with the help of the traditional programming similarly if you want to go for"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 824.52,
+            "end": 829.46,
+            "text": " the understanding any speech and we have to detect if there any spam type of speech is"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 829.46,
+            "end": 835.24,
+            "text": " there then with the help of traditional programming basically it is not possible and why because"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 835.24,
+            "end": 839.76,
+            "text": " we have to use otherwise we have to use too many variables and too many patterns we have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 839.76,
+            "end": 844.64,
+            "text": " that is basically hard to define that number of that number of using inputs and that number"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 844.64,
+            "end": 849.96,
+            "text": " of patterns to detect it is very hard for the manual programming basically so how what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 849.96,
+            "end": 855.04,
+            "text": " we will do we will go for the machine learning that is that is the reason basically that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 855.04,
+            "end": 862.28,
+            "text": " because that is because of that that number of limitations of traditional programming"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 862.28,
+            "end": 867.12,
+            "text": " are there that is why we go we will go for the machine learning now if I will compare"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 867.12,
+            "end": 871.52,
+            "text": " the traditional programming with the machine learning is that like if we compare on the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 871.52,
+            "end": 876.76,
+            "text": " aspects of input in the traditional programming you will write certain rules and then you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 876.76,
+            "end": 881.8,
+            "text": " will give the data then and the basis of that it will produce the output but in the case"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 881.8,
+            "end": 886.16,
+            "text": " of machine learning what is the input is first you have to give the data on the basis of"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 886.16,
+            "end": 890.92,
+            "text": " that data it will catch the pattern and then it will product first we have to give the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 890.92,
+            "end": 895.6800000000001,
+            "text": " data I mean what type of data data plus output also like if that type of data is there then"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 895.68,
+            "end": 901.1999999999999,
+            "text": " that is the output for that types of data now after train on that data set it will able"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 901.1999999999999,
+            "end": 907.2399999999999,
+            "text": " now to give you the output now if on the basis of output aspects of I will compare then the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 907.2399999999999,
+            "end": 911.8,
+            "text": " case of traditional programming directly result you can get in the case of traditional programming"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 911.8,
+            "end": 916.0,
+            "text": " in the on the machine learning you will get the model like that models now is able to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 916.0,
+            "end": 921.12,
+            "text": " train on the input now it will able to give the with the output on the basis of that like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 921.12,
+            "end": 925.3599999999999,
+            "text": " for example if I we can say that we can see for the traditional programming is basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 925.36,
+            "end": 931.84,
+            "text": " the calculator in which regular programming is there if you will adds if you want to add"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 931.84,
+            "end": 936.16,
+            "text": " some numbers then you can write programming on on a way similarly in the case of machine"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 936.16,
+            "end": 941.04,
+            "text": " learning examples are spam filter that spam filter is there automatically can automate"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 941.04,
+            "end": 946.72,
+            "text": " jet if we will see the example of that gmail gmail that gmail spam filter is able to detect"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 946.72,
+            "end": 952.2,
+            "text": " directly the mail it does not not it does not need the name like if if the mail contains"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 952.2,
+            "end": 958.0,
+            "text": " that words then only that that email is spam automatically detects if that word is there"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 958.0,
+            "end": 963.5600000000001,
+            "text": " or not there it will it will basically understand the mail and it thinks that if it is that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 963.5600000000001,
+            "end": 970.72,
+            "text": " type of mail is not we can say not important for the user then it will basically send that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 970.72,
+            "end": 976.96,
+            "text": " mail to the spam folder now when we when we can use a traditional programming in the case"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 976.96,
+            "end": 982.6800000000001,
+            "text": " of when when the when our task is very simpler with the clear rules in that case we can use"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 982.6800000000001,
+            "end": 987.52,
+            "text": " the traditional programming like for if you want to calculate the text then on on for"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 987.52,
+            "end": 992.32,
+            "text": " calculating the text you can use the traditional programming because it is very easy to calculate"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 992.32,
+            "end": 996.8000000000001,
+            "text": " the text because just we have to add or subtracts the amount for that and sorting numbers if"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 996.8000000000001,
+            "end": 1001.2800000000001,
+            "text": " we have to sort numbers then on the for that also we can use the traditional programming"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1001.3199999999999,
+            "end": 1006.6,
+            "text": " but we cannot use the traditional programming in the case where we are not able to write"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1006.6,
+            "end": 1010.48,
+            "text": " when we are not able to write the programs for the complex type of problems."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1010.48,
+            "end": 1015.68,
+            "text": " Like if we are having to detect some image type problem is we have then we are not able"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1015.68,
+            "end": 1020.68,
+            "text": " to write the programming basic we are not able to write the rules for that types of"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1020.68,
+            "end": 1026.48,
+            "text": " complex problems, so for that application we cannot use the traditional programming."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1026.48,
+            "end": 1031.02,
+            "text": " So when we have to use machine learning because when we are having with the complex tasks"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1031.02,
+            "end": 1035.78,
+            "text": " patterns in data means if we are having some large amount of data and in that data we have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1035.78,
+            "end": 1041.26,
+            "text": " to detect the pattern what type of pattern is there in data how they are going for the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1041.26,
+            "end": 1046.82,
+            "text": " output after predicting that then for that types of cases you can use a machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1046.82,
+            "end": 1050.94,
+            "text": " like in the case of image recognition you can use machine learning for the speech understanding"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1050.94,
+            "end": 1054.78,
+            "text": " for the predictions also for the predictions means if you are having certain amounts of"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1054.78,
+            "end": 1060.02,
+            "text": " data and on the basis of data you can predict what is the next step we can take or another"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1060.02,
+            "end": 1066.22,
+            "text": " example I can take on the basis of like for calculating the cost of house you can use"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1066.22,
+            "end": 1071.26,
+            "text": " the machine learning if you are having the data like for that types of locality for that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1071.26,
+            "end": 1078.06,
+            "text": " type of houses that much amount of house is there now we will feed that types of input"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1078.06,
+            "end": 1083.9,
+            "text": " data plus output basically we can feed or we can train the computers and when it is"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1083.9,
+            "end": 1089.26,
+            "text": " trained now you will feed the new input to that model then it will give you the it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1089.26,
+            "end": 1095.1,
+            "text": " basically produce the output on the basis of your inputs so that is how machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1095.1,
+            "end": 1099.54,
+            "text": " basically work and that the examples are you can recognize in the photo which needs machine"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1099.54,
+            "end": 1104.62,
+            "text": " learning it does not need rule basically like your phone your phone is having the face screen"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1104.62,
+            "end": 1110.06,
+            "text": " face lock screen basically what it will do it will recognize your face and then it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1110.06,
+            "end": 1115.18,
+            "text": " open it will open the cell phone it will not follow certain rule scale if you are having"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1115.18,
+            "end": 1119.74,
+            "text": " eyes like that then you can open the if you are having a nose structure like that then"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1119.74,
+            "end": 1125.22,
+            "text": " you can open the phone instead of that that uses the that use basically that means what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1125.22,
+            "end": 1130.0600000000002,
+            "text": " I can say that that phone is not using any traditional programming it is not following"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1130.0600000000002,
+            "end": 1136.6200000000001,
+            "text": " any certain rules like which I have tell already that if eyes of that type if nose is of that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1136.6200000000001,
+            "end": 1142.22,
+            "text": " type then only but it is using basically the machine learning and on the basis of that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1142.22,
+            "end": 1148.1000000000001,
+            "text": " machine learning it recognize you and unlock the phone on the basis of that lock screen"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1148.1000000000001,
+            "end": 1151.38,
+            "text": " now what is the machine learning approach if you will see machine learning approach"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1151.38,
+            "end": 1156.82,
+            "text": " is a basically it is a subset of artificial intelligence where systems learns pattern"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1156.82,
+            "end": 1161.98,
+            "text": " from data to make the to make prediction or decision without expletive program without"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1161.98,
+            "end": 1167.3,
+            "text": " programming it what it will do it will predict or take decision by its own with the help"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1167.3,
+            "end": 1173.26,
+            "text": " of detecting patterns from your data so what what input we have to give we have to give"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1173.26,
+            "end": 1179.3,
+            "text": " how we have to give him the input plus desired output so that that models learns pattern"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1179.3,
+            "end": 1185.4199999999998,
+            "text": " from the data now it will be able to predict the output from the input whatever now new"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1185.4199999999998,
+            "end": 1190.98,
+            "text": " input which you will feed to the model now it will give it will generate or it will give"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1190.98,
+            "end": 1196.18,
+            "text": " or it will basically predict the output on the basis of that trained data which you have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1196.18,
+            "end": 1202.1000000000001,
+            "text": " given to you first you have to give him some input plus desired output means some types"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1202.1000000000001,
+            "end": 1207.3,
+            "text": " of input data you have to give and what for that input what output will come that types"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1207.3,
+            "end": 1212.3400000000001,
+            "text": " of data you have to feed to the machine learning and then it will learns or it will catch the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1212.3400000000001,
+            "end": 1217.5,
+            "text": " patterns on that types of data and then on the basis of that now when now if you will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1217.5,
+            "end": 1225.6200000000001,
+            "text": " feed new input to that now it is able to predict the output for the new input now what are"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1225.62,
+            "end": 1230.4199999999998,
+            "text": " the characteristics of that first characteristic is basically data depth it means it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1230.4199999999998,
+            "end": 1235.04,
+            "text": " learn from the example rather than the predefined rules means it will that machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1235.04,
+            "end": 1240.3799999999999,
+            "text": " will learn from the example rather than the predefined rules it will not learn from the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1240.3799999999999,
+            "end": 1245.8,
+            "text": " rules it basically it will learn from the example you have to give some example to further"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1245.8,
+            "end": 1251.26,
+            "text": " that that is basically trained data we can say you can you have first you have to give"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1251.26,
+            "end": 1255.9,
+            "text": " set to the machine learning model so that it can learn from that."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1255.9,
+            "end": 1259.78,
+            "text": " Second is probabilistic means outputs may vary based on the learn patterns."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1259.78,
+            "end": 1264.62,
+            "text": " It means if you will get different types of data, then it will learn from different types"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1264.62,
+            "end": 1267.1,
+            "text": " like it so that its output may vary."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1267.1,
+            "end": 1271.1,
+            "text": " If you will give for learning, if you will give different types of data, then it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1271.1,
+            "end": 1272.1,
+            "text": " learn on the data."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1272.1,
+            "end": 1275.7,
+            "text": " If you will get another type of data, then it will learn on the basis of that another"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1275.7,
+            "end": 1276.7,
+            "text": " type data."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1276.7,
+            "end": 1283.14,
+            "text": " Example is spam email detection and recommendation system and autonomous driving means spam email"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1283.14,
+            "end": 1288.5800000000002,
+            "text": " detection means it will automatically basically detect the spam email."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1288.5800000000002,
+            "end": 1291.42,
+            "text": " That email belong to the spam."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1291.42,
+            "end": 1293.5800000000002,
+            "text": " It is not of use for the user."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1293.5800000000002,
+            "end": 1298.6200000000001,
+            "text": " So it will send it to the spam folder for that recommendation system."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1298.6200000000001,
+            "end": 1303.46,
+            "text": " It means after watching some movie, after watching a web series, now it will recommend"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1303.46,
+            "end": 1308.6200000000001,
+            "text": " you you can also watch that or might be if you are purchasing some if you are purchasing"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1308.6200000000001,
+            "end": 1315.92,
+            "text": " a shoes, then it will always it will recommend you keep people by with the shoes that socks"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1315.92,
+            "end": 1318.7,
+            "text": " you can buy with the help for that shoes also."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1318.7,
+            "end": 1324.14,
+            "text": " So that types of examples are there for the machine learning approach that machine learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1324.14,
+            "end": 1327.82,
+            "text": " you can see in the recommendation system is in everyday life."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1327.82,
+            "end": 1333.4199999999998,
+            "text": " You are able to see that like Netflix or YouTube which the which that Netflix or YouTube"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1333.4199999999998,
+            "end": 1338.62,
+            "text": " are able to suggest the videos which you will like after completing that video."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1338.62,
+            "end": 1342.7,
+            "text": " They are able to suggest you the next video what you will like how machine learning looks"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1342.7,
+            "end": 1347.74,
+            "text": " at back what you are what it will do basically for that what the idea behind that what what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1347.74,
+            "end": 1352.46,
+            "text": " the concept behind that how they are able to give you the recommendation what will do"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1352.46,
+            "end": 1358.42,
+            "text": " it will see the history like what you watched before and after watching that what others"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1358.42,
+            "end": 1363.54,
+            "text": " will with similar taste watch it will basically match it will catch the patterns what currently"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1363.54,
+            "end": 1368.66,
+            "text": " you have watched before what the currently you have watched and for same for other user"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1368.66,
+            "end": 1373.8600000000001,
+            "text": " what which is having the similar taste like you and after that what they have watched"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1373.8600000000001,
+            "end": 1381.74,
+            "text": " after that web series or after hearing that songs what other people have have played the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1381.74,
+            "end": 1388.14,
+            "text": " next track or I can say what next song they they are hearing after that song on the basis"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1388.14,
+            "end": 1393.9,
+            "text": " of that it will predict so you that's how their prediction will work basically how they"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1393.9,
+            "end": 1399.98,
+            "text": " are able to give you the next recommended song or next web series for you after watching"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1399.98,
+            "end": 1403.16,
+            "text": " or after completing one web series of after that."
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1403.16,
+            "end": 1408.18,
+            "text": " So what is the result behind that it is can able to suggest you the movie movies or the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1408.18,
+            "end": 1415.1000000000001,
+            "text": " songs which you are likely to enjoy after completing that song or that web series like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1415.1000000000001,
+            "end": 1419.7,
+            "text": " another example is that self-driving cars which you can self-driving cars also another"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1419.7,
+            "end": 1425.94,
+            "text": " example which can navigate road safely automatically it doesn't needs the basically driver so what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1425.94,
+            "end": 1431.5,
+            "text": " it will do it will do it will use basically some sensors on that and by collecting the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1431.5,
+            "end": 1436.7,
+            "text": " data with the help of that sensors it will predict the which in which way we have to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1436.7,
+            "end": 1444.66,
+            "text": " go like it is having some radar sensor radar sensor means it will detect the targeted object"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1444.66,
+            "end": 1449.42,
+            "text": " and similarly camera modules are there to catch the images of that GPS are there on"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1449.42,
+            "end": 1455.3400000000001,
+            "text": " board ultrasonic sensor ultrasonic sensor are there ultrasonic sensor which calculate"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1455.3400000000001,
+            "end": 1459.9,
+            "text": " the distance on the basics of that radar sensors are there what it will do it will basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1459.9,
+            "end": 1465.18,
+            "text": " gives you the direction in which direction also distance also it will give so that types"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1465.18,
+            "end": 1471.0600000000002,
+            "text": " of many IOT sensors you will implement in the in any system where you want to get the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1471.0600000000002,
+            "end": 1476.02,
+            "text": " data and on the basis of that data it will decide where we have to go so what we have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1476.02,
+            "end": 1481.7,
+            "text": " to do for any types of like if the this example of self-driving cars so you have you have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1481.7,
+            "end": 1487.02,
+            "text": " to be with some data from either you can get the data from surveys or from anywhere you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1487.02,
+            "end": 1493.98,
+            "text": " can collect or you can collect or get the data or another method is you can collect"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1493.98,
+            "end": 1498.54,
+            "text": " the data with the help of some sensors like you can like in self-driving car they it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1498.54,
+            "end": 1503.46,
+            "text": " use some sensor like radar sensor it will use camera sensor it will use radar sensor"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1503.46,
+            "end": 1508.74,
+            "text": " it will use ultrasonic sensors it will use and one on board unit means one controller"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1508.74,
+            "end": 1514.98,
+            "text": " it will use to control it it will take the input from the sensor and process in the microcontroller"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1514.98,
+            "end": 1522.66,
+            "text": " and on the basis of that sensor data it will give it will gives the output to the actuator"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1522.66,
+            "end": 1527.78,
+            "text": " means what car have to do now car what car have to do it have to speed up it have to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1527.78,
+            "end": 1534.5800000000002,
+            "text": " be stop or it have to turn from there so that types will of data it will collect with the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1534.5800000000002,
+            "end": 1539.02,
+            "text": " help of from sensor and then any machine and then machine learning algorithm will decide"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1539.02,
+            "end": 1545.0600000000002,
+            "text": " what it have to do now another example is in healthcare we can say that with the help"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1545.0600000000002,
+            "end": 1549.38,
+            "text": " of machine learning data with the help of sorry with the help of machine learning we"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1549.38,
+            "end": 1553.9,
+            "text": " can predict the disease from the medical type of data we can collect the data from"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1553.9,
+            "end": 1560.0200000000002,
+            "text": " we can collect the data from a patient and with the help of data that data that patient"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1560.0200000000002,
+            "end": 1566.14,
+            "text": " have like if it is having certain age certain blood pressure it is having and certain height"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1566.14,
+            "end": 1572.8600000000001,
+            "text": " it is having certain age it is having on the basis of the data it will predict the diseases"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1572.86,
+            "end": 1580.1,
+            "text": " what what disease is able what type what for what disease symptoms it currently that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1580.1,
+            "end": 1585.86,
+            "text": " patient is having so basically what it will do it will help the doctor so that they can"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1585.86,
+            "end": 1591.9799999999998,
+            "text": " diagnose that disease as early as possible or for any other like for the result I am"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1591.9799999999998,
+            "end": 1600.5,
+            "text": " I have write there which can help the doctor to diagnose the for for for major symptoms"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1600.5,
+            "end": 1604.82,
+            "text": " I have taken there for the like for the cancer you can detect as early as possible for the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1604.82,
+            "end": 1609.82,
+            "text": " heart disease also you can detect as early as possible that that patient is having some"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1609.82,
+            "end": 1614.62,
+            "text": " symptoms time so that on the basis of that might be possible in future they can get that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1614.62,
+            "end": 1622.46,
+            "text": " disease so that we can can take the basically preventive cure for that for that patients"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1622.46,
+            "end": 1627.62,
+            "text": " now if we will go for the challenge of the machine learning what are the challenges for"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1627.62,
+            "end": 1632.6999999999998,
+            "text": " the machine learning is first we have to we have to collect the lots of data we we"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1632.6999999999998,
+            "end": 1639.1399999999999,
+            "text": " should have lots of data for that for the training of the computers basically for training"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1639.1399999999999,
+            "end": 1643.6599999999999,
+            "text": " you should have be with you should have to be with lots of data like thousand thousands"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1643.6599999999999,
+            "end": 1649.3799999999999,
+            "text": " of example you have to be with yours so that on the basis of that you can train the computer"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1649.3799999999999,
+            "end": 1653.7399999999998,
+            "text": " and second one is that it takes time to train models if you are training computer you it"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1653.74,
+            "end": 1659.22,
+            "text": " will take sometimes to train on the basis of that data third one is it can make mistakes"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1659.22,
+            "end": 1665.54,
+            "text": " if data is bad like if it is biased or incomplete like it is example like if you have it can"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1665.54,
+            "end": 1671.58,
+            "text": " mistakes if your data is bad data is bad means like if you are collecting the data from the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1671.58,
+            "end": 1680.3,
+            "text": " service so if if you are doing service on some on on on some people but there's these"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1680.3,
+            "end": 1685.5,
+            "text": " people's are biased type of people it like it will support that party on that party only"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1685.5,
+            "end": 1693.8999999999999,
+            "text": " if I am taking the example of any political party issues then it will it that what I can"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1693.8999999999999,
+            "end": 1699.78,
+            "text": " say that guys are bycible to certain political parties so if we will ask if you do survey"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1699.78,
+            "end": 1705.5,
+            "text": " on the basis on the on that people so what will do you will get the biased answer from"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1705.5,
+            "end": 1710.3,
+            "text": " that so that types of problem will happen if you will do the if you will do the service"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1710.3,
+            "end": 1715.06,
+            "text": " or you will collect the data from certain conditions or with certain condition with"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1715.06,
+            "end": 1720.26,
+            "text": " certain peoples if you will collect the data then you will get the biasness in data example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1720.26,
+            "end": 1724.98,
+            "text": " if only trained on if you if only trained on city or houses machine learning might fails"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1724.98,
+            "end": 1730.14,
+            "text": " for the rural also like if you will if you will train the machine learning models on"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1730.14,
+            "end": 1735.5400000000002,
+            "text": " only on the only on the basis of the urban cities data then that machine learning learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1735.5400000000002,
+            "end": 1740.46,
+            "text": " algorithm will will be fail for the rural also if you now if you if you have trained"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1740.46,
+            "end": 1746.66,
+            "text": " the model with the help of urban houses or by if you want to predict the house you want"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1746.66,
+            "end": 1752.6200000000001,
+            "text": " to predict the houses and what the what the rent for the houses in the case of urban cities"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1752.6200000000001,
+            "end": 1757.7800000000002,
+            "text": " you have trained the model on the on the basis of the data of the urban cities houses you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1757.78,
+            "end": 1762.34,
+            "text": " have trained the trained the model now if you want to predict the rent for the rural"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1762.34,
+            "end": 1768.06,
+            "text": " houses then it will be fail for you because it it is that model is trained on the urban"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1768.06,
+            "end": 1774.74,
+            "text": " cities houses so that it that it is not able then that model is not able to predict the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1774.74,
+            "end": 1779.5,
+            "text": " rent for the rural houses that is the basically that is are the disadvantage or challenges"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1779.5,
+            "end": 1783.98,
+            "text": " basically we can say not the disadvantages for the machine learning now what are the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1783.98,
+            "end": 1789.46,
+            "text": " benefits of the machine learning is it can adapt new pattern you are means new spam tactics"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1789.46,
+            "end": 1795.66,
+            "text": " if the if any hacker is using new spam tactics then that machine learning is able to detect"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1795.66,
+            "end": 1802.78,
+            "text": " the new new pattern also in that then it will second is it can handles the complex act like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1802.78,
+            "end": 1807.74,
+            "text": " image or speech speech recognition types of complex problem machine learning is able to"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1807.74,
+            "end": 1812.94,
+            "text": " handle all this all this type of tasks like it can improves over time with more data if"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1812.94,
+            "end": 1818.78,
+            "text": " you are you can improve that machine learning model by by giving it more more data you are"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1818.78,
+            "end": 1823.7,
+            "text": " collect continuous you can collect the data from somewhere and you will you will it you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1823.7,
+            "end": 1827.8600000000001,
+            "text": " you can give that data to the machine learning model then what it will it will improves over"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1827.8600000000001,
+            "end": 1835.1000000000001,
+            "text": " the time more amount of data you can give to the machine learning algorithm it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1835.1000000000001,
+            "end": 1841.38,
+            "text": " now then if you will give more amount of data then that algorithm is able to predict more"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1841.38,
+            "end": 1847.2600000000002,
+            "text": " good I can say more better as compared to the as compared with the less data if you"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1847.2600000000002,
+            "end": 1853.5,
+            "text": " will train it with less data then the then the it is not able to predict the to predict"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1853.5,
+            "end": 1858.1000000000001,
+            "text": " it with good accuracy I can say but if you will train it with more amounts of data then"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1858.1000000000001,
+            "end": 1862.7800000000002,
+            "text": " it then a prediction level will prediction accuracy accuracy of level of the prediction"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1862.7800000000002,
+            "end": 1871.18,
+            "text": " will increases now what are the main key ingredients of the machine learning are first one is the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1871.94,
+            "end": 1875.54,
+            "text": " data data is what the example which you will give to the machine that is the first core"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1875.54,
+            "end": 1881.7,
+            "text": " ingredient of the machine learning what is this it is the data the or basically the example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1881.7,
+            "end": 1886.54,
+            "text": " which you will give to the machine for the learning purpose or for the training purpose"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1886.54,
+            "end": 1892.5800000000002,
+            "text": " which you will give to the machine learning second one is the model which is the mathematical"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1892.5800000000002,
+            "end": 1897.6200000000001,
+            "text": " way to represent the relationship basically it means it will catch the patterns in that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1897.62,
+            "end": 1903.58,
+            "text": " data with the help of that so that model it is a way with to represent the relationship"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1903.58,
+            "end": 1908.4599999999998,
+            "text": " between the input to the output whatever data you have given as a trained data or trained"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1908.4599999999998,
+            "end": 1914.1799999999998,
+            "text": " input for that it will catch the pattern basically how for that input that output is generating"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1914.1799999999998,
+            "end": 1919.02,
+            "text": " it will catch the pattern on that input and output data and third one is the learning"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1919.02,
+            "end": 1927.26,
+            "text": " algorithm means which which it is a method to improve the model using the data now analogy"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1927.3,
+            "end": 1932.62,
+            "text": " we can say like a student student is like a model for a teacher which is reading a test"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1932.62,
+            "end": 1937.14,
+            "text": " book which is reading a test book test book is what data for the student student is a"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1937.14,
+            "end": 1942.74,
+            "text": " model and read it is reading a test book test book is a data for that and it is studying"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1942.74,
+            "end": 1949.74,
+            "text": " studying is the learning process so in that way you can see that how how data model and"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1950.22,
+            "end": 1956.26,
+            "text": " learning algorithm will work in the case of machine learning now now what is a model if"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1956.34,
+            "end": 1961.26,
+            "text": " we can see if we will see in a deep the model is a basically a mathematical function that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1961.26,
+            "end": 1965.66,
+            "text": " maps input to the output what what I have seen the just what I have just shown you in"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1965.66,
+            "end": 1970.5,
+            "text": " the previous slide the model is what it is a basically a mathematical function which"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1970.5,
+            "end": 1977.5,
+            "text": " maps the input to the input to the output what why because it it want to capture the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1978.02,
+            "end": 1983.66,
+            "text": " pattern in the data it will try to it it wants basically to capture the pattern in the data"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1983.78,
+            "end": 1989.18,
+            "text": " why for that input that output is there it will try to capture the pattern in that data"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1989.18,
+            "end": 1994.3000000000002,
+            "text": " now once it trained it can make the prediction once it will be trained on the basis of that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1994.3000000000002,
+            "end": 1999.94,
+            "text": " data which you have fitted now when you will give it give that models to when you will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 1999.94,
+            "end": 2005.9,
+            "text": " give the new data to in to that model then it will be able to give you the prediction"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2005.9,
+            "end": 2012.02,
+            "text": " what will be the output for that new data like the example which I have taken for example"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2012.02,
+            "end": 2016.42,
+            "text": " I have taken that is a many cases study we can say that for predicting the marks I have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2016.42,
+            "end": 2021.42,
+            "text": " taken a simple machine learning example for predicting the example for predicting for"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2021.42,
+            "end": 2025.82,
+            "text": " predicting the basically exam marks for a certain candidate like if we if that candidate"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2025.82,
+            "end": 2032.1399999999999,
+            "text": " is studying only for 1 hour then it then it is having then it is having a marks or or"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2032.1399999999999,
+            "end": 2038.3799999999999,
+            "text": " that candidate is able to score a marks of 15 if it is studying for 1 hour basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2038.38,
+            "end": 2043.8600000000001,
+            "text": " if it is studying for 1 hour then it will be it will be having the ability to score"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2043.8600000000001,
+            "end": 2051.86,
+            "text": " 15 marks now if it is able to if it if it is studying 2 hours in a day then it can it"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2051.86,
+            "end": 2062.02,
+            "text": " is having to get a marks of 20 similarly if it is studying 3 hour then 25 if it is 4 now"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2062.02,
+            "end": 2066.86,
+            "text": " that types of data I have I have given to the machine learning models now what it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2066.86,
+            "end": 2072.26,
+            "text": " do it will basically find a pattern it will try to find a pattern in this data now what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2072.26,
+            "end": 2077.1,
+            "text": " it will find it will see that what computer will learn after catching that pattern in"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2077.1,
+            "end": 2084.06,
+            "text": " that so it will catch the pattern like for every extra hour of study gives 5 more marks"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2084.06,
+            "end": 2090.3,
+            "text": " to the students if it will study more 1 hour if it will study 1 hour more then it will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2090.3,
+            "end": 2097.26,
+            "text": " gives gives him the 5 more marks 10 marks it is already giving that 10 marks he is"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2097.26,
+            "end": 2105.3,
+            "text": " getting for normal but if it is if it is study for 1 hour then it will get the 15 marks now"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2105.3,
+            "end": 2111.6200000000003,
+            "text": " similarly if it will if that guy that candidate is studying for 2 hours then it will give"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2111.6200000000003,
+            "end": 2118.9,
+            "text": " then it will get basically the 20 marks similarly if it will studying for the 3 hours then it"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2118.9,
+            "end": 2125.26,
+            "text": " will give it will then that candidate will got the 25 marks so that patterns basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2125.26,
+            "end": 2130.6600000000003,
+            "text": " the machine learning will catch and then now when you will give him the new input like"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2130.6600000000003,
+            "end": 2137.1800000000003,
+            "text": " if I will give him the new input for if a student is studying for 5 hours what will"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2137.1800000000003,
+            "end": 2143.42,
+            "text": " what will be the what will be their score for that then then they apply that algorithm"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2143.42,
+            "end": 2149.42,
+            "text": " for that new input that are the training data for that algorithm and that that is the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2149.42,
+            "end": 2156.46,
+            "text": " output that is the prediction for the next now what we will try to study in our next"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2156.46,
+            "end": 2161.34,
+            "text": " class we will go in deep with the machine learning machine learning workflow basically"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2161.34,
+            "end": 2166.06,
+            "text": " we will try to cover in the next lecture for that there are several steps for their machine"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2166.06,
+            "end": 2172.06,
+            "text": " learning workflow that is first step is it is data collection or or I can say for before"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2172.06,
+            "end": 2177.7,
+            "text": " the data collection is first step I can say that is problem identification means what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2177.7,
+            "end": 2183.38,
+            "text": " we what we want to do with that machine learning algorithm first we have to define that what"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2183.38,
+            "end": 2187.74,
+            "text": " what we want from that machine learning so that first step is problem identification"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2187.74,
+            "end": 2194.2999999999997,
+            "text": " I can send that and second step is data collection third step is data preparation fourth step"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2194.2999999999997,
+            "end": 2200.22,
+            "text": " is model selection then training then evolution then prediction on the basis of all the training"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2200.3799999999997,
+            "end": 2205.3399999999997,
+            "text": " and evolution now we have to check the prediction that are the workflow for that that are the"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2205.3399999999997,
+            "end": 2210.7799999999997,
+            "text": " basic workflow for any machine learning basically so in this class what we have learnt we have"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2210.7799999999997,
+            "end": 2215.22,
+            "text": " learnt about the what is machine learning why it is useful for for the current scenario"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2215.22,
+            "end": 2218.9399999999996,
+            "text": " basically and what is the difference between the traditional programming and the machine"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2218.9399999999996,
+            "end": 2223.62,
+            "text": " learning and third things we have studied in the current lecture is the core ingredient"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2223.62,
+            "end": 2227.58,
+            "text": " those are the main ingredient of the machine learning we have seen like data model and"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2227.58,
+            "end": 2232.62,
+            "text": " machine learning and then the simple example we have seen in the today's class so that"
+        },
+        {
+            "number": "12",
+            "title": "Lecture 12",
+            "start": 2232.62,
+            "end": 2234.7,
+            "text": " is all for the today's class thank you."
+        }
+    ],
+    "text": " So, hello everyone, I again welcome you all to the course on fuzzy logic inference and machine learning techniques. I am Dr. Aftab Ahmad Ansari, your instructor for this course. So, basically this is our lecture number 12. In previous to this lecture, we have covered about the fuzzy logic inference and their techniques. Basically, we have covered about details about the fuzzy logic controller, how fuzzy logic controller will work, how it step by step we have seen what is fuzzification, what is defuzzification, what is rule base and different types of components of the fuzzy logic controller. We have covered in our previous lecture and on the basis of that fuzzy logic controller, how they will work with the help of numerical also we have seen in our previous classes. Now, from the today onwards from the lecture number 12, we will try to cover the next module that is machine learning basically. This is our module number 3 for this course. Now, what is machine learning? Basically, machine learning is basically you have seen in your day to day life also like if you are watching a Netflix, if you are watching a web series in a Netflix, you can see that after completing your one web series, you can see that Netflix suggested another, how he how he is able to suggest you the next web series which you have to watch or any other example you can take like how Spotify, how if you will take the example of a Spotify, how it is able to suggest you the next song, how what you have to listen after completing this songs. Now, similarly, if you can take the another easy example of that like if you are typing in your keyboard, you can see that after typing one word that keyboard is able to suggest you the next word, what should be the next word you can type after that. So, how it is possible? These things is possible because of the machine learning. So, basically now machine learning is what basically it is it is a it is a thing in which you are teaching the computer to learn from the examples, not just follow the rules like in programming what we will do? We will instruct the computer after that if this condition met, then you have to then you have to give the then you have to give answer like that it means you are following a series, but in the case of machine learning, you are teaching the computers that they have to learn from the with that they have to learn all the things from the examples like the example which I have given you all your phone is able to predict what you have to type next what is this? This is basically the example of a machine learning. Now, in this lecture, we will try to understand the difference between how it is different from the regular programming which we will now doing. So, we will see the definition of machine learning from a pioneer of this field that is Arthur Samuel. He said that machine learning is basically the field of study in which the computers learns computer in which computers give the ability to learn from the data without being explicitly program. It means it is the ability to learn from the data without being explicitly program. So, it means you are teaching a computer how to make decision by showing it data. You are giving certain numbers of example to the computer and it will detect the pattern on that example and that he will it will predict what should be the then you will give the next input then it will predict the output on the basis of the data on which you have trained the computer. These things we have we will do in the in machine learning basically. We will teach the computers with the help of examples. The machine learning is when component learn patterns from the data without us telling that what exactly it have to do. With the help of that example, it catch the patterns and generate the output with the help of that trained data which you with the help of that data you will teach basically the computer what it have to do what it have to predict. Like example if I can say we can we will show a computer thousand pictures of the cats and dog and it learns to tell them apart. It basically after that you will ask the computer now you have to differentiate between the cats and dog on the basis of that you have you have basically teach him with the help of that thousand picture. If I will if I will take the another example like like a for a small kid what we will do we will not tell him the rules like if a if a animal is having four legs and two ears and two eyes then it is that animal. If it is having hair in their head then it is that animal. Alternately what we will do we will show him the pictures of different types of animal and with the help of that picture we will try to to we will we will try to teach the kid how they are able to differentiate. Same for the machine learning also with the help of with the help of images with the help of any types of data we will try to train the computer so that they can that so that they can take the decision for the next type of output. Similarly this this image you can think that computers now computers is now thinking what is the animal. If we have feeding a new input to them then it will it should be able to differentiate between the new input what that new input is either it is cat or it is dog because we have trained the computer with the help of by feeding thousands pictures of cat and cats and dog to tell him to learn basically first it it will it will have to learn with the help of that images then after that learning then it will have to decide what is that new what is new images basically. Now this is the another examples of how machine learning's power the modern technology we can say Netflix is the best example is the Netflix that it is able to suggest the movie which you will like and then also you can see the another example of machine learning is in the case of Gmail basically it is spam the filter blocks it is spam the filters and block the junk email it automatically predict that that mail is belong to the junk mail so that it can forward that mail to the jump set spam section basically and another example is that self-driving cars which can navigate the roads which can automatically navigate the road it doesn't need the humans basically it automatically detect that way we have to go that way that way we don't have to go and fun fact is like machine learning also helps the doctor to predict the disease from the patient data means machine learning also can predict the disease that if if it have a if it is having a data of certain patient like that that age it is having that weight it is having that type of blood pressure is having by continuously monitoring that data that machine learning is able to predict the disease for a patient so basically it can help the doctor also in that way now why machine learning is important so we can see that in everyday examples we are using the machine learning like for Siri and Alexa you can set that it is able it is a voice assistant basically it can understand your speech it is able to understand what you are saying what you are asking to them to the right devices it is able to answer that online ad show online ad shows basically which you why when you will search when you will search something in a flipkart then you can see that like if you have search the shoes if you have search in flipkart for the shoes then you can see that for everywhere you are now you can we will see the ad of the shoes everywhere like if you are if you are watching the cricket then you will get the advertisement for that shoes also if you are visiting some website then you will find that in certain top or bottom corner you will get the ad of that should also that shoes ad also so what what what is this this is machine learning basically with the help of that they know that that now you are watching you are in need of shoes so then it will shows you the ad of that shoes everywhere where whichever side you will go for the visit now game also uses machine learning to make the to make smarter to make smarter the opponent so that opponent is able to predict your next move what you are going for the next move after that now machine learning also helps in health care also finance finance also and any more cases that machine learning can help you so that you can make the system more smarter as compared to the traditional now what is traditional basically traditional in that in that in that sense in the according to that sense is traditional programming basically it is what in which you will follow a rule based approach where programmers basically write the instruction to process and produce the output in that programming what you will do you will write certain rules and that what that programming will do it will match your inputs according to the certain rules and then it produce the output on the basis of whatever the program logic you have write there it will follow that rules and predict the output on the basis of that rules like what is the characteristics of that prediction program if we see it will it will be deterministic mean it will follow the same input all it will also for always follow the same input which produce the same output it is explicit means programmers defines or programmers have to define all the rules manually instead instead of that it automatically suggest what is the new rule will be what it will do it will it will have to define all the rules manually like for example if we can say the if we have to define the if we have to define the algorithm for some sorting if we have to do some sorting type of thing then we have to define the rules for that and then it will go for the sorting that sorting that data database queries are also another now we can see the another example is that calculator programs you have to we have if you want to add to certain number then you have to write some rules like if a is the if if you are taking the inputs from the user then you have to write in that way if you are if you are giving directly the input then you can write a is equal to dash and b is equal to dash and then you will write the program for adding that a that you have to find basically the a plus b or a minus b whatever operation you have to perform you can write for that some certain rules you can write like example if I can say another another example I can give you if we have to find whether the number is even or odd so what we have to do we have to write again a code for that like if number is able to divisible by 2 and produce a remainder 0 then in return you can give that the even means that number is even whatever the user has fitted that input that is even basically otherwise if it is not able to generate the remainder as a 0 then it means it will that number will be a odd that is a example that is a example of basically a traditional programming which we can say that traditional program is what in which you will write the exact rules for the computer which computer have to follow like for example if another example I can take if a score is greater than 60 then it will be pass or fails or otherwise if it is not having a score of greater than 60 it means it is a fails you can use the if else the fails conditions in which you will write if score is greater than 60 then the output should be then the with the help of that print of you can write that then the student is fail if score is less than 60 then it is fail if a score is greater than 60 then it is pass that types of rules are there in traditional programming it is like basically if I will compare it with the real time analogy if I can take it is like giving a chef a detailed recipe to cook a dish like if you want to cook a dish with the help of some chef we are giving a detailed recipe like first you have to collect this then you have to collect this then you have to mix that that type of recipe you are giving it is like that basically in traditional programming in the form of image you also can say that how is the weather so now we have to give the condition how he have to give the output on the basis of that like if weather is equal to sunny then you have to wear the sunglasses else if another condition I have added that if weather is equal to rainy you can carry a umbrella otherwise you can wear a cap so that types of things are there in the in the case of traditional programming also now it is another example like if I want the gmail to detect the spam spam emails so I have to give certain with the help of some rules I have to tell like if that what's come in the mail then that mail should become good that that mail should be go to the spam spam section basically like if email is a win free or lottery then mark it as a spam spam means if that emails contain that type of word then then it then that email should go to the spam means if you have to you have to give the email text as input then it will find that okay if that certain words are there in the email then that email will go to the spam section basically now what are the limitation of the traditional programming because first first disadvantage or first limitation we can see that it is hard to write the rules for the complex problem if we are having some easy problem then we can write the rules for that but if we are having some complex problem then it is very hard to write the rules for that complex problem now if we want to recognize a face in photos then it is not possible for the traditional programming similarly if we want to predict the house prices then we are not able to go for the prediction with the help of the traditional programming similarly if you want to go for the understanding any speech and we have to detect if there any spam type of speech is there then with the help of traditional programming basically it is not possible and why because we have to use otherwise we have to use too many variables and too many patterns we have that is basically hard to define that number of that number of using inputs and that number of patterns to detect it is very hard for the manual programming basically so how what we will do we will go for the machine learning that is that is the reason basically that because that is because of that that number of limitations of traditional programming are there that is why we go we will go for the machine learning now if I will compare the traditional programming with the machine learning is that like if we compare on the aspects of input in the traditional programming you will write certain rules and then you will give the data then and the basis of that it will produce the output but in the case of machine learning what is the input is first you have to give the data on the basis of that data it will catch the pattern and then it will product first we have to give the data I mean what type of data data plus output also like if that type of data is there then that is the output for that types of data now after train on that data set it will able now to give you the output now if on the basis of output aspects of I will compare then the case of traditional programming directly result you can get in the case of traditional programming in the on the machine learning you will get the model like that models now is able to train on the input now it will able to give the with the output on the basis of that like for example if I we can say that we can see for the traditional programming is basically the calculator in which regular programming is there if you will adds if you want to add some numbers then you can write programming on on a way similarly in the case of machine learning examples are spam filter that spam filter is there automatically can automate jet if we will see the example of that gmail gmail that gmail spam filter is able to detect directly the mail it does not not it does not need the name like if if the mail contains that words then only that that email is spam automatically detects if that word is there or not there it will it will basically understand the mail and it thinks that if it is that type of mail is not we can say not important for the user then it will basically send that mail to the spam folder now when we when we can use a traditional programming in the case of when when the when our task is very simpler with the clear rules in that case we can use the traditional programming like for if you want to calculate the text then on on for calculating the text you can use the traditional programming because it is very easy to calculate the text because just we have to add or subtracts the amount for that and sorting numbers if we have to sort numbers then on the for that also we can use the traditional programming but we cannot use the traditional programming in the case where we are not able to write when we are not able to write the programs for the complex type of problems. Like if we are having to detect some image type problem is we have then we are not able to write the programming basic we are not able to write the rules for that types of complex problems, so for that application we cannot use the traditional programming. So when we have to use machine learning because when we are having with the complex tasks patterns in data means if we are having some large amount of data and in that data we have to detect the pattern what type of pattern is there in data how they are going for the output after predicting that then for that types of cases you can use a machine learning like in the case of image recognition you can use machine learning for the speech understanding for the predictions also for the predictions means if you are having certain amounts of data and on the basis of data you can predict what is the next step we can take or another example I can take on the basis of like for calculating the cost of house you can use the machine learning if you are having the data like for that types of locality for that type of houses that much amount of house is there now we will feed that types of input data plus output basically we can feed or we can train the computers and when it is trained now you will feed the new input to that model then it will give you the it will basically produce the output on the basis of your inputs so that is how machine learning basically work and that the examples are you can recognize in the photo which needs machine learning it does not need rule basically like your phone your phone is having the face screen face lock screen basically what it will do it will recognize your face and then it will open it will open the cell phone it will not follow certain rule scale if you are having eyes like that then you can open the if you are having a nose structure like that then you can open the phone instead of that that uses the that use basically that means what I can say that that phone is not using any traditional programming it is not following any certain rules like which I have tell already that if eyes of that type if nose is of that type then only but it is using basically the machine learning and on the basis of that machine learning it recognize you and unlock the phone on the basis of that lock screen now what is the machine learning approach if you will see machine learning approach is a basically it is a subset of artificial intelligence where systems learns pattern from data to make the to make prediction or decision without expletive program without programming it what it will do it will predict or take decision by its own with the help of detecting patterns from your data so what what input we have to give we have to give how we have to give him the input plus desired output so that that models learns pattern from the data now it will be able to predict the output from the input whatever now new input which you will feed to the model now it will give it will generate or it will give or it will basically predict the output on the basis of that trained data which you have given to you first you have to give him some input plus desired output means some types of input data you have to give and what for that input what output will come that types of data you have to feed to the machine learning and then it will learns or it will catch the patterns on that types of data and then on the basis of that now when now if you will feed new input to that now it is able to predict the output for the new input now what are the characteristics of that first characteristic is basically data depth it means it will learn from the example rather than the predefined rules means it will that machine learning will learn from the example rather than the predefined rules it will not learn from the rules it basically it will learn from the example you have to give some example to further that that is basically trained data we can say you can you have first you have to give set to the machine learning model so that it can learn from that. Second is probabilistic means outputs may vary based on the learn patterns. It means if you will get different types of data, then it will learn from different types like it so that its output may vary. If you will give for learning, if you will give different types of data, then it will learn on the data. If you will get another type of data, then it will learn on the basis of that another type data. Example is spam email detection and recommendation system and autonomous driving means spam email detection means it will automatically basically detect the spam email. That email belong to the spam. It is not of use for the user. So it will send it to the spam folder for that recommendation system. It means after watching some movie, after watching a web series, now it will recommend you you can also watch that or might be if you are purchasing some if you are purchasing a shoes, then it will always it will recommend you keep people by with the shoes that socks you can buy with the help for that shoes also. So that types of examples are there for the machine learning approach that machine learning you can see in the recommendation system is in everyday life. You are able to see that like Netflix or YouTube which the which that Netflix or YouTube are able to suggest the videos which you will like after completing that video. They are able to suggest you the next video what you will like how machine learning looks at back what you are what it will do basically for that what the idea behind that what what the concept behind that how they are able to give you the recommendation what will do it will see the history like what you watched before and after watching that what others will with similar taste watch it will basically match it will catch the patterns what currently you have watched before what the currently you have watched and for same for other user what which is having the similar taste like you and after that what they have watched after that web series or after hearing that songs what other people have have played the next track or I can say what next song they they are hearing after that song on the basis of that it will predict so you that's how their prediction will work basically how they are able to give you the next recommended song or next web series for you after watching or after completing one web series of after that. So what is the result behind that it is can able to suggest you the movie movies or the songs which you are likely to enjoy after completing that song or that web series like another example is that self-driving cars which you can self-driving cars also another example which can navigate road safely automatically it doesn't needs the basically driver so what it will do it will do it will use basically some sensors on that and by collecting the data with the help of that sensors it will predict the which in which way we have to go like it is having some radar sensor radar sensor means it will detect the targeted object and similarly camera modules are there to catch the images of that GPS are there on board ultrasonic sensor ultrasonic sensor are there ultrasonic sensor which calculate the distance on the basics of that radar sensors are there what it will do it will basically gives you the direction in which direction also distance also it will give so that types of many IOT sensors you will implement in the in any system where you want to get the data and on the basis of that data it will decide where we have to go so what we have to do for any types of like if the this example of self-driving cars so you have you have to be with some data from either you can get the data from surveys or from anywhere you can collect or you can collect or get the data or another method is you can collect the data with the help of some sensors like you can like in self-driving car they it will use some sensor like radar sensor it will use camera sensor it will use radar sensor it will use ultrasonic sensors it will use and one on board unit means one controller it will use to control it it will take the input from the sensor and process in the microcontroller and on the basis of that sensor data it will give it will gives the output to the actuator means what car have to do now car what car have to do it have to speed up it have to be stop or it have to turn from there so that types will of data it will collect with the help of from sensor and then any machine and then machine learning algorithm will decide what it have to do now another example is in healthcare we can say that with the help of machine learning data with the help of sorry with the help of machine learning we can predict the disease from the medical type of data we can collect the data from we can collect the data from a patient and with the help of data that data that patient have like if it is having certain age certain blood pressure it is having and certain height it is having certain age it is having on the basis of the data it will predict the diseases what what disease is able what type what for what disease symptoms it currently that patient is having so basically what it will do it will help the doctor so that they can diagnose that disease as early as possible or for any other like for the result I am I have write there which can help the doctor to diagnose the for for for major symptoms I have taken there for the like for the cancer you can detect as early as possible for the heart disease also you can detect as early as possible that that patient is having some symptoms time so that on the basis of that might be possible in future they can get that disease so that we can can take the basically preventive cure for that for that patients now if we will go for the challenge of the machine learning what are the challenges for the machine learning is first we have to we have to collect the lots of data we we should have lots of data for that for the training of the computers basically for training you should have be with you should have to be with lots of data like thousand thousands of example you have to be with yours so that on the basis of that you can train the computer and second one is that it takes time to train models if you are training computer you it will take sometimes to train on the basis of that data third one is it can make mistakes if data is bad like if it is biased or incomplete like it is example like if you have it can mistakes if your data is bad data is bad means like if you are collecting the data from the service so if if you are doing service on some on on on some people but there's these people's are biased type of people it like it will support that party on that party only if I am taking the example of any political party issues then it will it that what I can say that guys are bycible to certain political parties so if we will ask if you do survey on the basis on the on that people so what will do you will get the biased answer from that so that types of problem will happen if you will do the if you will do the service or you will collect the data from certain conditions or with certain condition with certain peoples if you will collect the data then you will get the biasness in data example if only trained on if you if only trained on city or houses machine learning might fails for the rural also like if you will if you will train the machine learning models on only on the only on the basis of the urban cities data then that machine learning learning algorithm will will be fail for the rural also if you now if you if you have trained the model with the help of urban houses or by if you want to predict the house you want to predict the houses and what the what the rent for the houses in the case of urban cities you have trained the model on the on the basis of the data of the urban cities houses you have trained the trained the model now if you want to predict the rent for the rural houses then it will be fail for you because it it is that model is trained on the urban cities houses so that it that it is not able then that model is not able to predict the rent for the rural houses that is the basically that is are the disadvantage or challenges basically we can say not the disadvantages for the machine learning now what are the benefits of the machine learning is it can adapt new pattern you are means new spam tactics if the if any hacker is using new spam tactics then that machine learning is able to detect the new new pattern also in that then it will second is it can handles the complex act like image or speech speech recognition types of complex problem machine learning is able to handle all this all this type of tasks like it can improves over time with more data if you are you can improve that machine learning model by by giving it more more data you are collect continuous you can collect the data from somewhere and you will you will it you you can give that data to the machine learning model then what it will it will improves over the time more amount of data you can give to the machine learning algorithm it will now then if you will give more amount of data then that algorithm is able to predict more good I can say more better as compared to the as compared with the less data if you will train it with less data then the then the it is not able to predict the to predict it with good accuracy I can say but if you will train it with more amounts of data then it then a prediction level will prediction accuracy accuracy of level of the prediction will increases now what are the main key ingredients of the machine learning are first one is the data data is what the example which you will give to the machine that is the first core ingredient of the machine learning what is this it is the data the or basically the example which you will give to the machine for the learning purpose or for the training purpose which you will give to the machine learning second one is the model which is the mathematical way to represent the relationship basically it means it will catch the patterns in that data with the help of that so that model it is a way with to represent the relationship between the input to the output whatever data you have given as a trained data or trained input for that it will catch the pattern basically how for that input that output is generating it will catch the pattern on that input and output data and third one is the learning algorithm means which which it is a method to improve the model using the data now analogy we can say like a student student is like a model for a teacher which is reading a test book which is reading a test book test book is what data for the student student is a model and read it is reading a test book test book is a data for that and it is studying studying is the learning process so in that way you can see that how how data model and learning algorithm will work in the case of machine learning now now what is a model if we can see if we will see in a deep the model is a basically a mathematical function that maps input to the output what what I have seen the just what I have just shown you in the previous slide the model is what it is a basically a mathematical function which maps the input to the input to the output what why because it it want to capture the pattern in the data it will try to it it wants basically to capture the pattern in the data why for that input that output is there it will try to capture the pattern in that data now once it trained it can make the prediction once it will be trained on the basis of that data which you have fitted now when you will give it give that models to when you will give the new data to in to that model then it will be able to give you the prediction what will be the output for that new data like the example which I have taken for example I have taken that is a many cases study we can say that for predicting the marks I have taken a simple machine learning example for predicting the example for predicting for predicting the basically exam marks for a certain candidate like if we if that candidate is studying only for 1 hour then it then it is having then it is having a marks or or that candidate is able to score a marks of 15 if it is studying for 1 hour basically if it is studying for 1 hour then it will be it will be having the ability to score 15 marks now if it is able to if it if it is studying 2 hours in a day then it can it is having to get a marks of 20 similarly if it is studying 3 hour then 25 if it is 4 now that types of data I have I have given to the machine learning models now what it will do it will basically find a pattern it will try to find a pattern in this data now what it will find it will see that what computer will learn after catching that pattern in that so it will catch the pattern like for every extra hour of study gives 5 more marks to the students if it will study more 1 hour if it will study 1 hour more then it will gives gives him the 5 more marks 10 marks it is already giving that 10 marks he is getting for normal but if it is if it is study for 1 hour then it will get the 15 marks now similarly if it will if that guy that candidate is studying for 2 hours then it will give then it will get basically the 20 marks similarly if it will studying for the 3 hours then it will give it will then that candidate will got the 25 marks so that patterns basically the machine learning will catch and then now when you will give him the new input like if I will give him the new input for if a student is studying for 5 hours what will what will be the what will be their score for that then then they apply that algorithm for that new input that are the training data for that algorithm and that that is the output that is the prediction for the next now what we will try to study in our next class we will go in deep with the machine learning machine learning workflow basically we will try to cover in the next lecture for that there are several steps for their machine learning workflow that is first step is it is data collection or or I can say for before the data collection is first step I can say that is problem identification means what we what we want to do with that machine learning algorithm first we have to define that what what we want from that machine learning so that first step is problem identification I can send that and second step is data collection third step is data preparation fourth step is model selection then training then evolution then prediction on the basis of all the training and evolution now we have to check the prediction that are the workflow for that that are the basic workflow for any machine learning basically so in this class what we have learnt we have learnt about the what is machine learning why it is useful for for the current scenario basically and what is the difference between the traditional programming and the machine learning and third things we have studied in the current lecture is the core ingredient those are the main ingredient of the machine learning we have seen like data model and machine learning and then the simple example we have seen in the today's class so that is all for the today's class thank you."
+}
