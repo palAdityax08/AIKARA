@@ -48,6 +48,7 @@ ollama pull bge-m3
 
 
 ## 📂 Project Structure
+```
 AIKARA/
 ├── process_incoming.py    # Main Streamlit application & RAG logic
 ├── requirements.txt       # List of Python dependencies
@@ -55,7 +56,7 @@ AIKARA/
 ├── Demo.png               # Screenshot of the application
 ├── README.md              # Project documentation
 └── .gitignore             # Git ignore file
-
+```
 ---
 
 ## 👨‍💻 Author
