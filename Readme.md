@@ -1,18 +1,46 @@
-# How to use this RAG AI Teaching assistant on your own data
-## Step 1 - Collect your videos
-Move all your video files to the videos folder
+# 🧠 AIKARA: AI-Powered Teaching Assistant
 
-## Step 2 - Convert to mp3
-Convert all the video files to mp3 by ruunning video_to_mp3
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-orange)
+![RAG](https://img.shields.io/badge/Architecture-RAG-green)
 
-## Step 3 - Convert mp3 to json 
-Convert all the mp3 files to json by ruunning mp3_to_json
+**AIKARA** is a Retrieval-Augmented Generation (RAG) system designed to act as an intelligent Teaching Assistant for technical video lectures. Unlike generic AI, AIKARA is grounded in specific course material (Fuzzy Logic, Machine Learning) and provides **verifiable, time-stamped citations** for every answer.
 
-## Step 4 - Convert the json files to Vectors
-Use the file preprocess_json to convert the json files to a dataframe with Embeddings and save it as a joblib pickle
+![AIKARA Demo](demo.png)
+*(AIKARA answering a query about Fuzzy Sets with exact lecture timestamps)*
 
-## Step 5 - Prompt generation and feeding to LLM
+---
 
-Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM
+## 🚀 Key Features
 
+* **📚 Verifiable Truth:** Every answer includes a strict citation in the format `[Lecture Title | Time: MM:SS]`, allowing students to instantly verify facts in the source video.
+* **🔒 100% Local Privacy:** Powered by **Ollama**, ensuring all data processing and LLM inference happens locally on your machine—no data leaves your system.
+* **⚡ Real-Time Streaming:** Features a responsive chat interface that streams the AI's thought process token-by-token for a fluid user experience.
+* **🎯 High Precision Retrieval:** Uses **Cosine Similarity** on `bge-m3` embeddings to retrieve the top 5 most relevant lecture chunks, minimizing hallucinations.
+* **🎨 Custom UI:** A "Deep Dark" mode interface built with Streamlit, featuring neon accents and a distraction-free study environment.
 
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** [Streamlit](https://streamlit.io/) (Custom CSS styled)
+* **LLM Engine:** [Ollama](https://ollama.com/) running **Llama 3.2**
+* **Embedding Model:** `bge-m3` (via Ollama)
+* **Vector Search:** Scikit-Learn (Cosine Similarity)
+* **Data Serialization:** Joblib (for fast loading of embeddings)
+* **Language:** Python
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+Ensure you have **Python 3.10+** and **Git** installed. You also need **Ollama** running locally.
+
+### 2. Install & Run Ollama
+Download Ollama from [ollama.com](https://ollama.com). Then, pull the required models in your terminal:
+
+```bash
+ollama pull llama3.2
+ollama pull bge-m3
