@@ -1,1 +1,0 @@
-A fuzzy set is a mathematical concept used to represent uncertainty or imprecision in variables [2, 417.68]. It is defined as a set whose elements have degrees of membership, rather than being simply members or non-members [4, 448.12]. This allows for the representation of partial or incomplete information, enabling more accurate modeling and decision-making [6, 935.04].
