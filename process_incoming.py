@@ -11,19 +11,18 @@ import os
 
 # --- Configuration & Setup ---
 
-# Set Streamlit to wide layout for the minimalist chat feel
+# Streamlit layout
 st.set_page_config(
     page_title="AIKARA: Unifying Knowledge",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 
-# Load the embeddings data once per session
+# Loading the embeddings
 @st.cache_resource
 def load_rag_assets():
     """Loads the pre-processed embeddings data."""
     try:
-        # NOTE: Ensure 'embeddings.joblib' is in the same directory as this script.
         return joblib.load('embeddings.joblib')
     except FileNotFoundError:
         st.error("Error: 'embeddings.joblib' file not found. Please run your preprocessing script.")
@@ -109,15 +108,12 @@ You are **AIKARA**, a highly precise, professional AI Teaching Assistant special
 
 def cleanup_and_format_output(full_response_text):
     """Extracts citation, converts time, and cleans answer text."""
-    
-    # NEW REGEX: Matches the format [Fuzzy Set, 417.68] or [Lecture 2, 417.68]
-    # Capture Groups: (1: Title/Number) (2: Time in Seconds)
     CITATION_PATTERN = r"\[\s*([^,\[\]]+),\s*([\d\.]+)\s*\]" 
 
     clean_answer = full_response_text.strip()
     citation = "Source: General Knowledge / Uncited"
 
-    # Find the citation
+    # Finding citation
     match = re.search(CITATION_PATTERN, full_response_text, flags=re.IGNORECASE)
 
     if match:
@@ -136,7 +132,7 @@ def cleanup_and_format_output(full_response_text):
         # Remove multi-line streaming artifacts and leading/trailing whitespace
         clean_answer = clean_answer.replace("\n", " ").strip()
         
-        # FINAL SANITIZATION: Remove known conversational padding LLMs sometimes force
+        # FINAL SANITIZATION
         clean_answer = re.sub(r"^(A fuzzy set is a mathematical concept used to represent uncertainty or imprecision in variables\s*)\.", "", clean_answer).strip()
 
     return clean_answer, citation
@@ -144,7 +140,6 @@ def cleanup_and_format_output(full_response_text):
 def process_and_stream_rag(incoming_query, df):
     """Executes the full RAG pipeline and streams the output."""
     
-    # 1. RAG Retrieval
     question_embedding = create_embedding([incoming_query])
     if question_embedding is None:
         return "Error: Could not generate embedding."
@@ -158,16 +153,13 @@ def process_and_stream_rag(incoming_query, df):
     
     context_json = new_df[["number", "title", "start", "text"]].to_json(orient="records")
 
-    # 2. Create the prompt
     final_prompt = get_final_prompt(incoming_query, context_json)
     
-    # 3. Stream the response
     return generate_streaming_response(final_prompt)
 
 
 # --- UI IMPLEMENTATION ---
 
-# Custom CSS for the AIKARA brand (Deep Dark Mode, Neon Accents, Sticky Input)
 st.markdown("""
 <style>
     /* Full-screen dark background */
@@ -227,7 +219,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# --- AIKARA Header (Logo and Title) ---
+# --- Header (Logo and Title) ---
 
 st.markdown("""
 <div class='aikara-header'>
@@ -246,7 +238,6 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
         if message["role"] == "assistant":
-            # Display source line below the AI bubble
             st.markdown(f'<p class="source-citation">{message["source"]}</p>', unsafe_allow_html=True)
 
 
@@ -269,19 +260,13 @@ if prompt := st.chat_input("Ask AIKARA a question (English or Hindi)..."):
         
         for chunk in stream_generator:
             full_response_text += chunk
-            # Update the placeholder with the accumulating response text
             message_placeholder.markdown(full_response_text + "▌") # Use '▌' as a cursor
         
-        # Remove cursor and finalize the text
         message_placeholder.markdown(full_response_text)
         
         # 3. Cleanup and Format
         clean_answer, citation = cleanup_and_format_output(full_response_text)
-        
-        # Overwrite the streamed placeholder with the final, clean answer
         message_placeholder.markdown(clean_answer)
-        
-        # Display the source below the main chat bubble
         st.markdown(f'<p class="source-citation">{citation}</p>', unsafe_allow_html=True)
         
 
