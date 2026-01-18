@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 
 def create_embedding(text_list):
-    # https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings
+    
     r = requests.post("http://localhost:11434/api/embed", json={
         "model": "bge-m3",
         "input": text_list
@@ -17,7 +17,7 @@ def create_embedding(text_list):
     return embedding
 
 
-jsons = os.listdir("jsons")  # List all the jsons 
+jsons = os.listdir("jsons")  
 my_dicts = []
 chunk_id = 0
 
@@ -34,6 +34,6 @@ for json_file in jsons:
         my_dicts.append(chunk) 
 
 df = pd.DataFrame.from_records(my_dicts)
-# Save this dataframe
+# Save dataframe
 joblib.dump(df, 'embeddings.joblib')
 
